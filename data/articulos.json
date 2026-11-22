@@ -1,0 +1,642 @@
+{
+  "articulos": [
+    {
+      "id": "adm-01",
+      "facultad_id": "adm",
+      "titulo": "Fundamentos de administración",
+      "contenido": "La administración estudia cómo coordinar personas, recursos y actividades para alcanzar objetivos. En una organización se utilizan principios de planeación, organización, dirección y control para orientar el trabajo. Estos elementos se aplican en empresas, instituciones públicas y asociaciones. Comprender sus fundamentos permite analizar la manera en que se toman decisiones, se distribuyen responsabilidades y se evalúan resultados.",
+      "palabras_clave": [
+        "fundamentos",
+        "administracion"
+      ],
+      "relacionados": [
+        "adm-02",
+        "adm-04"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "adm-02",
+      "facultad_id": "adm",
+      "titulo": "Proceso administrativo",
+      "contenido": "El proceso administrativo reúne las etapas que permiten gestionar una organización de forma ordenada. La planeación establece objetivos; la organización distribuye tareas y recursos; la dirección coordina al equipo; y el control compara los resultados con lo previsto. Las etapas se relacionan entre sí y pueden repetirse para corregir desviaciones. Su aplicación ayuda a mejorar el uso de recursos y el cumplimiento de metas.",
+      "palabras_clave": [
+        "proceso",
+        "administrativo"
+      ],
+      "relacionados": [
+        "adm-03",
+        "adm-11"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "adm-03",
+      "facultad_id": "adm",
+      "titulo": "Planeación estratégica",
+      "contenido": "La planeación estratégica define el rumbo de una organización a mediano y largo plazo. Para elaborarla se revisan las condiciones internas, el entorno, las oportunidades y los riesgos. Después se establecen objetivos, estrategias, responsables e indicadores. Una planeación útil debe ser clara y revisarse periódicamente, ya que los cambios tecnológicos, económicos y sociales pueden modificar las prioridades de una empresa.",
+      "palabras_clave": [
+        "planeacion",
+        "estrategica"
+      ],
+      "relacionados": [
+        "adm-04",
+        "adm-11",
+        "arq-18"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "adm-04",
+      "facultad_id": "adm",
+      "titulo": "Diseño organizacional",
+      "contenido": "El diseño organizacional determina cómo se distribuyen las funciones, la autoridad y los canales de comunicación dentro de una institución. Puede representarse mediante organigramas y descripciones de puestos. Una estructura adecuada facilita la coordinación y evita duplicar actividades. Su diseño depende del tamaño de la organización, sus objetivos, los servicios que ofrece y el entorno en el que desarrolla sus operaciones.",
+      "palabras_clave": [
+        "diseno",
+        "organizacional"
+      ],
+      "relacionados": [
+        "adm-05",
+        "arq-18"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "adm-05",
+      "facultad_id": "adm",
+      "titulo": "Liderazgo y trabajo en equipo",
+      "contenido": "El liderazgo consiste en orientar e influir en un grupo para alcanzar objetivos compartidos. Un líder comunica expectativas, escucha propuestas, facilita la colaboración y ayuda a resolver conflictos. No existe un único estilo adecuado para todas las situaciones: la experiencia del equipo, la urgencia de las tareas y la cultura organizacional influyen en la forma de dirigir. El liderazgo efectivo también promueve la responsabilidad.",
+      "palabras_clave": [
+        "liderazgo",
+        "trabajo",
+        "equipo"
+      ],
+      "relacionados": [
+        "adm-06",
+        "adm-07"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "adm-06",
+      "facultad_id": "adm",
+      "titulo": "Comunicación organizacional",
+      "contenido": "La comunicación organizacional permite compartir información entre las áreas y las personas de una institución. Incluye mensajes formales, reuniones, documentos y conversaciones cotidianas. Cuando los canales son claros, disminuyen los errores y se facilita la coordinación. También es importante recibir retroalimentación y adaptar el lenguaje al público. La comunicación conecta la planeación con las actividades diarias de la organización.",
+      "palabras_clave": [
+        "comunicacion",
+        "organizacional"
+      ],
+      "relacionados": [
+        "adm-07",
+        "adm-05",
+        "adm-10"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "adm-07",
+      "facultad_id": "adm",
+      "titulo": "Gestión del talento humano",
+      "contenido": "La gestión del talento humano reúne prácticas para atraer, desarrollar y conservar a las personas que colaboran en una organización. Incluye perfiles de puesto, evaluación del desempeño, capacitación, bienestar y reconocimiento. Su propósito no es solamente cubrir vacantes, sino relacionar las capacidades del personal con las metas institucionales. Una gestión responsable considera la equidad, la seguridad y las oportunidades de crecimiento.",
+      "palabras_clave": [
+        "gestion",
+        "talento",
+        "humano"
+      ],
+      "relacionados": [
+        "adm-08",
+        "adm-09"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "adm-08",
+      "facultad_id": "adm",
+      "titulo": "Reclutamiento y selección de personal",
+      "contenido": "El reclutamiento busca atraer personas que puedan cubrir una vacante, mientras que la selección compara sus conocimientos y habilidades con los requisitos del puesto. El proceso puede incluir revisión curricular, entrevistas y evaluaciones relacionadas con las tareas. Para evitar decisiones arbitrarias conviene utilizar criterios claros y pertinentes. Una contratación adecuada beneficia tanto a la organización como a la persona incorporada.",
+      "palabras_clave": [
+        "reclutamiento",
+        "seleccion",
+        "personal"
+      ],
+      "relacionados": [
+        "adm-09",
+        "adm-07"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "adm-09",
+      "facultad_id": "adm",
+      "titulo": "Capacitación y desarrollo del personal",
+      "contenido": "La capacitación fortalece los conocimientos y habilidades necesarios para realizar el trabajo. Primero se identifican necesidades; después se definen objetivos, contenidos y actividades; finalmente se evalúa si hubo aprendizaje y mejoras en el desempeño. Puede utilizar cursos, tutorías, prácticas o recursos digitales. La capacitación continua ayuda a responder a cambios en los procesos, las herramientas y las responsabilidades laborales.",
+      "palabras_clave": [
+        "capacitacion",
+        "desarrollo",
+        "personal"
+      ],
+      "relacionados": [
+        "adm-10",
+        "adm-07"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "adm-10",
+      "facultad_id": "adm",
+      "titulo": "Cultura organizacional",
+      "contenido": "La cultura organizacional está formada por valores, hábitos, normas y formas compartidas de trabajar. Se refleja en la manera de tomar decisiones, atender a usuarios y resolver problemas. Una cultura coherente puede fortalecer la identidad y la colaboración, aunque también debe permitir revisar prácticas que ya no funcionan. La cultura se construye con acciones cotidianas y con el ejemplo de quienes dirigen.",
+      "palabras_clave": [
+        "cultura",
+        "organizacional"
+      ],
+      "relacionados": [
+        "adm-11",
+        "adm-05",
+        "adm-06"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "adm-11",
+      "facultad_id": "adm",
+      "titulo": "Gestión de proyectos",
+      "contenido": "La gestión de proyectos organiza actividades temporales para obtener un resultado definido, como desarrollar un servicio o implementar una mejora. Un proyecto requiere alcance, cronograma, presupuesto, responsables y seguimiento de riesgos. La coordinación permite detectar retrasos y reasignar recursos. Sus herramientas también se utilizan en proyectos de construcción, tecnología y emprendimiento, donde es esencial relacionar tiempo, costo y calidad.",
+      "palabras_clave": [
+        "gestion",
+        "proyectos"
+      ],
+      "relacionados": [
+        "adm-12",
+        "adm-03",
+        "arq-18"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "adm-12",
+      "facultad_id": "adm",
+      "titulo": "Emprendimiento y modelos de negocio",
+      "contenido": "El emprendimiento transforma una oportunidad o necesidad en una propuesta de valor. Un modelo de negocio explica qué ofrece una iniciativa, a quién se dirige, cómo llega a sus usuarios y de qué manera obtiene recursos. Antes de invertir conviene analizar el mercado, los costos y la viabilidad. La experimentación y la retroalimentación permiten ajustar la propuesta sin perder de vista su propósito.",
+      "palabras_clave": [
+        "emprendimiento",
+        "modelos",
+        "negocio"
+      ],
+      "relacionados": [
+        "adm-13",
+        "adm-19"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "adm-13",
+      "facultad_id": "adm",
+      "titulo": "Mercadotecnia estratégica",
+      "contenido": "La mercadotecnia estratégica analiza mercados y define cómo una organización puede ofrecer valor a sus públicos. Considera la segmentación, la selección del mercado objetivo y el posicionamiento. Estas decisiones orientan el diseño del producto, el precio, la distribución y la comunicación. Una estrategia debe partir de información sobre las necesidades de las personas y diferenciarse de las alternativas disponibles.",
+      "palabras_clave": [
+        "mercadotecnia",
+        "estrategica"
+      ],
+      "relacionados": [
+        "adm-14",
+        "adm-15"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "adm-14",
+      "facultad_id": "adm",
+      "titulo": "Investigación de mercados",
+      "contenido": "La investigación de mercados obtiene información para comprender consumidores, competidores y tendencias. Puede combinar encuestas, entrevistas, observación y análisis de datos existentes. El primer paso es formular una pregunta concreta; después se selecciona una muestra y un método apropiado. Interpretar los resultados con cuidado evita generalizaciones y ayuda a tomar decisiones sobre productos, servicios, precios y comunicación.",
+      "palabras_clave": [
+        "investigacion",
+        "mercados"
+      ],
+      "relacionados": [
+        "adm-15",
+        "adm-13"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "adm-15",
+      "facultad_id": "adm",
+      "titulo": "Comportamiento del consumidor",
+      "contenido": "El comportamiento del consumidor estudia cómo las personas identifican necesidades, buscan información, comparan opciones y toman decisiones de compra. Influyen factores personales, culturales, sociales y económicos. Conocer estos procesos permite diseñar servicios y mensajes más adecuados, sin asumir que todos los consumidores actúan igual. La experiencia posterior a la compra también importa porque influye en la satisfacción y la lealtad.",
+      "palabras_clave": [
+        "comportamiento",
+        "consumidor"
+      ],
+      "relacionados": [
+        "adm-16",
+        "adm-13",
+        "adm-14"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "adm-16",
+      "facultad_id": "adm",
+      "titulo": "Gestión de la calidad",
+      "contenido": "La gestión de la calidad busca que los procesos y productos cumplan requisitos y respondan a las expectativas de sus usuarios. Incluye definir estándares, medir resultados, identificar causas de problemas y aplicar acciones de mejora. La calidad no depende solo de una inspección final: debe incorporarse a las actividades cotidianas. La documentación y la participación del personal ayudan a sostener los cambios.",
+      "palabras_clave": [
+        "gestion",
+        "calidad"
+      ],
+      "relacionados": [
+        "adm-17",
+        "adm-11",
+        "arq-17"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "adm-17",
+      "facultad_id": "adm",
+      "titulo": "Logística y cadena de suministro",
+      "contenido": "La logística coordina el movimiento y almacenamiento de materiales, productos e información desde el origen hasta el usuario. La cadena de suministro integra proveedores, operaciones, centros de distribución y puntos de entrega. Una planeación adecuada busca disponibilidad, costos razonables y tiempos confiables. También considera inventarios, transporte, trazabilidad y riesgos que pueden interrumpir el abastecimiento.",
+      "palabras_clave": [
+        "logistica",
+        "cadena",
+        "suministro"
+      ],
+      "relacionados": [
+        "adm-18",
+        "adm-16",
+        "arq-17"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "adm-18",
+      "facultad_id": "adm",
+      "titulo": "Responsabilidad social empresarial",
+      "contenido": "La responsabilidad social empresarial considera los efectos económicos, sociales y ambientales de las actividades de una organización. Puede expresarse en prácticas laborales dignas, transparencia, relación responsable con proveedores y reducción de impactos ambientales. Para que no sea solo una campaña de comunicación, debe incorporarse a decisiones, objetivos e indicadores. La rendición de cuentas permite evaluar los compromisos asumidos.",
+      "palabras_clave": [
+        "responsabilidad",
+        "social",
+        "empresarial"
+      ],
+      "relacionados": [
+        "adm-19",
+        "arq-11"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "adm-19",
+      "facultad_id": "adm",
+      "titulo": "Innovación empresarial",
+      "contenido": "La innovación empresarial introduce o mejora productos, servicios, procesos o formas de organización para generar valor. Puede surgir de nuevas tecnologías, observaciones de usuarios o cambios en el mercado. Una idea innovadora necesita evaluación, pruebas y recursos para convertirse en una solución útil. La colaboración entre áreas facilita experimentar, aprender de errores y adaptar las propuestas.",
+      "palabras_clave": [
+        "innovacion",
+        "empresarial"
+      ],
+      "relacionados": [
+        "adm-20",
+        "adm-12"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "adm-20",
+      "facultad_id": "adm",
+      "titulo": "Transformación digital de las empresas",
+      "contenido": "La transformación digital integra tecnologías en los procesos y modelos de una organización. No consiste únicamente en comprar equipos o abrir canales digitales: requiere revisar procedimientos, capacidades del personal, seguridad de la información y experiencia del usuario. Herramientas como plataformas de gestión y análisis de datos pueden apoyar decisiones, siempre que se implementen con objetivos claros y evaluación continua.",
+      "palabras_clave": [
+        "transformacion",
+        "digital",
+        "empresas"
+      ],
+      "relacionados": [
+        "arq-01",
+        "adm-19",
+        "arq-11"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "arq-01",
+      "facultad_id": "arq",
+      "titulo": "Fundamentos del diseño arquitectónico",
+      "contenido": "El diseño arquitectónico organiza espacios para responder a necesidades humanas, condiciones del sitio y criterios técnicos. El proceso parte de analizar usuarios, actividades, clima, orientación y normas aplicables. Después se desarrollan conceptos, esquemas y soluciones espaciales que se revisan en distintas etapas. Un buen proyecto relaciona funcionalidad, seguridad, expresión formal y viabilidad constructiva.",
+      "palabras_clave": [
+        "fundamentos",
+        "diseno",
+        "arquitectonico"
+      ],
+      "relacionados": [
+        "arq-02",
+        "arq-03",
+        "arq-10"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "arq-02",
+      "facultad_id": "arq",
+      "titulo": "Historia de la arquitectura",
+      "contenido": "La historia de la arquitectura estudia cómo las sociedades han construido espacios a lo largo del tiempo. Los edificios reflejan materiales disponibles, técnicas, ideas culturales y formas de organización. Analizar distintos periodos permite reconocer continuidades y transformaciones en la vivienda, los espacios públicos y los edificios colectivos. Este conocimiento ayuda a interpretar el patrimonio y a fundamentar decisiones de diseño contemporáneo.",
+      "palabras_clave": [
+        "historia",
+        "arquitectura"
+      ],
+      "relacionados": [
+        "arq-03",
+        "arq-15",
+        "arq-16"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "arq-03",
+      "facultad_id": "arq",
+      "titulo": "Dibujo arquitectónico y representación",
+      "contenido": "El dibujo arquitectónico comunica la forma, las dimensiones y la organización de un proyecto mediante plantas, cortes, fachadas y perspectivas. La representación utiliza escalas, cotas, símbolos y convenciones para que distintas personas interpreten la propuesta. Los planos deben ser legibles y coherentes entre sí. Las herramientas digitales complementan el dibujo manual, pero ambos requieren precisión y comprensión espacial.",
+      "palabras_clave": [
+        "dibujo",
+        "arquitectonico",
+        "representacion"
+      ],
+      "relacionados": [
+        "arq-04",
+        "arq-19"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "arq-04",
+      "facultad_id": "arq",
+      "titulo": "Geometría descriptiva",
+      "contenido": "La geometría descriptiva ofrece métodos para representar objetos tridimensionales sobre superficies bidimensionales. Sus procedimientos permiten estudiar puntos, líneas, planos, intersecciones y sombras. En arquitectura facilita comprender la forma de los espacios y comunicar elementos que no se aprecian en una sola vista. Su dominio apoya la elaboración de proyecciones, perspectivas y soluciones geométricas complejas.",
+      "palabras_clave": [
+        "geometria",
+        "descriptiva"
+      ],
+      "relacionados": [
+        "arq-05",
+        "arq-03",
+        "arq-07"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "arq-05",
+      "facultad_id": "arq",
+      "titulo": "Materiales de construcción",
+      "contenido": "Los materiales de construcción determinan parte del comportamiento, la durabilidad y la apariencia de una obra. Entre los más utilizados se encuentran concreto, acero, madera, piedra, vidrio y productos cerámicos. La elección depende de resistencia, disponibilidad, costo, mantenimiento e impacto ambiental. Conocer sus propiedades permite especificar materiales adecuados y prever cómo interactúan con el clima y los sistemas constructivos.",
+      "palabras_clave": [
+        "materiales",
+        "construccion"
+      ],
+      "relacionados": [
+        "arq-06",
+        "arq-17"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "arq-06",
+      "facultad_id": "arq",
+      "titulo": "Sistemas constructivos",
+      "contenido": "Los sistemas constructivos reúnen elementos y procedimientos utilizados para construir una edificación. Pueden incluir cimentaciones, estructuras, muros, cubiertas y acabados. La selección del sistema depende del uso del inmueble, las condiciones del terreno, los materiales y la mano de obra disponible. Una coordinación correcta entre diseño y construcción mejora la seguridad, el control de costos y la calidad de la obra.",
+      "palabras_clave": [
+        "sistemas",
+        "constructivos"
+      ],
+      "relacionados": [
+        "arq-07",
+        "arq-18"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "arq-07",
+      "facultad_id": "arq",
+      "titulo": "Estructuras de edificios",
+      "contenido": "Las estructuras de edificios transmiten las cargas hacia el terreno y mantienen la estabilidad de la construcción. Columnas, vigas, losas, muros estructurales y cimentaciones trabajan de manera relacionada. El diseño estructural considera peso propio, ocupación, viento y sismo, además de las propiedades de los materiales. La coordinación entre arquitectura e ingeniería permite integrar estructura, espacio y seguridad.",
+      "palabras_clave": [
+        "estructuras",
+        "edificios"
+      ],
+      "relacionados": [
+        "arq-08",
+        "arq-06",
+        "arq-18"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "arq-08",
+      "facultad_id": "arq",
+      "titulo": "Instalaciones hidrosanitarias",
+      "contenido": "Las instalaciones hidrosanitarias suministran agua y conducen aguas residuales dentro de un edificio. Su diseño considera consumo, presión, pendientes, ventilación, almacenamiento y mantenimiento. Una distribución adecuada facilita el servicio y reduce fugas o riesgos de contaminación. La ubicación de tuberías y equipos debe coordinarse con la estructura y los espacios arquitectónicos desde las primeras etapas del proyecto.",
+      "palabras_clave": [
+        "instalaciones",
+        "hidrosanitarias"
+      ],
+      "relacionados": [
+        "arq-09",
+        "arq-18"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "arq-09",
+      "facultad_id": "arq",
+      "titulo": "Instalaciones eléctricas en edificios",
+      "contenido": "Las instalaciones eléctricas distribuyen energía para iluminación, contactos y equipos de una edificación. Su planeación considera demanda, circuitos, protecciones, canalizaciones y condiciones de seguridad. La ubicación de luminarias y tomas debe responder al uso de cada espacio. Es indispensable cumplir las disposiciones técnicas aplicables y coordinar el proyecto eléctrico con las demás instalaciones para evitar interferencias.",
+      "palabras_clave": [
+        "instalaciones",
+        "electricas",
+        "edificios"
+      ],
+      "relacionados": [
+        "arq-10",
+        "arq-08"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "arq-10",
+      "facultad_id": "arq",
+      "titulo": "Diseño bioclimático",
+      "contenido": "El diseño bioclimático aprovecha las condiciones del clima para mejorar el confort y reducir el consumo de energía. Analiza orientación solar, vientos, temperatura, humedad y vegetación. Algunas estrategias son controlar la radiación, favorecer ventilación natural y utilizar materiales adecuados. La solución depende del clima local y de las actividades del edificio, por lo que no existe una receta única.",
+      "palabras_clave": [
+        "diseno",
+        "bioclimatico"
+      ],
+      "relacionados": [
+        "arq-11",
+        "arq-12"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "arq-11",
+      "facultad_id": "arq",
+      "titulo": "Arquitectura sostenible",
+      "contenido": "La arquitectura sostenible busca reducir impactos ambientales durante el ciclo de vida de una edificación. Considera consumo de energía y agua, selección de materiales, residuos, durabilidad y relación con el entorno. Puede integrar estrategias pasivas, energías renovables y sistemas eficientes. La sostenibilidad también incluye bienestar de las personas, accesibilidad y viabilidad económica, no solamente incorporar tecnología.",
+      "palabras_clave": [
+        "arquitectura",
+        "sostenible"
+      ],
+      "relacionados": [
+        "arq-12",
+        "arq-10",
+        "arq-16"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "arq-12",
+      "facultad_id": "arq",
+      "titulo": "Planeación urbana",
+      "contenido": "La planeación urbana estudia la organización y crecimiento de ciudades y asentamientos. Relaciona vivienda, equipamientos, actividades económicas, movilidad, áreas verdes e infraestructura. Sus instrumentos orientan el uso del suelo y la distribución de servicios. Una planeación participativa debe considerar necesidades de distintos grupos, riesgos ambientales y posibilidades de desarrollo a largo plazo.",
+      "palabras_clave": [
+        "planeacion",
+        "urbana"
+      ],
+      "relacionados": [
+        "arq-13",
+        "arq-16"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "arq-13",
+      "facultad_id": "arq",
+      "titulo": "Movilidad urbana y espacio público",
+      "contenido": "La movilidad urbana analiza cómo las personas se desplazan por la ciudad y cómo se distribuye el espacio público. Caminar, usar bicicleta, transporte colectivo y automóvil requieren condiciones diferentes. Diseñar calles seguras y conectadas puede mejorar el acceso a servicios y reducir conflictos entre usuarios. La movilidad debe considerar accesibilidad, distancias, seguridad vial y calidad del entorno.",
+      "palabras_clave": [
+        "movilidad",
+        "urbana",
+        "espacio",
+        "publico"
+      ],
+      "relacionados": [
+        "arq-14",
+        "arq-12",
+        "arq-16"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "arq-14",
+      "facultad_id": "arq",
+      "titulo": "Vivienda social",
+      "contenido": "La vivienda social busca ofrecer espacios habitables y asequibles a hogares con recursos limitados. Su diseño debe atender tamaño, iluminación, ventilación, privacidad, servicios y posibilidad de adaptación. También importa su ubicación respecto al empleo, transporte, educación y salud. Evaluar solamente el costo inicial puede generar problemas; conviene considerar mantenimiento, calidad urbana y necesidades cambiantes de las familias.",
+      "palabras_clave": [
+        "vivienda",
+        "social"
+      ],
+      "relacionados": [
+        "arq-15",
+        "arq-12",
+        "arq-20"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "arq-15",
+      "facultad_id": "arq",
+      "titulo": "Restauración del patrimonio arquitectónico",
+      "contenido": "La restauración del patrimonio arquitectónico procura conservar edificios y conjuntos con valor histórico, cultural o social. Antes de intervenir se documentan materiales, daños, transformaciones y técnicas originales. Las decisiones deben respetar la autenticidad y evitar pérdidas innecesarias. La conservación requiere mantenimiento, conocimiento especializado y participación de las comunidades que utilizan o reconocen el inmueble.",
+      "palabras_clave": [
+        "restauracion",
+        "patrimonio",
+        "arquitectonico"
+      ],
+      "relacionados": [
+        "arq-16",
+        "arq-02"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "arq-16",
+      "facultad_id": "arq",
+      "titulo": "Paisaje urbano",
+      "contenido": "El paisaje urbano es el resultado de la relación entre edificios, calles, vegetación, mobiliario, topografía y actividades cotidianas. Su análisis considera escala, continuidad, percepción, identidad y calidad ambiental. El diseño de espacios públicos puede mejorar la convivencia y conectar áreas de la ciudad. Las intervenciones deben responder a las características del lugar y a quienes lo habitan.",
+      "palabras_clave": [
+        "paisaje",
+        "urbano"
+      ],
+      "relacionados": [
+        "arq-17",
+        "arq-12",
+        "arq-15"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "arq-17",
+      "facultad_id": "arq",
+      "titulo": "Costos y presupuestos de obra",
+      "contenido": "Los costos y presupuestos de obra estiman los recursos económicos necesarios para ejecutar un proyecto. Se consideran cantidades de materiales, mano de obra, equipos, indirectos y posibles imprevistos. Un presupuesto claro permite comparar alternativas y controlar gastos durante la construcción. Las estimaciones deben basarse en planos y especificaciones actualizadas, porque los cambios de diseño afectan cantidades, tiempos y costos.",
+      "palabras_clave": [
+        "costos",
+        "presupuestos",
+        "obra"
+      ],
+      "relacionados": [
+        "arq-18",
+        "adm-11"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "arq-18",
+      "facultad_id": "arq",
+      "titulo": "Administración de proyectos de construcción",
+      "contenido": "La administración de proyectos de construcción coordina alcance, calendario, presupuesto, calidad y participantes. Incluye contratar servicios, organizar actividades, supervisar avances y gestionar riesgos. La comunicación entre arquitectos, ingenieros, proveedores y personal de obra es esencial para resolver interferencias. Una gestión ordenada ayuda a documentar cambios y a mantener el proyecto alineado con sus objetivos.",
+      "palabras_clave": [
+        "administracion",
+        "proyectos",
+        "construccion"
+      ],
+      "relacionados": [
+        "arq-19",
+        "adm-11",
+        "arq-17"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "arq-19",
+      "facultad_id": "arq",
+      "titulo": "Modelado de información de edificios (BIM)",
+      "contenido": "El modelado de información de edificios (BIM) utiliza modelos digitales que reúnen geometría y datos de una construcción. Diferentes disciplinas pueden coordinar arquitectura, estructura e instalaciones en un entorno común. El modelo ayuda a detectar interferencias, extraer cantidades y revisar alternativas. Su utilidad depende de definir responsabilidades, estándares de información y procedimientos de actualización durante el proyecto.",
+      "palabras_clave": [
+        "modelado",
+        "informacion",
+        "edificios",
+        "bim"
+      ],
+      "relacionados": [
+        "arq-20",
+        "arq-03",
+        "arq-07"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    },
+    {
+      "id": "arq-20",
+      "facultad_id": "arq",
+      "titulo": "Accesibilidad y diseño universal",
+      "contenido": "El diseño universal busca que los espacios puedan ser utilizados por la mayor diversidad de personas posible. Considera rutas accesibles, circulaciones, señalización, dimensiones, contrastes y facilidad de uso. No se limita a resolver barreras después de construir: incorpora la accesibilidad desde el planteamiento inicial. Diseñar para distintas capacidades y edades mejora la autonomía y la experiencia de todos los usuarios.",
+      "palabras_clave": [
+        "accesibilidad",
+        "diseno",
+        "universal"
+      ],
+      "relacionados": [
+        "adm-01",
+        "arq-13",
+        "arq-14"
+      ],
+      "fuente": "Contenido demostrativo elaborado para el proyecto; no es una publicación oficial de la BUAP."
+    }
+  ]
+}

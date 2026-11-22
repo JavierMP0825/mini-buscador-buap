@@ -1,0 +1,5785 @@
+{
+  "proyecto": {
+    "nombre": "Mini buscador académico BUAP",
+    "descripcion": "Corpus demostrativo de documentos HTML para una práctica de Recuperación de Información.",
+    "total_facultades": 25,
+    "articulos_por_facultad": 20,
+    "total_articulos": 500,
+    "entrega": 1,
+    "articulos_html_generados_inicialmente": 40
+  },
+  "facultades": [
+    {
+      "id": "adm",
+      "slug": "administracion",
+      "nombre": "Facultad de Administración",
+      "url_oficial": "https://administracion.buap.mx",
+      "total_articulos": 20,
+      "articulos": [
+        {
+          "id": "adm-01",
+          "numero": 1,
+          "titulo": "Fundamentos de administración",
+          "archivo": "articulo-01.html",
+          "palabras_clave": [
+            "fundamentos",
+            "administracion"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "adm-02",
+          "numero": 2,
+          "titulo": "Proceso administrativo",
+          "archivo": "articulo-02.html",
+          "palabras_clave": [
+            "proceso",
+            "administrativo"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "adm-03",
+          "numero": 3,
+          "titulo": "Planeación estratégica",
+          "archivo": "articulo-03.html",
+          "palabras_clave": [
+            "planeacion",
+            "estrategica"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "adm-04",
+          "numero": 4,
+          "titulo": "Diseño organizacional",
+          "archivo": "articulo-04.html",
+          "palabras_clave": [
+            "diseno",
+            "organizacional"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "adm-05",
+          "numero": 5,
+          "titulo": "Liderazgo y trabajo en equipo",
+          "archivo": "articulo-05.html",
+          "palabras_clave": [
+            "liderazgo",
+            "trabajo",
+            "equipo"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "adm-06",
+          "numero": 6,
+          "titulo": "Comunicación organizacional",
+          "archivo": "articulo-06.html",
+          "palabras_clave": [
+            "comunicacion",
+            "organizacional"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "adm-07",
+          "numero": 7,
+          "titulo": "Gestión del talento humano",
+          "archivo": "articulo-07.html",
+          "palabras_clave": [
+            "gestion",
+            "talento",
+            "humano"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "adm-08",
+          "numero": 8,
+          "titulo": "Reclutamiento y selección de personal",
+          "archivo": "articulo-08.html",
+          "palabras_clave": [
+            "reclutamiento",
+            "seleccion",
+            "personal"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "adm-09",
+          "numero": 9,
+          "titulo": "Capacitación y desarrollo del personal",
+          "archivo": "articulo-09.html",
+          "palabras_clave": [
+            "capacitacion",
+            "desarrollo",
+            "personal"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "adm-10",
+          "numero": 10,
+          "titulo": "Cultura organizacional",
+          "archivo": "articulo-10.html",
+          "palabras_clave": [
+            "cultura",
+            "organizacional"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "adm-11",
+          "numero": 11,
+          "titulo": "Gestión de proyectos",
+          "archivo": "articulo-11.html",
+          "palabras_clave": [
+            "gestion",
+            "proyectos"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "adm-12",
+          "numero": 12,
+          "titulo": "Emprendimiento y modelos de negocio",
+          "archivo": "articulo-12.html",
+          "palabras_clave": [
+            "emprendimiento",
+            "modelos",
+            "negocio"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "adm-13",
+          "numero": 13,
+          "titulo": "Mercadotecnia estratégica",
+          "archivo": "articulo-13.html",
+          "palabras_clave": [
+            "mercadotecnia",
+            "estrategica"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "adm-14",
+          "numero": 14,
+          "titulo": "Investigación de mercados",
+          "archivo": "articulo-14.html",
+          "palabras_clave": [
+            "investigacion",
+            "mercados"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "adm-15",
+          "numero": 15,
+          "titulo": "Comportamiento del consumidor",
+          "archivo": "articulo-15.html",
+          "palabras_clave": [
+            "comportamiento",
+            "consumidor"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "adm-16",
+          "numero": 16,
+          "titulo": "Gestión de la calidad",
+          "archivo": "articulo-16.html",
+          "palabras_clave": [
+            "gestion",
+            "calidad"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "adm-17",
+          "numero": 17,
+          "titulo": "Logística y cadena de suministro",
+          "archivo": "articulo-17.html",
+          "palabras_clave": [
+            "logistica",
+            "cadena",
+            "suministro"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "adm-18",
+          "numero": 18,
+          "titulo": "Responsabilidad social empresarial",
+          "archivo": "articulo-18.html",
+          "palabras_clave": [
+            "responsabilidad",
+            "social",
+            "empresarial"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "adm-19",
+          "numero": 19,
+          "titulo": "Innovación empresarial",
+          "archivo": "articulo-19.html",
+          "palabras_clave": [
+            "innovacion",
+            "empresarial"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "adm-20",
+          "numero": 20,
+          "titulo": "Transformación digital de las empresas",
+          "archivo": "articulo-20.html",
+          "palabras_clave": [
+            "transformacion",
+            "digital",
+            "empresas"
+          ],
+          "estado": "generado"
+        }
+      ]
+    },
+    {
+      "id": "arq",
+      "slug": "arquitectura",
+      "nombre": "Facultad de Arquitectura",
+      "url_oficial": "https://arquitectura.buap.mx",
+      "total_articulos": 20,
+      "articulos": [
+        {
+          "id": "arq-01",
+          "numero": 1,
+          "titulo": "Fundamentos del diseño arquitectónico",
+          "archivo": "articulo-01.html",
+          "palabras_clave": [
+            "fundamentos",
+            "diseno",
+            "arquitectonico"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "arq-02",
+          "numero": 2,
+          "titulo": "Historia de la arquitectura",
+          "archivo": "articulo-02.html",
+          "palabras_clave": [
+            "historia",
+            "arquitectura"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "arq-03",
+          "numero": 3,
+          "titulo": "Dibujo arquitectónico y representación",
+          "archivo": "articulo-03.html",
+          "palabras_clave": [
+            "dibujo",
+            "arquitectonico",
+            "representacion"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "arq-04",
+          "numero": 4,
+          "titulo": "Geometría descriptiva",
+          "archivo": "articulo-04.html",
+          "palabras_clave": [
+            "geometria",
+            "descriptiva"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "arq-05",
+          "numero": 5,
+          "titulo": "Materiales de construcción",
+          "archivo": "articulo-05.html",
+          "palabras_clave": [
+            "materiales",
+            "construccion"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "arq-06",
+          "numero": 6,
+          "titulo": "Sistemas constructivos",
+          "archivo": "articulo-06.html",
+          "palabras_clave": [
+            "sistemas",
+            "constructivos"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "arq-07",
+          "numero": 7,
+          "titulo": "Estructuras de edificios",
+          "archivo": "articulo-07.html",
+          "palabras_clave": [
+            "estructuras",
+            "edificios"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "arq-08",
+          "numero": 8,
+          "titulo": "Instalaciones hidrosanitarias",
+          "archivo": "articulo-08.html",
+          "palabras_clave": [
+            "instalaciones",
+            "hidrosanitarias"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "arq-09",
+          "numero": 9,
+          "titulo": "Instalaciones eléctricas en edificios",
+          "archivo": "articulo-09.html",
+          "palabras_clave": [
+            "instalaciones",
+            "electricas",
+            "edificios"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "arq-10",
+          "numero": 10,
+          "titulo": "Diseño bioclimático",
+          "archivo": "articulo-10.html",
+          "palabras_clave": [
+            "diseno",
+            "bioclimatico"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "arq-11",
+          "numero": 11,
+          "titulo": "Arquitectura sostenible",
+          "archivo": "articulo-11.html",
+          "palabras_clave": [
+            "arquitectura",
+            "sostenible"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "arq-12",
+          "numero": 12,
+          "titulo": "Planeación urbana",
+          "archivo": "articulo-12.html",
+          "palabras_clave": [
+            "planeacion",
+            "urbana"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "arq-13",
+          "numero": 13,
+          "titulo": "Movilidad urbana y espacio público",
+          "archivo": "articulo-13.html",
+          "palabras_clave": [
+            "movilidad",
+            "urbana",
+            "espacio",
+            "publico"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "arq-14",
+          "numero": 14,
+          "titulo": "Vivienda social",
+          "archivo": "articulo-14.html",
+          "palabras_clave": [
+            "vivienda",
+            "social"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "arq-15",
+          "numero": 15,
+          "titulo": "Restauración del patrimonio arquitectónico",
+          "archivo": "articulo-15.html",
+          "palabras_clave": [
+            "restauracion",
+            "patrimonio",
+            "arquitectonico"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "arq-16",
+          "numero": 16,
+          "titulo": "Paisaje urbano",
+          "archivo": "articulo-16.html",
+          "palabras_clave": [
+            "paisaje",
+            "urbano"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "arq-17",
+          "numero": 17,
+          "titulo": "Costos y presupuestos de obra",
+          "archivo": "articulo-17.html",
+          "palabras_clave": [
+            "costos",
+            "presupuestos",
+            "obra"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "arq-18",
+          "numero": 18,
+          "titulo": "Administración de proyectos de construcción",
+          "archivo": "articulo-18.html",
+          "palabras_clave": [
+            "administracion",
+            "proyectos",
+            "construccion"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "arq-19",
+          "numero": 19,
+          "titulo": "Modelado de información de edificios (BIM)",
+          "archivo": "articulo-19.html",
+          "palabras_clave": [
+            "modelado",
+            "informacion",
+            "edificios",
+            "bim"
+          ],
+          "estado": "generado"
+        },
+        {
+          "id": "arq-20",
+          "numero": 20,
+          "titulo": "Accesibilidad y diseño universal",
+          "archivo": "articulo-20.html",
+          "palabras_clave": [
+            "accesibilidad",
+            "diseno",
+            "universal"
+          ],
+          "estado": "generado"
+        }
+      ]
+    },
+    {
+      "id": "art",
+      "slug": "artes",
+      "nombre": "Facultad de Artes",
+      "url_oficial": "https://artes.buap.mx",
+      "total_articulos": 20,
+      "articulos": [
+        {
+          "id": "art-01",
+          "numero": 1,
+          "titulo": "Elementos del lenguaje visual",
+          "archivo": "articulo-01.html",
+          "palabras_clave": [
+            "elementos",
+            "lenguaje",
+            "visual"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "art-02",
+          "numero": 2,
+          "titulo": "Teoría del color",
+          "archivo": "articulo-02.html",
+          "palabras_clave": [
+            "teoria",
+            "color"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "art-03",
+          "numero": 3,
+          "titulo": "Historia del arte antiguo",
+          "archivo": "articulo-03.html",
+          "palabras_clave": [
+            "historia",
+            "arte",
+            "antiguo"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "art-04",
+          "numero": 4,
+          "titulo": "Arte medieval",
+          "archivo": "articulo-04.html",
+          "palabras_clave": [
+            "arte",
+            "medieval"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "art-05",
+          "numero": 5,
+          "titulo": "Arte moderno",
+          "archivo": "articulo-05.html",
+          "palabras_clave": [
+            "arte",
+            "moderno"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "art-06",
+          "numero": 6,
+          "titulo": "Arte contemporáneo",
+          "archivo": "articulo-06.html",
+          "palabras_clave": [
+            "arte",
+            "contemporaneo"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "art-07",
+          "numero": 7,
+          "titulo": "Dibujo artístico",
+          "archivo": "articulo-07.html",
+          "palabras_clave": [
+            "dibujo",
+            "artistico"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "art-08",
+          "numero": 8,
+          "titulo": "Técnicas de pintura",
+          "archivo": "articulo-08.html",
+          "palabras_clave": [
+            "tecnicas",
+            "pintura"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "art-09",
+          "numero": 9,
+          "titulo": "Escultura y materiales",
+          "archivo": "articulo-09.html",
+          "palabras_clave": [
+            "escultura",
+            "materiales"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "art-10",
+          "numero": 10,
+          "titulo": "Grabado artístico",
+          "archivo": "articulo-10.html",
+          "palabras_clave": [
+            "grabado",
+            "artistico"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "art-11",
+          "numero": 11,
+          "titulo": "Fotografía artística",
+          "archivo": "articulo-11.html",
+          "palabras_clave": [
+            "fotografia",
+            "artistica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "art-12",
+          "numero": 12,
+          "titulo": "Composición visual",
+          "archivo": "articulo-12.html",
+          "palabras_clave": [
+            "composicion",
+            "visual"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "art-13",
+          "numero": 13,
+          "titulo": "Estética y experiencia artística",
+          "archivo": "articulo-13.html",
+          "palabras_clave": [
+            "estetica",
+            "experiencia",
+            "artistica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "art-14",
+          "numero": 14,
+          "titulo": "Curaduría de exposiciones",
+          "archivo": "articulo-14.html",
+          "palabras_clave": [
+            "curaduria",
+            "exposiciones"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "art-15",
+          "numero": 15,
+          "titulo": "Gestión cultural",
+          "archivo": "articulo-15.html",
+          "palabras_clave": [
+            "gestion",
+            "cultural"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "art-16",
+          "numero": 16,
+          "titulo": "Arte público",
+          "archivo": "articulo-16.html",
+          "palabras_clave": [
+            "arte",
+            "publico"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "art-17",
+          "numero": 17,
+          "titulo": "Performance y expresión corporal",
+          "archivo": "articulo-17.html",
+          "palabras_clave": [
+            "performance",
+            "expresion",
+            "corporal"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "art-18",
+          "numero": 18,
+          "titulo": "Arte digital",
+          "archivo": "articulo-18.html",
+          "palabras_clave": [
+            "arte",
+            "digital"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "art-19",
+          "numero": 19,
+          "titulo": "Crítica de arte",
+          "archivo": "articulo-19.html",
+          "palabras_clave": [
+            "critica",
+            "arte"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "art-20",
+          "numero": 20,
+          "titulo": "Conservación de obras artísticas",
+          "archivo": "articulo-20.html",
+          "palabras_clave": [
+            "conservacion",
+            "obras",
+            "artisticas"
+          ],
+          "estado": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": "arpa",
+      "slug": "artes-plasticas-audiovisuales",
+      "nombre": "Facultad de Artes Plásticas y Audiovisuales",
+      "url_oficial": "https://arpa.buap.mx",
+      "total_articulos": 20,
+      "articulos": [
+        {
+          "id": "arpa-01",
+          "numero": 1,
+          "titulo": "Lenguaje audiovisual",
+          "archivo": "articulo-01.html",
+          "palabras_clave": [
+            "lenguaje",
+            "audiovisual"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "arpa-02",
+          "numero": 2,
+          "titulo": "Narrativa cinematográfica",
+          "archivo": "articulo-02.html",
+          "palabras_clave": [
+            "narrativa",
+            "cinematografica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "arpa-03",
+          "numero": 3,
+          "titulo": "Guion audiovisual",
+          "archivo": "articulo-03.html",
+          "palabras_clave": [
+            "guion",
+            "audiovisual"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "arpa-04",
+          "numero": 4,
+          "titulo": "Dirección cinematográfica",
+          "archivo": "articulo-04.html",
+          "palabras_clave": [
+            "direccion",
+            "cinematografica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "arpa-05",
+          "numero": 5,
+          "titulo": "Producción audiovisual",
+          "archivo": "articulo-05.html",
+          "palabras_clave": [
+            "produccion",
+            "audiovisual"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "arpa-06",
+          "numero": 6,
+          "titulo": "Fotografía cinematográfica",
+          "archivo": "articulo-06.html",
+          "palabras_clave": [
+            "fotografia",
+            "cinematografica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "arpa-07",
+          "numero": 7,
+          "titulo": "Montaje y edición de video",
+          "archivo": "articulo-07.html",
+          "palabras_clave": [
+            "montaje",
+            "edicion",
+            "video"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "arpa-08",
+          "numero": 8,
+          "titulo": "Diseño sonoro cinematográfico",
+          "archivo": "articulo-08.html",
+          "palabras_clave": [
+            "diseno",
+            "sonoro",
+            "cinematografico"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "arpa-09",
+          "numero": 9,
+          "titulo": "Animación bidimensional",
+          "archivo": "articulo-09.html",
+          "palabras_clave": [
+            "animacion",
+            "bidimensional"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "arpa-10",
+          "numero": 10,
+          "titulo": "Animación tridimensional",
+          "archivo": "articulo-10.html",
+          "palabras_clave": [
+            "animacion",
+            "tridimensional"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "arpa-11",
+          "numero": 11,
+          "titulo": "Diseño de personajes",
+          "archivo": "articulo-11.html",
+          "palabras_clave": [
+            "diseno",
+            "personajes"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "arpa-12",
+          "numero": 12,
+          "titulo": "Arte conceptual",
+          "archivo": "articulo-12.html",
+          "palabras_clave": [
+            "arte",
+            "conceptual"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "arpa-13",
+          "numero": 13,
+          "titulo": "Efectos visuales",
+          "archivo": "articulo-13.html",
+          "palabras_clave": [
+            "efectos",
+            "visuales"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "arpa-14",
+          "numero": 14,
+          "titulo": "Documental audiovisual",
+          "archivo": "articulo-14.html",
+          "palabras_clave": [
+            "documental",
+            "audiovisual"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "arpa-15",
+          "numero": 15,
+          "titulo": "Producción de cortometrajes",
+          "archivo": "articulo-15.html",
+          "palabras_clave": [
+            "produccion",
+            "cortometrajes"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "arpa-16",
+          "numero": 16,
+          "titulo": "Cine experimental",
+          "archivo": "articulo-16.html",
+          "palabras_clave": [
+            "cine",
+            "experimental"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "arpa-17",
+          "numero": 17,
+          "titulo": "Producción multimedia",
+          "archivo": "articulo-17.html",
+          "palabras_clave": [
+            "produccion",
+            "multimedia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "arpa-18",
+          "numero": 18,
+          "titulo": "Posproducción digital",
+          "archivo": "articulo-18.html",
+          "palabras_clave": [
+            "posproduccion",
+            "digital"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "arpa-19",
+          "numero": 19,
+          "titulo": "Distribución y exhibición cinematográfica",
+          "archivo": "articulo-19.html",
+          "palabras_clave": [
+            "distribucion",
+            "exhibicion",
+            "cinematografica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "arpa-20",
+          "numero": 20,
+          "titulo": "Derechos de autor en obras audiovisuales",
+          "archivo": "articulo-20.html",
+          "palabras_clave": [
+            "derechos",
+            "autor",
+            "obras",
+            "audiovisuales"
+          ],
+          "estado": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": "cap",
+      "slug": "ciencias-agricolas-pecuarias",
+      "nombre": "Facultad de Ciencias Agrícolas y Pecuarias",
+      "url_oficial": "https://agrohidraulica.buap.mx",
+      "total_articulos": 20,
+      "articulos": [
+        {
+          "id": "cap-01",
+          "numero": 1,
+          "titulo": "Agricultura sostenible",
+          "archivo": "articulo-01.html",
+          "palabras_clave": [
+            "agricultura",
+            "sostenible"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cap-02",
+          "numero": 2,
+          "titulo": "Edafología y estudio del suelo",
+          "archivo": "articulo-02.html",
+          "palabras_clave": [
+            "edafologia",
+            "estudio",
+            "suelo"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cap-03",
+          "numero": 3,
+          "titulo": "Conservación de suelos",
+          "archivo": "articulo-03.html",
+          "palabras_clave": [
+            "conservacion",
+            "suelos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cap-04",
+          "numero": 4,
+          "titulo": "Sistemas de riego",
+          "archivo": "articulo-04.html",
+          "palabras_clave": [
+            "sistemas",
+            "riego"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cap-05",
+          "numero": 5,
+          "titulo": "Agrohidrología",
+          "archivo": "articulo-05.html",
+          "palabras_clave": [
+            "agrohidrologia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cap-06",
+          "numero": 6,
+          "titulo": "Manejo de cuencas",
+          "archivo": "articulo-06.html",
+          "palabras_clave": [
+            "manejo",
+            "cuencas"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cap-07",
+          "numero": 7,
+          "titulo": "Cultivo de granos básicos",
+          "archivo": "articulo-07.html",
+          "palabras_clave": [
+            "cultivo",
+            "granos",
+            "basicos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cap-08",
+          "numero": 8,
+          "titulo": "Horticultura",
+          "archivo": "articulo-08.html",
+          "palabras_clave": [
+            "horticultura"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cap-09",
+          "numero": 9,
+          "titulo": "Fruticultura",
+          "archivo": "articulo-09.html",
+          "palabras_clave": [
+            "fruticultura"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cap-10",
+          "numero": 10,
+          "titulo": "Fitopatología agrícola",
+          "archivo": "articulo-10.html",
+          "palabras_clave": [
+            "fitopatologia",
+            "agricola"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cap-11",
+          "numero": 11,
+          "titulo": "Entomología agrícola",
+          "archivo": "articulo-11.html",
+          "palabras_clave": [
+            "entomologia",
+            "agricola"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cap-12",
+          "numero": 12,
+          "titulo": "Fertilidad y nutrición vegetal",
+          "archivo": "articulo-12.html",
+          "palabras_clave": [
+            "fertilidad",
+            "nutricion",
+            "vegetal"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cap-13",
+          "numero": 13,
+          "titulo": "Agricultura protegida",
+          "archivo": "articulo-13.html",
+          "palabras_clave": [
+            "agricultura",
+            "protegida"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cap-14",
+          "numero": 14,
+          "titulo": "Mecanización agrícola",
+          "archivo": "articulo-14.html",
+          "palabras_clave": [
+            "mecanizacion",
+            "agricola"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cap-15",
+          "numero": 15,
+          "titulo": "Producción bovina",
+          "archivo": "articulo-15.html",
+          "palabras_clave": [
+            "produccion",
+            "bovina"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cap-16",
+          "numero": 16,
+          "titulo": "Producción porcina",
+          "archivo": "articulo-16.html",
+          "palabras_clave": [
+            "produccion",
+            "porcina"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cap-17",
+          "numero": 17,
+          "titulo": "Producción avícola",
+          "archivo": "articulo-17.html",
+          "palabras_clave": [
+            "produccion",
+            "avicola"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cap-18",
+          "numero": 18,
+          "titulo": "Mejoramiento genético animal",
+          "archivo": "articulo-18.html",
+          "palabras_clave": [
+            "mejoramiento",
+            "genetico",
+            "animal"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cap-19",
+          "numero": 19,
+          "titulo": "Bienestar animal en sistemas pecuarios",
+          "archivo": "articulo-19.html",
+          "palabras_clave": [
+            "bienestar",
+            "animal",
+            "sistemas",
+            "pecuarios"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cap-20",
+          "numero": 20,
+          "titulo": "Comercialización de productos agropecuarios",
+          "archivo": "articulo-20.html",
+          "palabras_clave": [
+            "comercializacion",
+            "productos",
+            "agropecuarios"
+          ],
+          "estado": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": "bio",
+      "slug": "ciencias-biologicas",
+      "nombre": "Facultad de Ciencias Biológicas",
+      "url_oficial": "https://csbiologicas.buap.mx",
+      "total_articulos": 20,
+      "articulos": [
+        {
+          "id": "bio-01",
+          "numero": 1,
+          "titulo": "Biología celular",
+          "archivo": "articulo-01.html",
+          "palabras_clave": [
+            "biologia",
+            "celular"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "bio-02",
+          "numero": 2,
+          "titulo": "Genética",
+          "archivo": "articulo-02.html",
+          "palabras_clave": [
+            "genetica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "bio-03",
+          "numero": 3,
+          "titulo": "Microbiología",
+          "archivo": "articulo-03.html",
+          "palabras_clave": [
+            "microbiologia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "bio-04",
+          "numero": 4,
+          "titulo": "Botánica",
+          "archivo": "articulo-04.html",
+          "palabras_clave": [
+            "botanica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "bio-05",
+          "numero": 5,
+          "titulo": "Zoología",
+          "archivo": "articulo-05.html",
+          "palabras_clave": [
+            "zoologia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "bio-06",
+          "numero": 6,
+          "titulo": "Ecología",
+          "archivo": "articulo-06.html",
+          "palabras_clave": [
+            "ecologia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "bio-07",
+          "numero": 7,
+          "titulo": "Biodiversidad",
+          "archivo": "articulo-07.html",
+          "palabras_clave": [
+            "biodiversidad"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "bio-08",
+          "numero": 8,
+          "titulo": "Evolución biológica",
+          "archivo": "articulo-08.html",
+          "palabras_clave": [
+            "evolucion",
+            "biologica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "bio-09",
+          "numero": 9,
+          "titulo": "Biología molecular",
+          "archivo": "articulo-09.html",
+          "palabras_clave": [
+            "biologia",
+            "molecular"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "bio-10",
+          "numero": 10,
+          "titulo": "Fisiología animal",
+          "archivo": "articulo-10.html",
+          "palabras_clave": [
+            "fisiologia",
+            "animal"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "bio-11",
+          "numero": 11,
+          "titulo": "Fisiología vegetal",
+          "archivo": "articulo-11.html",
+          "palabras_clave": [
+            "fisiologia",
+            "vegetal"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "bio-12",
+          "numero": 12,
+          "titulo": "Conservación de especies",
+          "archivo": "articulo-12.html",
+          "palabras_clave": [
+            "conservacion",
+            "especies"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "bio-13",
+          "numero": 13,
+          "titulo": "Ecosistemas acuáticos",
+          "archivo": "articulo-13.html",
+          "palabras_clave": [
+            "ecosistemas",
+            "acuaticos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "bio-14",
+          "numero": 14,
+          "titulo": "Entomología",
+          "archivo": "articulo-14.html",
+          "palabras_clave": [
+            "entomologia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "bio-15",
+          "numero": 15,
+          "titulo": "Micología",
+          "archivo": "articulo-15.html",
+          "palabras_clave": [
+            "micologia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "bio-16",
+          "numero": 16,
+          "titulo": "Parasitología",
+          "archivo": "articulo-16.html",
+          "palabras_clave": [
+            "parasitologia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "bio-17",
+          "numero": 17,
+          "titulo": "Biotecnología",
+          "archivo": "articulo-17.html",
+          "palabras_clave": [
+            "biotecnologia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "bio-18",
+          "numero": 18,
+          "titulo": "Bioinformática",
+          "archivo": "articulo-18.html",
+          "palabras_clave": [
+            "bioinformatica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "bio-19",
+          "numero": 19,
+          "titulo": "Cambio climático y biodiversidad",
+          "archivo": "articulo-19.html",
+          "palabras_clave": [
+            "cambio",
+            "climatico",
+            "biodiversidad"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "bio-20",
+          "numero": 20,
+          "titulo": "Áreas naturales protegidas",
+          "archivo": "articulo-20.html",
+          "palabras_clave": [
+            "areas",
+            "naturales",
+            "protegidas"
+          ],
+          "estado": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": "cc",
+      "slug": "ciencias-computacion",
+      "nombre": "Facultad de Ciencias de la Computación",
+      "url_oficial": null,
+      "total_articulos": 20,
+      "articulos": [
+        {
+          "id": "cc-01",
+          "numero": 1,
+          "titulo": "Fundamentos de programación",
+          "archivo": "articulo-01.html",
+          "palabras_clave": [
+            "fundamentos",
+            "programacion"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cc-02",
+          "numero": 2,
+          "titulo": "Estructuras de datos",
+          "archivo": "articulo-02.html",
+          "palabras_clave": [
+            "estructuras",
+            "datos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cc-03",
+          "numero": 3,
+          "titulo": "Algoritmos de ordenamiento",
+          "archivo": "articulo-03.html",
+          "palabras_clave": [
+            "algoritmos",
+            "ordenamiento"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cc-04",
+          "numero": 4,
+          "titulo": "Bases de datos relacionales",
+          "archivo": "articulo-04.html",
+          "palabras_clave": [
+            "bases",
+            "datos",
+            "relacionales"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cc-05",
+          "numero": 5,
+          "titulo": "Desarrollo de aplicaciones web",
+          "archivo": "articulo-05.html",
+          "palabras_clave": [
+            "desarrollo",
+            "aplicaciones",
+            "web"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cc-06",
+          "numero": 6,
+          "titulo": "Sistemas operativos",
+          "archivo": "articulo-06.html",
+          "palabras_clave": [
+            "sistemas",
+            "operativos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cc-07",
+          "numero": 7,
+          "titulo": "Redes de computadoras",
+          "archivo": "articulo-07.html",
+          "palabras_clave": [
+            "redes",
+            "computadoras"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cc-08",
+          "numero": 8,
+          "titulo": "Ciberseguridad",
+          "archivo": "articulo-08.html",
+          "palabras_clave": [
+            "ciberseguridad"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cc-09",
+          "numero": 9,
+          "titulo": "Criptografía",
+          "archivo": "articulo-09.html",
+          "palabras_clave": [
+            "criptografia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cc-10",
+          "numero": 10,
+          "titulo": "Inteligencia artificial",
+          "archivo": "articulo-10.html",
+          "palabras_clave": [
+            "inteligencia",
+            "artificial"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cc-11",
+          "numero": 11,
+          "titulo": "Aprendizaje automático",
+          "archivo": "articulo-11.html",
+          "palabras_clave": [
+            "aprendizaje",
+            "automatico"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cc-12",
+          "numero": 12,
+          "titulo": "Procesamiento de lenguaje natural",
+          "archivo": "articulo-12.html",
+          "palabras_clave": [
+            "procesamiento",
+            "lenguaje",
+            "natural"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cc-13",
+          "numero": 13,
+          "titulo": "Recuperación de información",
+          "archivo": "articulo-13.html",
+          "palabras_clave": [
+            "recuperacion",
+            "informacion"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cc-14",
+          "numero": 14,
+          "titulo": "Minería de datos",
+          "archivo": "articulo-14.html",
+          "palabras_clave": [
+            "mineria",
+            "datos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cc-15",
+          "numero": 15,
+          "titulo": "Ciencia de datos",
+          "archivo": "articulo-15.html",
+          "palabras_clave": [
+            "ciencia",
+            "datos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cc-16",
+          "numero": 16,
+          "titulo": "Computación en la nube",
+          "archivo": "articulo-16.html",
+          "palabras_clave": [
+            "computacion",
+            "nube"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cc-17",
+          "numero": 17,
+          "titulo": "Sistemas distribuidos",
+          "archivo": "articulo-17.html",
+          "palabras_clave": [
+            "sistemas",
+            "distribuidos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cc-18",
+          "numero": 18,
+          "titulo": "Internet de las cosas",
+          "archivo": "articulo-18.html",
+          "palabras_clave": [
+            "internet",
+            "cosas"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cc-19",
+          "numero": 19,
+          "titulo": "Robótica computacional",
+          "archivo": "articulo-19.html",
+          "palabras_clave": [
+            "robotica",
+            "computacional"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cc-20",
+          "numero": 20,
+          "titulo": "Ingeniería de software",
+          "archivo": "articulo-20.html",
+          "palabras_clave": [
+            "ingenieria",
+            "software"
+          ],
+          "estado": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": "com",
+      "slug": "ciencias-comunicacion",
+      "nombre": "Facultad de Ciencias de la Comunicación",
+      "url_oficial": "https://facultadcomunicacion.buap.mx",
+      "total_articulos": 20,
+      "articulos": [
+        {
+          "id": "com-01",
+          "numero": 1,
+          "titulo": "Teorías de la comunicación",
+          "archivo": "articulo-01.html",
+          "palabras_clave": [
+            "teorias",
+            "comunicacion"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "com-02",
+          "numero": 2,
+          "titulo": "Comunicación interpersonal",
+          "archivo": "articulo-02.html",
+          "palabras_clave": [
+            "comunicacion",
+            "interpersonal"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "com-03",
+          "numero": 3,
+          "titulo": "Comunicación organizacional",
+          "archivo": "articulo-03.html",
+          "palabras_clave": [
+            "comunicacion",
+            "organizacional"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "com-04",
+          "numero": 4,
+          "titulo": "Periodismo informativo",
+          "archivo": "articulo-04.html",
+          "palabras_clave": [
+            "periodismo",
+            "informativo"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "com-05",
+          "numero": 5,
+          "titulo": "Periodismo de investigación",
+          "archivo": "articulo-05.html",
+          "palabras_clave": [
+            "periodismo",
+            "investigacion"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "com-06",
+          "numero": 6,
+          "titulo": "Redacción periodística",
+          "archivo": "articulo-06.html",
+          "palabras_clave": [
+            "redaccion",
+            "periodistica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "com-07",
+          "numero": 7,
+          "titulo": "Medios de comunicación masiva",
+          "archivo": "articulo-07.html",
+          "palabras_clave": [
+            "medios",
+            "comunicacion",
+            "masiva"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "com-08",
+          "numero": 8,
+          "titulo": "Comunicación digital",
+          "archivo": "articulo-08.html",
+          "palabras_clave": [
+            "comunicacion",
+            "digital"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "com-09",
+          "numero": 9,
+          "titulo": "Redes sociales y sociedad",
+          "archivo": "articulo-09.html",
+          "palabras_clave": [
+            "redes",
+            "sociales",
+            "sociedad"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "com-10",
+          "numero": 10,
+          "titulo": "Producción radiofónica",
+          "archivo": "articulo-10.html",
+          "palabras_clave": [
+            "produccion",
+            "radiofonica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "com-11",
+          "numero": 11,
+          "titulo": "Producción televisiva",
+          "archivo": "articulo-11.html",
+          "palabras_clave": [
+            "produccion",
+            "televisiva"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "com-12",
+          "numero": 12,
+          "titulo": "Comunicación política",
+          "archivo": "articulo-12.html",
+          "palabras_clave": [
+            "comunicacion",
+            "politica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "com-13",
+          "numero": 13,
+          "titulo": "Comunicación publicitaria",
+          "archivo": "articulo-13.html",
+          "palabras_clave": [
+            "comunicacion",
+            "publicitaria"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "com-14",
+          "numero": 14,
+          "titulo": "Relaciones públicas",
+          "archivo": "articulo-14.html",
+          "palabras_clave": [
+            "relaciones",
+            "publicas"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "com-15",
+          "numero": 15,
+          "titulo": "Opinión pública",
+          "archivo": "articulo-15.html",
+          "palabras_clave": [
+            "opinion",
+            "publica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "com-16",
+          "numero": 16,
+          "titulo": "Alfabetización mediática",
+          "archivo": "articulo-16.html",
+          "palabras_clave": [
+            "alfabetizacion",
+            "mediatica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "com-17",
+          "numero": 17,
+          "titulo": "Ética periodística",
+          "archivo": "articulo-17.html",
+          "palabras_clave": [
+            "etica",
+            "periodistica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "com-18",
+          "numero": 18,
+          "titulo": "Comunicación de la ciencia",
+          "archivo": "articulo-18.html",
+          "palabras_clave": [
+            "comunicacion",
+            "ciencia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "com-19",
+          "numero": 19,
+          "titulo": "Fotografía periodística",
+          "archivo": "articulo-19.html",
+          "palabras_clave": [
+            "fotografia",
+            "periodistica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "com-20",
+          "numero": 20,
+          "titulo": "Análisis del discurso",
+          "archivo": "articulo-20.html",
+          "palabras_clave": [
+            "analisis",
+            "discurso"
+          ],
+          "estado": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": "ele",
+      "slug": "ciencias-electronica",
+      "nombre": "Facultad de Ciencias de la Electrónica",
+      "url_oficial": null,
+      "total_articulos": 20,
+      "articulos": [
+        {
+          "id": "ele-01",
+          "numero": 1,
+          "titulo": "Circuitos eléctricos",
+          "archivo": "articulo-01.html",
+          "palabras_clave": [
+            "circuitos",
+            "electricos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ele-02",
+          "numero": 2,
+          "titulo": "Circuitos electrónicos",
+          "archivo": "articulo-02.html",
+          "palabras_clave": [
+            "circuitos",
+            "electronicos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ele-03",
+          "numero": 3,
+          "titulo": "Componentes semiconductores",
+          "archivo": "articulo-03.html",
+          "palabras_clave": [
+            "componentes",
+            "semiconductores"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ele-04",
+          "numero": 4,
+          "titulo": "Electrónica analógica",
+          "archivo": "articulo-04.html",
+          "palabras_clave": [
+            "electronica",
+            "analogica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ele-05",
+          "numero": 5,
+          "titulo": "Electrónica digital",
+          "archivo": "articulo-05.html",
+          "palabras_clave": [
+            "electronica",
+            "digital"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ele-06",
+          "numero": 6,
+          "titulo": "Microcontroladores",
+          "archivo": "articulo-06.html",
+          "palabras_clave": [
+            "microcontroladores"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ele-07",
+          "numero": 7,
+          "titulo": "Sistemas embebidos",
+          "archivo": "articulo-07.html",
+          "palabras_clave": [
+            "sistemas",
+            "embebidos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ele-08",
+          "numero": 8,
+          "titulo": "Instrumentación electrónica",
+          "archivo": "articulo-08.html",
+          "palabras_clave": [
+            "instrumentacion",
+            "electronica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ele-09",
+          "numero": 9,
+          "titulo": "Sensores y actuadores",
+          "archivo": "articulo-09.html",
+          "palabras_clave": [
+            "sensores",
+            "actuadores"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ele-10",
+          "numero": 10,
+          "titulo": "Procesamiento de señales",
+          "archivo": "articulo-10.html",
+          "palabras_clave": [
+            "procesamiento",
+            "senales"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ele-11",
+          "numero": 11,
+          "titulo": "Telecomunicaciones",
+          "archivo": "articulo-11.html",
+          "palabras_clave": [
+            "telecomunicaciones"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ele-12",
+          "numero": 12,
+          "titulo": "Antenas y propagación",
+          "archivo": "articulo-12.html",
+          "palabras_clave": [
+            "antenas",
+            "propagacion"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ele-13",
+          "numero": 13,
+          "titulo": "Sistemas de control",
+          "archivo": "articulo-13.html",
+          "palabras_clave": [
+            "sistemas",
+            "control"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ele-14",
+          "numero": 14,
+          "titulo": "Robótica electrónica",
+          "archivo": "articulo-14.html",
+          "palabras_clave": [
+            "robotica",
+            "electronica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ele-15",
+          "numero": 15,
+          "titulo": "Diseño de circuitos impresos (PCB)",
+          "archivo": "articulo-15.html",
+          "palabras_clave": [
+            "diseno",
+            "circuitos",
+            "impresos",
+            "pcb"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ele-16",
+          "numero": 16,
+          "titulo": "Fuentes de alimentación",
+          "archivo": "articulo-16.html",
+          "palabras_clave": [
+            "fuentes",
+            "alimentacion"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ele-17",
+          "numero": 17,
+          "titulo": "Electrónica de potencia",
+          "archivo": "articulo-17.html",
+          "palabras_clave": [
+            "electronica",
+            "potencia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ele-18",
+          "numero": 18,
+          "titulo": "Automatización industrial",
+          "archivo": "articulo-18.html",
+          "palabras_clave": [
+            "automatizacion",
+            "industrial"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ele-19",
+          "numero": 19,
+          "titulo": "Sistemas de adquisición de datos",
+          "archivo": "articulo-19.html",
+          "palabras_clave": [
+            "sistemas",
+            "adquisicion",
+            "datos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ele-20",
+          "numero": 20,
+          "titulo": "Mantenimiento electrónico",
+          "archivo": "articulo-20.html",
+          "palabras_clave": [
+            "mantenimiento",
+            "electronico"
+          ],
+          "estado": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": "cfm",
+      "slug": "ciencias-fisico-matematicas",
+      "nombre": "Facultad de Ciencias Físico Matemáticas",
+      "url_oficial": null,
+      "total_articulos": 20,
+      "articulos": [
+        {
+          "id": "cfm-01",
+          "numero": 1,
+          "titulo": "Álgebra lineal",
+          "archivo": "articulo-01.html",
+          "palabras_clave": [
+            "algebra",
+            "lineal"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cfm-02",
+          "numero": 2,
+          "titulo": "Cálculo diferencial",
+          "archivo": "articulo-02.html",
+          "palabras_clave": [
+            "calculo",
+            "diferencial"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cfm-03",
+          "numero": 3,
+          "titulo": "Cálculo integral",
+          "archivo": "articulo-03.html",
+          "palabras_clave": [
+            "calculo",
+            "integral"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cfm-04",
+          "numero": 4,
+          "titulo": "Ecuaciones diferenciales",
+          "archivo": "articulo-04.html",
+          "palabras_clave": [
+            "ecuaciones",
+            "diferenciales"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cfm-05",
+          "numero": 5,
+          "titulo": "Análisis matemático",
+          "archivo": "articulo-05.html",
+          "palabras_clave": [
+            "analisis",
+            "matematico"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cfm-06",
+          "numero": 6,
+          "titulo": "Probabilidad",
+          "archivo": "articulo-06.html",
+          "palabras_clave": [
+            "probabilidad"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cfm-07",
+          "numero": 7,
+          "titulo": "Estadística matemática",
+          "archivo": "articulo-07.html",
+          "palabras_clave": [
+            "estadistica",
+            "matematica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cfm-08",
+          "numero": 8,
+          "titulo": "Matemáticas discretas",
+          "archivo": "articulo-08.html",
+          "palabras_clave": [
+            "matematicas",
+            "discretas"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cfm-09",
+          "numero": 9,
+          "titulo": "Teoría de números",
+          "archivo": "articulo-09.html",
+          "palabras_clave": [
+            "teoria",
+            "numeros"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cfm-10",
+          "numero": 10,
+          "titulo": "Geometría analítica",
+          "archivo": "articulo-10.html",
+          "palabras_clave": [
+            "geometria",
+            "analitica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cfm-11",
+          "numero": 11,
+          "titulo": "Topología",
+          "archivo": "articulo-11.html",
+          "palabras_clave": [
+            "topologia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cfm-12",
+          "numero": 12,
+          "titulo": "Física clásica",
+          "archivo": "articulo-12.html",
+          "palabras_clave": [
+            "fisica",
+            "clasica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cfm-13",
+          "numero": 13,
+          "titulo": "Mecánica",
+          "archivo": "articulo-13.html",
+          "palabras_clave": [
+            "mecanica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cfm-14",
+          "numero": 14,
+          "titulo": "Electromagnetismo",
+          "archivo": "articulo-14.html",
+          "palabras_clave": [
+            "electromagnetismo"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cfm-15",
+          "numero": 15,
+          "titulo": "Termodinámica",
+          "archivo": "articulo-15.html",
+          "palabras_clave": [
+            "termodinamica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cfm-16",
+          "numero": 16,
+          "titulo": "Física cuántica",
+          "archivo": "articulo-16.html",
+          "palabras_clave": [
+            "fisica",
+            "cuantica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cfm-17",
+          "numero": 17,
+          "titulo": "Óptica",
+          "archivo": "articulo-17.html",
+          "palabras_clave": [
+            "optica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cfm-18",
+          "numero": 18,
+          "titulo": "Física del estado sólido",
+          "archivo": "articulo-18.html",
+          "palabras_clave": [
+            "fisica",
+            "estado",
+            "solido"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cfm-19",
+          "numero": 19,
+          "titulo": "Métodos numéricos",
+          "archivo": "articulo-19.html",
+          "palabras_clave": [
+            "metodos",
+            "numericos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cfm-20",
+          "numero": 20,
+          "titulo": "Modelación matemática",
+          "archivo": "articulo-20.html",
+          "palabras_clave": [
+            "modelacion",
+            "matematica"
+          ],
+          "estado": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": "cps",
+      "slug": "ciencias-politicas-sociales",
+      "nombre": "Facultad de Ciencias Políticas y Sociales",
+      "url_oficial": "https://cipolys.buap.mx",
+      "total_articulos": 20,
+      "articulos": [
+        {
+          "id": "cps-01",
+          "numero": 1,
+          "titulo": "Teoría política",
+          "archivo": "articulo-01.html",
+          "palabras_clave": [
+            "teoria",
+            "politica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cps-02",
+          "numero": 2,
+          "titulo": "Estado y gobierno",
+          "archivo": "articulo-02.html",
+          "palabras_clave": [
+            "estado",
+            "gobierno"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cps-03",
+          "numero": 3,
+          "titulo": "Sistemas políticos comparados",
+          "archivo": "articulo-03.html",
+          "palabras_clave": [
+            "sistemas",
+            "politicos",
+            "comparados"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cps-04",
+          "numero": 4,
+          "titulo": "Instituciones democráticas",
+          "archivo": "articulo-04.html",
+          "palabras_clave": [
+            "instituciones",
+            "democraticas"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cps-05",
+          "numero": 5,
+          "titulo": "Políticas públicas",
+          "archivo": "articulo-05.html",
+          "palabras_clave": [
+            "politicas",
+            "publicas"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cps-06",
+          "numero": 6,
+          "titulo": "Administración pública",
+          "archivo": "articulo-06.html",
+          "palabras_clave": [
+            "administracion",
+            "publica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cps-07",
+          "numero": 7,
+          "titulo": "Relaciones internacionales",
+          "archivo": "articulo-07.html",
+          "palabras_clave": [
+            "relaciones",
+            "internacionales"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cps-08",
+          "numero": 8,
+          "titulo": "Derechos humanos",
+          "archivo": "articulo-08.html",
+          "palabras_clave": [
+            "derechos",
+            "humanos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cps-09",
+          "numero": 9,
+          "titulo": "Participación ciudadana",
+          "archivo": "articulo-09.html",
+          "palabras_clave": [
+            "participacion",
+            "ciudadana"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cps-10",
+          "numero": 10,
+          "titulo": "Movimientos sociales",
+          "archivo": "articulo-10.html",
+          "palabras_clave": [
+            "movimientos",
+            "sociales"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cps-11",
+          "numero": 11,
+          "titulo": "Sociología política",
+          "archivo": "articulo-11.html",
+          "palabras_clave": [
+            "sociologia",
+            "politica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cps-12",
+          "numero": 12,
+          "titulo": "Opinión pública",
+          "archivo": "articulo-12.html",
+          "palabras_clave": [
+            "opinion",
+            "publica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cps-13",
+          "numero": 13,
+          "titulo": "Elecciones y sistemas electorales",
+          "archivo": "articulo-13.html",
+          "palabras_clave": [
+            "elecciones",
+            "sistemas",
+            "electorales"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cps-14",
+          "numero": 14,
+          "titulo": "Partidos políticos",
+          "archivo": "articulo-14.html",
+          "palabras_clave": [
+            "partidos",
+            "politicos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cps-15",
+          "numero": 15,
+          "titulo": "Seguridad pública",
+          "archivo": "articulo-15.html",
+          "palabras_clave": [
+            "seguridad",
+            "publica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cps-16",
+          "numero": 16,
+          "titulo": "Gobernanza",
+          "archivo": "articulo-16.html",
+          "palabras_clave": [
+            "gobernanza"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cps-17",
+          "numero": 17,
+          "titulo": "Análisis de coyuntura",
+          "archivo": "articulo-17.html",
+          "palabras_clave": [
+            "analisis",
+            "coyuntura"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cps-18",
+          "numero": 18,
+          "titulo": "Investigación social",
+          "archivo": "articulo-18.html",
+          "palabras_clave": [
+            "investigacion",
+            "social"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cps-19",
+          "numero": 19,
+          "titulo": "Desigualdad social",
+          "archivo": "articulo-19.html",
+          "palabras_clave": [
+            "desigualdad",
+            "social"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cps-20",
+          "numero": 20,
+          "titulo": "Comunicación política",
+          "archivo": "articulo-20.html",
+          "palabras_clave": [
+            "comunicacion",
+            "politica"
+          ],
+          "estado": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": "quim",
+      "slug": "ciencias-quimicas",
+      "nombre": "Facultad de Ciencias Químicas",
+      "url_oficial": "https://csquimicas.buap.mx",
+      "total_articulos": 20,
+      "articulos": [
+        {
+          "id": "quim-01",
+          "numero": 1,
+          "titulo": "Estructura atómica",
+          "archivo": "articulo-01.html",
+          "palabras_clave": [
+            "estructura",
+            "atomica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "quim-02",
+          "numero": 2,
+          "titulo": "Tabla periódica",
+          "archivo": "articulo-02.html",
+          "palabras_clave": [
+            "tabla",
+            "periodica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "quim-03",
+          "numero": 3,
+          "titulo": "Enlace químico",
+          "archivo": "articulo-03.html",
+          "palabras_clave": [
+            "enlace",
+            "quimico"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "quim-04",
+          "numero": 4,
+          "titulo": "Estequiometría",
+          "archivo": "articulo-04.html",
+          "palabras_clave": [
+            "estequiometria"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "quim-05",
+          "numero": 5,
+          "titulo": "Soluciones químicas",
+          "archivo": "articulo-05.html",
+          "palabras_clave": [
+            "soluciones",
+            "quimicas"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "quim-06",
+          "numero": 6,
+          "titulo": "Equilibrio químico",
+          "archivo": "articulo-06.html",
+          "palabras_clave": [
+            "equilibrio",
+            "quimico"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "quim-07",
+          "numero": 7,
+          "titulo": "Cinética química",
+          "archivo": "articulo-07.html",
+          "palabras_clave": [
+            "cinetica",
+            "quimica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "quim-08",
+          "numero": 8,
+          "titulo": "Química orgánica",
+          "archivo": "articulo-08.html",
+          "palabras_clave": [
+            "quimica",
+            "organica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "quim-09",
+          "numero": 9,
+          "titulo": "Grupos funcionales",
+          "archivo": "articulo-09.html",
+          "palabras_clave": [
+            "grupos",
+            "funcionales"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "quim-10",
+          "numero": 10,
+          "titulo": "Química inorgánica",
+          "archivo": "articulo-10.html",
+          "palabras_clave": [
+            "quimica",
+            "inorganica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "quim-11",
+          "numero": 11,
+          "titulo": "Química analítica",
+          "archivo": "articulo-11.html",
+          "palabras_clave": [
+            "quimica",
+            "analitica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "quim-12",
+          "numero": 12,
+          "titulo": "Espectroscopia",
+          "archivo": "articulo-12.html",
+          "palabras_clave": [
+            "espectroscopia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "quim-13",
+          "numero": 13,
+          "titulo": "Química ambiental",
+          "archivo": "articulo-13.html",
+          "palabras_clave": [
+            "quimica",
+            "ambiental"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "quim-14",
+          "numero": 14,
+          "titulo": "Bioquímica",
+          "archivo": "articulo-14.html",
+          "palabras_clave": [
+            "bioquimica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "quim-15",
+          "numero": 15,
+          "titulo": "Polímeros",
+          "archivo": "articulo-15.html",
+          "palabras_clave": [
+            "polimeros"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "quim-16",
+          "numero": 16,
+          "titulo": "Corrosión de materiales",
+          "archivo": "articulo-16.html",
+          "palabras_clave": [
+            "corrosion",
+            "materiales"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "quim-17",
+          "numero": 17,
+          "titulo": "Seguridad en el laboratorio",
+          "archivo": "articulo-17.html",
+          "palabras_clave": [
+            "seguridad",
+            "laboratorio"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "quim-18",
+          "numero": 18,
+          "titulo": "Química industrial",
+          "archivo": "articulo-18.html",
+          "palabras_clave": [
+            "quimica",
+            "industrial"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "quim-19",
+          "numero": 19,
+          "titulo": "Tratamiento de aguas",
+          "archivo": "articulo-19.html",
+          "palabras_clave": [
+            "tratamiento",
+            "aguas"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "quim-20",
+          "numero": 20,
+          "titulo": "Nanotecnología química",
+          "archivo": "articulo-20.html",
+          "palabras_clave": [
+            "nanotecnologia",
+            "quimica"
+          ],
+          "estado": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": "cont",
+      "slug": "contaduria-publica",
+      "nombre": "Facultad de Contaduría Pública",
+      "url_oficial": "https://contaduria.buap.mx",
+      "total_articulos": 20,
+      "articulos": [
+        {
+          "id": "cont-01",
+          "numero": 1,
+          "titulo": "Fundamentos de contabilidad",
+          "archivo": "articulo-01.html",
+          "palabras_clave": [
+            "fundamentos",
+            "contabilidad"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cont-02",
+          "numero": 2,
+          "titulo": "Estados financieros",
+          "archivo": "articulo-02.html",
+          "palabras_clave": [
+            "estados",
+            "financieros"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cont-03",
+          "numero": 3,
+          "titulo": "Balance general",
+          "archivo": "articulo-03.html",
+          "palabras_clave": [
+            "balance",
+            "general"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cont-04",
+          "numero": 4,
+          "titulo": "Estado de resultados",
+          "archivo": "articulo-04.html",
+          "palabras_clave": [
+            "estado",
+            "resultados"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cont-05",
+          "numero": 5,
+          "titulo": "Contabilidad de costos",
+          "archivo": "articulo-05.html",
+          "palabras_clave": [
+            "contabilidad",
+            "costos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cont-06",
+          "numero": 6,
+          "titulo": "Presupuestos empresariales",
+          "archivo": "articulo-06.html",
+          "palabras_clave": [
+            "presupuestos",
+            "empresariales"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cont-07",
+          "numero": 7,
+          "titulo": "Auditoría financiera",
+          "archivo": "articulo-07.html",
+          "palabras_clave": [
+            "auditoria",
+            "financiera"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cont-08",
+          "numero": 8,
+          "titulo": "Control interno",
+          "archivo": "articulo-08.html",
+          "palabras_clave": [
+            "control",
+            "interno"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cont-09",
+          "numero": 9,
+          "titulo": "Contabilidad fiscal",
+          "archivo": "articulo-09.html",
+          "palabras_clave": [
+            "contabilidad",
+            "fiscal"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cont-10",
+          "numero": 10,
+          "titulo": "Obligaciones tributarias",
+          "archivo": "articulo-10.html",
+          "palabras_clave": [
+            "obligaciones",
+            "tributarias"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cont-11",
+          "numero": 11,
+          "titulo": "Costos de producción",
+          "archivo": "articulo-11.html",
+          "palabras_clave": [
+            "costos",
+            "produccion"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cont-12",
+          "numero": 12,
+          "titulo": "Contabilidad administrativa",
+          "archivo": "articulo-12.html",
+          "palabras_clave": [
+            "contabilidad",
+            "administrativa"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cont-13",
+          "numero": 13,
+          "titulo": "Finanzas corporativas",
+          "archivo": "articulo-13.html",
+          "palabras_clave": [
+            "finanzas",
+            "corporativas"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cont-14",
+          "numero": 14,
+          "titulo": "Análisis financiero",
+          "archivo": "articulo-14.html",
+          "palabras_clave": [
+            "analisis",
+            "financiero"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cont-15",
+          "numero": 15,
+          "titulo": "Flujo de efectivo",
+          "archivo": "articulo-15.html",
+          "palabras_clave": [
+            "flujo",
+            "efectivo"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cont-16",
+          "numero": 16,
+          "titulo": "Normas de información financiera",
+          "archivo": "articulo-16.html",
+          "palabras_clave": [
+            "normas",
+            "informacion",
+            "financiera"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cont-17",
+          "numero": 17,
+          "titulo": "Contabilidad electrónica",
+          "archivo": "articulo-17.html",
+          "palabras_clave": [
+            "contabilidad",
+            "electronica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cont-18",
+          "numero": 18,
+          "titulo": "Gobierno corporativo",
+          "archivo": "articulo-18.html",
+          "palabras_clave": [
+            "gobierno",
+            "corporativo"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cont-19",
+          "numero": 19,
+          "titulo": "Riesgos financieros",
+          "archivo": "articulo-19.html",
+          "palabras_clave": [
+            "riesgos",
+            "financieros"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cont-20",
+          "numero": 20,
+          "titulo": "Ética profesional contable",
+          "archivo": "articulo-20.html",
+          "palabras_clave": [
+            "etica",
+            "profesional",
+            "contable"
+          ],
+          "estado": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": "cf",
+      "slug": "cultura-fisica",
+      "nombre": "Facultad de Cultura Física",
+      "url_oficial": "https://facufi.buap.mx",
+      "total_articulos": 20,
+      "articulos": [
+        {
+          "id": "cf-01",
+          "numero": 1,
+          "titulo": "Anatomía aplicada al ejercicio",
+          "archivo": "articulo-01.html",
+          "palabras_clave": [
+            "anatomia",
+            "aplicada",
+            "al",
+            "ejercicio"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cf-02",
+          "numero": 2,
+          "titulo": "Fisiología del ejercicio",
+          "archivo": "articulo-02.html",
+          "palabras_clave": [
+            "fisiologia",
+            "ejercicio"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cf-03",
+          "numero": 3,
+          "titulo": "Biomecánica deportiva",
+          "archivo": "articulo-03.html",
+          "palabras_clave": [
+            "biomecanica",
+            "deportiva"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cf-04",
+          "numero": 4,
+          "titulo": "Entrenamiento deportivo",
+          "archivo": "articulo-04.html",
+          "palabras_clave": [
+            "entrenamiento",
+            "deportivo"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cf-05",
+          "numero": 5,
+          "titulo": "Planificación del entrenamiento",
+          "archivo": "articulo-05.html",
+          "palabras_clave": [
+            "planificacion",
+            "entrenamiento"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cf-06",
+          "numero": 6,
+          "titulo": "Fuerza y resistencia",
+          "archivo": "articulo-06.html",
+          "palabras_clave": [
+            "fuerza",
+            "resistencia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cf-07",
+          "numero": 7,
+          "titulo": "Velocidad y flexibilidad",
+          "archivo": "articulo-07.html",
+          "palabras_clave": [
+            "velocidad",
+            "flexibilidad"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cf-08",
+          "numero": 8,
+          "titulo": "Nutrición deportiva",
+          "archivo": "articulo-08.html",
+          "palabras_clave": [
+            "nutricion",
+            "deportiva"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cf-09",
+          "numero": 9,
+          "titulo": "Psicología del deporte",
+          "archivo": "articulo-09.html",
+          "palabras_clave": [
+            "psicologia",
+            "deporte"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cf-10",
+          "numero": 10,
+          "titulo": "Aprendizaje motor",
+          "archivo": "articulo-10.html",
+          "palabras_clave": [
+            "aprendizaje",
+            "motor"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cf-11",
+          "numero": 11,
+          "titulo": "Educación física escolar",
+          "archivo": "articulo-11.html",
+          "palabras_clave": [
+            "educacion",
+            "fisica",
+            "escolar"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cf-12",
+          "numero": 12,
+          "titulo": "Actividad física y salud",
+          "archivo": "articulo-12.html",
+          "palabras_clave": [
+            "actividad",
+            "fisica",
+            "salud"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cf-13",
+          "numero": 13,
+          "titulo": "Deporte adaptado",
+          "archivo": "articulo-13.html",
+          "palabras_clave": [
+            "deporte",
+            "adaptado"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cf-14",
+          "numero": 14,
+          "titulo": "Evaluación de la condición física",
+          "archivo": "articulo-14.html",
+          "palabras_clave": [
+            "evaluacion",
+            "condicion",
+            "fisica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cf-15",
+          "numero": 15,
+          "titulo": "Prevención de lesiones deportivas",
+          "archivo": "articulo-15.html",
+          "palabras_clave": [
+            "prevencion",
+            "lesiones",
+            "deportivas"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cf-16",
+          "numero": 16,
+          "titulo": "Rehabilitación deportiva",
+          "archivo": "articulo-16.html",
+          "palabras_clave": [
+            "rehabilitacion",
+            "deportiva"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cf-17",
+          "numero": 17,
+          "titulo": "Gestión de organizaciones deportivas",
+          "archivo": "articulo-17.html",
+          "palabras_clave": [
+            "gestion",
+            "organizaciones",
+            "deportivas"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cf-18",
+          "numero": 18,
+          "titulo": "Recreación y tiempo libre",
+          "archivo": "articulo-18.html",
+          "palabras_clave": [
+            "recreacion",
+            "tiempo",
+            "libre"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cf-19",
+          "numero": 19,
+          "titulo": "Deporte de alto rendimiento",
+          "archivo": "articulo-19.html",
+          "palabras_clave": [
+            "deporte",
+            "alto",
+            "rendimiento"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "cf-20",
+          "numero": 20,
+          "titulo": "Hidratación y recuperación",
+          "archivo": "articulo-20.html",
+          "palabras_clave": [
+            "hidratacion",
+            "recuperacion"
+          ],
+          "estado": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": "der",
+      "slug": "derecho",
+      "nombre": "Facultad de Derecho",
+      "url_oficial": "https://derecho.buap.mx",
+      "total_articulos": 20,
+      "articulos": [
+        {
+          "id": "der-01",
+          "numero": 1,
+          "titulo": "Teoría general del derecho",
+          "archivo": "articulo-01.html",
+          "palabras_clave": [
+            "teoria",
+            "general",
+            "derecho"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "der-02",
+          "numero": 2,
+          "titulo": "Fuentes del derecho",
+          "archivo": "articulo-02.html",
+          "palabras_clave": [
+            "fuentes",
+            "derecho"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "der-03",
+          "numero": 3,
+          "titulo": "Derecho constitucional",
+          "archivo": "articulo-03.html",
+          "palabras_clave": [
+            "derecho",
+            "constitucional"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "der-04",
+          "numero": 4,
+          "titulo": "Derechos humanos",
+          "archivo": "articulo-04.html",
+          "palabras_clave": [
+            "derechos",
+            "humanos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "der-05",
+          "numero": 5,
+          "titulo": "Derecho civil: personas",
+          "archivo": "articulo-05.html",
+          "palabras_clave": [
+            "derecho",
+            "civil",
+            "personas"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "der-06",
+          "numero": 6,
+          "titulo": "Contratos civiles",
+          "archivo": "articulo-06.html",
+          "palabras_clave": [
+            "contratos",
+            "civiles"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "der-07",
+          "numero": 7,
+          "titulo": "Derecho familiar",
+          "archivo": "articulo-07.html",
+          "palabras_clave": [
+            "derecho",
+            "familiar"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "der-08",
+          "numero": 8,
+          "titulo": "Derecho penal",
+          "archivo": "articulo-08.html",
+          "palabras_clave": [
+            "derecho",
+            "penal"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "der-09",
+          "numero": 9,
+          "titulo": "Proceso penal",
+          "archivo": "articulo-09.html",
+          "palabras_clave": [
+            "proceso",
+            "penal"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "der-10",
+          "numero": 10,
+          "titulo": "Derecho mercantil",
+          "archivo": "articulo-10.html",
+          "palabras_clave": [
+            "derecho",
+            "mercantil"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "der-11",
+          "numero": 11,
+          "titulo": "Sociedades mercantiles",
+          "archivo": "articulo-11.html",
+          "palabras_clave": [
+            "sociedades",
+            "mercantiles"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "der-12",
+          "numero": 12,
+          "titulo": "Derecho laboral",
+          "archivo": "articulo-12.html",
+          "palabras_clave": [
+            "derecho",
+            "laboral"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "der-13",
+          "numero": 13,
+          "titulo": "Derecho administrativo",
+          "archivo": "articulo-13.html",
+          "palabras_clave": [
+            "derecho",
+            "administrativo"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "der-14",
+          "numero": 14,
+          "titulo": "Derecho fiscal",
+          "archivo": "articulo-14.html",
+          "palabras_clave": [
+            "derecho",
+            "fiscal"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "der-15",
+          "numero": 15,
+          "titulo": "Derecho internacional público",
+          "archivo": "articulo-15.html",
+          "palabras_clave": [
+            "derecho",
+            "internacional",
+            "publico"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "der-16",
+          "numero": 16,
+          "titulo": "Derecho internacional privado",
+          "archivo": "articulo-16.html",
+          "palabras_clave": [
+            "derecho",
+            "internacional",
+            "privado"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "der-17",
+          "numero": 17,
+          "titulo": "Derecho procesal",
+          "archivo": "articulo-17.html",
+          "palabras_clave": [
+            "derecho",
+            "procesal"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "der-18",
+          "numero": 18,
+          "titulo": "Argumentación jurídica",
+          "archivo": "articulo-18.html",
+          "palabras_clave": [
+            "argumentacion",
+            "juridica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "der-19",
+          "numero": 19,
+          "titulo": "Justicia alternativa",
+          "archivo": "articulo-19.html",
+          "palabras_clave": [
+            "justicia",
+            "alternativa"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "der-20",
+          "numero": 20,
+          "titulo": "Ética jurídica",
+          "archivo": "articulo-20.html",
+          "palabras_clave": [
+            "etica",
+            "juridica"
+          ],
+          "estado": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": "eco",
+      "slug": "economia",
+      "nombre": "Facultad de Economía",
+      "url_oficial": "https://economia.buap.mx",
+      "total_articulos": 20,
+      "articulos": [
+        {
+          "id": "eco-01",
+          "numero": 1,
+          "titulo": "Principios de economía",
+          "archivo": "articulo-01.html",
+          "palabras_clave": [
+            "principios",
+            "economia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "eco-02",
+          "numero": 2,
+          "titulo": "Microeconomía",
+          "archivo": "articulo-02.html",
+          "palabras_clave": [
+            "microeconomia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "eco-03",
+          "numero": 3,
+          "titulo": "Macroeconomía",
+          "archivo": "articulo-03.html",
+          "palabras_clave": [
+            "macroeconomia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "eco-04",
+          "numero": 4,
+          "titulo": "Oferta y demanda",
+          "archivo": "articulo-04.html",
+          "palabras_clave": [
+            "oferta",
+            "demanda"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "eco-05",
+          "numero": 5,
+          "titulo": "Elasticidad de mercado",
+          "archivo": "articulo-05.html",
+          "palabras_clave": [
+            "elasticidad",
+            "mercado"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "eco-06",
+          "numero": 6,
+          "titulo": "Teoría del consumidor",
+          "archivo": "articulo-06.html",
+          "palabras_clave": [
+            "teoria",
+            "consumidor"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "eco-07",
+          "numero": 7,
+          "titulo": "Teoría del productor",
+          "archivo": "articulo-07.html",
+          "palabras_clave": [
+            "teoria",
+            "productor"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "eco-08",
+          "numero": 8,
+          "titulo": "Estructuras de mercado",
+          "archivo": "articulo-08.html",
+          "palabras_clave": [
+            "estructuras",
+            "mercado"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "eco-09",
+          "numero": 9,
+          "titulo": "Crecimiento económico",
+          "archivo": "articulo-09.html",
+          "palabras_clave": [
+            "crecimiento",
+            "economico"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "eco-10",
+          "numero": 10,
+          "titulo": "Inflación y desempleo",
+          "archivo": "articulo-10.html",
+          "palabras_clave": [
+            "inflacion",
+            "desempleo"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "eco-11",
+          "numero": 11,
+          "titulo": "Política monetaria",
+          "archivo": "articulo-11.html",
+          "palabras_clave": [
+            "politica",
+            "monetaria"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "eco-12",
+          "numero": 12,
+          "titulo": "Política fiscal",
+          "archivo": "articulo-12.html",
+          "palabras_clave": [
+            "politica",
+            "fiscal"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "eco-13",
+          "numero": 13,
+          "titulo": "Economía internacional",
+          "archivo": "articulo-13.html",
+          "palabras_clave": [
+            "economia",
+            "internacional"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "eco-14",
+          "numero": 14,
+          "titulo": "Comercio exterior",
+          "archivo": "articulo-14.html",
+          "palabras_clave": [
+            "comercio",
+            "exterior"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "eco-15",
+          "numero": 15,
+          "titulo": "Desarrollo regional",
+          "archivo": "articulo-15.html",
+          "palabras_clave": [
+            "desarrollo",
+            "regional"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "eco-16",
+          "numero": 16,
+          "titulo": "Economía pública",
+          "archivo": "articulo-16.html",
+          "palabras_clave": [
+            "economia",
+            "publica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "eco-17",
+          "numero": 17,
+          "titulo": "Economía laboral",
+          "archivo": "articulo-17.html",
+          "palabras_clave": [
+            "economia",
+            "laboral"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "eco-18",
+          "numero": 18,
+          "titulo": "Economía ambiental",
+          "archivo": "articulo-18.html",
+          "palabras_clave": [
+            "economia",
+            "ambiental"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "eco-19",
+          "numero": 19,
+          "titulo": "Econometría",
+          "archivo": "articulo-19.html",
+          "palabras_clave": [
+            "econometria"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "eco-20",
+          "numero": 20,
+          "titulo": "Desigualdad y distribución del ingreso",
+          "archivo": "articulo-20.html",
+          "palabras_clave": [
+            "desigualdad",
+            "distribucion",
+            "ingreso"
+          ],
+          "estado": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": "enf",
+      "slug": "enfermeria",
+      "nombre": "Facultad de Enfermería",
+      "url_oficial": "https://enfermeria.buap.mx",
+      "total_articulos": 20,
+      "articulos": [
+        {
+          "id": "enf-01",
+          "numero": 1,
+          "titulo": "Fundamentos de enfermería",
+          "archivo": "articulo-01.html",
+          "palabras_clave": [
+            "fundamentos",
+            "enfermeria"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "enf-02",
+          "numero": 2,
+          "titulo": "Proceso de atención de enfermería",
+          "archivo": "articulo-02.html",
+          "palabras_clave": [
+            "proceso",
+            "atencion",
+            "enfermeria"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "enf-03",
+          "numero": 3,
+          "titulo": "Anatomía y fisiología para enfermería",
+          "archivo": "articulo-03.html",
+          "palabras_clave": [
+            "anatomia",
+            "fisiologia",
+            "enfermeria"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "enf-04",
+          "numero": 4,
+          "titulo": "Valoración de signos vitales",
+          "archivo": "articulo-04.html",
+          "palabras_clave": [
+            "valoracion",
+            "signos",
+            "vitales"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "enf-05",
+          "numero": 5,
+          "titulo": "Higiene y seguridad del paciente",
+          "archivo": "articulo-05.html",
+          "palabras_clave": [
+            "higiene",
+            "seguridad",
+            "paciente"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "enf-06",
+          "numero": 6,
+          "titulo": "Farmacología para enfermería",
+          "archivo": "articulo-06.html",
+          "palabras_clave": [
+            "farmacologia",
+            "enfermeria"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "enf-07",
+          "numero": 7,
+          "titulo": "Cuidado del adulto mayor",
+          "archivo": "articulo-07.html",
+          "palabras_clave": [
+            "cuidado",
+            "adulto",
+            "mayor"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "enf-08",
+          "numero": 8,
+          "titulo": "Enfermería pediátrica",
+          "archivo": "articulo-08.html",
+          "palabras_clave": [
+            "enfermeria",
+            "pediatrica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "enf-09",
+          "numero": 9,
+          "titulo": "Enfermería materno infantil",
+          "archivo": "articulo-09.html",
+          "palabras_clave": [
+            "enfermeria",
+            "materno",
+            "infantil"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "enf-10",
+          "numero": 10,
+          "titulo": "Salud comunitaria",
+          "archivo": "articulo-10.html",
+          "palabras_clave": [
+            "salud",
+            "comunitaria"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "enf-11",
+          "numero": 11,
+          "titulo": "Promoción de la salud",
+          "archivo": "articulo-11.html",
+          "palabras_clave": [
+            "promocion",
+            "salud"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "enf-12",
+          "numero": 12,
+          "titulo": "Prevención de infecciones",
+          "archivo": "articulo-12.html",
+          "palabras_clave": [
+            "prevencion",
+            "infecciones"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "enf-13",
+          "numero": 13,
+          "titulo": "Cuidados del paciente crónico",
+          "archivo": "articulo-13.html",
+          "palabras_clave": [
+            "cuidados",
+            "paciente",
+            "cronico"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "enf-14",
+          "numero": 14,
+          "titulo": "Urgencias y primeros auxilios",
+          "archivo": "articulo-14.html",
+          "palabras_clave": [
+            "urgencias",
+            "primeros",
+            "auxilios"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "enf-15",
+          "numero": 15,
+          "titulo": "Salud mental en enfermería",
+          "archivo": "articulo-15.html",
+          "palabras_clave": [
+            "salud",
+            "mental",
+            "enfermeria"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "enf-16",
+          "numero": 16,
+          "titulo": "Nutrición del paciente",
+          "archivo": "articulo-16.html",
+          "palabras_clave": [
+            "nutricion",
+            "paciente"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "enf-17",
+          "numero": 17,
+          "titulo": "Cuidados postoperatorios",
+          "archivo": "articulo-17.html",
+          "palabras_clave": [
+            "cuidados",
+            "postoperatorios"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "enf-18",
+          "numero": 18,
+          "titulo": "Bioética en enfermería",
+          "archivo": "articulo-18.html",
+          "palabras_clave": [
+            "bioetica",
+            "enfermeria"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "enf-19",
+          "numero": 19,
+          "titulo": "Investigación en enfermería",
+          "archivo": "articulo-19.html",
+          "palabras_clave": [
+            "investigacion",
+            "enfermeria"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "enf-20",
+          "numero": 20,
+          "titulo": "Gestión de servicios de enfermería",
+          "archivo": "articulo-20.html",
+          "palabras_clave": [
+            "gestion",
+            "servicios",
+            "enfermeria"
+          ],
+          "estado": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": "est",
+      "slug": "estomatologia",
+      "nombre": "Facultad de Estomatología",
+      "url_oficial": "https://estomatologia.buap.mx",
+      "total_articulos": 20,
+      "articulos": [
+        {
+          "id": "est-01",
+          "numero": 1,
+          "titulo": "Anatomía de cabeza y cuello",
+          "archivo": "articulo-01.html",
+          "palabras_clave": [
+            "anatomia",
+            "cabeza",
+            "cuello"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "est-02",
+          "numero": 2,
+          "titulo": "Histología oral",
+          "archivo": "articulo-02.html",
+          "palabras_clave": [
+            "histologia",
+            "oral"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "est-03",
+          "numero": 3,
+          "titulo": "Microbiología oral",
+          "archivo": "articulo-03.html",
+          "palabras_clave": [
+            "microbiologia",
+            "oral"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "est-04",
+          "numero": 4,
+          "titulo": "Caries dental",
+          "archivo": "articulo-04.html",
+          "palabras_clave": [
+            "caries",
+            "dental"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "est-05",
+          "numero": 5,
+          "titulo": "Enfermedad periodontal",
+          "archivo": "articulo-05.html",
+          "palabras_clave": [
+            "enfermedad",
+            "periodontal"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "est-06",
+          "numero": 6,
+          "titulo": "Prevención de la salud bucal",
+          "archivo": "articulo-06.html",
+          "palabras_clave": [
+            "prevencion",
+            "salud",
+            "bucal"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "est-07",
+          "numero": 7,
+          "titulo": "Diagnóstico odontológico",
+          "archivo": "articulo-07.html",
+          "palabras_clave": [
+            "diagnostico",
+            "odontologico"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "est-08",
+          "numero": 8,
+          "titulo": "Radiología dental",
+          "archivo": "articulo-08.html",
+          "palabras_clave": [
+            "radiologia",
+            "dental"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "est-09",
+          "numero": 9,
+          "titulo": "Materiales dentales",
+          "archivo": "articulo-09.html",
+          "palabras_clave": [
+            "materiales",
+            "dentales"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "est-10",
+          "numero": 10,
+          "titulo": "Operatoria dental",
+          "archivo": "articulo-10.html",
+          "palabras_clave": [
+            "operatoria",
+            "dental"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "est-11",
+          "numero": 11,
+          "titulo": "Endodoncia",
+          "archivo": "articulo-11.html",
+          "palabras_clave": [
+            "endodoncia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "est-12",
+          "numero": 12,
+          "titulo": "Ortodoncia",
+          "archivo": "articulo-12.html",
+          "palabras_clave": [
+            "ortodoncia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "est-13",
+          "numero": 13,
+          "titulo": "Prostodoncia",
+          "archivo": "articulo-13.html",
+          "palabras_clave": [
+            "prostodoncia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "est-14",
+          "numero": 14,
+          "titulo": "Cirugía bucal",
+          "archivo": "articulo-14.html",
+          "palabras_clave": [
+            "cirugia",
+            "bucal"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "est-15",
+          "numero": 15,
+          "titulo": "Odontopediatría",
+          "archivo": "articulo-15.html",
+          "palabras_clave": [
+            "odontopediatria"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "est-16",
+          "numero": 16,
+          "titulo": "Salud pública bucal",
+          "archivo": "articulo-16.html",
+          "palabras_clave": [
+            "salud",
+            "publica",
+            "bucal"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "est-17",
+          "numero": 17,
+          "titulo": "Oclusión dental",
+          "archivo": "articulo-17.html",
+          "palabras_clave": [
+            "oclusion",
+            "dental"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "est-18",
+          "numero": 18,
+          "titulo": "Implantología",
+          "archivo": "articulo-18.html",
+          "palabras_clave": [
+            "implantologia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "est-19",
+          "numero": 19,
+          "titulo": "Bioseguridad en el consultorio",
+          "archivo": "articulo-19.html",
+          "palabras_clave": [
+            "bioseguridad",
+            "consultorio"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "est-20",
+          "numero": 20,
+          "titulo": "Rehabilitación oral",
+          "archivo": "articulo-20.html",
+          "palabras_clave": [
+            "rehabilitacion",
+            "oral"
+          ],
+          "estado": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": "fil",
+      "slug": "filosofia-letras",
+      "nombre": "Facultad de Filosofía y Letras",
+      "url_oficial": "https://filosofia.buap.mx",
+      "total_articulos": 20,
+      "articulos": [
+        {
+          "id": "fil-01",
+          "numero": 1,
+          "titulo": "Historia de la filosofía",
+          "archivo": "articulo-01.html",
+          "palabras_clave": [
+            "historia",
+            "filosofia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "fil-02",
+          "numero": 2,
+          "titulo": "Lógica y argumentación",
+          "archivo": "articulo-02.html",
+          "palabras_clave": [
+            "logica",
+            "argumentacion"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "fil-03",
+          "numero": 3,
+          "titulo": "Ética",
+          "archivo": "articulo-03.html",
+          "palabras_clave": [
+            "etica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "fil-04",
+          "numero": 4,
+          "titulo": "Epistemología",
+          "archivo": "articulo-04.html",
+          "palabras_clave": [
+            "epistemologia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "fil-05",
+          "numero": 5,
+          "titulo": "Metafísica",
+          "archivo": "articulo-05.html",
+          "palabras_clave": [
+            "metafisica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "fil-06",
+          "numero": 6,
+          "titulo": "Filosofía política",
+          "archivo": "articulo-06.html",
+          "palabras_clave": [
+            "filosofia",
+            "politica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "fil-07",
+          "numero": 7,
+          "titulo": "Filosofía de la ciencia",
+          "archivo": "articulo-07.html",
+          "palabras_clave": [
+            "filosofia",
+            "ciencia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "fil-08",
+          "numero": 8,
+          "titulo": "Literatura universal",
+          "archivo": "articulo-08.html",
+          "palabras_clave": [
+            "literatura",
+            "universal"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "fil-09",
+          "numero": 9,
+          "titulo": "Literatura mexicana",
+          "archivo": "articulo-09.html",
+          "palabras_clave": [
+            "literatura",
+            "mexicana"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "fil-10",
+          "numero": 10,
+          "titulo": "Poesía",
+          "archivo": "articulo-10.html",
+          "palabras_clave": [
+            "poesia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "fil-11",
+          "numero": 11,
+          "titulo": "Narrativa: cuento y novela",
+          "archivo": "articulo-11.html",
+          "palabras_clave": [
+            "narrativa",
+            "cuento",
+            "novela"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "fil-12",
+          "numero": 12,
+          "titulo": "Teoría literaria",
+          "archivo": "articulo-12.html",
+          "palabras_clave": [
+            "teoria",
+            "literaria"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "fil-13",
+          "numero": 13,
+          "titulo": "Crítica literaria",
+          "archivo": "articulo-13.html",
+          "palabras_clave": [
+            "critica",
+            "literaria"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "fil-14",
+          "numero": 14,
+          "titulo": "Lingüística general",
+          "archivo": "articulo-14.html",
+          "palabras_clave": [
+            "ling",
+            "istica",
+            "general"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "fil-15",
+          "numero": 15,
+          "titulo": "Gramática española",
+          "archivo": "articulo-15.html",
+          "palabras_clave": [
+            "gramatica",
+            "espanola"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "fil-16",
+          "numero": 16,
+          "titulo": "Historia de la lengua española",
+          "archivo": "articulo-16.html",
+          "palabras_clave": [
+            "historia",
+            "lengua",
+            "espanola"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "fil-17",
+          "numero": 17,
+          "titulo": "Hermenéutica",
+          "archivo": "articulo-17.html",
+          "palabras_clave": [
+            "hermeneutica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "fil-18",
+          "numero": 18,
+          "titulo": "Retórica",
+          "archivo": "articulo-18.html",
+          "palabras_clave": [
+            "retorica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "fil-19",
+          "numero": 19,
+          "titulo": "Pensamiento latinoamericano",
+          "archivo": "articulo-19.html",
+          "palabras_clave": [
+            "pensamiento",
+            "latinoamericano"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "fil-20",
+          "numero": 20,
+          "titulo": "Investigación humanística",
+          "archivo": "articulo-20.html",
+          "palabras_clave": [
+            "investigacion",
+            "humanistica"
+          ],
+          "estado": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": "ing",
+      "slug": "ingenieria",
+      "nombre": "Facultad de Ingeniería",
+      "url_oficial": "https://ingenieria.buap.mx",
+      "total_articulos": 20,
+      "articulos": [
+        {
+          "id": "ing-01",
+          "numero": 1,
+          "titulo": "Estática y dinámica",
+          "archivo": "articulo-01.html",
+          "palabras_clave": [
+            "estatica",
+            "dinamica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ing-02",
+          "numero": 2,
+          "titulo": "Resistencia de materiales",
+          "archivo": "articulo-02.html",
+          "palabras_clave": [
+            "resistencia",
+            "materiales"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ing-03",
+          "numero": 3,
+          "titulo": "Mecánica de materiales",
+          "archivo": "articulo-03.html",
+          "palabras_clave": [
+            "mecanica",
+            "materiales"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ing-04",
+          "numero": 4,
+          "titulo": "Termodinámica para ingeniería",
+          "archivo": "articulo-04.html",
+          "palabras_clave": [
+            "termodinamica",
+            "ingenieria"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ing-05",
+          "numero": 5,
+          "titulo": "Mecánica de fluidos",
+          "archivo": "articulo-05.html",
+          "palabras_clave": [
+            "mecanica",
+            "fluidos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ing-06",
+          "numero": 6,
+          "titulo": "Transferencia de calor",
+          "archivo": "articulo-06.html",
+          "palabras_clave": [
+            "transferencia",
+            "calor"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ing-07",
+          "numero": 7,
+          "titulo": "Circuitos para ingeniería",
+          "archivo": "articulo-07.html",
+          "palabras_clave": [
+            "circuitos",
+            "ingenieria"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ing-08",
+          "numero": 8,
+          "titulo": "Dibujo técnico y CAD",
+          "archivo": "articulo-08.html",
+          "palabras_clave": [
+            "dibujo",
+            "tecnico",
+            "cad"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ing-09",
+          "numero": 9,
+          "titulo": "Procesos de manufactura",
+          "archivo": "articulo-09.html",
+          "palabras_clave": [
+            "procesos",
+            "manufactura"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ing-10",
+          "numero": 10,
+          "titulo": "Ciencia de materiales",
+          "archivo": "articulo-10.html",
+          "palabras_clave": [
+            "ciencia",
+            "materiales"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ing-11",
+          "numero": 11,
+          "titulo": "Ingeniería industrial",
+          "archivo": "articulo-11.html",
+          "palabras_clave": [
+            "ingenieria",
+            "industrial"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ing-12",
+          "numero": 12,
+          "titulo": "Investigación de operaciones",
+          "archivo": "articulo-12.html",
+          "palabras_clave": [
+            "investigacion",
+            "operaciones"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ing-13",
+          "numero": 13,
+          "titulo": "Gestión de proyectos de ingeniería",
+          "archivo": "articulo-13.html",
+          "palabras_clave": [
+            "gestion",
+            "proyectos",
+            "ingenieria"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ing-14",
+          "numero": 14,
+          "titulo": "Control de calidad",
+          "archivo": "articulo-14.html",
+          "palabras_clave": [
+            "control",
+            "calidad"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ing-15",
+          "numero": 15,
+          "titulo": "Seguridad industrial",
+          "archivo": "articulo-15.html",
+          "palabras_clave": [
+            "seguridad",
+            "industrial"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ing-16",
+          "numero": 16,
+          "titulo": "Mantenimiento industrial",
+          "archivo": "articulo-16.html",
+          "palabras_clave": [
+            "mantenimiento",
+            "industrial"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ing-17",
+          "numero": 17,
+          "titulo": "Diseño de máquinas",
+          "archivo": "articulo-17.html",
+          "palabras_clave": [
+            "diseno",
+            "maquinas"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ing-18",
+          "numero": 18,
+          "titulo": "Energías renovables",
+          "archivo": "articulo-18.html",
+          "palabras_clave": [
+            "energias",
+            "renovables"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ing-19",
+          "numero": 19,
+          "titulo": "Infraestructura civil",
+          "archivo": "articulo-19.html",
+          "palabras_clave": [
+            "infraestructura",
+            "civil"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "ing-20",
+          "numero": 20,
+          "titulo": "Gestión ambiental en ingeniería",
+          "archivo": "articulo-20.html",
+          "palabras_clave": [
+            "gestion",
+            "ambiental",
+            "ingenieria"
+          ],
+          "estado": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": "iq",
+      "slug": "ingenieria-quimica",
+      "nombre": "Facultad de Ingeniería Química",
+      "url_oficial": "https://ingenieriaquimica.buap.mx",
+      "total_articulos": 20,
+      "articulos": [
+        {
+          "id": "iq-01",
+          "numero": 1,
+          "titulo": "Balances de materia",
+          "archivo": "articulo-01.html",
+          "palabras_clave": [
+            "balances",
+            "materia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "iq-02",
+          "numero": 2,
+          "titulo": "Balances de energía",
+          "archivo": "articulo-02.html",
+          "palabras_clave": [
+            "balances",
+            "energia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "iq-03",
+          "numero": 3,
+          "titulo": "Termodinámica química",
+          "archivo": "articulo-03.html",
+          "palabras_clave": [
+            "termodinamica",
+            "quimica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "iq-04",
+          "numero": 4,
+          "titulo": "Fenómenos de transporte",
+          "archivo": "articulo-04.html",
+          "palabras_clave": [
+            "fenomenos",
+            "transporte"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "iq-05",
+          "numero": 5,
+          "titulo": "Operaciones unitarias",
+          "archivo": "articulo-05.html",
+          "palabras_clave": [
+            "operaciones",
+            "unitarias"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "iq-06",
+          "numero": 6,
+          "titulo": "Transferencia de masa",
+          "archivo": "articulo-06.html",
+          "palabras_clave": [
+            "transferencia",
+            "masa"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "iq-07",
+          "numero": 7,
+          "titulo": "Transferencia de calor",
+          "archivo": "articulo-07.html",
+          "palabras_clave": [
+            "transferencia",
+            "calor"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "iq-08",
+          "numero": 8,
+          "titulo": "Reactores químicos",
+          "archivo": "articulo-08.html",
+          "palabras_clave": [
+            "reactores",
+            "quimicos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "iq-09",
+          "numero": 9,
+          "titulo": "Diseño de procesos",
+          "archivo": "articulo-09.html",
+          "palabras_clave": [
+            "diseno",
+            "procesos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "iq-10",
+          "numero": 10,
+          "titulo": "Control de procesos",
+          "archivo": "articulo-10.html",
+          "palabras_clave": [
+            "control",
+            "procesos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "iq-11",
+          "numero": 11,
+          "titulo": "Simulación de procesos",
+          "archivo": "articulo-11.html",
+          "palabras_clave": [
+            "simulacion",
+            "procesos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "iq-12",
+          "numero": 12,
+          "titulo": "Separaciones por destilación",
+          "archivo": "articulo-12.html",
+          "palabras_clave": [
+            "separaciones",
+            "destilacion"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "iq-13",
+          "numero": 13,
+          "titulo": "Absorción y extracción",
+          "archivo": "articulo-13.html",
+          "palabras_clave": [
+            "absorcion",
+            "extraccion"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "iq-14",
+          "numero": 14,
+          "titulo": "Procesos petroquímicos",
+          "archivo": "articulo-14.html",
+          "palabras_clave": [
+            "procesos",
+            "petroquimicos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "iq-15",
+          "numero": 15,
+          "titulo": "Bioprocesos",
+          "archivo": "articulo-15.html",
+          "palabras_clave": [
+            "bioprocesos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "iq-16",
+          "numero": 16,
+          "titulo": "Tratamiento de efluentes",
+          "archivo": "articulo-16.html",
+          "palabras_clave": [
+            "tratamiento",
+            "efluentes"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "iq-17",
+          "numero": 17,
+          "titulo": "Seguridad de procesos",
+          "archivo": "articulo-17.html",
+          "palabras_clave": [
+            "seguridad",
+            "procesos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "iq-18",
+          "numero": 18,
+          "titulo": "Ingeniería ambiental",
+          "archivo": "articulo-18.html",
+          "palabras_clave": [
+            "ingenieria",
+            "ambiental"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "iq-19",
+          "numero": 19,
+          "titulo": "Materiales poliméricos",
+          "archivo": "articulo-19.html",
+          "palabras_clave": [
+            "materiales",
+            "polimericos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "iq-20",
+          "numero": 20,
+          "titulo": "Optimización de plantas",
+          "archivo": "articulo-20.html",
+          "palabras_clave": [
+            "optimizacion",
+            "plantas"
+          ],
+          "estado": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": "len",
+      "slug": "lenguas",
+      "nombre": "Facultad de Lenguas",
+      "url_oficial": "https://lenguas.buap.mx",
+      "total_articulos": 20,
+      "articulos": [
+        {
+          "id": "len-01",
+          "numero": 1,
+          "titulo": "Lingüística aplicada",
+          "archivo": "articulo-01.html",
+          "palabras_clave": [
+            "ling",
+            "istica",
+            "aplicada"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "len-02",
+          "numero": 2,
+          "titulo": "Adquisición de una segunda lengua",
+          "archivo": "articulo-02.html",
+          "palabras_clave": [
+            "adquisicion",
+            "segunda",
+            "lengua"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "len-03",
+          "numero": 3,
+          "titulo": "Didáctica de lenguas",
+          "archivo": "articulo-03.html",
+          "palabras_clave": [
+            "didactica",
+            "lenguas"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "len-04",
+          "numero": 4,
+          "titulo": "Planeación de clases de idiomas",
+          "archivo": "articulo-04.html",
+          "palabras_clave": [
+            "planeacion",
+            "clases",
+            "idiomas"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "len-05",
+          "numero": 5,
+          "titulo": "Evaluación de competencias lingüísticas",
+          "archivo": "articulo-05.html",
+          "palabras_clave": [
+            "evaluacion",
+            "competencias",
+            "ling",
+            "isticas"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "len-06",
+          "numero": 6,
+          "titulo": "Fonética y fonología",
+          "archivo": "articulo-06.html",
+          "palabras_clave": [
+            "fonetica",
+            "fonologia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "len-07",
+          "numero": 7,
+          "titulo": "Morfosintaxis",
+          "archivo": "articulo-07.html",
+          "palabras_clave": [
+            "morfosintaxis"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "len-08",
+          "numero": 8,
+          "titulo": "Semántica y pragmática",
+          "archivo": "articulo-08.html",
+          "palabras_clave": [
+            "semantica",
+            "pragmatica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "len-09",
+          "numero": 9,
+          "titulo": "Traducción general",
+          "archivo": "articulo-09.html",
+          "palabras_clave": [
+            "traduccion",
+            "general"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "len-10",
+          "numero": 10,
+          "titulo": "Traducción especializada",
+          "archivo": "articulo-10.html",
+          "palabras_clave": [
+            "traduccion",
+            "especializada"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "len-11",
+          "numero": 11,
+          "titulo": "Interpretación consecutiva",
+          "archivo": "articulo-11.html",
+          "palabras_clave": [
+            "interpretacion",
+            "consecutiva"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "len-12",
+          "numero": 12,
+          "titulo": "Interpretación simultánea",
+          "archivo": "articulo-12.html",
+          "palabras_clave": [
+            "interpretacion",
+            "simultanea"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "len-13",
+          "numero": 13,
+          "titulo": "Cultura y lengua",
+          "archivo": "articulo-13.html",
+          "palabras_clave": [
+            "cultura",
+            "lengua"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "len-14",
+          "numero": 14,
+          "titulo": "Comunicación intercultural",
+          "archivo": "articulo-14.html",
+          "palabras_clave": [
+            "comunicacion",
+            "intercultural"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "len-15",
+          "numero": 15,
+          "titulo": "Inglés académico",
+          "archivo": "articulo-15.html",
+          "palabras_clave": [
+            "ingles",
+            "academico"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "len-16",
+          "numero": 16,
+          "titulo": "Francés como lengua extranjera",
+          "archivo": "articulo-16.html",
+          "palabras_clave": [
+            "frances",
+            "como",
+            "lengua",
+            "extranjera"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "len-17",
+          "numero": 17,
+          "titulo": "Enseñanza de la lengua española",
+          "archivo": "articulo-17.html",
+          "palabras_clave": [
+            "ensenanza",
+            "lengua",
+            "espanola"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "len-18",
+          "numero": 18,
+          "titulo": "Diseño de materiales didácticos",
+          "archivo": "articulo-18.html",
+          "palabras_clave": [
+            "diseno",
+            "materiales",
+            "didacticos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "len-19",
+          "numero": 19,
+          "titulo": "Tecnologías para el aprendizaje de idiomas",
+          "archivo": "articulo-19.html",
+          "palabras_clave": [
+            "tecnologias",
+            "aprendizaje",
+            "idiomas"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "len-20",
+          "numero": 20,
+          "titulo": "Investigación en enseñanza de lenguas",
+          "archivo": "articulo-20.html",
+          "palabras_clave": [
+            "investigacion",
+            "ensenanza",
+            "lenguas"
+          ],
+          "estado": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": "med",
+      "slug": "medicina",
+      "nombre": "Facultad de Medicina",
+      "url_oficial": "https://medicina.buap.mx",
+      "total_articulos": 20,
+      "articulos": [
+        {
+          "id": "med-01",
+          "numero": 1,
+          "titulo": "Anatomía humana",
+          "archivo": "articulo-01.html",
+          "palabras_clave": [
+            "anatomia",
+            "humana"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "med-02",
+          "numero": 2,
+          "titulo": "Fisiología humana",
+          "archivo": "articulo-02.html",
+          "palabras_clave": [
+            "fisiologia",
+            "humana"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "med-03",
+          "numero": 3,
+          "titulo": "Histología",
+          "archivo": "articulo-03.html",
+          "palabras_clave": [
+            "histologia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "med-04",
+          "numero": 4,
+          "titulo": "Bioquímica médica",
+          "archivo": "articulo-04.html",
+          "palabras_clave": [
+            "bioquimica",
+            "medica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "med-05",
+          "numero": 5,
+          "titulo": "Microbiología médica",
+          "archivo": "articulo-05.html",
+          "palabras_clave": [
+            "microbiologia",
+            "medica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "med-06",
+          "numero": 6,
+          "titulo": "Inmunología",
+          "archivo": "articulo-06.html",
+          "palabras_clave": [
+            "inmunologia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "med-07",
+          "numero": 7,
+          "titulo": "Farmacología",
+          "archivo": "articulo-07.html",
+          "palabras_clave": [
+            "farmacologia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "med-08",
+          "numero": 8,
+          "titulo": "Patología",
+          "archivo": "articulo-08.html",
+          "palabras_clave": [
+            "patologia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "med-09",
+          "numero": 9,
+          "titulo": "Semiología clínica",
+          "archivo": "articulo-09.html",
+          "palabras_clave": [
+            "semiologia",
+            "clinica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "med-10",
+          "numero": 10,
+          "titulo": "Medicina preventiva",
+          "archivo": "articulo-10.html",
+          "palabras_clave": [
+            "medicina",
+            "preventiva"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "med-11",
+          "numero": 11,
+          "titulo": "Epidemiología",
+          "archivo": "articulo-11.html",
+          "palabras_clave": [
+            "epidemiologia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "med-12",
+          "numero": 12,
+          "titulo": "Salud pública",
+          "archivo": "articulo-12.html",
+          "palabras_clave": [
+            "salud",
+            "publica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "med-13",
+          "numero": 13,
+          "titulo": "Medicina interna",
+          "archivo": "articulo-13.html",
+          "palabras_clave": [
+            "medicina",
+            "interna"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "med-14",
+          "numero": 14,
+          "titulo": "Pediatría",
+          "archivo": "articulo-14.html",
+          "palabras_clave": [
+            "pediatria"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "med-15",
+          "numero": 15,
+          "titulo": "Ginecología y obstetricia",
+          "archivo": "articulo-15.html",
+          "palabras_clave": [
+            "ginecologia",
+            "obstetricia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "med-16",
+          "numero": 16,
+          "titulo": "Cirugía general",
+          "archivo": "articulo-16.html",
+          "palabras_clave": [
+            "cirugia",
+            "general"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "med-17",
+          "numero": 17,
+          "titulo": "Neurología",
+          "archivo": "articulo-17.html",
+          "palabras_clave": [
+            "neurologia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "med-18",
+          "numero": 18,
+          "titulo": "Cardiología",
+          "archivo": "articulo-18.html",
+          "palabras_clave": [
+            "cardiologia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "med-19",
+          "numero": 19,
+          "titulo": "Diagnóstico por imagen",
+          "archivo": "articulo-19.html",
+          "palabras_clave": [
+            "diagnostico",
+            "imagen"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "med-20",
+          "numero": 20,
+          "titulo": "Bioética e investigación clínica",
+          "archivo": "articulo-20.html",
+          "palabras_clave": [
+            "bioetica",
+            "e",
+            "investigacion",
+            "clinica"
+          ],
+          "estado": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": "vet",
+      "slug": "medicina-veterinaria-zootecnia",
+      "nombre": "Facultad de Medicina Veterinaria y Zootecnia",
+      "url_oficial": "https://veterinaria.buap.mx",
+      "total_articulos": 20,
+      "articulos": [
+        {
+          "id": "vet-01",
+          "numero": 1,
+          "titulo": "Anatomía veterinaria",
+          "archivo": "articulo-01.html",
+          "palabras_clave": [
+            "anatomia",
+            "veterinaria"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "vet-02",
+          "numero": 2,
+          "titulo": "Fisiología animal",
+          "archivo": "articulo-02.html",
+          "palabras_clave": [
+            "fisiologia",
+            "animal"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "vet-03",
+          "numero": 3,
+          "titulo": "Microbiología veterinaria",
+          "archivo": "articulo-03.html",
+          "palabras_clave": [
+            "microbiologia",
+            "veterinaria"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "vet-04",
+          "numero": 4,
+          "titulo": "Parasitología veterinaria",
+          "archivo": "articulo-04.html",
+          "palabras_clave": [
+            "parasitologia",
+            "veterinaria"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "vet-05",
+          "numero": 5,
+          "titulo": "Patología veterinaria",
+          "archivo": "articulo-05.html",
+          "palabras_clave": [
+            "patologia",
+            "veterinaria"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "vet-06",
+          "numero": 6,
+          "titulo": "Farmacología veterinaria",
+          "archivo": "articulo-06.html",
+          "palabras_clave": [
+            "farmacologia",
+            "veterinaria"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "vet-07",
+          "numero": 7,
+          "titulo": "Medicina preventiva animal",
+          "archivo": "articulo-07.html",
+          "palabras_clave": [
+            "medicina",
+            "preventiva",
+            "animal"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "vet-08",
+          "numero": 8,
+          "titulo": "Clínica de perros y gatos",
+          "archivo": "articulo-08.html",
+          "palabras_clave": [
+            "clinica",
+            "perros",
+            "gatos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "vet-09",
+          "numero": 9,
+          "titulo": "Medicina equina",
+          "archivo": "articulo-09.html",
+          "palabras_clave": [
+            "medicina",
+            "equina"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "vet-10",
+          "numero": 10,
+          "titulo": "Producción bovina",
+          "archivo": "articulo-10.html",
+          "palabras_clave": [
+            "produccion",
+            "bovina"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "vet-11",
+          "numero": 11,
+          "titulo": "Producción porcina",
+          "archivo": "articulo-11.html",
+          "palabras_clave": [
+            "produccion",
+            "porcina"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "vet-12",
+          "numero": 12,
+          "titulo": "Producción avícola",
+          "archivo": "articulo-12.html",
+          "palabras_clave": [
+            "produccion",
+            "avicola"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "vet-13",
+          "numero": 13,
+          "titulo": "Nutrición animal",
+          "archivo": "articulo-13.html",
+          "palabras_clave": [
+            "nutricion",
+            "animal"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "vet-14",
+          "numero": 14,
+          "titulo": "Reproducción animal",
+          "archivo": "articulo-14.html",
+          "palabras_clave": [
+            "reproduccion",
+            "animal"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "vet-15",
+          "numero": 15,
+          "titulo": "Bienestar animal",
+          "archivo": "articulo-15.html",
+          "palabras_clave": [
+            "bienestar",
+            "animal"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "vet-16",
+          "numero": 16,
+          "titulo": "Salud pública veterinaria",
+          "archivo": "articulo-16.html",
+          "palabras_clave": [
+            "salud",
+            "publica",
+            "veterinaria"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "vet-17",
+          "numero": 17,
+          "titulo": "Zoonosis",
+          "archivo": "articulo-17.html",
+          "palabras_clave": [
+            "zoonosis"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "vet-18",
+          "numero": 18,
+          "titulo": "Cirugía veterinaria",
+          "archivo": "articulo-18.html",
+          "palabras_clave": [
+            "cirugia",
+            "veterinaria"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "vet-19",
+          "numero": 19,
+          "titulo": "Manejo de fauna silvestre",
+          "archivo": "articulo-19.html",
+          "palabras_clave": [
+            "manejo",
+            "fauna",
+            "silvestre"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "vet-20",
+          "numero": 20,
+          "titulo": "Inocuidad de productos de origen animal",
+          "archivo": "articulo-20.html",
+          "palabras_clave": [
+            "inocuidad",
+            "productos",
+            "origen",
+            "animal"
+          ],
+          "estado": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": "psi",
+      "slug": "psicologia",
+      "nombre": "Facultad de Psicología",
+      "url_oficial": "https://psicologia.buap.mx",
+      "total_articulos": 20,
+      "articulos": [
+        {
+          "id": "psi-01",
+          "numero": 1,
+          "titulo": "Fundamentos de psicología",
+          "archivo": "articulo-01.html",
+          "palabras_clave": [
+            "fundamentos",
+            "psicologia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "psi-02",
+          "numero": 2,
+          "titulo": "Psicología del desarrollo",
+          "archivo": "articulo-02.html",
+          "palabras_clave": [
+            "psicologia",
+            "desarrollo"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "psi-03",
+          "numero": 3,
+          "titulo": "Psicología social",
+          "archivo": "articulo-03.html",
+          "palabras_clave": [
+            "psicologia",
+            "social"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "psi-04",
+          "numero": 4,
+          "titulo": "Psicología educativa",
+          "archivo": "articulo-04.html",
+          "palabras_clave": [
+            "psicologia",
+            "educativa"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "psi-05",
+          "numero": 5,
+          "titulo": "Psicología clínica",
+          "archivo": "articulo-05.html",
+          "palabras_clave": [
+            "psicologia",
+            "clinica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "psi-06",
+          "numero": 6,
+          "titulo": "Psicopatología",
+          "archivo": "articulo-06.html",
+          "palabras_clave": [
+            "psicopatologia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "psi-07",
+          "numero": 7,
+          "titulo": "Neuropsicología",
+          "archivo": "articulo-07.html",
+          "palabras_clave": [
+            "neuropsicologia"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "psi-08",
+          "numero": 8,
+          "titulo": "Procesos cognitivos",
+          "archivo": "articulo-08.html",
+          "palabras_clave": [
+            "procesos",
+            "cognitivos"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "psi-09",
+          "numero": 9,
+          "titulo": "Aprendizaje y conducta",
+          "archivo": "articulo-09.html",
+          "palabras_clave": [
+            "aprendizaje",
+            "conducta"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "psi-10",
+          "numero": 10,
+          "titulo": "Teorías de la personalidad",
+          "archivo": "articulo-10.html",
+          "palabras_clave": [
+            "teorias",
+            "personalidad"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "psi-11",
+          "numero": 11,
+          "titulo": "Psicometría",
+          "archivo": "articulo-11.html",
+          "palabras_clave": [
+            "psicometria"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "psi-12",
+          "numero": 12,
+          "titulo": "Evaluación psicológica",
+          "archivo": "articulo-12.html",
+          "palabras_clave": [
+            "evaluacion",
+            "psicologica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "psi-13",
+          "numero": 13,
+          "titulo": "Psicología organizacional",
+          "archivo": "articulo-13.html",
+          "palabras_clave": [
+            "psicologia",
+            "organizacional"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "psi-14",
+          "numero": 14,
+          "titulo": "Psicología comunitaria",
+          "archivo": "articulo-14.html",
+          "palabras_clave": [
+            "psicologia",
+            "comunitaria"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "psi-15",
+          "numero": 15,
+          "titulo": "Intervención psicológica",
+          "archivo": "articulo-15.html",
+          "palabras_clave": [
+            "intervencion",
+            "psicologica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "psi-16",
+          "numero": 16,
+          "titulo": "Salud mental",
+          "archivo": "articulo-16.html",
+          "palabras_clave": [
+            "salud",
+            "mental"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "psi-17",
+          "numero": 17,
+          "titulo": "Psicología experimental",
+          "archivo": "articulo-17.html",
+          "palabras_clave": [
+            "psicologia",
+            "experimental"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "psi-18",
+          "numero": 18,
+          "titulo": "Investigación psicológica",
+          "archivo": "articulo-18.html",
+          "palabras_clave": [
+            "investigacion",
+            "psicologica"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "psi-19",
+          "numero": 19,
+          "titulo": "Desarrollo humano",
+          "archivo": "articulo-19.html",
+          "palabras_clave": [
+            "desarrollo",
+            "humano"
+          ],
+          "estado": "pendiente"
+        },
+        {
+          "id": "psi-20",
+          "numero": 20,
+          "titulo": "Ética profesional en psicología",
+          "archivo": "articulo-20.html",
+          "palabras_clave": [
+            "etica",
+            "profesional",
+            "psicologia"
+          ],
+          "estado": "pendiente"
+        }
+      ]
+    }
+  ]
+}
