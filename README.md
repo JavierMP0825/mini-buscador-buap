@@ -169,3 +169,119 @@ Cuando se añadan los artículos de otra facultad:
 4. Ejecutar `python3 grafo.py` para reconstruir el grafo desde los HTML.
 
 No edites manualmente `indices/grafo.json`: siempre debe regenerarse a partir de las páginas HTML para que el grafo represente los enlaces publicados realmente.
+
+---
+
+# Entrega 3 — Procesamiento de documentos e índice invertido
+
+Esta entrega añade `indexador.py` y `data/stopwords_es.txt`. El indexador procesa el **contenido de los archivos HTML publicados**, no el texto del JSON de artículos. Utiliza `indices/grafo.json` como inventario de documentos y sus metadatos, por lo que primero deben generarse las páginas y el grafo.
+
+## Ejecutar las tres etapas
+
+Desde la carpeta raíz del proyecto:
+
+```bash
+python3 generar.py
+python3 grafo.py
+python3 indexador.py
+```
+
+El último comando genera:
+
+```text
+indices/
+├── indice_invertido.json
+└── resumen_indexacion.json
+```
+
+## Procesamiento de texto
+
+Para cada artículo HTML, el programa:
+
+1. Extrae el texto del bloque `<article class="article">`.
+2. Incluye el título, el párrafo descriptivo y las etiquetas de palabras clave.
+3. Excluye navegación, metadatos, botones/enlaces de regreso, títulos auxiliares y la sección de artículos relacionados, para no contaminar el contenido del documento.
+4. Convierte el texto a minúsculas.
+5. Elimina tildes de vocales (`administración` → `administracion`) y conserva la `ñ` (`año` sigue siendo `año`).
+6. Tokeniza el texto en secuencias alfanuméricas.
+7. Elimina palabras vacías usando `data/stopwords_es.txt`.
+
+No se aplica stemming ni lematización en esta etapa. Por ejemplo, `construcción` y `construcciones` permanecen como términos distintos. Esto hace que el procesamiento sea sencillo y permite observar claramente cómo se construye el índice.
+
+La lista de palabras vacías es editable. Se pueden agregar o retirar palabras según el comportamiento que se quiera evaluar.
+
+## ¿Cómo se representa el índice invertido?
+
+El archivo `indice_invertido.json` conserva metadatos de los documentos y, para cada término, almacena:
+
+- `frecuencia_documental`: cantidad de documentos que contienen el término (DF).
+- `postings`: identificador de cada documento y número de veces que aparece el término en él (TF).
+
+Ejemplo ilustrativo de la estructura:
+
+```json
+{
+  "indice_invertido": {
+    "gestion": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-02": 3,
+        "adm-08": 1
+      }
+    }
+  }
+}
+```
+
+En el ejemplo, `gestion` aparece tres veces en `adm-02` y una vez en `adm-08`; por tanto, su frecuencia documental es 2. Estos valores son solamente ilustrativos: los valores reales se encuentran en el JSON generado.
+
+Esta estructura será la entrada para implementar consultas y TF-IDF. El valor TF se obtiene de cada posting y el valor DF se obtiene de `frecuencia_documental`; el total de documentos `N` aparece en `estadisticas.total_documentos`.
+
+## Opciones
+
+Para crear un índice sin eliminar palabras vacías (útil para comparar el efecto del preprocesamiento):
+
+```bash
+python3 indexador.py --sin-stopwords
+```
+
+Para volver al índice normal, ejecuta otra vez:
+
+```bash
+python3 indexador.py
+```
+
+También se puede indicar otra lista de stopwords:
+
+```bash
+python3 indexador.py --stopwords data/stopwords_es.txt
+```
+
+## Validaciones automáticas
+
+Antes de guardar el índice se comprueba que:
+
+- Todos los artículos registrados en el grafo tengan un HTML legible.
+- Todos los artículos produzcan al menos un término indexable.
+- Las frecuencias documentales coincidan con la cantidad de postings.
+- Todos los postings apunten a documentos existentes.
+- Todas las frecuencias TF sean enteros positivos.
+- La suma de todas las frecuencias TF coincida con el total de tokens indexados.
+
+## Resultado de referencia con el corpus inicial
+
+Al procesar los 40 artículos de Administración y Arquitectura, el índice de esta entrega produce:
+
+| Indicador | Resultado |
+|---|---:|
+| Documentos procesados | 40 |
+| Tokens antes de filtrar | 2,565 |
+| Tokens indexados | 1,640 |
+| Tokens descartados | 925 |
+| Términos únicos | 783 |
+| Promedio de términos por documento | 41 |
+| Palabras vacías configuradas | 117 |
+
+Estos valores corresponden a la versión actual del corpus y pueden cambiar si se modifica el contenido de los artículos o la lista de palabras vacías.
+
+**Importante:** el índice debe regenerarse después de editar o agregar artículos. Cuando se incorporen más facultades, ejecuta nuevamente `generar.py`, `grafo.py` e `indexador.py`, en ese orden.

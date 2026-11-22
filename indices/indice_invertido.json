@@ -1,0 +1,5684 @@
+{
+  "proyecto": "Mini buscador académico BUAP",
+  "version_esquema": 1,
+  "descripcion": "Índice invertido obtenido del texto de los artículos HTML. Cada término contiene su frecuencia documental y las frecuencias del término en cada documento (postings).",
+  "configuracion": {
+    "normalizacion": "minúsculas, eliminación de acentos excepto ñ",
+    "tokenizacion": "secuencias alfanuméricas en español",
+    "eliminacion_stopwords": true,
+    "archivo_stopwords": "data/stopwords_es.txt",
+    "cantidad_stopwords": 117,
+    "stemming": false
+  },
+  "estadisticas": {
+    "total_documentos": 40,
+    "total_tokens_sin_stopwords": 1640,
+    "total_tokens_antes_stopwords": 2565,
+    "tokens_descartados": 925,
+    "total_terminos_unicos": 783,
+    "promedio_terminos_por_documento": 41.0
+  },
+  "documentos": {
+    "adm-01": {
+      "titulo": "Fundamentos de administración",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "ruta": "facultades/administracion/articulo-01.html",
+      "total_terminos": 38,
+      "terminos_unicos": 33
+    },
+    "adm-02": {
+      "titulo": "Proceso administrativo",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "ruta": "facultades/administracion/articulo-02.html",
+      "total_terminos": 40,
+      "terminos_unicos": 33
+    },
+    "adm-03": {
+      "titulo": "Planeación estratégica",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "ruta": "facultades/administracion/articulo-03.html",
+      "total_terminos": 39,
+      "terminos_unicos": 34
+    },
+    "adm-04": {
+      "titulo": "Diseño organizacional",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "ruta": "facultades/administracion/articulo-04.html",
+      "total_terminos": 37,
+      "terminos_unicos": 33
+    },
+    "adm-05": {
+      "titulo": "Liderazgo y trabajo en equipo",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "ruta": "facultades/administracion/articulo-05.html",
+      "total_terminos": 43,
+      "terminos_unicos": 37
+    },
+    "adm-06": {
+      "titulo": "Comunicación organizacional",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "ruta": "facultades/administracion/articulo-06.html",
+      "total_terminos": 37,
+      "terminos_unicos": 32
+    },
+    "adm-07": {
+      "titulo": "Gestión del talento humano",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "ruta": "facultades/administracion/articulo-07.html",
+      "total_terminos": 42,
+      "terminos_unicos": 35
+    },
+    "adm-08": {
+      "titulo": "Reclutamiento y selección de personal",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "ruta": "facultades/administracion/articulo-08.html",
+      "total_terminos": 43,
+      "terminos_unicos": 38
+    },
+    "adm-09": {
+      "titulo": "Capacitación y desarrollo del personal",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "ruta": "facultades/administracion/articulo-09.html",
+      "total_terminos": 43,
+      "terminos_unicos": 38
+    },
+    "adm-10": {
+      "titulo": "Cultura organizacional",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "ruta": "facultades/administracion/articulo-10.html",
+      "total_terminos": 41,
+      "terminos_unicos": 35
+    },
+    "adm-11": {
+      "titulo": "Gestión de proyectos",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "ruta": "facultades/administracion/articulo-11.html",
+      "total_terminos": 41,
+      "terminos_unicos": 36
+    },
+    "adm-12": {
+      "titulo": "Emprendimiento y modelos de negocio",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "ruta": "facultades/administracion/articulo-12.html",
+      "total_terminos": 38,
+      "terminos_unicos": 32
+    },
+    "adm-13": {
+      "titulo": "Mercadotecnia estratégica",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "ruta": "facultades/administracion/articulo-13.html",
+      "total_terminos": 36,
+      "terminos_unicos": 32
+    },
+    "adm-14": {
+      "titulo": "Investigación de mercados",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "ruta": "facultades/administracion/articulo-14.html",
+      "total_terminos": 42,
+      "terminos_unicos": 38
+    },
+    "adm-15": {
+      "titulo": "Comportamiento del consumidor",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "ruta": "facultades/administracion/articulo-15.html",
+      "total_terminos": 41,
+      "terminos_unicos": 36
+    },
+    "adm-16": {
+      "titulo": "Gestión de la calidad",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "ruta": "facultades/administracion/articulo-16.html",
+      "total_terminos": 40,
+      "terminos_unicos": 35
+    },
+    "adm-17": {
+      "titulo": "Logística y cadena de suministro",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "ruta": "facultades/administracion/articulo-17.html",
+      "total_terminos": 40,
+      "terminos_unicos": 34
+    },
+    "adm-18": {
+      "titulo": "Responsabilidad social empresarial",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "ruta": "facultades/administracion/articulo-18.html",
+      "total_terminos": 42,
+      "terminos_unicos": 35
+    },
+    "adm-19": {
+      "titulo": "Innovación empresarial",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "ruta": "facultades/administracion/articulo-19.html",
+      "total_terminos": 40,
+      "terminos_unicos": 36
+    },
+    "adm-20": {
+      "titulo": "Transformación digital de las empresas",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "ruta": "facultades/administracion/articulo-20.html",
+      "total_terminos": 43,
+      "terminos_unicos": 38
+    },
+    "arq-01": {
+      "titulo": "Fundamentos del diseño arquitectónico",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "ruta": "facultades/arquitectura/articulo-01.html",
+      "total_terminos": 44,
+      "terminos_unicos": 40
+    },
+    "arq-02": {
+      "titulo": "Historia de la arquitectura",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "ruta": "facultades/arquitectura/articulo-02.html",
+      "total_terminos": 41,
+      "terminos_unicos": 35
+    },
+    "arq-03": {
+      "titulo": "Dibujo arquitectónico y representación",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "ruta": "facultades/arquitectura/articulo-03.html",
+      "total_terminos": 41,
+      "terminos_unicos": 34
+    },
+    "arq-04": {
+      "titulo": "Geometría descriptiva",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "ruta": "facultades/arquitectura/articulo-04.html",
+      "total_terminos": 39,
+      "terminos_unicos": 35
+    },
+    "arq-05": {
+      "titulo": "Materiales de construcción",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "ruta": "facultades/arquitectura/articulo-05.html",
+      "total_terminos": 40,
+      "terminos_unicos": 35
+    },
+    "arq-06": {
+      "titulo": "Sistemas constructivos",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "ruta": "facultades/arquitectura/articulo-06.html",
+      "total_terminos": 40,
+      "terminos_unicos": 35
+    },
+    "arq-07": {
+      "titulo": "Estructuras de edificios",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "ruta": "facultades/arquitectura/articulo-07.html",
+      "total_terminos": 40,
+      "terminos_unicos": 36
+    },
+    "arq-08": {
+      "titulo": "Instalaciones hidrosanitarias",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "ruta": "facultades/arquitectura/articulo-08.html",
+      "total_terminos": 40,
+      "terminos_unicos": 36
+    },
+    "arq-09": {
+      "titulo": "Instalaciones eléctricas en edificios",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "ruta": "facultades/arquitectura/articulo-09.html",
+      "total_terminos": 42,
+      "terminos_unicos": 36
+    },
+    "arq-10": {
+      "titulo": "Diseño bioclimático",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "ruta": "facultades/arquitectura/articulo-10.html",
+      "total_terminos": 39,
+      "terminos_unicos": 35
+    },
+    "arq-11": {
+      "titulo": "Arquitectura sostenible",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "ruta": "facultades/arquitectura/articulo-11.html",
+      "total_terminos": 42,
+      "terminos_unicos": 38
+    },
+    "arq-12": {
+      "titulo": "Planeación urbana",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "ruta": "facultades/arquitectura/articulo-12.html",
+      "total_terminos": 39,
+      "terminos_unicos": 34
+    },
+    "arq-13": {
+      "titulo": "Movilidad urbana y espacio público",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "ruta": "facultades/arquitectura/articulo-13.html",
+      "total_terminos": 46,
+      "terminos_unicos": 37
+    },
+    "arq-14": {
+      "titulo": "Vivienda social",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "ruta": "facultades/arquitectura/articulo-14.html",
+      "total_terminos": 46,
+      "terminos_unicos": 42
+    },
+    "arq-15": {
+      "titulo": "Restauración del patrimonio arquitectónico",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "ruta": "facultades/arquitectura/articulo-15.html",
+      "total_terminos": 41,
+      "terminos_unicos": 35
+    },
+    "arq-16": {
+      "titulo": "Paisaje urbano",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "ruta": "facultades/arquitectura/articulo-16.html",
+      "total_terminos": 39,
+      "terminos_unicos": 35
+    },
+    "arq-17": {
+      "titulo": "Costos y presupuestos de obra",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "ruta": "facultades/arquitectura/articulo-17.html",
+      "total_terminos": 45,
+      "terminos_unicos": 36
+    },
+    "arq-18": {
+      "titulo": "Administración de proyectos de construcción",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "ruta": "facultades/arquitectura/articulo-18.html",
+      "total_terminos": 42,
+      "terminos_unicos": 36
+    },
+    "arq-19": {
+      "titulo": "Modelado de información de edificios (BIM)",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "ruta": "facultades/arquitectura/articulo-19.html",
+      "total_terminos": 46,
+      "terminos_unicos": 37
+    },
+    "arq-20": {
+      "titulo": "Accesibilidad y diseño universal",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "ruta": "facultades/arquitectura/articulo-20.html",
+      "total_terminos": 42,
+      "terminos_unicos": 37
+    }
+  },
+  "indice_invertido": {
+    "abastecimiento": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-17": 1
+      }
+    },
+    "abrir": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-20": 1
+      }
+    },
+    "acabados": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-06": 1
+      }
+    },
+    "accesibilidad": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "arq-11": 1,
+        "arq-13": 1,
+        "arq-20": 3
+      }
+    },
+    "accesibles": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-20": 1
+      }
+    },
+    "acceso": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-13": 1
+      }
+    },
+    "acciones": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-10": 1,
+        "adm-16": 1
+      }
+    },
+    "acero": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-05": 1
+      }
+    },
+    "actividades": {
+      "frecuencia_documental": 12,
+      "postings": {
+        "adm-01": 1,
+        "adm-04": 1,
+        "adm-06": 1,
+        "adm-09": 1,
+        "adm-11": 1,
+        "adm-16": 1,
+        "adm-18": 1,
+        "arq-01": 1,
+        "arq-10": 1,
+        "arq-12": 1,
+        "arq-16": 1,
+        "arq-18": 1
+      }
+    },
+    "actualizacion": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-19": 1
+      }
+    },
+    "actualizadas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-17": 1
+      }
+    },
+    "actuan": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-15": 1
+      }
+    },
+    "adaptacion": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-14": 1
+      }
+    },
+    "adaptar": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-06": 1,
+        "adm-19": 1
+      }
+    },
+    "adecuada": {
+      "frecuencia_documental": 4,
+      "postings": {
+        "adm-04": 1,
+        "adm-08": 1,
+        "adm-17": 1,
+        "arq-08": 1
+      }
+    },
+    "adecuado": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-05": 1
+      }
+    },
+    "adecuados": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-15": 1,
+        "arq-05": 1,
+        "arq-10": 1
+      }
+    },
+    "ademas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-07": 1
+      }
+    },
+    "administracion": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-01": 3,
+        "arq-18": 3
+      }
+    },
+    "administrativo": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-02": 3
+      }
+    },
+    "afectan": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-17": 1
+      }
+    },
+    "agua": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-08": 1,
+        "arq-11": 1
+      }
+    },
+    "aguas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-08": 1
+      }
+    },
+    "ajustar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-12": 1
+      }
+    },
+    "alcance": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-11": 1,
+        "arq-18": 1
+      }
+    },
+    "alcanzar": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-01": 1,
+        "adm-05": 1
+      }
+    },
+    "alineado": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-18": 1
+      }
+    },
+    "almacenamiento": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-17": 1,
+        "arq-08": 1
+      }
+    },
+    "alternativas": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-13": 1,
+        "arq-17": 1,
+        "arq-19": 1
+      }
+    },
+    "ambiental": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-05": 1,
+        "arq-16": 1
+      }
+    },
+    "ambientales": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-18": 2,
+        "arq-11": 1,
+        "arq-12": 1
+      }
+    },
+    "analisis": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-14": 1,
+        "adm-20": 1,
+        "arq-16": 1
+      }
+    },
+    "analiza": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-13": 1,
+        "arq-10": 1,
+        "arq-13": 1
+      }
+    },
+    "analizar": {
+      "frecuencia_documental": 4,
+      "postings": {
+        "adm-01": 1,
+        "adm-12": 1,
+        "arq-01": 1,
+        "arq-02": 1
+      }
+    },
+    "apariencia": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-05": 1
+      }
+    },
+    "aplicables": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-01": 1,
+        "arq-09": 1
+      }
+    },
+    "aplicacion": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-02": 1
+      }
+    },
+    "aplican": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-01": 1
+      }
+    },
+    "aplicar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-16": 1
+      }
+    },
+    "apoya": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-04": 1
+      }
+    },
+    "apoyar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-20": 1
+      }
+    },
+    "aprecian": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-04": 1
+      }
+    },
+    "aprender": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-19": 1
+      }
+    },
+    "aprendizaje": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-09": 1
+      }
+    },
+    "apropiado": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-14": 1
+      }
+    },
+    "aprovecha": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-10": 1
+      }
+    },
+    "arbitrarias": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-08": 1
+      }
+    },
+    "areas": {
+      "frecuencia_documental": 4,
+      "postings": {
+        "adm-06": 1,
+        "adm-19": 1,
+        "arq-12": 1,
+        "arq-16": 1
+      }
+    },
+    "arquitectonico": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "arq-01": 3,
+        "arq-03": 3,
+        "arq-15": 3
+      }
+    },
+    "arquitectonicos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-08": 1
+      }
+    },
+    "arquitectos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-18": 1
+      }
+    },
+    "arquitectura": {
+      "frecuencia_documental": 5,
+      "postings": {
+        "arq-02": 3,
+        "arq-04": 1,
+        "arq-07": 1,
+        "arq-11": 3,
+        "arq-19": 1
+      }
+    },
+    "asentamientos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-12": 1
+      }
+    },
+    "asequibles": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-14": 1
+      }
+    },
+    "asociaciones": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-01": 1
+      }
+    },
+    "asumidos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-18": 1
+      }
+    },
+    "asumir": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-15": 1
+      }
+    },
+    "atender": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-10": 1,
+        "arq-14": 1
+      }
+    },
+    "atraer": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-07": 1,
+        "adm-08": 1
+      }
+    },
+    "aunque": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-10": 1
+      }
+    },
+    "autenticidad": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-15": 1
+      }
+    },
+    "automovil": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-13": 1
+      }
+    },
+    "autonomia": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-20": 1
+      }
+    },
+    "autoridad": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-04": 1
+      }
+    },
+    "avances": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-18": 1
+      }
+    },
+    "ayuda": {
+      "frecuencia_documental": 7,
+      "postings": {
+        "adm-02": 1,
+        "adm-05": 1,
+        "adm-09": 1,
+        "adm-14": 1,
+        "arq-02": 1,
+        "arq-18": 1,
+        "arq-19": 1
+      }
+    },
+    "ayudan": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-16": 1
+      }
+    },
+    "barreras": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-20": 1
+      }
+    },
+    "basarse": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-17": 1
+      }
+    },
+    "beneficia": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-08": 1
+      }
+    },
+    "bicicleta": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-13": 1
+      }
+    },
+    "bidimensionales": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-04": 1
+      }
+    },
+    "bienestar": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-07": 1,
+        "arq-11": 1
+      }
+    },
+    "bim": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-19": 3
+      }
+    },
+    "bioclimatico": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-10": 3
+      }
+    },
+    "buen": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-01": 1
+      }
+    },
+    "busca": {
+      "frecuencia_documental": 6,
+      "postings": {
+        "adm-08": 1,
+        "adm-16": 1,
+        "adm-17": 1,
+        "arq-11": 1,
+        "arq-14": 1,
+        "arq-20": 1
+      }
+    },
+    "buscan": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-15": 1
+      }
+    },
+    "cada": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-09": 1
+      }
+    },
+    "cadena": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-17": 3
+      }
+    },
+    "calendario": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-18": 1
+      }
+    },
+    "calidad": {
+      "frecuencia_documental": 7,
+      "postings": {
+        "adm-11": 1,
+        "adm-16": 4,
+        "arq-06": 1,
+        "arq-13": 1,
+        "arq-14": 1,
+        "arq-16": 1,
+        "arq-18": 1
+      }
+    },
+    "calles": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-13": 1,
+        "arq-16": 1
+      }
+    },
+    "cambiantes": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-14": 1
+      }
+    },
+    "cambios": {
+      "frecuencia_documental": 6,
+      "postings": {
+        "adm-03": 1,
+        "adm-09": 1,
+        "adm-16": 1,
+        "adm-19": 1,
+        "arq-17": 1,
+        "arq-18": 1
+      }
+    },
+    "caminar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-13": 1
+      }
+    },
+    "campaña": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-18": 1
+      }
+    },
+    "canales": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-04": 1,
+        "adm-06": 1,
+        "adm-20": 1
+      }
+    },
+    "canalizaciones": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-09": 1
+      }
+    },
+    "cantidades": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-17": 2,
+        "arq-19": 1
+      }
+    },
+    "capacidades": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-07": 1,
+        "adm-20": 1,
+        "arq-20": 1
+      }
+    },
+    "capacitacion": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-07": 1,
+        "adm-09": 4
+      }
+    },
+    "caracteristicas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-16": 1
+      }
+    },
+    "cargas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-07": 1
+      }
+    },
+    "causas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-16": 1
+      }
+    },
+    "centros": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-17": 1
+      }
+    },
+    "ceramicos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-05": 1
+      }
+    },
+    "ciclo": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-11": 1
+      }
+    },
+    "cimentaciones": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-06": 1,
+        "arq-07": 1
+      }
+    },
+    "circuitos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-09": 1
+      }
+    },
+    "circulaciones": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-20": 1
+      }
+    },
+    "ciudad": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-13": 1,
+        "arq-16": 1
+      }
+    },
+    "ciudades": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-12": 1
+      }
+    },
+    "clara": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-03": 1
+      }
+    },
+    "claro": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-17": 1
+      }
+    },
+    "claros": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-06": 1,
+        "adm-08": 1,
+        "adm-20": 1
+      }
+    },
+    "clima": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "arq-01": 1,
+        "arq-05": 1,
+        "arq-10": 2
+      }
+    },
+    "coherente": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-10": 1
+      }
+    },
+    "coherentes": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-03": 1
+      }
+    },
+    "colaboracion": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-05": 1,
+        "adm-10": 1,
+        "adm-19": 1
+      }
+    },
+    "colaboran": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-07": 1
+      }
+    },
+    "colectivo": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-13": 1
+      }
+    },
+    "colectivos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-02": 1
+      }
+    },
+    "columnas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-07": 1
+      }
+    },
+    "combinar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-14": 1
+      }
+    },
+    "compara": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-02": 1,
+        "adm-08": 1
+      }
+    },
+    "comparan": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-15": 1
+      }
+    },
+    "comparar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-17": 1
+      }
+    },
+    "compartidas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-10": 1
+      }
+    },
+    "compartidos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-05": 1
+      }
+    },
+    "compartir": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-06": 1
+      }
+    },
+    "competidores": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-14": 1
+      }
+    },
+    "complejas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-04": 1
+      }
+    },
+    "complementan": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-03": 1
+      }
+    },
+    "comportamiento": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-15": 3,
+        "arq-05": 1
+      }
+    },
+    "compra": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-15": 2
+      }
+    },
+    "comprar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-20": 1
+      }
+    },
+    "comprender": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-01": 1,
+        "adm-14": 1,
+        "arq-04": 1
+      }
+    },
+    "comprension": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-03": 1
+      }
+    },
+    "compromisos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-18": 1
+      }
+    },
+    "comun": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-19": 1
+      }
+    },
+    "comunica": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-05": 1,
+        "arq-03": 1
+      }
+    },
+    "comunicacion": {
+      "frecuencia_documental": 6,
+      "postings": {
+        "adm-04": 1,
+        "adm-06": 4,
+        "adm-13": 1,
+        "adm-14": 1,
+        "adm-18": 1,
+        "arq-18": 1
+      }
+    },
+    "comunicar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-04": 1
+      }
+    },
+    "comunidades": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-15": 1
+      }
+    },
+    "conceptos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-01": 1
+      }
+    },
+    "concreta": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-14": 1
+      }
+    },
+    "concreto": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-05": 1
+      }
+    },
+    "condiciones": {
+      "frecuencia_documental": 6,
+      "postings": {
+        "adm-03": 1,
+        "arq-01": 1,
+        "arq-06": 1,
+        "arq-09": 1,
+        "arq-10": 1,
+        "arq-13": 1
+      }
+    },
+    "conducen": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-08": 1
+      }
+    },
+    "conecta": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-06": 1
+      }
+    },
+    "conectadas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-13": 1
+      }
+    },
+    "conectar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-16": 1
+      }
+    },
+    "confiables": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-17": 1
+      }
+    },
+    "conflictos": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-05": 1,
+        "arq-13": 1
+      }
+    },
+    "confort": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-10": 1
+      }
+    },
+    "conjuntos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-15": 1
+      }
+    },
+    "conocer": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-15": 1,
+        "arq-05": 1
+      }
+    },
+    "conocimiento": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-02": 1,
+        "arq-15": 1
+      }
+    },
+    "conocimientos": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-08": 1,
+        "adm-09": 1
+      }
+    },
+    "conservacion": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-15": 1
+      }
+    },
+    "conservar": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-07": 1,
+        "arq-15": 1
+      }
+    },
+    "considera": {
+      "frecuencia_documental": 10,
+      "postings": {
+        "adm-07": 1,
+        "adm-13": 1,
+        "adm-17": 1,
+        "adm-18": 1,
+        "arq-07": 1,
+        "arq-08": 1,
+        "arq-09": 1,
+        "arq-11": 1,
+        "arq-16": 1,
+        "arq-20": 1
+      }
+    },
+    "consideran": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-17": 1
+      }
+    },
+    "considerar": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "arq-12": 1,
+        "arq-13": 1,
+        "arq-14": 1
+      }
+    },
+    "consiste": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-05": 1,
+        "adm-20": 1
+      }
+    },
+    "construccion": {
+      "frecuencia_documental": 7,
+      "postings": {
+        "adm-11": 1,
+        "arq-05": 3,
+        "arq-06": 1,
+        "arq-07": 1,
+        "arq-17": 1,
+        "arq-18": 3,
+        "arq-19": 1
+      }
+    },
+    "constructiva": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-01": 1
+      }
+    },
+    "constructivos": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-05": 1,
+        "arq-06": 3
+      }
+    },
+    "construido": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-02": 1
+      }
+    },
+    "construir": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-06": 1,
+        "arq-20": 1
+      }
+    },
+    "construye": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-10": 1
+      }
+    },
+    "consumidor": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-15": 3
+      }
+    },
+    "consumidores": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-14": 1,
+        "adm-15": 1
+      }
+    },
+    "consumo": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "arq-08": 1,
+        "arq-10": 1,
+        "arq-11": 1
+      }
+    },
+    "contactos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-09": 1
+      }
+    },
+    "contaminacion": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-08": 1
+      }
+    },
+    "contemporaneo": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-02": 1
+      }
+    },
+    "contenidos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-09": 1
+      }
+    },
+    "continua": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-09": 1,
+        "adm-20": 1
+      }
+    },
+    "continuidad": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-16": 1
+      }
+    },
+    "continuidades": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-02": 1
+      }
+    },
+    "contrastes": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-20": 1
+      }
+    },
+    "contratacion": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-08": 1
+      }
+    },
+    "contratar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-18": 1
+      }
+    },
+    "control": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-01": 1,
+        "adm-02": 1,
+        "arq-06": 1
+      }
+    },
+    "controlar": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-10": 1,
+        "arq-17": 1
+      }
+    },
+    "convenciones": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-03": 1
+      }
+    },
+    "conversaciones": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-06": 1
+      }
+    },
+    "convertirse": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-19": 1
+      }
+    },
+    "conviene": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-08": 1,
+        "adm-12": 1,
+        "arq-14": 1
+      }
+    },
+    "convivencia": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-16": 1
+      }
+    },
+    "coordina": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-02": 1,
+        "adm-17": 1,
+        "arq-18": 1
+      }
+    },
+    "coordinacion": {
+      "frecuencia_documental": 5,
+      "postings": {
+        "adm-04": 1,
+        "adm-06": 1,
+        "adm-11": 1,
+        "arq-06": 1,
+        "arq-07": 1
+      }
+    },
+    "coordinar": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-01": 1,
+        "arq-09": 1,
+        "arq-19": 1
+      }
+    },
+    "coordinarse": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-08": 1
+      }
+    },
+    "correcta": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-06": 1
+      }
+    },
+    "corregir": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-02": 1
+      }
+    },
+    "cortes": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-03": 1
+      }
+    },
+    "costo": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-11": 1,
+        "arq-05": 1,
+        "arq-14": 1
+      }
+    },
+    "costos": {
+      "frecuencia_documental": 4,
+      "postings": {
+        "adm-12": 1,
+        "adm-17": 1,
+        "arq-06": 1,
+        "arq-17": 4
+      }
+    },
+    "cotas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-03": 1
+      }
+    },
+    "cotidianas": {
+      "frecuencia_documental": 4,
+      "postings": {
+        "adm-06": 1,
+        "adm-10": 1,
+        "adm-16": 1,
+        "arq-16": 1
+      }
+    },
+    "crecimiento": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-07": 1,
+        "arq-12": 1
+      }
+    },
+    "criterios": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-08": 1,
+        "arq-01": 1
+      }
+    },
+    "cronograma": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-11": 1
+      }
+    },
+    "cubiertas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-06": 1
+      }
+    },
+    "cubrir": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-07": 1,
+        "adm-08": 1
+      }
+    },
+    "cuentas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-18": 1
+      }
+    },
+    "cuidado": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-14": 1
+      }
+    },
+    "cultura": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-05": 1,
+        "adm-10": 5
+      }
+    },
+    "cultural": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-15": 1
+      }
+    },
+    "culturales": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-15": 1,
+        "arq-02": 1
+      }
+    },
+    "cumplan": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-16": 1
+      }
+    },
+    "cumplimiento": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-02": 1
+      }
+    },
+    "cumplir": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-09": 1
+      }
+    },
+    "curricular": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-08": 1
+      }
+    },
+    "cursos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-09": 1
+      }
+    },
+    "datos": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-14": 1,
+        "adm-20": 1,
+        "arq-19": 1
+      }
+    },
+    "daños": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-15": 1
+      }
+    },
+    "debe": {
+      "frecuencia_documental": 10,
+      "postings": {
+        "adm-03": 1,
+        "adm-10": 1,
+        "adm-13": 1,
+        "adm-16": 1,
+        "adm-18": 1,
+        "arq-08": 1,
+        "arq-09": 1,
+        "arq-12": 1,
+        "arq-13": 1,
+        "arq-14": 1
+      }
+    },
+    "deben": {
+      "frecuencia_documental": 4,
+      "postings": {
+        "arq-03": 1,
+        "arq-15": 1,
+        "arq-16": 1,
+        "arq-17": 1
+      }
+    },
+    "decisiones": {
+      "frecuencia_documental": 10,
+      "postings": {
+        "adm-01": 1,
+        "adm-08": 1,
+        "adm-10": 1,
+        "adm-13": 1,
+        "adm-14": 1,
+        "adm-15": 1,
+        "adm-18": 1,
+        "adm-20": 1,
+        "arq-02": 1,
+        "arq-15": 1
+      }
+    },
+    "define": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-03": 1,
+        "adm-13": 1
+      }
+    },
+    "definen": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-09": 1
+      }
+    },
+    "definido": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-11": 1
+      }
+    },
+    "definir": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-16": 1,
+        "arq-19": 1
+      }
+    },
+    "demanda": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-09": 1
+      }
+    },
+    "demas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-09": 1
+      }
+    },
+    "dentro": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-04": 1,
+        "arq-08": 1
+      }
+    },
+    "depende": {
+      "frecuencia_documental": 6,
+      "postings": {
+        "adm-04": 1,
+        "adm-16": 1,
+        "arq-05": 1,
+        "arq-06": 1,
+        "arq-10": 1,
+        "arq-19": 1
+      }
+    },
+    "desarrolla": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-04": 1
+      }
+    },
+    "desarrollan": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-01": 1
+      }
+    },
+    "desarrollar": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-07": 1,
+        "adm-11": 1
+      }
+    },
+    "desarrollo": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-09": 2,
+        "arq-12": 1
+      }
+    },
+    "descripciones": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-04": 1
+      }
+    },
+    "descriptiva": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-04": 3
+      }
+    },
+    "desempeño": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-07": 1,
+        "adm-09": 1
+      }
+    },
+    "desplazan": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-13": 1
+      }
+    },
+    "despues": {
+      "frecuencia_documental": 5,
+      "postings": {
+        "adm-03": 1,
+        "adm-09": 1,
+        "adm-14": 1,
+        "arq-01": 1,
+        "arq-20": 1
+      }
+    },
+    "desviaciones": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-02": 1
+      }
+    },
+    "detectar": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-11": 1,
+        "arq-19": 1
+      }
+    },
+    "determina": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-04": 1
+      }
+    },
+    "determinan": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-05": 1
+      }
+    },
+    "diarias": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-06": 1
+      }
+    },
+    "dibujo": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-03": 4
+      }
+    },
+    "diferenciarse": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-13": 1
+      }
+    },
+    "diferentes": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-13": 1,
+        "arq-19": 1
+      }
+    },
+    "digital": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-20": 3
+      }
+    },
+    "digitales": {
+      "frecuencia_documental": 4,
+      "postings": {
+        "adm-09": 1,
+        "adm-20": 1,
+        "arq-03": 1,
+        "arq-19": 1
+      }
+    },
+    "dignas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-18": 1
+      }
+    },
+    "dimensiones": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-03": 1,
+        "arq-20": 1
+      }
+    },
+    "direccion": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-01": 1,
+        "adm-02": 1
+      }
+    },
+    "dirige": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-12": 1
+      }
+    },
+    "dirigen": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-10": 1
+      }
+    },
+    "dirigir": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-05": 1
+      }
+    },
+    "disciplinas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-19": 1
+      }
+    },
+    "diseno": {
+      "frecuencia_documental": 4,
+      "postings": {
+        "adm-04": 1,
+        "arq-01": 1,
+        "arq-10": 1,
+        "arq-20": 1
+      }
+    },
+    "diseñar": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-15": 1,
+        "arq-13": 1,
+        "arq-20": 1
+      }
+    },
+    "diseño": {
+      "frecuencia_documental": 12,
+      "postings": {
+        "adm-04": 3,
+        "adm-13": 1,
+        "arq-01": 2,
+        "arq-02": 1,
+        "arq-06": 1,
+        "arq-07": 1,
+        "arq-08": 1,
+        "arq-10": 2,
+        "arq-14": 1,
+        "arq-16": 1,
+        "arq-17": 1,
+        "arq-20": 2
+      }
+    },
+    "disminuyen": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-06": 1
+      }
+    },
+    "disponibilidad": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-17": 1,
+        "arq-05": 1
+      }
+    },
+    "disponible": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-06": 1
+      }
+    },
+    "disponibles": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-13": 1,
+        "arq-02": 1
+      }
+    },
+    "disposiciones": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-09": 1
+      }
+    },
+    "distancias": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-13": 1
+      }
+    },
+    "distintas": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "arq-01": 1,
+        "arq-03": 1,
+        "arq-20": 1
+      }
+    },
+    "distintos": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-02": 1,
+        "arq-12": 1
+      }
+    },
+    "distribucion": {
+      "frecuencia_documental": 4,
+      "postings": {
+        "adm-13": 1,
+        "adm-17": 1,
+        "arq-08": 1,
+        "arq-12": 1
+      }
+    },
+    "distribuye": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-02": 1,
+        "arq-13": 1
+      }
+    },
+    "distribuyen": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-01": 1,
+        "adm-04": 1,
+        "arq-09": 1
+      }
+    },
+    "diversidad": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-20": 1
+      }
+    },
+    "documentacion": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-16": 1
+      }
+    },
+    "documentan": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-15": 1
+      }
+    },
+    "documentar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-18": 1
+      }
+    },
+    "documentos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-06": 1
+      }
+    },
+    "dominio": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-04": 1
+      }
+    },
+    "duplicar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-04": 1
+      }
+    },
+    "durabilidad": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-05": 1,
+        "arq-11": 1
+      }
+    },
+    "durante": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "arq-11": 1,
+        "arq-17": 1,
+        "arq-19": 1
+      }
+    },
+    "economica": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-11": 1
+      }
+    },
+    "economicas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-12": 1
+      }
+    },
+    "economicos": {
+      "frecuencia_documental": 4,
+      "postings": {
+        "adm-03": 1,
+        "adm-15": 1,
+        "adm-18": 1,
+        "arq-17": 1
+      }
+    },
+    "edades": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-20": 1
+      }
+    },
+    "edificacion": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "arq-06": 1,
+        "arq-09": 1,
+        "arq-11": 1
+      }
+    },
+    "edificio": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-08": 1,
+        "arq-10": 1
+      }
+    },
+    "edificios": {
+      "frecuencia_documental": 6,
+      "postings": {
+        "arq-02": 2,
+        "arq-07": 3,
+        "arq-09": 2,
+        "arq-15": 1,
+        "arq-16": 1,
+        "arq-19": 3
+      }
+    },
+    "educacion": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-14": 1
+      }
+    },
+    "efectivo": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-05": 1
+      }
+    },
+    "efectos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-18": 1
+      }
+    },
+    "eficientes": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-11": 1
+      }
+    },
+    "ejecutar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-17": 1
+      }
+    },
+    "ejemplo": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-10": 1
+      }
+    },
+    "elaboracion": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-04": 1
+      }
+    },
+    "elaborarla": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-03": 1
+      }
+    },
+    "eleccion": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-05": 1
+      }
+    },
+    "electricas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-09": 3
+      }
+    },
+    "electrico": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-09": 1
+      }
+    },
+    "elementos": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-01": 1,
+        "arq-04": 1,
+        "arq-06": 1
+      }
+    },
+    "empleo": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-14": 1
+      }
+    },
+    "emprendimiento": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-11": 1,
+        "adm-12": 3
+      }
+    },
+    "empresa": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-03": 1
+      }
+    },
+    "empresarial": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-18": 3,
+        "adm-19": 3
+      }
+    },
+    "empresas": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-01": 1,
+        "adm-20": 2
+      }
+    },
+    "encuentran": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-05": 1
+      }
+    },
+    "encuestas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-14": 1
+      }
+    },
+    "energia": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "arq-09": 1,
+        "arq-10": 1,
+        "arq-11": 1
+      }
+    },
+    "energias": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-11": 1
+      }
+    },
+    "entorno": {
+      "frecuencia_documental": 5,
+      "postings": {
+        "adm-03": 1,
+        "adm-04": 1,
+        "arq-11": 1,
+        "arq-13": 1,
+        "arq-19": 1
+      }
+    },
+    "entrega": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-17": 1
+      }
+    },
+    "entrevistas": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-08": 1,
+        "adm-14": 1
+      }
+    },
+    "equidad": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-07": 1
+      }
+    },
+    "equipamientos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-12": 1
+      }
+    },
+    "equipo": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-02": 1,
+        "adm-05": 3
+      }
+    },
+    "equipos": {
+      "frecuencia_documental": 4,
+      "postings": {
+        "adm-20": 1,
+        "arq-08": 1,
+        "arq-09": 1,
+        "arq-17": 1
+      }
+    },
+    "errores": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-06": 1,
+        "adm-19": 1
+      }
+    },
+    "escala": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-16": 1
+      }
+    },
+    "escalas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-03": 1
+      }
+    },
+    "escucha": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-05": 1
+      }
+    },
+    "esencial": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-11": 1,
+        "arq-18": 1
+      }
+    },
+    "espacial": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-03": 1
+      }
+    },
+    "espaciales": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-01": 1
+      }
+    },
+    "espacio": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "arq-07": 1,
+        "arq-09": 1,
+        "arq-13": 3
+      }
+    },
+    "espacios": {
+      "frecuencia_documental": 7,
+      "postings": {
+        "arq-01": 1,
+        "arq-02": 2,
+        "arq-04": 1,
+        "arq-08": 1,
+        "arq-14": 1,
+        "arq-16": 1,
+        "arq-20": 1
+      }
+    },
+    "especializado": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-15": 1
+      }
+    },
+    "especificaciones": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-17": 1
+      }
+    },
+    "especificar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-05": 1
+      }
+    },
+    "esquemas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-01": 1
+      }
+    },
+    "esta": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-10": 1
+      }
+    },
+    "estabilidad": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-07": 1
+      }
+    },
+    "establece": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-02": 1
+      }
+    },
+    "establecen": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-03": 1
+      }
+    },
+    "estandares": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-16": 1,
+        "arq-19": 1
+      }
+    },
+    "estilo": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-05": 1
+      }
+    },
+    "estimaciones": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-17": 1
+      }
+    },
+    "estiman": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-17": 1
+      }
+    },
+    "estrategia": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-13": 1
+      }
+    },
+    "estrategias": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-03": 1,
+        "arq-10": 1,
+        "arq-11": 1
+      }
+    },
+    "estrategica": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-03": 3,
+        "adm-13": 3
+      }
+    },
+    "estructura": {
+      "frecuencia_documental": 4,
+      "postings": {
+        "adm-04": 1,
+        "arq-07": 1,
+        "arq-08": 1,
+        "arq-19": 1
+      }
+    },
+    "estructural": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-07": 1
+      }
+    },
+    "estructurales": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-07": 1
+      }
+    },
+    "estructuras": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-06": 1,
+        "arq-07": 3
+      }
+    },
+    "estudia": {
+      "frecuencia_documental": 4,
+      "postings": {
+        "adm-01": 1,
+        "adm-15": 1,
+        "arq-02": 1,
+        "arq-12": 1
+      }
+    },
+    "estudiar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-04": 1
+      }
+    },
+    "etapas": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-02": 2,
+        "arq-01": 1,
+        "arq-08": 1
+      }
+    },
+    "evalua": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-09": 1
+      }
+    },
+    "evaluacion": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-07": 1,
+        "adm-19": 1,
+        "adm-20": 1
+      }
+    },
+    "evaluaciones": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-08": 1
+      }
+    },
+    "evaluan": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-01": 1
+      }
+    },
+    "evaluar": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-18": 1,
+        "arq-14": 1
+      }
+    },
+    "evita": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-04": 1,
+        "adm-14": 1
+      }
+    },
+    "evitar": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-08": 1,
+        "arq-09": 1,
+        "arq-15": 1
+      }
+    },
+    "existe": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-05": 1,
+        "arq-10": 1
+      }
+    },
+    "existentes": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-14": 1
+      }
+    },
+    "expectativas": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-05": 1,
+        "adm-16": 1
+      }
+    },
+    "experiencia": {
+      "frecuencia_documental": 4,
+      "postings": {
+        "adm-05": 1,
+        "adm-15": 1,
+        "adm-20": 1,
+        "arq-20": 1
+      }
+    },
+    "experimentacion": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-12": 1
+      }
+    },
+    "experimentar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-19": 1
+      }
+    },
+    "explica": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-12": 1
+      }
+    },
+    "expresarse": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-18": 1
+      }
+    },
+    "expresion": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-01": 1
+      }
+    },
+    "extraer": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-19": 1
+      }
+    },
+    "fachadas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-03": 1
+      }
+    },
+    "facilidad": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-20": 1
+      }
+    },
+    "facilita": {
+      "frecuencia_documental": 6,
+      "postings": {
+        "adm-04": 1,
+        "adm-05": 1,
+        "adm-06": 1,
+        "adm-19": 1,
+        "arq-04": 1,
+        "arq-08": 1
+      }
+    },
+    "factores": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-15": 1
+      }
+    },
+    "familias": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-14": 1
+      }
+    },
+    "favorecer": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-10": 1
+      }
+    },
+    "final": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-16": 1
+      }
+    },
+    "finalmente": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-09": 1
+      }
+    },
+    "forma": {
+      "frecuencia_documental": 4,
+      "postings": {
+        "adm-02": 1,
+        "adm-05": 1,
+        "arq-03": 1,
+        "arq-04": 1
+      }
+    },
+    "formada": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-10": 1
+      }
+    },
+    "formal": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-01": 1
+      }
+    },
+    "formales": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-06": 1
+      }
+    },
+    "formas": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-10": 1,
+        "adm-19": 1,
+        "arq-02": 1
+      }
+    },
+    "formular": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-14": 1
+      }
+    },
+    "fortalece": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-09": 1
+      }
+    },
+    "fortalecer": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-10": 1
+      }
+    },
+    "fugas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-08": 1
+      }
+    },
+    "funcionalidad": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-01": 1
+      }
+    },
+    "funcionan": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-10": 1
+      }
+    },
+    "funciones": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-04": 1
+      }
+    },
+    "fundamentar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-02": 1
+      }
+    },
+    "fundamentos": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-01": 3,
+        "arq-01": 2
+      }
+    },
+    "gastos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-17": 1
+      }
+    },
+    "generalizaciones": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-14": 1
+      }
+    },
+    "generar": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-19": 1,
+        "arq-14": 1
+      }
+    },
+    "geometria": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-04": 3,
+        "arq-19": 1
+      }
+    },
+    "geometricas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-04": 1
+      }
+    },
+    "gestion": {
+      "frecuencia_documental": 5,
+      "postings": {
+        "adm-07": 4,
+        "adm-11": 3,
+        "adm-16": 3,
+        "adm-20": 1,
+        "arq-18": 1
+      }
+    },
+    "gestionar": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-02": 1,
+        "arq-18": 1
+      }
+    },
+    "grupo": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-05": 1
+      }
+    },
+    "grupos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-12": 1
+      }
+    },
+    "habilidades": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-08": 1,
+        "adm-09": 1
+      }
+    },
+    "habitables": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-14": 1
+      }
+    },
+    "habitan": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-16": 1
+      }
+    },
+    "habitos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-10": 1
+      }
+    },
+    "herramientas": {
+      "frecuencia_documental": 4,
+      "postings": {
+        "adm-09": 1,
+        "adm-11": 1,
+        "adm-20": 1,
+        "arq-03": 1
+      }
+    },
+    "hidrosanitarias": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-08": 3
+      }
+    },
+    "historia": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-02": 3
+      }
+    },
+    "historico": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-15": 1
+      }
+    },
+    "hogares": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-14": 1
+      }
+    },
+    "hubo": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-09": 1
+      }
+    },
+    "humanas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-01": 1
+      }
+    },
+    "humano": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-07": 3
+      }
+    },
+    "humedad": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-10": 1
+      }
+    },
+    "idea": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-19": 1
+      }
+    },
+    "ideas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-02": 1
+      }
+    },
+    "identidad": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-10": 1,
+        "arq-16": 1
+      }
+    },
+    "identifican": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-09": 1,
+        "adm-15": 1
+      }
+    },
+    "identificar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-16": 1
+      }
+    },
+    "igual": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-15": 1
+      }
+    },
+    "iluminacion": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-09": 1,
+        "arq-14": 1
+      }
+    },
+    "impacto": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-05": 1
+      }
+    },
+    "impactos": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-18": 1,
+        "arq-11": 1
+      }
+    },
+    "implementar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-11": 1
+      }
+    },
+    "implementen": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-20": 1
+      }
+    },
+    "importa": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-15": 1,
+        "arq-14": 1
+      }
+    },
+    "importante": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-06": 1
+      }
+    },
+    "imprevistos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-17": 1
+      }
+    },
+    "incluir": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-08": 1,
+        "arq-06": 1
+      }
+    },
+    "incluye": {
+      "frecuencia_documental": 5,
+      "postings": {
+        "adm-06": 1,
+        "adm-07": 1,
+        "adm-16": 1,
+        "arq-11": 1,
+        "arq-18": 1
+      }
+    },
+    "incorpora": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-20": 1
+      }
+    },
+    "incorporada": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-08": 1
+      }
+    },
+    "incorporar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-11": 1
+      }
+    },
+    "incorporarse": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-16": 1,
+        "adm-18": 1
+      }
+    },
+    "indicadores": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-03": 1,
+        "adm-18": 1
+      }
+    },
+    "indirectos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-17": 1
+      }
+    },
+    "indispensable": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-09": 1
+      }
+    },
+    "influir": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-05": 1
+      }
+    },
+    "influye": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-15": 1
+      }
+    },
+    "influyen": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-05": 1,
+        "adm-15": 1
+      }
+    },
+    "informacion": {
+      "frecuencia_documental": 7,
+      "postings": {
+        "adm-06": 1,
+        "adm-13": 1,
+        "adm-14": 1,
+        "adm-15": 1,
+        "adm-17": 1,
+        "adm-20": 1,
+        "arq-19": 4
+      }
+    },
+    "infraestructura": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-12": 1
+      }
+    },
+    "ingenieria": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-07": 1
+      }
+    },
+    "ingenieros": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-18": 1
+      }
+    },
+    "inicial": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-14": 1,
+        "arq-20": 1
+      }
+    },
+    "iniciativa": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-12": 1
+      }
+    },
+    "inmueble": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-06": 1,
+        "arq-15": 1
+      }
+    },
+    "innecesarias": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-15": 1
+      }
+    },
+    "innovacion": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-19": 3
+      }
+    },
+    "innovadora": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-19": 1
+      }
+    },
+    "inspeccion": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-16": 1
+      }
+    },
+    "instalaciones": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "arq-08": 3,
+        "arq-09": 4,
+        "arq-19": 1
+      }
+    },
+    "institucion": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-04": 1,
+        "adm-06": 1
+      }
+    },
+    "institucionales": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-07": 1
+      }
+    },
+    "instituciones": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-01": 1
+      }
+    },
+    "instrumentos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-12": 1
+      }
+    },
+    "integra": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-17": 1,
+        "adm-20": 1
+      }
+    },
+    "integrar": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-07": 1,
+        "arq-11": 1
+      }
+    },
+    "interactuan": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-05": 1
+      }
+    },
+    "interferencias": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "arq-09": 1,
+        "arq-18": 1,
+        "arq-19": 1
+      }
+    },
+    "internas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-03": 1
+      }
+    },
+    "interpretar": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-14": 1,
+        "arq-02": 1
+      }
+    },
+    "interpreten": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-03": 1
+      }
+    },
+    "interrumpir": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-17": 1
+      }
+    },
+    "intersecciones": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-04": 1
+      }
+    },
+    "intervenciones": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-16": 1
+      }
+    },
+    "intervenir": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-15": 1
+      }
+    },
+    "introduce": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-19": 1
+      }
+    },
+    "inventarios": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-17": 1
+      }
+    },
+    "invertir": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-12": 1
+      }
+    },
+    "investigacion": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-14": 3
+      }
+    },
+    "laborales": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-09": 1,
+        "adm-18": 1
+      }
+    },
+    "largo": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-03": 1,
+        "arq-02": 1,
+        "arq-12": 1
+      }
+    },
+    "lealtad": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-15": 1
+      }
+    },
+    "legibles": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-03": 1
+      }
+    },
+    "lenguaje": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-06": 1
+      }
+    },
+    "lider": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-05": 1
+      }
+    },
+    "liderazgo": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-05": 4
+      }
+    },
+    "limita": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-20": 1
+      }
+    },
+    "limitados": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-14": 1
+      }
+    },
+    "lineas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-04": 1
+      }
+    },
+    "llega": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-12": 1
+      }
+    },
+    "local": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-10": 1
+      }
+    },
+    "logistica": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-17": 3
+      }
+    },
+    "losas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-07": 1
+      }
+    },
+    "lugar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-16": 1
+      }
+    },
+    "luminarias": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-09": 1
+      }
+    },
+    "madera": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-05": 1
+      }
+    },
+    "manera": {
+      "frecuencia_documental": 4,
+      "postings": {
+        "adm-01": 1,
+        "adm-10": 1,
+        "adm-12": 1,
+        "arq-07": 1
+      }
+    },
+    "mano": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-06": 1,
+        "arq-17": 1
+      }
+    },
+    "mantener": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-18": 1
+      }
+    },
+    "mantenimiento": {
+      "frecuencia_documental": 4,
+      "postings": {
+        "arq-05": 1,
+        "arq-08": 1,
+        "arq-14": 1,
+        "arq-15": 1
+      }
+    },
+    "mantienen": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-07": 1
+      }
+    },
+    "manual": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-03": 1
+      }
+    },
+    "materiales": {
+      "frecuencia_documental": 9,
+      "postings": {
+        "adm-17": 1,
+        "arq-02": 1,
+        "arq-05": 4,
+        "arq-06": 1,
+        "arq-07": 1,
+        "arq-10": 1,
+        "arq-11": 1,
+        "arq-15": 1,
+        "arq-17": 1
+      }
+    },
+    "mayor": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-20": 1
+      }
+    },
+    "mediano": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-03": 1
+      }
+    },
+    "mediante": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-04": 1,
+        "arq-03": 1
+      }
+    },
+    "medir": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-16": 1
+      }
+    },
+    "mejora": {
+      "frecuencia_documental": 5,
+      "postings": {
+        "adm-11": 1,
+        "adm-16": 1,
+        "adm-19": 1,
+        "arq-06": 1,
+        "arq-20": 1
+      }
+    },
+    "mejorar": {
+      "frecuencia_documental": 4,
+      "postings": {
+        "adm-02": 1,
+        "arq-10": 1,
+        "arq-13": 1,
+        "arq-16": 1
+      }
+    },
+    "mejoras": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-09": 1
+      }
+    },
+    "mensajes": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-06": 1,
+        "adm-15": 1
+      }
+    },
+    "mercado": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-12": 1,
+        "adm-13": 1,
+        "adm-19": 1
+      }
+    },
+    "mercados": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-13": 1,
+        "adm-14": 3
+      }
+    },
+    "mercadotecnia": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-13": 3
+      }
+    },
+    "metas": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-02": 1,
+        "adm-07": 1
+      }
+    },
+    "metodo": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-14": 1
+      }
+    },
+    "metodos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-04": 1
+      }
+    },
+    "mientras": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-08": 1
+      }
+    },
+    "mobiliario": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-16": 1
+      }
+    },
+    "modelado": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-19": 3
+      }
+    },
+    "modelo": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-12": 1,
+        "arq-19": 1
+      }
+    },
+    "modelos": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-12": 2,
+        "adm-20": 1,
+        "arq-19": 1
+      }
+    },
+    "modificar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-03": 1
+      }
+    },
+    "movilidad": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-12": 1,
+        "arq-13": 4
+      }
+    },
+    "movimiento": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-17": 1
+      }
+    },
+    "muestra": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-14": 1
+      }
+    },
+    "muros": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-06": 1,
+        "arq-07": 1
+      }
+    },
+    "natural": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-10": 1
+      }
+    },
+    "necesarios": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-09": 1,
+        "arq-17": 1
+      }
+    },
+    "necesidad": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-12": 1
+      }
+    },
+    "necesidades": {
+      "frecuencia_documental": 6,
+      "postings": {
+        "adm-09": 1,
+        "adm-13": 1,
+        "adm-15": 1,
+        "arq-01": 1,
+        "arq-12": 1,
+        "arq-14": 1
+      }
+    },
+    "necesita": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-19": 1
+      }
+    },
+    "negocio": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-12": 3
+      }
+    },
+    "normas": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-10": 1,
+        "arq-01": 1
+      }
+    },
+    "nuevas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-19": 1
+      }
+    },
+    "objetivo": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-13": 1
+      }
+    },
+    "objetivos": {
+      "frecuencia_documental": 9,
+      "postings": {
+        "adm-01": 1,
+        "adm-02": 1,
+        "adm-03": 1,
+        "adm-04": 1,
+        "adm-05": 1,
+        "adm-09": 1,
+        "adm-18": 1,
+        "adm-20": 1,
+        "arq-18": 1
+      }
+    },
+    "objetos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-04": 1
+      }
+    },
+    "obra": {
+      "frecuencia_documental": 4,
+      "postings": {
+        "arq-05": 1,
+        "arq-06": 2,
+        "arq-17": 4,
+        "arq-18": 1
+      }
+    },
+    "observacion": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-14": 1
+      }
+    },
+    "observaciones": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-19": 1
+      }
+    },
+    "obtener": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-11": 1
+      }
+    },
+    "obtiene": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-12": 1,
+        "adm-14": 1
+      }
+    },
+    "ocupacion": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-07": 1
+      }
+    },
+    "ofrece": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-04": 1,
+        "adm-12": 1,
+        "arq-04": 1
+      }
+    },
+    "ofrecer": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-13": 1,
+        "arq-14": 1
+      }
+    },
+    "opciones": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-15": 1
+      }
+    },
+    "operaciones": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-04": 1,
+        "adm-17": 1
+      }
+    },
+    "oportunidad": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-12": 1
+      }
+    },
+    "oportunidades": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-03": 1,
+        "adm-07": 1
+      }
+    },
+    "ordenada": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-02": 1,
+        "arq-18": 1
+      }
+    },
+    "organigramas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-04": 1
+      }
+    },
+    "organiza": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-11": 1,
+        "arq-01": 1
+      }
+    },
+    "organizacion": {
+      "frecuencia_documental": 14,
+      "postings": {
+        "adm-01": 2,
+        "adm-02": 2,
+        "adm-03": 1,
+        "adm-04": 1,
+        "adm-06": 1,
+        "adm-07": 1,
+        "adm-08": 1,
+        "adm-13": 1,
+        "adm-18": 1,
+        "adm-19": 1,
+        "adm-20": 1,
+        "arq-02": 1,
+        "arq-03": 1,
+        "arq-12": 1
+      }
+    },
+    "organizacional": {
+      "frecuencia_documental": 4,
+      "postings": {
+        "adm-04": 3,
+        "adm-05": 1,
+        "adm-06": 3,
+        "adm-10": 3
+      }
+    },
+    "organizar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-18": 1
+      }
+    },
+    "orientacion": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-01": 1,
+        "arq-10": 1
+      }
+    },
+    "orientan": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-13": 1,
+        "arq-12": 1
+      }
+    },
+    "orientar": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-01": 1,
+        "adm-05": 1
+      }
+    },
+    "origen": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-17": 1
+      }
+    },
+    "originales": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-15": 1
+      }
+    },
+    "paisaje": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-16": 3
+      }
+    },
+    "parte": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-01": 1,
+        "arq-05": 1
+      }
+    },
+    "participacion": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-16": 1,
+        "arq-15": 1
+      }
+    },
+    "participantes": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-18": 1
+      }
+    },
+    "participativa": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-12": 1
+      }
+    },
+    "partir": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-13": 1
+      }
+    },
+    "pasivas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-11": 1
+      }
+    },
+    "paso": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-14": 1
+      }
+    },
+    "patrimonio": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-02": 1,
+        "arq-15": 3
+      }
+    },
+    "pendientes": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-08": 1
+      }
+    },
+    "percepcion": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-16": 1
+      }
+    },
+    "perder": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-12": 1
+      }
+    },
+    "perdidas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-15": 1
+      }
+    },
+    "perfiles": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-07": 1
+      }
+    },
+    "periodicamente": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-03": 1
+      }
+    },
+    "periodos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-02": 1
+      }
+    },
+    "permite": {
+      "frecuencia_documental": 9,
+      "postings": {
+        "adm-01": 1,
+        "adm-06": 1,
+        "adm-11": 1,
+        "adm-15": 1,
+        "adm-18": 1,
+        "arq-02": 1,
+        "arq-05": 1,
+        "arq-07": 1,
+        "arq-17": 1
+      }
+    },
+    "permiten": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-02": 1,
+        "adm-12": 1,
+        "arq-04": 1
+      }
+    },
+    "permitir": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-10": 1
+      }
+    },
+    "persona": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-08": 1
+      }
+    },
+    "personal": {
+      "frecuencia_documental": 6,
+      "postings": {
+        "adm-07": 1,
+        "adm-08": 2,
+        "adm-09": 2,
+        "adm-16": 1,
+        "adm-20": 1,
+        "arq-18": 1
+      }
+    },
+    "personales": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-15": 1
+      }
+    },
+    "personas": {
+      "frecuencia_documental": 10,
+      "postings": {
+        "adm-01": 1,
+        "adm-06": 1,
+        "adm-07": 1,
+        "adm-08": 1,
+        "adm-13": 1,
+        "adm-15": 1,
+        "arq-03": 1,
+        "arq-11": 1,
+        "arq-13": 1,
+        "arq-20": 1
+      }
+    },
+    "perspectivas": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-03": 1,
+        "arq-04": 1
+      }
+    },
+    "pertinentes": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-08": 1
+      }
+    },
+    "peso": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-07": 1
+      }
+    },
+    "piedra": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-05": 1
+      }
+    },
+    "planeacion": {
+      "frecuencia_documental": 7,
+      "postings": {
+        "adm-01": 1,
+        "adm-02": 1,
+        "adm-03": 4,
+        "adm-06": 1,
+        "adm-17": 1,
+        "arq-09": 1,
+        "arq-12": 4
+      }
+    },
+    "planos": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "arq-03": 1,
+        "arq-04": 1,
+        "arq-17": 1
+      }
+    },
+    "plantas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-03": 1
+      }
+    },
+    "planteamiento": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-20": 1
+      }
+    },
+    "plataformas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-20": 1
+      }
+    },
+    "plazo": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-03": 1,
+        "arq-12": 1
+      }
+    },
+    "posibilidad": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-14": 1
+      }
+    },
+    "posibilidades": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-12": 1
+      }
+    },
+    "posible": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-20": 1
+      }
+    },
+    "posibles": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-17": 1
+      }
+    },
+    "posicionamiento": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-13": 1
+      }
+    },
+    "posterior": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-15": 1
+      }
+    },
+    "practicas": {
+      "frecuencia_documental": 4,
+      "postings": {
+        "adm-07": 1,
+        "adm-09": 1,
+        "adm-10": 1,
+        "adm-18": 1
+      }
+    },
+    "precio": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-13": 1
+      }
+    },
+    "precios": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-14": 1
+      }
+    },
+    "precision": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-03": 1
+      }
+    },
+    "pregunta": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-14": 1
+      }
+    },
+    "presion": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-08": 1
+      }
+    },
+    "presupuesto": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-11": 1,
+        "arq-17": 1,
+        "arq-18": 1
+      }
+    },
+    "presupuestos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-17": 3
+      }
+    },
+    "prever": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-05": 1
+      }
+    },
+    "previsto": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-02": 1
+      }
+    },
+    "primer": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-14": 1
+      }
+    },
+    "primeras": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-08": 1
+      }
+    },
+    "primero": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-09": 1
+      }
+    },
+    "principios": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-01": 1
+      }
+    },
+    "prioridades": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-03": 1
+      }
+    },
+    "privacidad": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-14": 1
+      }
+    },
+    "problemas": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-10": 1,
+        "adm-16": 1,
+        "arq-14": 1
+      }
+    },
+    "procedimientos": {
+      "frecuencia_documental": 4,
+      "postings": {
+        "adm-20": 1,
+        "arq-04": 1,
+        "arq-06": 1,
+        "arq-19": 1
+      }
+    },
+    "proceso": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-02": 3,
+        "adm-08": 1,
+        "arq-01": 1
+      }
+    },
+    "procesos": {
+      "frecuencia_documental": 5,
+      "postings": {
+        "adm-09": 1,
+        "adm-15": 1,
+        "adm-16": 1,
+        "adm-19": 1,
+        "adm-20": 1
+      }
+    },
+    "procura": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-15": 1
+      }
+    },
+    "producto": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-13": 1
+      }
+    },
+    "productos": {
+      "frecuencia_documental": 5,
+      "postings": {
+        "adm-14": 1,
+        "adm-16": 1,
+        "adm-17": 1,
+        "adm-19": 1,
+        "arq-05": 1
+      }
+    },
+    "promueve": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-05": 1
+      }
+    },
+    "propiedades": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-05": 1,
+        "arq-07": 1
+      }
+    },
+    "propio": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-07": 1
+      }
+    },
+    "proposito": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-07": 1,
+        "adm-12": 1
+      }
+    },
+    "propuesta": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-12": 2,
+        "arq-03": 1
+      }
+    },
+    "propuestas": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-05": 1,
+        "adm-19": 1
+      }
+    },
+    "protecciones": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-09": 1
+      }
+    },
+    "proveedores": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-17": 1,
+        "adm-18": 1,
+        "arq-18": 1
+      }
+    },
+    "proyecciones": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-04": 1
+      }
+    },
+    "proyecto": {
+      "frecuencia_documental": 8,
+      "postings": {
+        "adm-11": 1,
+        "arq-01": 1,
+        "arq-03": 1,
+        "arq-08": 1,
+        "arq-09": 1,
+        "arq-17": 1,
+        "arq-18": 1,
+        "arq-19": 1
+      }
+    },
+    "proyectos": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-11": 4,
+        "arq-18": 3
+      }
+    },
+    "pruebas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-19": 1
+      }
+    },
+    "publicas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-01": 1
+      }
+    },
+    "publico": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-06": 1,
+        "arq-13": 3
+      }
+    },
+    "publicos": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-13": 1,
+        "arq-02": 1,
+        "arq-16": 1
+      }
+    },
+    "puedan": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-08": 1,
+        "arq-20": 1
+      }
+    },
+    "puede": {
+      "frecuencia_documental": 12,
+      "postings": {
+        "adm-04": 1,
+        "adm-08": 1,
+        "adm-09": 1,
+        "adm-10": 1,
+        "adm-13": 1,
+        "adm-14": 1,
+        "adm-18": 1,
+        "adm-19": 1,
+        "arq-11": 1,
+        "arq-13": 1,
+        "arq-14": 1,
+        "arq-16": 1
+      }
+    },
+    "pueden": {
+      "frecuencia_documental": 6,
+      "postings": {
+        "adm-02": 1,
+        "adm-03": 1,
+        "adm-17": 1,
+        "adm-20": 1,
+        "arq-06": 1,
+        "arq-19": 1
+      }
+    },
+    "puesto": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-07": 1,
+        "adm-08": 1
+      }
+    },
+    "puestos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-04": 1
+      }
+    },
+    "puntos": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-17": 1,
+        "arq-04": 1
+      }
+    },
+    "quien": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-12": 1
+      }
+    },
+    "quienes": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-10": 1,
+        "arq-16": 1
+      }
+    },
+    "radiacion": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-10": 1
+      }
+    },
+    "razonables": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-17": 1
+      }
+    },
+    "realizar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-09": 1
+      }
+    },
+    "reasignar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-11": 1
+      }
+    },
+    "receta": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-10": 1
+      }
+    },
+    "recibir": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-06": 1
+      }
+    },
+    "reclutamiento": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-08": 3
+      }
+    },
+    "reconocen": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-15": 1
+      }
+    },
+    "reconocer": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-02": 1
+      }
+    },
+    "reconocimiento": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-07": 1
+      }
+    },
+    "recursos": {
+      "frecuencia_documental": 8,
+      "postings": {
+        "adm-01": 1,
+        "adm-02": 2,
+        "adm-09": 1,
+        "adm-11": 1,
+        "adm-12": 1,
+        "adm-19": 1,
+        "arq-14": 1,
+        "arq-17": 1
+      }
+    },
+    "reduccion": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-18": 1
+      }
+    },
+    "reduce": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-08": 1
+      }
+    },
+    "reducir": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "arq-10": 1,
+        "arq-11": 1,
+        "arq-13": 1
+      }
+    },
+    "refleja": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-10": 1
+      }
+    },
+    "reflejan": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-02": 1
+      }
+    },
+    "relacion": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-18": 1,
+        "arq-11": 1,
+        "arq-16": 1
+      }
+    },
+    "relaciona": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-01": 1,
+        "arq-12": 1
+      }
+    },
+    "relacionada": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-07": 1
+      }
+    },
+    "relacionadas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-08": 1
+      }
+    },
+    "relacionan": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-02": 1
+      }
+    },
+    "relacionar": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-07": 1,
+        "adm-11": 1
+      }
+    },
+    "rendicion": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-18": 1
+      }
+    },
+    "renovables": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-11": 1
+      }
+    },
+    "repetirse": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-02": 1
+      }
+    },
+    "representacion": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-03": 3
+      }
+    },
+    "representar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-04": 1
+      }
+    },
+    "representarse": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-04": 1
+      }
+    },
+    "requiere": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-11": 1,
+        "adm-20": 1,
+        "arq-15": 1
+      }
+    },
+    "requieren": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-03": 1,
+        "arq-13": 1
+      }
+    },
+    "requisitos": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-08": 1,
+        "adm-16": 1
+      }
+    },
+    "residuales": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-08": 1
+      }
+    },
+    "residuos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-11": 1
+      }
+    },
+    "resistencia": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-05": 1
+      }
+    },
+    "resolver": {
+      "frecuencia_documental": 4,
+      "postings": {
+        "adm-05": 1,
+        "adm-10": 1,
+        "arq-18": 1,
+        "arq-20": 1
+      }
+    },
+    "respecto": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-14": 1
+      }
+    },
+    "respetar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-15": 1
+      }
+    },
+    "respondan": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-16": 1
+      }
+    },
+    "responder": {
+      "frecuencia_documental": 4,
+      "postings": {
+        "adm-09": 1,
+        "arq-01": 1,
+        "arq-09": 1,
+        "arq-16": 1
+      }
+    },
+    "responsabilidad": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-05": 1,
+        "adm-18": 3
+      }
+    },
+    "responsabilidades": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-01": 1,
+        "adm-09": 1,
+        "arq-19": 1
+      }
+    },
+    "responsable": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-07": 1,
+        "adm-18": 1
+      }
+    },
+    "responsables": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-03": 1,
+        "adm-11": 1
+      }
+    },
+    "restauracion": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-15": 3
+      }
+    },
+    "resultado": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-11": 1,
+        "arq-16": 1
+      }
+    },
+    "resultados": {
+      "frecuencia_documental": 4,
+      "postings": {
+        "adm-01": 1,
+        "adm-02": 1,
+        "adm-14": 1,
+        "adm-16": 1
+      }
+    },
+    "retrasos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-11": 1
+      }
+    },
+    "retroalimentacion": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-06": 1,
+        "adm-12": 1
+      }
+    },
+    "reune": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-02": 1,
+        "adm-07": 1
+      }
+    },
+    "reunen": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-06": 1,
+        "arq-19": 1
+      }
+    },
+    "reuniones": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-06": 1
+      }
+    },
+    "revisan": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-03": 1,
+        "arq-01": 1
+      }
+    },
+    "revisar": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-10": 1,
+        "adm-20": 1,
+        "arq-19": 1
+      }
+    },
+    "revisarse": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-03": 1
+      }
+    },
+    "revision": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-08": 1
+      }
+    },
+    "riesgos": {
+      "frecuencia_documental": 6,
+      "postings": {
+        "adm-03": 1,
+        "adm-11": 1,
+        "adm-17": 1,
+        "arq-08": 1,
+        "arq-12": 1,
+        "arq-18": 1
+      }
+    },
+    "rumbo": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-03": 1
+      }
+    },
+    "rutas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-20": 1
+      }
+    },
+    "salud": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-14": 1
+      }
+    },
+    "satisfaccion": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-15": 1
+      }
+    },
+    "segmentacion": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-13": 1
+      }
+    },
+    "seguimiento": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-11": 1
+      }
+    },
+    "seguras": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-13": 1
+      }
+    },
+    "seguridad": {
+      "frecuencia_documental": 7,
+      "postings": {
+        "adm-07": 1,
+        "adm-20": 1,
+        "arq-01": 1,
+        "arq-06": 1,
+        "arq-07": 1,
+        "arq-09": 1,
+        "arq-13": 1
+      }
+    },
+    "seleccion": {
+      "frecuencia_documental": 4,
+      "postings": {
+        "adm-08": 3,
+        "adm-13": 1,
+        "arq-06": 1,
+        "arq-11": 1
+      }
+    },
+    "selecciona": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-14": 1
+      }
+    },
+    "servicio": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-11": 1,
+        "arq-08": 1
+      }
+    },
+    "servicios": {
+      "frecuencia_documental": 8,
+      "postings": {
+        "adm-04": 1,
+        "adm-14": 1,
+        "adm-15": 1,
+        "adm-19": 1,
+        "arq-12": 1,
+        "arq-13": 1,
+        "arq-14": 1,
+        "arq-18": 1
+      }
+    },
+    "señalizacion": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-20": 1
+      }
+    },
+    "siempre": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-20": 1
+      }
+    },
+    "simbolos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-03": 1
+      }
+    },
+    "sino": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-07": 1
+      }
+    },
+    "sismo": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-07": 1
+      }
+    },
+    "sistema": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-06": 1
+      }
+    },
+    "sistemas": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "arq-05": 1,
+        "arq-06": 3,
+        "arq-11": 1
+      }
+    },
+    "sitio": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-01": 1
+      }
+    },
+    "situaciones": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-05": 1
+      }
+    },
+    "social": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-18": 3,
+        "arq-14": 3,
+        "arq-15": 1
+      }
+    },
+    "sociales": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-03": 1,
+        "adm-15": 1,
+        "adm-18": 1
+      }
+    },
+    "sociedades": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-02": 1
+      }
+    },
+    "sola": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-04": 1
+      }
+    },
+    "solamente": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-07": 1,
+        "arq-11": 1,
+        "arq-14": 1
+      }
+    },
+    "solar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-10": 1
+      }
+    },
+    "solo": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-16": 1,
+        "adm-18": 1
+      }
+    },
+    "solucion": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-19": 1,
+        "arq-10": 1
+      }
+    },
+    "soluciones": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-01": 1,
+        "arq-04": 1
+      }
+    },
+    "sombras": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-04": 1
+      }
+    },
+    "sostener": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-16": 1
+      }
+    },
+    "sostenibilidad": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-11": 1
+      }
+    },
+    "sostenible": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-11": 3
+      }
+    },
+    "suelo": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-12": 1
+      }
+    },
+    "suministran": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-08": 1
+      }
+    },
+    "suministro": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-17": 3
+      }
+    },
+    "superficies": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-04": 1
+      }
+    },
+    "supervisar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-18": 1
+      }
+    },
+    "surgir": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-19": 1
+      }
+    },
+    "talento": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-07": 3
+      }
+    },
+    "tamaño": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-04": 1,
+        "arq-14": 1
+      }
+    },
+    "tareas": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-02": 1,
+        "adm-05": 1,
+        "adm-08": 1
+      }
+    },
+    "tecnicas": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "arq-02": 1,
+        "arq-09": 1,
+        "arq-15": 1
+      }
+    },
+    "tecnicos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-01": 1
+      }
+    },
+    "tecnologia": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-11": 1,
+        "arq-11": 1
+      }
+    },
+    "tecnologias": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-19": 1,
+        "adm-20": 1
+      }
+    },
+    "tecnologicos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-03": 1
+      }
+    },
+    "temperatura": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-10": 1
+      }
+    },
+    "temporales": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-11": 1
+      }
+    },
+    "tendencias": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-14": 1
+      }
+    },
+    "terreno": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-06": 1,
+        "arq-07": 1
+      }
+    },
+    "tiempo": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-11": 1,
+        "arq-02": 1
+      }
+    },
+    "tiempos": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-17": 1,
+        "arq-17": 1
+      }
+    },
+    "todas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-05": 1
+      }
+    },
+    "toman": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-01": 1,
+        "adm-15": 1
+      }
+    },
+    "tomar": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-10": 1,
+        "adm-14": 1
+      }
+    },
+    "tomas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-09": 1
+      }
+    },
+    "topografia": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-16": 1
+      }
+    },
+    "trabajan": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-07": 1
+      }
+    },
+    "trabajar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-10": 1
+      }
+    },
+    "trabajo": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-01": 1,
+        "adm-05": 2,
+        "adm-09": 1
+      }
+    },
+    "transforma": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-12": 1
+      }
+    },
+    "transformacion": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-20": 3
+      }
+    },
+    "transformaciones": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-02": 1,
+        "arq-15": 1
+      }
+    },
+    "transmiten": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-07": 1
+      }
+    },
+    "transparencia": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-18": 1
+      }
+    },
+    "transporte": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-17": 1,
+        "arq-13": 1,
+        "arq-14": 1
+      }
+    },
+    "trazabilidad": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-17": 1
+      }
+    },
+    "tridimensionales": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-04": 1
+      }
+    },
+    "tuberias": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-08": 1
+      }
+    },
+    "tutorias": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-09": 1
+      }
+    },
+    "ubicacion": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "arq-08": 1,
+        "arq-09": 1,
+        "arq-14": 1
+      }
+    },
+    "unica": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-10": 1
+      }
+    },
+    "unicamente": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-20": 1
+      }
+    },
+    "unico": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-05": 1
+      }
+    },
+    "universal": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-20": 3
+      }
+    },
+    "urbana": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "arq-12": 3,
+        "arq-13": 3,
+        "arq-14": 1
+      }
+    },
+    "urbano": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-16": 3
+      }
+    },
+    "urgencia": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-05": 1
+      }
+    },
+    "usar": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-13": 1
+      }
+    },
+    "uso": {
+      "frecuencia_documental": 5,
+      "postings": {
+        "adm-02": 1,
+        "arq-06": 1,
+        "arq-09": 1,
+        "arq-12": 1,
+        "arq-20": 1
+      }
+    },
+    "usuario": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-17": 1,
+        "adm-20": 1
+      }
+    },
+    "usuarios": {
+      "frecuencia_documental": 7,
+      "postings": {
+        "adm-10": 1,
+        "adm-12": 1,
+        "adm-16": 1,
+        "adm-19": 1,
+        "arq-01": 1,
+        "arq-13": 1,
+        "arq-20": 1
+      }
+    },
+    "util": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-03": 1,
+        "adm-19": 1
+      }
+    },
+    "utilidad": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-19": 1
+      }
+    },
+    "utiliza": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-03": 1,
+        "arq-19": 1
+      }
+    },
+    "utilizados": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "arq-05": 1,
+        "arq-06": 1,
+        "arq-20": 1
+      }
+    },
+    "utilizan": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-01": 1,
+        "adm-11": 1,
+        "arq-15": 1
+      }
+    },
+    "utilizar": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-08": 1,
+        "adm-09": 1,
+        "arq-10": 1
+      }
+    },
+    "vacante": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-08": 1
+      }
+    },
+    "vacantes": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-07": 1
+      }
+    },
+    "valor": {
+      "frecuencia_documental": 4,
+      "postings": {
+        "adm-12": 1,
+        "adm-13": 1,
+        "adm-19": 1,
+        "arq-15": 1
+      }
+    },
+    "valores": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "adm-10": 1
+      }
+    },
+    "vegetacion": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "arq-10": 1,
+        "arq-16": 1
+      }
+    },
+    "ventilacion": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "arq-08": 1,
+        "arq-10": 1,
+        "arq-14": 1
+      }
+    },
+    "verdes": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-12": 1
+      }
+    },
+    "viabilidad": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "adm-12": 1,
+        "arq-01": 1,
+        "arq-11": 1
+      }
+    },
+    "vial": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-13": 1
+      }
+    },
+    "vida": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-11": 1
+      }
+    },
+    "vidrio": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-05": 1
+      }
+    },
+    "viento": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-07": 1
+      }
+    },
+    "vientos": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-10": 1
+      }
+    },
+    "vigas": {
+      "frecuencia_documental": 1,
+      "postings": {
+        "arq-07": 1
+      }
+    },
+    "vista": {
+      "frecuencia_documental": 2,
+      "postings": {
+        "adm-12": 1,
+        "arq-04": 1
+      }
+    },
+    "vivienda": {
+      "frecuencia_documental": 3,
+      "postings": {
+        "arq-02": 1,
+        "arq-12": 1,
+        "arq-14": 3
+      }
+    }
+  }
+}
