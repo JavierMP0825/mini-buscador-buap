@@ -1,0 +1,470 @@
+{
+  "proyecto": "Mini buscador académico BUAP",
+  "version_esquema": 1,
+  "descripcion": "Grafo dirigido de artículos. Una arista A -> B indica que el HTML de A contiene un enlace a B.",
+  "nodos": [
+    {
+      "id": "adm-01",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "titulo": "Fundamentos de administración",
+      "ruta": "facultades/administracion/articulo-01.html"
+    },
+    {
+      "id": "adm-02",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "titulo": "Proceso administrativo",
+      "ruta": "facultades/administracion/articulo-02.html"
+    },
+    {
+      "id": "adm-03",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "titulo": "Planeación estratégica",
+      "ruta": "facultades/administracion/articulo-03.html"
+    },
+    {
+      "id": "adm-04",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "titulo": "Diseño organizacional",
+      "ruta": "facultades/administracion/articulo-04.html"
+    },
+    {
+      "id": "adm-05",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "titulo": "Liderazgo y trabajo en equipo",
+      "ruta": "facultades/administracion/articulo-05.html"
+    },
+    {
+      "id": "adm-06",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "titulo": "Comunicación organizacional",
+      "ruta": "facultades/administracion/articulo-06.html"
+    },
+    {
+      "id": "adm-07",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "titulo": "Gestión del talento humano",
+      "ruta": "facultades/administracion/articulo-07.html"
+    },
+    {
+      "id": "adm-08",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "titulo": "Reclutamiento y selección de personal",
+      "ruta": "facultades/administracion/articulo-08.html"
+    },
+    {
+      "id": "adm-09",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "titulo": "Capacitación y desarrollo del personal",
+      "ruta": "facultades/administracion/articulo-09.html"
+    },
+    {
+      "id": "adm-10",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "titulo": "Cultura organizacional",
+      "ruta": "facultades/administracion/articulo-10.html"
+    },
+    {
+      "id": "adm-11",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "titulo": "Gestión de proyectos",
+      "ruta": "facultades/administracion/articulo-11.html"
+    },
+    {
+      "id": "adm-12",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "titulo": "Emprendimiento y modelos de negocio",
+      "ruta": "facultades/administracion/articulo-12.html"
+    },
+    {
+      "id": "adm-13",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "titulo": "Mercadotecnia estratégica",
+      "ruta": "facultades/administracion/articulo-13.html"
+    },
+    {
+      "id": "adm-14",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "titulo": "Investigación de mercados",
+      "ruta": "facultades/administracion/articulo-14.html"
+    },
+    {
+      "id": "adm-15",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "titulo": "Comportamiento del consumidor",
+      "ruta": "facultades/administracion/articulo-15.html"
+    },
+    {
+      "id": "adm-16",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "titulo": "Gestión de la calidad",
+      "ruta": "facultades/administracion/articulo-16.html"
+    },
+    {
+      "id": "adm-17",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "titulo": "Logística y cadena de suministro",
+      "ruta": "facultades/administracion/articulo-17.html"
+    },
+    {
+      "id": "adm-18",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "titulo": "Responsabilidad social empresarial",
+      "ruta": "facultades/administracion/articulo-18.html"
+    },
+    {
+      "id": "adm-19",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "titulo": "Innovación empresarial",
+      "ruta": "facultades/administracion/articulo-19.html"
+    },
+    {
+      "id": "adm-20",
+      "facultad_id": "adm",
+      "facultad": "Facultad de Administración",
+      "titulo": "Transformación digital de las empresas",
+      "ruta": "facultades/administracion/articulo-20.html"
+    },
+    {
+      "id": "arq-01",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "titulo": "Fundamentos del diseño arquitectónico",
+      "ruta": "facultades/arquitectura/articulo-01.html"
+    },
+    {
+      "id": "arq-02",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "titulo": "Historia de la arquitectura",
+      "ruta": "facultades/arquitectura/articulo-02.html"
+    },
+    {
+      "id": "arq-03",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "titulo": "Dibujo arquitectónico y representación",
+      "ruta": "facultades/arquitectura/articulo-03.html"
+    },
+    {
+      "id": "arq-04",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "titulo": "Geometría descriptiva",
+      "ruta": "facultades/arquitectura/articulo-04.html"
+    },
+    {
+      "id": "arq-05",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "titulo": "Materiales de construcción",
+      "ruta": "facultades/arquitectura/articulo-05.html"
+    },
+    {
+      "id": "arq-06",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "titulo": "Sistemas constructivos",
+      "ruta": "facultades/arquitectura/articulo-06.html"
+    },
+    {
+      "id": "arq-07",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "titulo": "Estructuras de edificios",
+      "ruta": "facultades/arquitectura/articulo-07.html"
+    },
+    {
+      "id": "arq-08",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "titulo": "Instalaciones hidrosanitarias",
+      "ruta": "facultades/arquitectura/articulo-08.html"
+    },
+    {
+      "id": "arq-09",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "titulo": "Instalaciones eléctricas en edificios",
+      "ruta": "facultades/arquitectura/articulo-09.html"
+    },
+    {
+      "id": "arq-10",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "titulo": "Diseño bioclimático",
+      "ruta": "facultades/arquitectura/articulo-10.html"
+    },
+    {
+      "id": "arq-11",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "titulo": "Arquitectura sostenible",
+      "ruta": "facultades/arquitectura/articulo-11.html"
+    },
+    {
+      "id": "arq-12",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "titulo": "Planeación urbana",
+      "ruta": "facultades/arquitectura/articulo-12.html"
+    },
+    {
+      "id": "arq-13",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "titulo": "Movilidad urbana y espacio público",
+      "ruta": "facultades/arquitectura/articulo-13.html"
+    },
+    {
+      "id": "arq-14",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "titulo": "Vivienda social",
+      "ruta": "facultades/arquitectura/articulo-14.html"
+    },
+    {
+      "id": "arq-15",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "titulo": "Restauración del patrimonio arquitectónico",
+      "ruta": "facultades/arquitectura/articulo-15.html"
+    },
+    {
+      "id": "arq-16",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "titulo": "Paisaje urbano",
+      "ruta": "facultades/arquitectura/articulo-16.html"
+    },
+    {
+      "id": "arq-17",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "titulo": "Costos y presupuestos de obra",
+      "ruta": "facultades/arquitectura/articulo-17.html"
+    },
+    {
+      "id": "arq-18",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "titulo": "Administración de proyectos de construcción",
+      "ruta": "facultades/arquitectura/articulo-18.html"
+    },
+    {
+      "id": "arq-19",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "titulo": "Modelado de información de edificios (BIM)",
+      "ruta": "facultades/arquitectura/articulo-19.html"
+    },
+    {
+      "id": "arq-20",
+      "facultad_id": "arq",
+      "facultad": "Facultad de Arquitectura",
+      "titulo": "Accesibilidad y diseño universal",
+      "ruta": "facultades/arquitectura/articulo-20.html"
+    }
+  ],
+  "adyacencia": {
+    "adm-01": [
+      "adm-02",
+      "adm-04"
+    ],
+    "adm-02": [
+      "adm-03",
+      "adm-11"
+    ],
+    "adm-03": [
+      "adm-04",
+      "adm-11",
+      "arq-18"
+    ],
+    "adm-04": [
+      "adm-05",
+      "arq-18"
+    ],
+    "adm-05": [
+      "adm-06",
+      "adm-07"
+    ],
+    "adm-06": [
+      "adm-05",
+      "adm-07",
+      "adm-10"
+    ],
+    "adm-07": [
+      "adm-08",
+      "adm-09"
+    ],
+    "adm-08": [
+      "adm-07",
+      "adm-09"
+    ],
+    "adm-09": [
+      "adm-07",
+      "adm-10"
+    ],
+    "adm-10": [
+      "adm-05",
+      "adm-06",
+      "adm-11"
+    ],
+    "adm-11": [
+      "adm-03",
+      "adm-12",
+      "arq-18"
+    ],
+    "adm-12": [
+      "adm-13",
+      "adm-19"
+    ],
+    "adm-13": [
+      "adm-14",
+      "adm-15"
+    ],
+    "adm-14": [
+      "adm-13",
+      "adm-15"
+    ],
+    "adm-15": [
+      "adm-13",
+      "adm-14",
+      "adm-16"
+    ],
+    "adm-16": [
+      "adm-11",
+      "adm-17",
+      "arq-17"
+    ],
+    "adm-17": [
+      "adm-16",
+      "adm-18",
+      "arq-17"
+    ],
+    "adm-18": [
+      "adm-19",
+      "arq-11"
+    ],
+    "adm-19": [
+      "adm-12",
+      "adm-20"
+    ],
+    "adm-20": [
+      "adm-19",
+      "arq-01",
+      "arq-11"
+    ],
+    "arq-01": [
+      "arq-02",
+      "arq-03",
+      "arq-10"
+    ],
+    "arq-02": [
+      "arq-03",
+      "arq-15",
+      "arq-16"
+    ],
+    "arq-03": [
+      "arq-04",
+      "arq-19"
+    ],
+    "arq-04": [
+      "arq-03",
+      "arq-05",
+      "arq-07"
+    ],
+    "arq-05": [
+      "arq-06",
+      "arq-17"
+    ],
+    "arq-06": [
+      "arq-07",
+      "arq-18"
+    ],
+    "arq-07": [
+      "arq-06",
+      "arq-08",
+      "arq-18"
+    ],
+    "arq-08": [
+      "arq-09",
+      "arq-18"
+    ],
+    "arq-09": [
+      "arq-08",
+      "arq-10"
+    ],
+    "arq-10": [
+      "arq-11",
+      "arq-12"
+    ],
+    "arq-11": [
+      "arq-10",
+      "arq-12",
+      "arq-16"
+    ],
+    "arq-12": [
+      "arq-13",
+      "arq-16"
+    ],
+    "arq-13": [
+      "arq-12",
+      "arq-14",
+      "arq-16"
+    ],
+    "arq-14": [
+      "arq-12",
+      "arq-15",
+      "arq-20"
+    ],
+    "arq-15": [
+      "arq-02",
+      "arq-16"
+    ],
+    "arq-16": [
+      "arq-12",
+      "arq-15",
+      "arq-17"
+    ],
+    "arq-17": [
+      "adm-11",
+      "arq-18"
+    ],
+    "arq-18": [
+      "adm-11",
+      "arq-17",
+      "arq-19"
+    ],
+    "arq-19": [
+      "arq-03",
+      "arq-07",
+      "arq-20"
+    ],
+    "arq-20": [
+      "adm-01",
+      "arq-13",
+      "arq-14"
+    ]
+  },
+  "total_nodos": 40,
+  "total_aristas": 99
+}

@@ -78,3 +78,94 @@ La configuración definitiva de Apache, Flask y la API de búsqueda corresponde 
 5. Ejecutar `python3 generar.py`.
 
 El catálogo completo de títulos ya está definido en `data/catalogo.json`; no es necesario cambiar el generador para incorporar más facultades.
+
+
+---
+
+# Entrega 2 — Extracción de enlaces y construcción del grafo
+
+Esta segunda entrega incorpora `grafo.py`, que construye el grafo **leyendo las etiquetas `<a href="...">` de los archivos HTML generados**. No utiliza el campo `relacionados` del JSON para crear las aristas; ese campo se utiliza solamente como dato de origen al generar las páginas HTML.
+
+## Qué representa el grafo
+
+- Cada artículo HTML es un nodo (por ejemplo, `adm-01` o `arq-07`).
+- Cada enlace desde un artículo A hacia otro artículo B es una arista dirigida `A -> B`.
+- Los enlaces hacia páginas de inicio o índices de facultad se comprueban, pero no se agregan como nodos del grafo de artículos.
+- Los enlaces externos tampoco se agregan al grafo.
+
+## Construir el grafo
+
+Ejecuta los comandos desde la carpeta raíz del proyecto:
+
+```bash
+python3 generar.py
+python3 grafo.py
+```
+
+`generar.py` debe ejecutarse primero para asegurarse de que los HTML corresponden a los datos JSON actuales. Después, `grafo.py` lee todos los artículos y genera:
+
+```text
+indices/
+├── grafo.json
+├── resumen_grafo.json
+└── grafo.dot
+```
+
+### Contenido de los resultados
+
+- `grafo.json`: metadatos de los documentos y lista de adyacencia. Es el archivo que consumirá posteriormente PageRank.
+- `resumen_grafo.json`: número de nodos y aristas, grados de entrada y salida, nodos sin enlaces y componentes conexas.
+- `grafo.dot`: representación del grafo en formato Graphviz, útil para crear una imagen.
+
+## Resultado esperado con los 40 artículos de prueba
+
+La ejecución de esta entrega sobre los artículos de Administración y Arquitectura genera:
+
+| Indicador | Resultado |
+|---|---:|
+| Nodos (artículos) | 40 |
+| Aristas (enlaces entre artículos) | 99 |
+| Enlaces a índices/páginas no consideradas nodos | 160 |
+| Componentes débilmente conexas | 1 |
+| Componentes fuertemente conexas | 1 |
+| Nodos sin enlaces salientes | 0 |
+| Grado de salida promedio | 2.475 |
+
+El grafo de prueba es fuertemente conexo: desde cualquier artículo se puede llegar a cualquier otro siguiendo la dirección de los enlaces. Esto es una propiedad útil para las pruebas, pero PageRank también puede ejecutarse con grafos que no sean fuertemente conexos, siempre que se manejen los nodos colgantes.
+
+Los valores anteriores corresponden al corpus inicial de 40 artículos; cambiarán cuando se agreguen las demás facultades.
+
+## Visualizar el grafo (opcional)
+
+El archivo `.dot` puede convertirse a PNG usando Graphviz. En Debian:
+
+```bash
+sudo apt update
+sudo apt install graphviz
+
+dot -Tpng indices/grafo.dot -o indices/grafo.png
+```
+
+Después abre `indices/grafo.png` con un visor de imágenes. Graphviz es opcional: ni la extracción ni los JSON requieren instalarlo.
+
+## Comprobaciones que realiza `grafo.py`
+
+1. Verifica que exista el HTML correspondiente a cada artículo registrado en `articulos.json`.
+2. Lee los enlaces reales de cada HTML.
+3. Comprueba que los enlaces locales apunten a archivos existentes y permanezcan dentro de `public/`.
+4. Convierte a aristas únicamente los enlaces cuyo destino sea otro artículo del corpus.
+5. Evita aristas duplicadas entre el mismo par de artículos.
+6. Calcula componentes débiles y fuertes para comprobar la conectividad.
+
+Si encuentra un enlace local roto o un archivo de artículo faltante, termina con un error y señala el problema para que se corrija antes de continuar.
+
+## Incorporar más facultades
+
+Cuando se añadan los artículos de otra facultad:
+
+1. Añadir sus objetos en `data/articulos.json`, usando los IDs definidos en `data/catalogo.json`.
+2. Confirmar que los destinos del campo `relacionados` existan dentro del corpus generado en esa etapa.
+3. Ejecutar `python3 generar.py` para actualizar las páginas HTML.
+4. Ejecutar `python3 grafo.py` para reconstruir el grafo desde los HTML.
+
+No edites manualmente `indices/grafo.json`: siempre debe regenerarse a partir de las páginas HTML para que el grafo represente los enlaces publicados realmente.
