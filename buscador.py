@@ -5,12 +5,13 @@ Uso:
     python3 buscador.py "gestion financiera"
     python3 buscador.py "diseño arquitectónico" --modo AND
     python3 buscador.py "construcción sostenible" --ranking pagerank
+    python3 buscador.py "construcción sostenible" --ranking hibrido --peso-tfidf 0.7
     python3 buscador.py "administracion" --modo OR --json
     python3 buscador.py                 # modo interactivo
 
 Los resultados se recuperan desde el índice invertido y, por defecto, se
 ordenan mediante TF-IDF y similitud del coseno. También se puede seleccionar
-PageRank global o desactivar el ranking para conservar el orden por ID.
+PageRank global, ranking híbrido o desactivar el ranking para conservar el orden por ID.
 """
 
 from __future__ import annotations
@@ -28,6 +29,7 @@ from pagerank import (
     aplicar_ranking_pagerank,
     cargar_pagerank,
 )
+from comparador import ErrorComparacion, aplicar_ranking_hibrido
 
 ROOT = Path(__file__).resolve().parent
 INDICE_DEFAULT = ROOT / "indices" / "indice_invertido.json"
@@ -206,6 +208,8 @@ def imprimir_resultados(respuesta: dict[str, Any], limite: int | None = None) ->
             print(f"   Similitud TF-IDF: {doc['score_tfidf']:.6f} (posición {doc['posicion_tfidf']})")
         if "score_pagerank" in doc:
             print(f"   PageRank global:  {doc['score_pagerank']:.10f} (posición {doc['posicion_pagerank']})")
+        if "score_hibrido" in doc:
+            print(f"   Ranking híbrido:  {doc['score_hibrido']:.6f} (posición {doc['posicion_hibrido']})")
         print(f"   Ruta: public/{doc['ruta']}")
         print("   Términos coincidentes: " + ", ".join(doc["terminos_coincidentes"]))
         frecuencias = ", ".join(
@@ -227,9 +231,10 @@ def modo_interactivo(
     stopwords: set[str],
     ranking_inicial: str,
     ruta_pagerank: Path,
+    peso_tfidf: float = 0.7,
 ) -> int:
     print("BUAP Search — Consola de consultas")
-    print("Escribe una consulta; usa :modo AND, :modo OR, :ranking tfidf, :ranking pagerank, :ranking ninguno o :salir.\n")
+    print("Escribe una consulta; usa :modo AND, :modo OR, :ranking tfidf, :ranking pagerank, :ranking hibrido, :ranking ninguno o :salir.\n")
     modo = "OR"
     ranking_actual = ranking_inicial
     modelo_tfidf = None
@@ -237,9 +242,9 @@ def modo_interactivo(
 
     def preparar_ranking(tipo: str) -> None:
         nonlocal modelo_tfidf, datos_pagerank
-        if tipo == "tfidf" and modelo_tfidf is None:
+        if tipo in {"tfidf", "hibrido"} and modelo_tfidf is None:
             modelo_tfidf = construir_modelo_tfidf(indice)
-        elif tipo == "pagerank" and datos_pagerank is None:
+        if tipo in {"pagerank", "hibrido"} and datos_pagerank is None:
             datos_pagerank = cargar_pagerank(ruta_pagerank)
 
     try:
@@ -263,7 +268,7 @@ def modo_interactivo(
             return 0
         if consulta.lower().startswith(":ranking"):
             partes = consulta.split()
-            if len(partes) == 2 and partes[1].lower() in {"tfidf", "pagerank", "ninguno"}:
+            if len(partes) == 2 and partes[1].lower() in {"tfidf", "pagerank", "hibrido", "ninguno"}:
                 nuevo_ranking = partes[1].lower()
                 try:
                     preparar_ranking(nuevo_ranking)
@@ -272,7 +277,7 @@ def modo_interactivo(
                 except (ErrorRanking, ErrorPageRank) as exc:
                     print(f"No se pudo activar el ranking: {exc}")
             else:
-                print("Uso: :ranking tfidf   :ranking pagerank   o   :ranking ninguno")
+                print("Uso: :ranking tfidf   :ranking pagerank   :ranking hibrido   o   :ranking ninguno")
             continue
         if consulta.lower().startswith(":modo"):
             partes = consulta.split()
@@ -289,7 +294,13 @@ def modo_interactivo(
                 respuesta = aplicar_ranking_tfidf(respuesta, indice, modelo_tfidf)
             elif ranking_actual == "pagerank":
                 respuesta = aplicar_ranking_pagerank(respuesta, datos_pagerank)
-        except (ErrorConsulta, ErrorRanking, ErrorPageRank) as exc:
+            elif ranking_actual == "hibrido":
+                respuesta = aplicar_ranking_hibrido(
+                    respuesta, indice, datos_pagerank,
+                    peso_tfidf=peso_tfidf,
+                    modelo_tfidf=modelo_tfidf,
+                )
+        except (ErrorConsulta, ErrorRanking, ErrorPageRank, ErrorComparacion) as exc:
             print(f"Consulta no válida: {exc}")
             continue
         imprimir_resultados(respuesta)
@@ -297,7 +308,7 @@ def modo_interactivo(
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Busca documentos del corpus BUAP y permite ordenarlos mediante TF-IDF o PageRank."
+        description="Busca documentos del corpus BUAP y permite ordenarlos mediante TF-IDF, PageRank o un ranking híbrido."
     )
     parser.add_argument(
         "consulta", nargs="?", help="Texto que se desea buscar. Sin consulta inicia el modo interactivo."
@@ -307,12 +318,16 @@ def main() -> int:
         help="OR: al menos un término; AND: todos los términos (predeterminado: OR)."
     )
     parser.add_argument(
-        "--ranking", choices=["tfidf", "pagerank", "ninguno"], default="tfidf",
-        help="Ordena por TF-IDF (predeterminado), PageRank global o ID sin ranking."
+        "--ranking", choices=["tfidf", "pagerank", "hibrido", "ninguno"], default="tfidf",
+        help="Ordena por TF-IDF (predeterminado), PageRank global, ranking híbrido o ID sin ranking."
     )
     parser.add_argument(
         "--pagerank", type=Path, default=PAGERANK_DEFAULT,
         help="Archivo JSON generado por pagerank.py."
+    )
+    parser.add_argument(
+        "--peso-tfidf", type=float, default=0.7,
+        help="Peso de TF-IDF para el ranking híbrido; PageRank utiliza el complemento (0 a 1)."
     )
     parser.add_argument(
         "--indice", type=Path, default=INDICE_DEFAULT,
@@ -334,6 +349,8 @@ def main() -> int:
 
     if args.limite < 0:
         parser.error("--limite no puede ser negativo.")
+    if not 0.0 <= args.peso_tfidf <= 1.0:
+        parser.error("--peso-tfidf debe estar entre 0 y 1.")
 
     indice = cargar_indice(args.indice)
     stopwords = cargar_stopwords_para_indice(indice, args.stopwords)
@@ -341,7 +358,10 @@ def main() -> int:
     if args.consulta is None:
         if args.salida_json:
             parser.error("--json requiere proporcionar una consulta.")
-        return modo_interactivo(indice, stopwords, args.ranking, args.pagerank)
+        return modo_interactivo(
+            indice, stopwords, args.ranking, args.pagerank,
+            peso_tfidf=args.peso_tfidf,
+        )
 
     try:
         respuesta = buscar(args.consulta, indice, stopwords, args.modo)
@@ -351,7 +371,15 @@ def main() -> int:
         elif args.ranking == "pagerank":
             datos_pagerank = cargar_pagerank(args.pagerank)
             respuesta = aplicar_ranking_pagerank(respuesta, datos_pagerank)
-    except (ErrorConsulta, ErrorRanking, ErrorPageRank) as exc:
+        elif args.ranking == "hibrido":
+            datos_pagerank = cargar_pagerank(args.pagerank)
+            modelo_tfidf = construir_modelo_tfidf(indice)
+            respuesta = aplicar_ranking_hibrido(
+                respuesta, indice, datos_pagerank,
+                peso_tfidf=args.peso_tfidf,
+                modelo_tfidf=modelo_tfidf,
+            )
+    except (ErrorConsulta, ErrorRanking, ErrorPageRank, ErrorComparacion) as exc:
         print(f"Error: {exc}", file=sys.stderr)
         return 2
 

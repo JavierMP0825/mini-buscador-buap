@@ -1,0 +1,247 @@
+{
+  "consulta": "construcción sostenible",
+  "modo_recuperacion": "OR",
+  "total_documentos_recuperados": 8,
+  "parametros": {
+    "top_k": 5,
+    "peso_tfidf": 0.7,
+    "peso_pagerank": 0.30000000000000004,
+    "formula_hibrida": "score = peso_tfidf * TFIDF + peso_pagerank * PageRank_normalizado",
+    "normalizacion_pagerank": "min-max sobre los documentos recuperados por la consulta"
+  },
+  "coincidencias_top_k": {
+    "tfidf_vs_pagerank": {
+      "k_solicitado": 5,
+      "k_evaluado": 5,
+      "documentos_comunes": 2,
+      "ids_comunes": [
+        "adm-11",
+        "arq-18"
+      ],
+      "coincidencia_porcentual": 40.0,
+      "indice_jaccard": 0.25
+    },
+    "tfidf_vs_hibrido": {
+      "k_solicitado": 5,
+      "k_evaluado": 5,
+      "documentos_comunes": 3,
+      "ids_comunes": [
+        "adm-11",
+        "arq-11",
+        "arq-18"
+      ],
+      "coincidencia_porcentual": 60.0,
+      "indice_jaccard": 0.42857142857142855
+    },
+    "pagerank_vs_hibrido": {
+      "k_solicitado": 5,
+      "k_evaluado": 5,
+      "documentos_comunes": 4,
+      "ids_comunes": [
+        "adm-11",
+        "arq-17",
+        "arq-18",
+        "arq-19"
+      ],
+      "coincidencia_porcentual": 80.0,
+      "indice_jaccard": 0.6666666666666666
+    }
+  },
+  "advertencia_top_k": null,
+  "rankings": {
+    "tfidf": [
+      {
+        "posicion": 1,
+        "id": "arq-11",
+        "titulo": "Arquitectura sostenible",
+        "score": 0.3044926375110436
+      },
+      {
+        "posicion": 2,
+        "id": "arq-05",
+        "titulo": "Materiales de construcción",
+        "score": 0.13450771794816485
+      },
+      {
+        "posicion": 3,
+        "id": "arq-18",
+        "titulo": "Administración de proyectos de construcción",
+        "score": 0.13234908212538482
+      },
+      {
+        "posicion": 4,
+        "id": "arq-06",
+        "titulo": "Sistemas constructivos",
+        "score": 0.06552389542043525
+      },
+      {
+        "posicion": 5,
+        "id": "adm-11",
+        "titulo": "Gestión de proyectos",
+        "score": 0.06368903238373863
+      }
+    ],
+    "pagerank": [
+      {
+        "posicion": 1,
+        "id": "arq-18",
+        "titulo": "Administración de proyectos de construcción",
+        "score": 0.07730719806820344
+      },
+      {
+        "posicion": 2,
+        "id": "adm-11",
+        "titulo": "Gestión de proyectos",
+        "score": 0.06822033825311676
+      },
+      {
+        "posicion": 3,
+        "id": "arq-17",
+        "titulo": "Costos y presupuestos de obra",
+        "score": 0.05010150134442694
+      },
+      {
+        "posicion": 4,
+        "id": "arq-19",
+        "titulo": "Modelado de información de edificios (BIM)",
+        "score": 0.0364696361643959
+      },
+      {
+        "posicion": 5,
+        "id": "arq-07",
+        "titulo": "Estructuras de edificios",
+        "score": 0.02413257715677642
+      }
+    ],
+    "hibrido": [
+      {
+        "posicion": 1,
+        "id": "arq-18",
+        "titulo": "Administración de proyectos de construcción",
+        "score": 0.3926443574877694
+      },
+      {
+        "posicion": 2,
+        "id": "adm-11",
+        "titulo": "Gestión de proyectos",
+        "score": 0.30531902584771725
+      },
+      {
+        "posicion": 3,
+        "id": "arq-11",
+        "titulo": "Arquitectura sostenible",
+        "score": 0.25135880968317
+      },
+      {
+        "posicion": 4,
+        "id": "arq-17",
+        "titulo": "Costos y presupuestos de obra",
+        "score": 0.22324003855187058
+      },
+      {
+        "posicion": 5,
+        "id": "arq-19",
+        "titulo": "Modelado de información de edificios (BIM)",
+        "score": 0.16496564065702643
+      }
+    ]
+  },
+  "tabla_comparativa": [
+    {
+      "id": "arq-18",
+      "titulo": "Administración de proyectos de construcción",
+      "facultad": "Facultad de Arquitectura",
+      "score_tfidf": 0.13234908212538482,
+      "posicion_tfidf": 3,
+      "score_pagerank": 0.07730719806820344,
+      "pagerank_normalizado": 1.0,
+      "posicion_pagerank": 1,
+      "score_hibrido": 0.3926443574877694,
+      "posicion_hibrido": 1
+    },
+    {
+      "id": "adm-11",
+      "titulo": "Gestión de proyectos",
+      "facultad": "Facultad de Administración",
+      "score_tfidf": 0.06368903238373863,
+      "posicion_tfidf": 5,
+      "score_pagerank": 0.06822033825311676,
+      "pagerank_normalizado": 0.8691223439303338,
+      "posicion_pagerank": 2,
+      "score_hibrido": 0.30531902584771725,
+      "posicion_hibrido": 2
+    },
+    {
+      "id": "arq-11",
+      "titulo": "Arquitectura sostenible",
+      "facultad": "Facultad de Arquitectura",
+      "score_tfidf": 0.3044926375110436,
+      "posicion_tfidf": 1,
+      "score_pagerank": 0.016721021956931377,
+      "pagerank_normalizado": 0.1273798780847983,
+      "posicion_pagerank": 6,
+      "score_hibrido": 0.25135880968317,
+      "posicion_hibrido": 3
+    },
+    {
+      "id": "arq-17",
+      "titulo": "Costos y presupuestos de obra",
+      "facultad": "Facultad de Arquitectura",
+      "score_tfidf": 0.058275409946346154,
+      "posicion_tfidf": 8,
+      "score_pagerank": 0.05010150134442694,
+      "pagerank_normalizado": 0.6081575052980942,
+      "posicion_pagerank": 3,
+      "score_hibrido": 0.22324003855187058,
+      "posicion_hibrido": 4
+    },
+    {
+      "id": "arq-19",
+      "titulo": "Modelado de información de edificios (BIM)",
+      "facultad": "Facultad de Arquitectura",
+      "score_tfidf": 0.059171630961089725,
+      "posicion_tfidf": 7,
+      "score_pagerank": 0.0364696361643959,
+      "pagerank_normalizado": 0.41181832994754536,
+      "posicion_pagerank": 4,
+      "score_hibrido": 0.16496564065702643,
+      "posicion_hibrido": 5
+    },
+    {
+      "id": "arq-07",
+      "titulo": "Estructuras de edificios",
+      "facultad": "Facultad de Arquitectura",
+      "score_tfidf": 0.06267766031176156,
+      "posicion_tfidf": 6,
+      "score_pagerank": 0.02413257715677642,
+      "pagerank_normalizado": 0.23412819291806855,
+      "posicion_pagerank": 5,
+      "score_hibrido": 0.11411282009365366,
+      "posicion_hibrido": 6
+    },
+    {
+      "id": "arq-05",
+      "titulo": "Materiales de construcción",
+      "facultad": "Facultad de Arquitectura",
+      "score_tfidf": 0.13450771794816485,
+      "posicion_tfidf": 2,
+      "score_pagerank": 0.007877013512867658,
+      "pagerank_normalizado": 0.0,
+      "posicion_pagerank": 8,
+      "score_hibrido": 0.09415540256371539,
+      "posicion_hibrido": 7
+    },
+    {
+      "id": "arq-06",
+      "titulo": "Sistemas constructivos",
+      "facultad": "Facultad de Arquitectura",
+      "score_tfidf": 0.06552389542043525,
+      "posicion_tfidf": 4,
+      "score_pagerank": 0.013935294270235616,
+      "pagerank_normalizado": 0.08725716050112922,
+      "posicion_pagerank": 7,
+      "score_hibrido": 0.07204387494464344,
+      "posicion_hibrido": 8
+    }
+  ]
+}

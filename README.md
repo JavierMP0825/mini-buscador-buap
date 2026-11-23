@@ -673,7 +673,7 @@ python3 -m unittest discover -s pruebas -v
 
 Las pruebas específicas de PageRank comprueban ciclos, cadenas, nodos colgantes, grafo vacío, convergencia, validación de parámetros, destinos inválidos, exportación JSON y ordenamiento de resultados recuperados.
 
-En esta entrega, la suite conjunta contiene 35 pruebas: 9 de consultas, 10 de TF-IDF y 16 de PageRank e integración.
+En la Entrega 6, la suite conjunta contenía 35 pruebas: 9 de consultas, 10 de TF-IDF y 16 de PageRank e integración.
 
 ## Archivos incorporados
 
@@ -690,3 +690,181 @@ python3 grafo.py
 python3 indexador.py
 python3 pagerank.py
 ```
+
+
+---
+
+# Entrega 7 — Comparación de resultados TF-IDF y PageRank
+
+Esta entrega cierra los siete objetivos principales del motor de recuperación. Añade `comparador.py`, que utiliza el mismo conjunto de documentos recuperados por OR/AND para calcular y comparar tres ordenamientos:
+
+- **TF-IDF:** similitud textual entre la consulta y cada documento.
+- **PageRank:** importancia global de cada documento según los enlaces entrantes del grafo.
+- **Híbrido:** combinación ponderada de la similitud textual y la importancia estructural.
+
+## Preparación
+
+Antes de comparar, deben existir los siguientes archivos, generados en las entregas anteriores:
+
+```text
+indices/indice_invertido.json
+indices/pagerank.json
+```
+
+Si se modificaron los artículos o sus enlaces, reconstruye todos los índices y PageRank:
+
+```bash
+python3 generar.py
+python3 grafo.py
+python3 indexador.py
+python3 pagerank.py
+```
+
+## Ejecutar la comparación
+
+Ejemplo con la muestra inicial:
+
+```bash
+python3 comparador.py "construcción sostenible"
+```
+
+El programa recupera documentos mediante OR y compara los primeros cinco resultados de forma predeterminada. También genera `indices/comparacion.json`.
+
+Para comparar los primeros diez:
+
+```bash
+python3 comparador.py "construcción sostenible" --modo OR --top 10
+```
+
+Para exigir que los documentos contengan todos los términos:
+
+```bash
+python3 comparador.py "diseño arquitectónico" --modo AND --top 5
+```
+
+Para cambiar el peso textual del ranking híbrido:
+
+```bash
+python3 comparador.py "construcción sostenible" --peso-tfidf 0.6
+```
+
+El peso de PageRank siempre es el complemento: si TF-IDF pesa 0.6, PageRank pesa 0.4. El parámetro debe estar entre 0 y 1.
+
+Opciones adicionales:
+
+```bash
+# Guardar el reporte JSON en otra ruta
+python3 comparador.py "arquitectura sostenible" --salida indices/reporte_arquitectura.json
+
+# Mostrar el reporte completo como JSON en la terminal
+python3 comparador.py "arquitectura sostenible" --json
+
+# No crear ningún archivo de salida
+python3 comparador.py "arquitectura sostenible" --sin-guardar
+```
+
+## Fórmula del ranking híbrido
+
+TF-IDF ya produce una similitud coseno entre 0 y 1. PageRank tiene otra escala (sus puntuaciones globales suman 1), por lo que primero se normaliza mediante min-max entre los documentos recuperados por la consulta:
+
+\[
+PR_{norm}(d)=\frac{PR(d)-PR_{min}}{PR_{max}-PR_{min}}
+\]
+
+Si todos los candidatos tienen el mismo PageRank, el componente normalizado se establece en cero para todos, ya que PageRank no permite distinguirlos en ese conjunto.
+
+La puntuación híbrida es:
+
+\[
+Score_{hibrido}(d)=\alpha\,TFIDF(d)+(1-\alpha)\,PR_{norm}(d)
+\]
+
+Con el valor predeterminado \(\alpha=0.7\), el 70 % corresponde a relevancia textual y el 30 % a importancia estructural. Estos pesos son parámetros experimentales; se pueden modificar para observar cómo cambia la clasificación.
+
+## Métricas para comparar resultados
+
+El reporte presenta las posiciones de cada documento en los tres métodos y calcula coincidencias entre los conjuntos de los primeros \(k\) resultados:
+
+\[
+Coincidencia@k=\frac{|A_k\cap B_k|}{k_{evaluado}}\times100
+\]
+
+También calcula el índice Jaccard:
+
+\[
+J(A_k,B_k)=\frac{|A_k\cap B_k|}{|A_k\cup B_k|}
+\]
+
+Donde \(A_k\) y \(B_k\) son los conjuntos de documentos que ocupan los primeros puestos en cada método. La coincidencia mide qué documentos aparecen en ambos grupos; la tabla de posiciones permite observar si aparecen en el mismo orden.
+
+Si la consulta recupera menos documentos que el valor de `--top`, el programa muestra una advertencia: al incluir todos los candidatos, los conjuntos pueden coincidir al 100 % aunque el orden sea diferente. Para estudiar la muestra actual de 40 documentos, reduce `--top` a 3 o 5 cuando sea necesario. Con el corpus completo de 500 documentos, puede ser útil evaluar top 10.
+
+## Usar el ranking híbrido desde buscador.py
+
+El buscador también acepta el nuevo método:
+
+```bash
+python3 buscador.py "construcción sostenible" --ranking hibrido
+```
+
+Para cambiar la proporción:
+
+```bash
+python3 buscador.py "construcción sostenible" --ranking hibrido --peso-tfidf 0.6
+```
+
+En modo interactivo se puede cambiar con:
+
+```text
+:ranking tfidf
+:ranking pagerank
+:ranking hibrido
+:ranking ninguno
+:modo AND
+:modo OR
+:salir
+```
+
+## Archivos incorporados
+
+```text
+comparador.py
+pruebas/test_comparador.py
+indices/comparacion.json       # se genera al ejecutar comparador.py
+```
+
+## Pruebas automáticas
+
+Ejecuta toda la suite:
+
+```bash
+python3 -m unittest discover -s pruebas -v
+```
+
+Las pruebas verifican la normalización de PageRank, los pesos extremos (0 y 1), la fórmula híbrida, la conservación de los documentos candidatos, los cálculos de coincidencia, las consultas sin resultados, las advertencias para conjuntos pequeños y la validación de parámetros. La suite final contiene 51 pruebas: 9 de recuperación, 10 de TF-IDF, 16 de PageRank y 16 de comparación.
+
+## Ejemplo obtenido con los 40 artículos iniciales
+
+Consulta: `construcción sostenible`, recuperación OR, top 5, peso TF-IDF 0.7 y PageRank 0.3.
+
+| Documento | Puesto TF-IDF | Puesto PageRank | Puesto híbrido |
+|---|---:|---:|---:|
+| Administración de proyectos de construcción | 3 | 1 | 1 |
+| Gestión de proyectos | 5 | 2 | 2 |
+| Arquitectura sostenible | 1 | 6 | 3 |
+| Costos y presupuestos de obra | 8 | 3 | 4 |
+| Modelado de información de edificios (BIM) | 7 | 4 | 5 |
+
+En esta ejecución, TF-IDF y PageRank comparten 2 de sus primeros 5 documentos (40 %); TF-IDF y el híbrido comparten 3 (60 %); PageRank y el híbrido comparten 4 (80 %). Estos resultados corresponden únicamente a la muestra actual de 40 documentos y pueden cambiar al ampliar el corpus a 500.
+
+## Estado de los siete objetivos académicos
+
+1. Crear o seleccionar un conjunto de documentos HTML: **completado con 40 artículos de prueba y catálogo de 500 títulos**.
+2. Extraer enlaces y construir el grafo: **completado**.
+3. Procesar documentos e implementar un índice invertido: **completado**.
+4. Implementar consultas sencillas: **completado con OR y AND**.
+5. Calcular un ranking textual: **completado con TF-IDF y similitud del coseno**.
+6. Calcular PageRank: **completado**.
+7. Comparar resultados: **completado con comparación top-k, Jaccard y ranking híbrido**.
+
+La expansión de los 40 artículos de prueba a los 500 artículos del catálogo y la integración del motor con la interfaz web/API siguen siendo tareas de desarrollo posteriores; no deben confundirse con la finalización de estos siete algoritmos.
