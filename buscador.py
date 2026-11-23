@@ -7,9 +7,9 @@ Uso:
     python3 buscador.py "administracion" --modo OR --json
     python3 buscador.py                 # modo interactivo
 
-Los resultados se recuperan desde el índice invertido. En esta etapa NO se
-calcula TF-IDF ni PageRank y, por tanto, los resultados no se ordenan por
-relevancia. Se muestran en orden estable por identificador de documento.
+Los resultados se recuperan desde el índice invertido y, por defecto, se
+ordenan mediante TF-IDF y similitud del coseno. El argumento --ranking ninguno
+permite conservar el orden estable por identificador para comparar.
 """
 
 from __future__ import annotations
@@ -21,6 +21,7 @@ from pathlib import Path
 from typing import Any
 
 from indexador import cargar_stopwords, tokenizar
+from ranking import aplicar_ranking_tfidf, construir_modelo_tfidf, ErrorRanking
 
 ROOT = Path(__file__).resolve().parent
 INDICE_DEFAULT = ROOT / "indices" / "indice_invertido.json"
@@ -154,7 +155,7 @@ def buscar(
         "resultados": resultados,
         "nota": (
             "Recuperación sin ranking: los resultados se muestran por ID. "
-            "TF-IDF y PageRank se implementarán en etapas posteriores."
+            "Puedes activar TF-IDF con --ranking tfidf (opción predeterminada)."
         ),
     }
 
@@ -180,6 +181,8 @@ def imprimir_resultados(respuesta: dict[str, Any], limite: int | None = None) ->
 
     total = respuesta["total_resultados"]
     print(f"Documentos recuperados: {total}")
+    if respuesta.get("ranking"):
+        print(f"Ordenamiento: {respuesta['ranking']}")
 
     resultados = respuesta["resultados"]
     mostrar = resultados if limite is None else resultados[:limite]
@@ -192,6 +195,8 @@ def imprimir_resultados(respuesta: dict[str, Any], limite: int | None = None) ->
     for numero, doc in enumerate(mostrar, start=1):
         print(f"{numero}. [{doc['id']}] {doc['titulo']}")
         print(f"   Facultad: {doc['facultad']}")
+        if "score_tfidf" in doc:
+            print(f"   Similitud TF-IDF: {doc['score_tfidf']:.6f} (posición {doc['posicion_tfidf']})")
         print(f"   Ruta: public/{doc['ruta']}")
         print("   Términos coincidentes: " + ", ".join(doc["terminos_coincidentes"]))
         frecuencias = ", ".join(
@@ -204,12 +209,15 @@ def imprimir_resultados(respuesta: dict[str, Any], limite: int | None = None) ->
     if limite is not None and total > limite:
         print(f"Se muestran {limite} de {total} resultados. Usa --limite para cambiarlo.")
 
-    print("\nNota: esta etapa recupera documentos, pero todavía no los ordena por relevancia.")
+    if respuesta.get("nota"):
+        print("\nNota: " + respuesta["nota"])
 
 
-def modo_interactivo(indice: dict[str, Any], stopwords: set[str]) -> int:
+def modo_interactivo(
+    indice: dict[str, Any], stopwords: set[str], modelo_tfidf: dict[str, Any] | None, ranking_activo: bool
+) -> int:
     print("BUAP Search — Consola de consultas")
-    print("Escribe una consulta; usa :modo AND, :modo OR o :salir.\n")
+    print("Escribe una consulta; usa :modo AND, :modo OR, :ranking tfidf, :ranking ninguno o :salir.\n")
     modo = "OR"
 
     while True:
@@ -224,6 +232,17 @@ def modo_interactivo(indice: dict[str, Any], stopwords: set[str]) -> int:
         if consulta.lower() in {":salir", ":q", "salir", "exit"}:
             print("Saliendo del buscador.")
             return 0
+        if consulta.lower().startswith(":ranking"):
+            partes = consulta.split()
+            if len(partes) == 2 and partes[1].lower() in {"tfidf", "ninguno"}:
+                ranking_activo = partes[1].lower() == "tfidf"
+                if ranking_activo and modelo_tfidf is None:
+                    modelo_tfidf = construir_modelo_tfidf(indice)
+                estado = "TF-IDF activado" if ranking_activo else "Ranking desactivado"
+                print(estado + ".")
+            else:
+                print("Uso: :ranking tfidf   o   :ranking ninguno")
+            continue
         if consulta.lower().startswith(":modo"):
             partes = consulta.split()
             if len(partes) == 2 and partes[1].upper() in {"AND", "OR"}:
@@ -235,7 +254,9 @@ def modo_interactivo(indice: dict[str, Any], stopwords: set[str]) -> int:
 
         try:
             respuesta = buscar(consulta, indice, stopwords, modo)
-        except ErrorConsulta as exc:
+            if ranking_activo:
+                respuesta = aplicar_ranking_tfidf(respuesta, indice, modelo_tfidf)
+        except (ErrorConsulta, ErrorRanking) as exc:
             print(f"Consulta no válida: {exc}")
             continue
         imprimir_resultados(respuesta)
@@ -243,7 +264,7 @@ def modo_interactivo(indice: dict[str, Any], stopwords: set[str]) -> int:
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Busca documentos del corpus BUAP usando el índice invertido."
+        description="Busca documentos del corpus BUAP y los ordena con TF-IDF."
     )
     parser.add_argument(
         "consulta", nargs="?", help="Texto que se desea buscar. Sin consulta inicia el modo interactivo."
@@ -251,6 +272,10 @@ def main() -> int:
     parser.add_argument(
         "--modo", choices=["OR", "AND", "or", "and"], default="OR",
         help="OR: al menos un término; AND: todos los términos (predeterminado: OR)."
+    )
+    parser.add_argument(
+        "--ranking", choices=["tfidf", "ninguno"], default="tfidf",
+        help="Ordena por TF-IDF (predeterminado) o conserva el orden por ID.",
     )
     parser.add_argument(
         "--indice", type=Path, default=INDICE_DEFAULT,
@@ -276,14 +301,18 @@ def main() -> int:
     indice = cargar_indice(args.indice)
     stopwords = cargar_stopwords_para_indice(indice, args.stopwords)
 
+    modelo_tfidf = construir_modelo_tfidf(indice) if args.ranking == "tfidf" else None
+
     if args.consulta is None:
         if args.salida_json:
             parser.error("--json requiere proporcionar una consulta.")
-        return modo_interactivo(indice, stopwords)
+        return modo_interactivo(indice, stopwords, modelo_tfidf, args.ranking == "tfidf")
 
     try:
         respuesta = buscar(args.consulta, indice, stopwords, args.modo)
-    except ErrorConsulta as exc:
+        if args.ranking == "tfidf":
+            respuesta = aplicar_ranking_tfidf(respuesta, indice, modelo_tfidf)
+    except (ErrorConsulta, ErrorRanking) as exc:
         print(f"Error: {exc}", file=sys.stderr)
         return 2
 

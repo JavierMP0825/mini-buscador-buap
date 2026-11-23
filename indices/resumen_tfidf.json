@@ -1,0 +1,14 @@
+{
+  "proyecto": "Mini buscador académico BUAP",
+  "etapa": "Ranking textual TF-IDF",
+  "total_documentos": 40,
+  "total_terminos_unicos": 783,
+  "formula_tf": "1 + ln(tf)",
+  "formula_idf": "ln((N + 1) / (df + 1)) + 1",
+  "similitud": "coseno",
+  "idf_minimo": 2.00552187,
+  "idf_maximo": 4.02042489,
+  "norma_documental_minima": 20.35250577,
+  "norma_documental_maxima": 25.14895875,
+  "nota": "Resumen calculado sobre el corpus actual. El motor recalcula el modelo al iniciar para reflejar cualquier reindexación."
+}

@@ -429,3 +429,98 @@ buscador.py                 # Motor de consultas OR / AND
 pruebas/
 └── test_buscador.py        # Pruebas unitarias del motor de consultas
 ```
+
+---
+
+# Entrega 5 — Ranking textual con TF-IDF y similitud del coseno
+
+Esta entrega incorpora `ranking.py` e integra el ranking textual con `buscador.py`. El sistema ya no se limita a recuperar documentos: por defecto calcula una puntuación de similitud y ordena los resultados de mayor a menor relevancia textual.
+
+## Ejecutar una búsqueda ordenada por relevancia
+
+Desde la raíz del proyecto:
+
+```bash
+python3 buscador.py "construcción sostenible"
+python3 buscador.py "diseño arquitectónico" --modo AND
+```
+
+El ranking TF-IDF está activado por defecto. Cada resultado muestra su puntuación `Similitud TF-IDF`, entre 0 y 1, y su posición en la clasificación.
+
+Para comparar contra la recuperación sin ranking de la entrega anterior:
+
+```bash
+python3 buscador.py "construcción sostenible" --ranking ninguno
+```
+
+También se puede generar una respuesta JSON para futuras integraciones:
+
+```bash
+python3 buscador.py "construcción sostenible" --json
+```
+
+En modo interactivo se puede cambiar de modo y activar/desactivar el ranking:
+
+```text
+:modo AND
+:modo OR
+:ranking tfidf
+:ranking ninguno
+:salir
+```
+
+## Fórmulas utilizadas
+
+El ranking utiliza TF ponderada, IDF suavizada y similitud del coseno:
+
+```text
+TF_ponderada(t,d) = 1 + ln(tf(t,d))
+IDF(t) = ln((N + 1) / (df(t) + 1)) + 1
+TFIDF(t,d) = TF_ponderada(t,d) * IDF(t)
+```
+
+Donde:
+
+- `tf(t,d)` es el número de veces que el término aparece en el documento.
+- `df(t)` es el número de documentos que contienen el término.
+- `N` es el número total de documentos del corpus.
+
+Cada consulta se representa como un vector en el que cada término procesado aparece una vez. Los documentos se representan con los pesos TF-IDF de todo su vocabulario. Se calcula el coseno entre ambos vectores:
+
+```text
+coseno(q,d) = producto_punto(q,d) / (norma(q) * norma(d))
+```
+
+La norma del documento considera todos sus términos, no solamente las palabras de la consulta. El modelo precalcula los valores IDF y las normas de los documentos al iniciar el buscador, y los reutiliza durante las consultas de la sesión.
+
+## Relación con la recuperación OR/AND
+
+La recuperación y el ranking son dos etapas separadas:
+
+1. `buscador.py` obtiene los documentos candidatos con OR o AND.
+2. `ranking.py` calcula la similitud TF-IDF de esos candidatos y los ordena.
+
+Por tanto, OR/AND sigue determinando qué documentos pueden aparecer. TF-IDF determina el orden en que se muestran. Los términos de consulta que no existen en el vocabulario se ignoran para el cálculo vectorial; en modo AND, un término desconocido continúa provocando cero resultados.
+
+## Archivos incorporados
+
+- `ranking.py`: construcción del modelo TF-IDF, cálculo de normas y ordenamiento por coseno.
+- `pruebas/test_ranking.py`: pruebas de IDF, normas, puntuaciones, ordenamiento, modos OR/AND y casos sin resultados.
+
+## Ejecutar las pruebas
+
+```bash
+python3 -m unittest discover -s pruebas -v
+```
+
+La suite conjunta incluye nueve pruebas de recuperación y diez pruebas de ranking (19 en total). No se requieren paquetes externos: el módulo usa bibliotecas estándar de Python.
+
+## Ejemplo de validación con el corpus inicial
+
+Con los 40 artículos de Administración y Arquitectura, la consulta `construcción sostenible` en modo OR recupera ocho documentos. El ranking coloca primero `Arquitectura sostenible` porque es el documento con mayor similitud coseno entre los candidatos de esa consulta. Los valores concretos dependen del contenido y del tamaño del corpus.
+
+El corpus puede ampliarse a las 25 facultades y 500 artículos sin cambiar las fórmulas. Después de añadir los nuevos HTML, hay que volver a ejecutar `generar.py`, `grafo.py` e `indexador.py`; el ranking se recalcula automáticamente al iniciar `buscador.py`.
+
+## Limitación de esta etapa
+
+TF-IDF mide similitud textual, no importancia de enlaces. Un documento puede ser muy parecido a la consulta y tener pocas conexiones en el grafo. El cálculo de importancia basada en enlaces se implementará en la etapa de PageRank y posteriormente se podrán comparar ambos rankings.
