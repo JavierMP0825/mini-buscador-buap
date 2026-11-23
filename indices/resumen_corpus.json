@@ -1,0 +1,212 @@
+{
+  "proyecto": "Mini buscador académico BUAP",
+  "fase": "Fase 2: corpus completo",
+  "total_facultades": 25,
+  "total_articulos": 500,
+  "total_paginas_html_articulos": 500,
+  "total_paginas_indice_facultad": 25,
+  "total_paginas_html_incluyendo_inicio": 526,
+  "palabras_por_articulo": {
+    "minimo": 24,
+    "maximo": 64,
+    "promedio": 34.16,
+    "maximo_permitido": 200
+  },
+  "articulos_por_facultad": [
+    {
+      "id": "adm",
+      "nombre": "Facultad de Administración",
+      "total_articulos": 20,
+      "palabras_minimas": 54,
+      "palabras_maximas": 64
+    },
+    {
+      "id": "arq",
+      "nombre": "Facultad de Arquitectura",
+      "total_articulos": 20,
+      "palabras_minimas": 52,
+      "palabras_maximas": 61
+    },
+    {
+      "id": "art",
+      "nombre": "Facultad de Artes",
+      "total_articulos": 20,
+      "palabras_minimas": 35,
+      "palabras_maximas": 41
+    },
+    {
+      "id": "arpa",
+      "nombre": "Facultad de Artes Plásticas y Audiovisuales",
+      "total_articulos": 20,
+      "palabras_minimas": 31,
+      "palabras_maximas": 38
+    },
+    {
+      "id": "cap",
+      "nombre": "Facultad de Ciencias Agrícolas y Pecuarias",
+      "total_articulos": 20,
+      "palabras_minimas": 33,
+      "palabras_maximas": 39
+    },
+    {
+      "id": "bio",
+      "nombre": "Facultad de Ciencias Biológicas",
+      "total_articulos": 20,
+      "palabras_minimas": 30,
+      "palabras_maximas": 37
+    },
+    {
+      "id": "cc",
+      "nombre": "Facultad de Ciencias de la Computación",
+      "total_articulos": 20,
+      "palabras_minimas": 27,
+      "palabras_maximas": 31
+    },
+    {
+      "id": "com",
+      "nombre": "Facultad de Ciencias de la Comunicación",
+      "total_articulos": 20,
+      "palabras_minimas": 31,
+      "palabras_maximas": 37
+    },
+    {
+      "id": "ele",
+      "nombre": "Facultad de Ciencias de la Electrónica",
+      "total_articulos": 20,
+      "palabras_minimas": 30,
+      "palabras_maximas": 38
+    },
+    {
+      "id": "cfm",
+      "nombre": "Facultad de Ciencias Físico Matemáticas",
+      "total_articulos": 20,
+      "palabras_minimas": 27,
+      "palabras_maximas": 33
+    },
+    {
+      "id": "cps",
+      "nombre": "Facultad de Ciencias Políticas y Sociales",
+      "total_articulos": 20,
+      "palabras_minimas": 30,
+      "palabras_maximas": 37
+    },
+    {
+      "id": "quim",
+      "nombre": "Facultad de Ciencias Químicas",
+      "total_articulos": 20,
+      "palabras_minimas": 31,
+      "palabras_maximas": 36
+    },
+    {
+      "id": "cont",
+      "nombre": "Facultad de Contaduría Pública",
+      "total_articulos": 20,
+      "palabras_minimas": 24,
+      "palabras_maximas": 32
+    },
+    {
+      "id": "cf",
+      "nombre": "Facultad de Cultura Física",
+      "total_articulos": 20,
+      "palabras_minimas": 30,
+      "palabras_maximas": 35
+    },
+    {
+      "id": "der",
+      "nombre": "Facultad de Derecho",
+      "total_articulos": 20,
+      "palabras_minimas": 29,
+      "palabras_maximas": 36
+    },
+    {
+      "id": "eco",
+      "nombre": "Facultad de Economía",
+      "total_articulos": 20,
+      "palabras_minimas": 29,
+      "palabras_maximas": 37
+    },
+    {
+      "id": "enf",
+      "nombre": "Facultad de Enfermería",
+      "total_articulos": 20,
+      "palabras_minimas": 30,
+      "palabras_maximas": 36
+    },
+    {
+      "id": "est",
+      "nombre": "Facultad de Estomatología",
+      "total_articulos": 20,
+      "palabras_minimas": 28,
+      "palabras_maximas": 35
+    },
+    {
+      "id": "fil",
+      "nombre": "Facultad de Filosofía y Letras",
+      "total_articulos": 20,
+      "palabras_minimas": 27,
+      "palabras_maximas": 31
+    },
+    {
+      "id": "ing",
+      "nombre": "Facultad de Ingeniería",
+      "total_articulos": 20,
+      "palabras_minimas": 29,
+      "palabras_maximas": 35
+    },
+    {
+      "id": "iq",
+      "nombre": "Facultad de Ingeniería Química",
+      "total_articulos": 20,
+      "palabras_minimas": 30,
+      "palabras_maximas": 34
+    },
+    {
+      "id": "len",
+      "nombre": "Facultad de Lenguas",
+      "total_articulos": 20,
+      "palabras_minimas": 27,
+      "palabras_maximas": 34
+    },
+    {
+      "id": "med",
+      "nombre": "Facultad de Medicina",
+      "total_articulos": 20,
+      "palabras_minimas": 26,
+      "palabras_maximas": 32
+    },
+    {
+      "id": "vet",
+      "nombre": "Facultad de Medicina Veterinaria y Zootecnia",
+      "total_articulos": 20,
+      "palabras_minimas": 28,
+      "palabras_maximas": 32
+    },
+    {
+      "id": "psi",
+      "nombre": "Facultad de Psicología",
+      "total_articulos": 20,
+      "palabras_minimas": 28,
+      "palabras_maximas": 34
+    }
+  ],
+  "grafo": {
+    "nodos": 500,
+    "aristas": 2006,
+    "componentes_fuertemente_conexas": 1,
+    "fuertemente_conexo": true,
+    "nodos_sin_enlaces_salientes": 0
+  },
+  "indice_invertido": {
+    "documentos": 500,
+    "tokens_indexados": 12847,
+    "terminos_unicos": 2604,
+    "promedio_terminos_por_documento": 25.694
+  },
+  "pagerank": {
+    "nodos": 500,
+    "convergio": true,
+    "iteraciones": 86,
+    "suma_puntuaciones": 1.0
+  },
+  "contenido": "Artículos demostrativos; no son publicaciones oficiales de la BUAP."
+}

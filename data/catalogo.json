@@ -1,12 +1,14 @@
 {
   "proyecto": {
     "nombre": "Mini buscador académico BUAP",
-    "descripcion": "Corpus demostrativo de documentos HTML para una práctica de Recuperación de Información.",
+    "descripcion": "Corpus demostrativo completo de 500 documentos HTML relacionados con 25 facultades para una práctica de Recuperación de Información.",
     "total_facultades": 25,
     "articulos_por_facultad": 20,
     "total_articulos": 500,
-    "entrega": 1,
-    "articulos_html_generados_inicialmente": 40
+    "entrega": 8,
+    "articulos_html_generados_inicialmente": 40,
+    "articulos_html_generados": 500,
+    "fase_actual": "Fase 2: corpus completo"
   },
   "facultades": [
     {
@@ -503,7 +505,7 @@
             "lenguaje",
             "visual"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "art-02",
@@ -514,7 +516,7 @@
             "teoria",
             "color"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "art-03",
@@ -526,7 +528,7 @@
             "arte",
             "antiguo"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "art-04",
@@ -537,7 +539,7 @@
             "arte",
             "medieval"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "art-05",
@@ -548,7 +550,7 @@
             "arte",
             "moderno"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "art-06",
@@ -559,7 +561,7 @@
             "arte",
             "contemporaneo"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "art-07",
@@ -570,7 +572,7 @@
             "dibujo",
             "artistico"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "art-08",
@@ -581,7 +583,7 @@
             "tecnicas",
             "pintura"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "art-09",
@@ -592,7 +594,7 @@
             "escultura",
             "materiales"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "art-10",
@@ -603,7 +605,7 @@
             "grabado",
             "artistico"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "art-11",
@@ -614,7 +616,7 @@
             "fotografia",
             "artistica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "art-12",
@@ -625,7 +627,7 @@
             "composicion",
             "visual"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "art-13",
@@ -637,7 +639,7 @@
             "experiencia",
             "artistica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "art-14",
@@ -648,7 +650,7 @@
             "curaduria",
             "exposiciones"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "art-15",
@@ -659,7 +661,7 @@
             "gestion",
             "cultural"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "art-16",
@@ -670,7 +672,7 @@
             "arte",
             "publico"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "art-17",
@@ -682,7 +684,7 @@
             "expresion",
             "corporal"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "art-18",
@@ -693,7 +695,7 @@
             "arte",
             "digital"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "art-19",
@@ -704,7 +706,7 @@
             "critica",
             "arte"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "art-20",
@@ -716,7 +718,7 @@
             "obras",
             "artisticas"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         }
       ]
     },
@@ -736,7 +738,7 @@
             "lenguaje",
             "audiovisual"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "arpa-02",
@@ -747,7 +749,7 @@
             "narrativa",
             "cinematografica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "arpa-03",
@@ -758,7 +760,7 @@
             "guion",
             "audiovisual"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "arpa-04",
@@ -769,7 +771,7 @@
             "direccion",
             "cinematografica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "arpa-05",
@@ -780,7 +782,7 @@
             "produccion",
             "audiovisual"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "arpa-06",
@@ -791,7 +793,7 @@
             "fotografia",
             "cinematografica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "arpa-07",
@@ -803,7 +805,7 @@
             "edicion",
             "video"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "arpa-08",
@@ -815,7 +817,7 @@
             "sonoro",
             "cinematografico"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "arpa-09",
@@ -826,7 +828,7 @@
             "animacion",
             "bidimensional"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "arpa-10",
@@ -837,7 +839,7 @@
             "animacion",
             "tridimensional"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "arpa-11",
@@ -848,7 +850,7 @@
             "diseno",
             "personajes"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "arpa-12",
@@ -859,7 +861,7 @@
             "arte",
             "conceptual"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "arpa-13",
@@ -870,7 +872,7 @@
             "efectos",
             "visuales"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "arpa-14",
@@ -881,7 +883,7 @@
             "documental",
             "audiovisual"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "arpa-15",
@@ -892,7 +894,7 @@
             "produccion",
             "cortometrajes"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "arpa-16",
@@ -903,7 +905,7 @@
             "cine",
             "experimental"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "arpa-17",
@@ -914,7 +916,7 @@
             "produccion",
             "multimedia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "arpa-18",
@@ -925,7 +927,7 @@
             "posproduccion",
             "digital"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "arpa-19",
@@ -937,7 +939,7 @@
             "exhibicion",
             "cinematografica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "arpa-20",
@@ -950,7 +952,7 @@
             "obras",
             "audiovisuales"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         }
       ]
     },
@@ -970,7 +972,7 @@
             "agricultura",
             "sostenible"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cap-02",
@@ -982,7 +984,7 @@
             "estudio",
             "suelo"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cap-03",
@@ -993,7 +995,7 @@
             "conservacion",
             "suelos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cap-04",
@@ -1004,7 +1006,7 @@
             "sistemas",
             "riego"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cap-05",
@@ -1014,7 +1016,7 @@
           "palabras_clave": [
             "agrohidrologia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cap-06",
@@ -1025,7 +1027,7 @@
             "manejo",
             "cuencas"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cap-07",
@@ -1037,7 +1039,7 @@
             "granos",
             "basicos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cap-08",
@@ -1047,7 +1049,7 @@
           "palabras_clave": [
             "horticultura"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cap-09",
@@ -1057,7 +1059,7 @@
           "palabras_clave": [
             "fruticultura"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cap-10",
@@ -1068,7 +1070,7 @@
             "fitopatologia",
             "agricola"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cap-11",
@@ -1079,7 +1081,7 @@
             "entomologia",
             "agricola"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cap-12",
@@ -1091,7 +1093,7 @@
             "nutricion",
             "vegetal"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cap-13",
@@ -1102,7 +1104,7 @@
             "agricultura",
             "protegida"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cap-14",
@@ -1113,7 +1115,7 @@
             "mecanizacion",
             "agricola"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cap-15",
@@ -1124,7 +1126,7 @@
             "produccion",
             "bovina"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cap-16",
@@ -1135,7 +1137,7 @@
             "produccion",
             "porcina"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cap-17",
@@ -1146,7 +1148,7 @@
             "produccion",
             "avicola"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cap-18",
@@ -1158,7 +1160,7 @@
             "genetico",
             "animal"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cap-19",
@@ -1171,7 +1173,7 @@
             "sistemas",
             "pecuarios"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cap-20",
@@ -1183,7 +1185,7 @@
             "productos",
             "agropecuarios"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         }
       ]
     },
@@ -1203,7 +1205,7 @@
             "biologia",
             "celular"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "bio-02",
@@ -1213,7 +1215,7 @@
           "palabras_clave": [
             "genetica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "bio-03",
@@ -1223,7 +1225,7 @@
           "palabras_clave": [
             "microbiologia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "bio-04",
@@ -1233,7 +1235,7 @@
           "palabras_clave": [
             "botanica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "bio-05",
@@ -1243,7 +1245,7 @@
           "palabras_clave": [
             "zoologia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "bio-06",
@@ -1253,7 +1255,7 @@
           "palabras_clave": [
             "ecologia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "bio-07",
@@ -1263,7 +1265,7 @@
           "palabras_clave": [
             "biodiversidad"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "bio-08",
@@ -1274,7 +1276,7 @@
             "evolucion",
             "biologica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "bio-09",
@@ -1285,7 +1287,7 @@
             "biologia",
             "molecular"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "bio-10",
@@ -1296,7 +1298,7 @@
             "fisiologia",
             "animal"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "bio-11",
@@ -1307,7 +1309,7 @@
             "fisiologia",
             "vegetal"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "bio-12",
@@ -1318,7 +1320,7 @@
             "conservacion",
             "especies"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "bio-13",
@@ -1329,7 +1331,7 @@
             "ecosistemas",
             "acuaticos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "bio-14",
@@ -1339,7 +1341,7 @@
           "palabras_clave": [
             "entomologia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "bio-15",
@@ -1349,7 +1351,7 @@
           "palabras_clave": [
             "micologia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "bio-16",
@@ -1359,7 +1361,7 @@
           "palabras_clave": [
             "parasitologia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "bio-17",
@@ -1369,7 +1371,7 @@
           "palabras_clave": [
             "biotecnologia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "bio-18",
@@ -1379,7 +1381,7 @@
           "palabras_clave": [
             "bioinformatica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "bio-19",
@@ -1391,7 +1393,7 @@
             "climatico",
             "biodiversidad"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "bio-20",
@@ -1403,7 +1405,7 @@
             "naturales",
             "protegidas"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         }
       ]
     },
@@ -1423,7 +1425,7 @@
             "fundamentos",
             "programacion"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cc-02",
@@ -1434,7 +1436,7 @@
             "estructuras",
             "datos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cc-03",
@@ -1445,7 +1447,7 @@
             "algoritmos",
             "ordenamiento"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cc-04",
@@ -1457,7 +1459,7 @@
             "datos",
             "relacionales"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cc-05",
@@ -1469,7 +1471,7 @@
             "aplicaciones",
             "web"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cc-06",
@@ -1480,7 +1482,7 @@
             "sistemas",
             "operativos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cc-07",
@@ -1491,7 +1493,7 @@
             "redes",
             "computadoras"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cc-08",
@@ -1501,7 +1503,7 @@
           "palabras_clave": [
             "ciberseguridad"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cc-09",
@@ -1511,7 +1513,7 @@
           "palabras_clave": [
             "criptografia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cc-10",
@@ -1522,7 +1524,7 @@
             "inteligencia",
             "artificial"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cc-11",
@@ -1533,7 +1535,7 @@
             "aprendizaje",
             "automatico"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cc-12",
@@ -1545,7 +1547,7 @@
             "lenguaje",
             "natural"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cc-13",
@@ -1556,7 +1558,7 @@
             "recuperacion",
             "informacion"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cc-14",
@@ -1567,7 +1569,7 @@
             "mineria",
             "datos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cc-15",
@@ -1578,7 +1580,7 @@
             "ciencia",
             "datos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cc-16",
@@ -1589,7 +1591,7 @@
             "computacion",
             "nube"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cc-17",
@@ -1600,7 +1602,7 @@
             "sistemas",
             "distribuidos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cc-18",
@@ -1611,7 +1613,7 @@
             "internet",
             "cosas"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cc-19",
@@ -1622,7 +1624,7 @@
             "robotica",
             "computacional"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cc-20",
@@ -1633,7 +1635,7 @@
             "ingenieria",
             "software"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         }
       ]
     },
@@ -1653,7 +1655,7 @@
             "teorias",
             "comunicacion"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "com-02",
@@ -1664,7 +1666,7 @@
             "comunicacion",
             "interpersonal"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "com-03",
@@ -1675,7 +1677,7 @@
             "comunicacion",
             "organizacional"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "com-04",
@@ -1686,7 +1688,7 @@
             "periodismo",
             "informativo"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "com-05",
@@ -1697,7 +1699,7 @@
             "periodismo",
             "investigacion"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "com-06",
@@ -1708,7 +1710,7 @@
             "redaccion",
             "periodistica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "com-07",
@@ -1720,7 +1722,7 @@
             "comunicacion",
             "masiva"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "com-08",
@@ -1731,7 +1733,7 @@
             "comunicacion",
             "digital"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "com-09",
@@ -1743,7 +1745,7 @@
             "sociales",
             "sociedad"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "com-10",
@@ -1754,7 +1756,7 @@
             "produccion",
             "radiofonica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "com-11",
@@ -1765,7 +1767,7 @@
             "produccion",
             "televisiva"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "com-12",
@@ -1776,7 +1778,7 @@
             "comunicacion",
             "politica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "com-13",
@@ -1787,7 +1789,7 @@
             "comunicacion",
             "publicitaria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "com-14",
@@ -1798,7 +1800,7 @@
             "relaciones",
             "publicas"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "com-15",
@@ -1809,7 +1811,7 @@
             "opinion",
             "publica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "com-16",
@@ -1820,7 +1822,7 @@
             "alfabetizacion",
             "mediatica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "com-17",
@@ -1831,7 +1833,7 @@
             "etica",
             "periodistica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "com-18",
@@ -1842,7 +1844,7 @@
             "comunicacion",
             "ciencia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "com-19",
@@ -1853,7 +1855,7 @@
             "fotografia",
             "periodistica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "com-20",
@@ -1864,7 +1866,7 @@
             "analisis",
             "discurso"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         }
       ]
     },
@@ -1884,7 +1886,7 @@
             "circuitos",
             "electricos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ele-02",
@@ -1895,7 +1897,7 @@
             "circuitos",
             "electronicos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ele-03",
@@ -1906,7 +1908,7 @@
             "componentes",
             "semiconductores"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ele-04",
@@ -1917,7 +1919,7 @@
             "electronica",
             "analogica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ele-05",
@@ -1928,7 +1930,7 @@
             "electronica",
             "digital"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ele-06",
@@ -1938,7 +1940,7 @@
           "palabras_clave": [
             "microcontroladores"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ele-07",
@@ -1949,7 +1951,7 @@
             "sistemas",
             "embebidos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ele-08",
@@ -1960,7 +1962,7 @@
             "instrumentacion",
             "electronica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ele-09",
@@ -1971,7 +1973,7 @@
             "sensores",
             "actuadores"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ele-10",
@@ -1982,7 +1984,7 @@
             "procesamiento",
             "senales"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ele-11",
@@ -1992,7 +1994,7 @@
           "palabras_clave": [
             "telecomunicaciones"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ele-12",
@@ -2003,7 +2005,7 @@
             "antenas",
             "propagacion"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ele-13",
@@ -2014,7 +2016,7 @@
             "sistemas",
             "control"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ele-14",
@@ -2025,7 +2027,7 @@
             "robotica",
             "electronica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ele-15",
@@ -2038,7 +2040,7 @@
             "impresos",
             "pcb"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ele-16",
@@ -2049,7 +2051,7 @@
             "fuentes",
             "alimentacion"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ele-17",
@@ -2060,7 +2062,7 @@
             "electronica",
             "potencia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ele-18",
@@ -2071,7 +2073,7 @@
             "automatizacion",
             "industrial"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ele-19",
@@ -2083,7 +2085,7 @@
             "adquisicion",
             "datos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ele-20",
@@ -2094,7 +2096,7 @@
             "mantenimiento",
             "electronico"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         }
       ]
     },
@@ -2114,7 +2116,7 @@
             "algebra",
             "lineal"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cfm-02",
@@ -2125,7 +2127,7 @@
             "calculo",
             "diferencial"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cfm-03",
@@ -2136,7 +2138,7 @@
             "calculo",
             "integral"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cfm-04",
@@ -2147,7 +2149,7 @@
             "ecuaciones",
             "diferenciales"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cfm-05",
@@ -2158,7 +2160,7 @@
             "analisis",
             "matematico"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cfm-06",
@@ -2168,7 +2170,7 @@
           "palabras_clave": [
             "probabilidad"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cfm-07",
@@ -2179,7 +2181,7 @@
             "estadistica",
             "matematica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cfm-08",
@@ -2190,7 +2192,7 @@
             "matematicas",
             "discretas"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cfm-09",
@@ -2201,7 +2203,7 @@
             "teoria",
             "numeros"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cfm-10",
@@ -2212,7 +2214,7 @@
             "geometria",
             "analitica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cfm-11",
@@ -2222,7 +2224,7 @@
           "palabras_clave": [
             "topologia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cfm-12",
@@ -2233,7 +2235,7 @@
             "fisica",
             "clasica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cfm-13",
@@ -2243,7 +2245,7 @@
           "palabras_clave": [
             "mecanica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cfm-14",
@@ -2253,7 +2255,7 @@
           "palabras_clave": [
             "electromagnetismo"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cfm-15",
@@ -2263,7 +2265,7 @@
           "palabras_clave": [
             "termodinamica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cfm-16",
@@ -2274,7 +2276,7 @@
             "fisica",
             "cuantica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cfm-17",
@@ -2284,7 +2286,7 @@
           "palabras_clave": [
             "optica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cfm-18",
@@ -2296,7 +2298,7 @@
             "estado",
             "solido"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cfm-19",
@@ -2307,7 +2309,7 @@
             "metodos",
             "numericos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cfm-20",
@@ -2318,7 +2320,7 @@
             "modelacion",
             "matematica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         }
       ]
     },
@@ -2338,7 +2340,7 @@
             "teoria",
             "politica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cps-02",
@@ -2349,7 +2351,7 @@
             "estado",
             "gobierno"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cps-03",
@@ -2361,7 +2363,7 @@
             "politicos",
             "comparados"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cps-04",
@@ -2372,7 +2374,7 @@
             "instituciones",
             "democraticas"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cps-05",
@@ -2383,7 +2385,7 @@
             "politicas",
             "publicas"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cps-06",
@@ -2394,7 +2396,7 @@
             "administracion",
             "publica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cps-07",
@@ -2405,7 +2407,7 @@
             "relaciones",
             "internacionales"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cps-08",
@@ -2416,7 +2418,7 @@
             "derechos",
             "humanos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cps-09",
@@ -2427,7 +2429,7 @@
             "participacion",
             "ciudadana"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cps-10",
@@ -2438,7 +2440,7 @@
             "movimientos",
             "sociales"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cps-11",
@@ -2449,7 +2451,7 @@
             "sociologia",
             "politica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cps-12",
@@ -2460,7 +2462,7 @@
             "opinion",
             "publica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cps-13",
@@ -2472,7 +2474,7 @@
             "sistemas",
             "electorales"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cps-14",
@@ -2483,7 +2485,7 @@
             "partidos",
             "politicos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cps-15",
@@ -2494,7 +2496,7 @@
             "seguridad",
             "publica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cps-16",
@@ -2504,7 +2506,7 @@
           "palabras_clave": [
             "gobernanza"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cps-17",
@@ -2515,7 +2517,7 @@
             "analisis",
             "coyuntura"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cps-18",
@@ -2526,7 +2528,7 @@
             "investigacion",
             "social"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cps-19",
@@ -2537,7 +2539,7 @@
             "desigualdad",
             "social"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cps-20",
@@ -2548,7 +2550,7 @@
             "comunicacion",
             "politica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         }
       ]
     },
@@ -2568,7 +2570,7 @@
             "estructura",
             "atomica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "quim-02",
@@ -2579,7 +2581,7 @@
             "tabla",
             "periodica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "quim-03",
@@ -2590,7 +2592,7 @@
             "enlace",
             "quimico"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "quim-04",
@@ -2600,7 +2602,7 @@
           "palabras_clave": [
             "estequiometria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "quim-05",
@@ -2611,7 +2613,7 @@
             "soluciones",
             "quimicas"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "quim-06",
@@ -2622,7 +2624,7 @@
             "equilibrio",
             "quimico"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "quim-07",
@@ -2633,7 +2635,7 @@
             "cinetica",
             "quimica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "quim-08",
@@ -2644,7 +2646,7 @@
             "quimica",
             "organica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "quim-09",
@@ -2655,7 +2657,7 @@
             "grupos",
             "funcionales"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "quim-10",
@@ -2666,7 +2668,7 @@
             "quimica",
             "inorganica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "quim-11",
@@ -2677,7 +2679,7 @@
             "quimica",
             "analitica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "quim-12",
@@ -2687,7 +2689,7 @@
           "palabras_clave": [
             "espectroscopia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "quim-13",
@@ -2698,7 +2700,7 @@
             "quimica",
             "ambiental"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "quim-14",
@@ -2708,7 +2710,7 @@
           "palabras_clave": [
             "bioquimica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "quim-15",
@@ -2718,7 +2720,7 @@
           "palabras_clave": [
             "polimeros"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "quim-16",
@@ -2729,7 +2731,7 @@
             "corrosion",
             "materiales"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "quim-17",
@@ -2740,7 +2742,7 @@
             "seguridad",
             "laboratorio"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "quim-18",
@@ -2751,7 +2753,7 @@
             "quimica",
             "industrial"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "quim-19",
@@ -2762,7 +2764,7 @@
             "tratamiento",
             "aguas"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "quim-20",
@@ -2773,7 +2775,7 @@
             "nanotecnologia",
             "quimica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         }
       ]
     },
@@ -2793,7 +2795,7 @@
             "fundamentos",
             "contabilidad"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cont-02",
@@ -2804,7 +2806,7 @@
             "estados",
             "financieros"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cont-03",
@@ -2815,7 +2817,7 @@
             "balance",
             "general"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cont-04",
@@ -2826,7 +2828,7 @@
             "estado",
             "resultados"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cont-05",
@@ -2837,7 +2839,7 @@
             "contabilidad",
             "costos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cont-06",
@@ -2848,7 +2850,7 @@
             "presupuestos",
             "empresariales"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cont-07",
@@ -2859,7 +2861,7 @@
             "auditoria",
             "financiera"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cont-08",
@@ -2870,7 +2872,7 @@
             "control",
             "interno"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cont-09",
@@ -2881,7 +2883,7 @@
             "contabilidad",
             "fiscal"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cont-10",
@@ -2892,7 +2894,7 @@
             "obligaciones",
             "tributarias"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cont-11",
@@ -2903,7 +2905,7 @@
             "costos",
             "produccion"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cont-12",
@@ -2914,7 +2916,7 @@
             "contabilidad",
             "administrativa"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cont-13",
@@ -2925,7 +2927,7 @@
             "finanzas",
             "corporativas"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cont-14",
@@ -2936,7 +2938,7 @@
             "analisis",
             "financiero"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cont-15",
@@ -2947,7 +2949,7 @@
             "flujo",
             "efectivo"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cont-16",
@@ -2959,7 +2961,7 @@
             "informacion",
             "financiera"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cont-17",
@@ -2970,7 +2972,7 @@
             "contabilidad",
             "electronica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cont-18",
@@ -2981,7 +2983,7 @@
             "gobierno",
             "corporativo"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cont-19",
@@ -2992,7 +2994,7 @@
             "riesgos",
             "financieros"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cont-20",
@@ -3004,7 +3006,7 @@
             "profesional",
             "contable"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         }
       ]
     },
@@ -3026,7 +3028,7 @@
             "al",
             "ejercicio"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cf-02",
@@ -3037,7 +3039,7 @@
             "fisiologia",
             "ejercicio"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cf-03",
@@ -3048,7 +3050,7 @@
             "biomecanica",
             "deportiva"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cf-04",
@@ -3059,7 +3061,7 @@
             "entrenamiento",
             "deportivo"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cf-05",
@@ -3070,7 +3072,7 @@
             "planificacion",
             "entrenamiento"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cf-06",
@@ -3081,7 +3083,7 @@
             "fuerza",
             "resistencia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cf-07",
@@ -3092,7 +3094,7 @@
             "velocidad",
             "flexibilidad"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cf-08",
@@ -3103,7 +3105,7 @@
             "nutricion",
             "deportiva"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cf-09",
@@ -3114,7 +3116,7 @@
             "psicologia",
             "deporte"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cf-10",
@@ -3125,7 +3127,7 @@
             "aprendizaje",
             "motor"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cf-11",
@@ -3137,7 +3139,7 @@
             "fisica",
             "escolar"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cf-12",
@@ -3149,7 +3151,7 @@
             "fisica",
             "salud"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cf-13",
@@ -3160,7 +3162,7 @@
             "deporte",
             "adaptado"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cf-14",
@@ -3172,7 +3174,7 @@
             "condicion",
             "fisica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cf-15",
@@ -3184,7 +3186,7 @@
             "lesiones",
             "deportivas"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cf-16",
@@ -3195,7 +3197,7 @@
             "rehabilitacion",
             "deportiva"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cf-17",
@@ -3207,7 +3209,7 @@
             "organizaciones",
             "deportivas"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cf-18",
@@ -3219,7 +3221,7 @@
             "tiempo",
             "libre"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cf-19",
@@ -3231,7 +3233,7 @@
             "alto",
             "rendimiento"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "cf-20",
@@ -3242,7 +3244,7 @@
             "hidratacion",
             "recuperacion"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         }
       ]
     },
@@ -3263,7 +3265,7 @@
             "general",
             "derecho"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "der-02",
@@ -3274,7 +3276,7 @@
             "fuentes",
             "derecho"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "der-03",
@@ -3285,7 +3287,7 @@
             "derecho",
             "constitucional"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "der-04",
@@ -3296,7 +3298,7 @@
             "derechos",
             "humanos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "der-05",
@@ -3308,7 +3310,7 @@
             "civil",
             "personas"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "der-06",
@@ -3319,7 +3321,7 @@
             "contratos",
             "civiles"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "der-07",
@@ -3330,7 +3332,7 @@
             "derecho",
             "familiar"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "der-08",
@@ -3341,7 +3343,7 @@
             "derecho",
             "penal"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "der-09",
@@ -3352,7 +3354,7 @@
             "proceso",
             "penal"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "der-10",
@@ -3363,7 +3365,7 @@
             "derecho",
             "mercantil"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "der-11",
@@ -3374,7 +3376,7 @@
             "sociedades",
             "mercantiles"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "der-12",
@@ -3385,7 +3387,7 @@
             "derecho",
             "laboral"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "der-13",
@@ -3396,7 +3398,7 @@
             "derecho",
             "administrativo"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "der-14",
@@ -3407,7 +3409,7 @@
             "derecho",
             "fiscal"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "der-15",
@@ -3419,7 +3421,7 @@
             "internacional",
             "publico"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "der-16",
@@ -3431,7 +3433,7 @@
             "internacional",
             "privado"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "der-17",
@@ -3442,7 +3444,7 @@
             "derecho",
             "procesal"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "der-18",
@@ -3453,7 +3455,7 @@
             "argumentacion",
             "juridica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "der-19",
@@ -3464,7 +3466,7 @@
             "justicia",
             "alternativa"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "der-20",
@@ -3475,7 +3477,7 @@
             "etica",
             "juridica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         }
       ]
     },
@@ -3495,7 +3497,7 @@
             "principios",
             "economia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "eco-02",
@@ -3505,7 +3507,7 @@
           "palabras_clave": [
             "microeconomia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "eco-03",
@@ -3515,7 +3517,7 @@
           "palabras_clave": [
             "macroeconomia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "eco-04",
@@ -3526,7 +3528,7 @@
             "oferta",
             "demanda"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "eco-05",
@@ -3537,7 +3539,7 @@
             "elasticidad",
             "mercado"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "eco-06",
@@ -3548,7 +3550,7 @@
             "teoria",
             "consumidor"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "eco-07",
@@ -3559,7 +3561,7 @@
             "teoria",
             "productor"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "eco-08",
@@ -3570,7 +3572,7 @@
             "estructuras",
             "mercado"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "eco-09",
@@ -3581,7 +3583,7 @@
             "crecimiento",
             "economico"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "eco-10",
@@ -3592,7 +3594,7 @@
             "inflacion",
             "desempleo"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "eco-11",
@@ -3603,7 +3605,7 @@
             "politica",
             "monetaria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "eco-12",
@@ -3614,7 +3616,7 @@
             "politica",
             "fiscal"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "eco-13",
@@ -3625,7 +3627,7 @@
             "economia",
             "internacional"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "eco-14",
@@ -3636,7 +3638,7 @@
             "comercio",
             "exterior"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "eco-15",
@@ -3647,7 +3649,7 @@
             "desarrollo",
             "regional"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "eco-16",
@@ -3658,7 +3660,7 @@
             "economia",
             "publica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "eco-17",
@@ -3669,7 +3671,7 @@
             "economia",
             "laboral"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "eco-18",
@@ -3680,7 +3682,7 @@
             "economia",
             "ambiental"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "eco-19",
@@ -3690,7 +3692,7 @@
           "palabras_clave": [
             "econometria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "eco-20",
@@ -3702,7 +3704,7 @@
             "distribucion",
             "ingreso"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         }
       ]
     },
@@ -3722,7 +3724,7 @@
             "fundamentos",
             "enfermeria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "enf-02",
@@ -3734,7 +3736,7 @@
             "atencion",
             "enfermeria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "enf-03",
@@ -3746,7 +3748,7 @@
             "fisiologia",
             "enfermeria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "enf-04",
@@ -3758,7 +3760,7 @@
             "signos",
             "vitales"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "enf-05",
@@ -3770,7 +3772,7 @@
             "seguridad",
             "paciente"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "enf-06",
@@ -3781,7 +3783,7 @@
             "farmacologia",
             "enfermeria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "enf-07",
@@ -3793,7 +3795,7 @@
             "adulto",
             "mayor"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "enf-08",
@@ -3804,7 +3806,7 @@
             "enfermeria",
             "pediatrica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "enf-09",
@@ -3816,7 +3818,7 @@
             "materno",
             "infantil"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "enf-10",
@@ -3827,7 +3829,7 @@
             "salud",
             "comunitaria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "enf-11",
@@ -3838,7 +3840,7 @@
             "promocion",
             "salud"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "enf-12",
@@ -3849,7 +3851,7 @@
             "prevencion",
             "infecciones"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "enf-13",
@@ -3861,7 +3863,7 @@
             "paciente",
             "cronico"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "enf-14",
@@ -3873,7 +3875,7 @@
             "primeros",
             "auxilios"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "enf-15",
@@ -3885,7 +3887,7 @@
             "mental",
             "enfermeria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "enf-16",
@@ -3896,7 +3898,7 @@
             "nutricion",
             "paciente"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "enf-17",
@@ -3907,7 +3909,7 @@
             "cuidados",
             "postoperatorios"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "enf-18",
@@ -3918,7 +3920,7 @@
             "bioetica",
             "enfermeria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "enf-19",
@@ -3929,7 +3931,7 @@
             "investigacion",
             "enfermeria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "enf-20",
@@ -3941,7 +3943,7 @@
             "servicios",
             "enfermeria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         }
       ]
     },
@@ -3962,7 +3964,7 @@
             "cabeza",
             "cuello"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "est-02",
@@ -3973,7 +3975,7 @@
             "histologia",
             "oral"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "est-03",
@@ -3984,7 +3986,7 @@
             "microbiologia",
             "oral"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "est-04",
@@ -3995,7 +3997,7 @@
             "caries",
             "dental"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "est-05",
@@ -4006,7 +4008,7 @@
             "enfermedad",
             "periodontal"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "est-06",
@@ -4018,7 +4020,7 @@
             "salud",
             "bucal"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "est-07",
@@ -4029,7 +4031,7 @@
             "diagnostico",
             "odontologico"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "est-08",
@@ -4040,7 +4042,7 @@
             "radiologia",
             "dental"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "est-09",
@@ -4051,7 +4053,7 @@
             "materiales",
             "dentales"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "est-10",
@@ -4062,7 +4064,7 @@
             "operatoria",
             "dental"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "est-11",
@@ -4072,7 +4074,7 @@
           "palabras_clave": [
             "endodoncia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "est-12",
@@ -4082,7 +4084,7 @@
           "palabras_clave": [
             "ortodoncia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "est-13",
@@ -4092,7 +4094,7 @@
           "palabras_clave": [
             "prostodoncia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "est-14",
@@ -4103,7 +4105,7 @@
             "cirugia",
             "bucal"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "est-15",
@@ -4113,7 +4115,7 @@
           "palabras_clave": [
             "odontopediatria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "est-16",
@@ -4125,7 +4127,7 @@
             "publica",
             "bucal"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "est-17",
@@ -4136,7 +4138,7 @@
             "oclusion",
             "dental"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "est-18",
@@ -4146,7 +4148,7 @@
           "palabras_clave": [
             "implantologia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "est-19",
@@ -4157,7 +4159,7 @@
             "bioseguridad",
             "consultorio"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "est-20",
@@ -4168,7 +4170,7 @@
             "rehabilitacion",
             "oral"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         }
       ]
     },
@@ -4188,7 +4190,7 @@
             "historia",
             "filosofia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "fil-02",
@@ -4199,7 +4201,7 @@
             "logica",
             "argumentacion"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "fil-03",
@@ -4209,7 +4211,7 @@
           "palabras_clave": [
             "etica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "fil-04",
@@ -4219,7 +4221,7 @@
           "palabras_clave": [
             "epistemologia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "fil-05",
@@ -4229,7 +4231,7 @@
           "palabras_clave": [
             "metafisica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "fil-06",
@@ -4240,7 +4242,7 @@
             "filosofia",
             "politica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "fil-07",
@@ -4251,7 +4253,7 @@
             "filosofia",
             "ciencia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "fil-08",
@@ -4262,7 +4264,7 @@
             "literatura",
             "universal"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "fil-09",
@@ -4273,7 +4275,7 @@
             "literatura",
             "mexicana"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "fil-10",
@@ -4283,7 +4285,7 @@
           "palabras_clave": [
             "poesia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "fil-11",
@@ -4295,7 +4297,7 @@
             "cuento",
             "novela"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "fil-12",
@@ -4306,7 +4308,7 @@
             "teoria",
             "literaria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "fil-13",
@@ -4317,7 +4319,7 @@
             "critica",
             "literaria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "fil-14",
@@ -4329,7 +4331,7 @@
             "istica",
             "general"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "fil-15",
@@ -4340,7 +4342,7 @@
             "gramatica",
             "espanola"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "fil-16",
@@ -4352,7 +4354,7 @@
             "lengua",
             "espanola"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "fil-17",
@@ -4362,7 +4364,7 @@
           "palabras_clave": [
             "hermeneutica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "fil-18",
@@ -4372,7 +4374,7 @@
           "palabras_clave": [
             "retorica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "fil-19",
@@ -4383,7 +4385,7 @@
             "pensamiento",
             "latinoamericano"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "fil-20",
@@ -4394,7 +4396,7 @@
             "investigacion",
             "humanistica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         }
       ]
     },
@@ -4414,7 +4416,7 @@
             "estatica",
             "dinamica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ing-02",
@@ -4425,7 +4427,7 @@
             "resistencia",
             "materiales"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ing-03",
@@ -4436,7 +4438,7 @@
             "mecanica",
             "materiales"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ing-04",
@@ -4447,7 +4449,7 @@
             "termodinamica",
             "ingenieria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ing-05",
@@ -4458,7 +4460,7 @@
             "mecanica",
             "fluidos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ing-06",
@@ -4469,7 +4471,7 @@
             "transferencia",
             "calor"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ing-07",
@@ -4480,7 +4482,7 @@
             "circuitos",
             "ingenieria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ing-08",
@@ -4492,7 +4494,7 @@
             "tecnico",
             "cad"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ing-09",
@@ -4503,7 +4505,7 @@
             "procesos",
             "manufactura"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ing-10",
@@ -4514,7 +4516,7 @@
             "ciencia",
             "materiales"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ing-11",
@@ -4525,7 +4527,7 @@
             "ingenieria",
             "industrial"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ing-12",
@@ -4536,7 +4538,7 @@
             "investigacion",
             "operaciones"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ing-13",
@@ -4548,7 +4550,7 @@
             "proyectos",
             "ingenieria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ing-14",
@@ -4559,7 +4561,7 @@
             "control",
             "calidad"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ing-15",
@@ -4570,7 +4572,7 @@
             "seguridad",
             "industrial"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ing-16",
@@ -4581,7 +4583,7 @@
             "mantenimiento",
             "industrial"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ing-17",
@@ -4592,7 +4594,7 @@
             "diseno",
             "maquinas"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ing-18",
@@ -4603,7 +4605,7 @@
             "energias",
             "renovables"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ing-19",
@@ -4614,7 +4616,7 @@
             "infraestructura",
             "civil"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "ing-20",
@@ -4626,7 +4628,7 @@
             "ambiental",
             "ingenieria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         }
       ]
     },
@@ -4646,7 +4648,7 @@
             "balances",
             "materia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "iq-02",
@@ -4657,7 +4659,7 @@
             "balances",
             "energia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "iq-03",
@@ -4668,7 +4670,7 @@
             "termodinamica",
             "quimica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "iq-04",
@@ -4679,7 +4681,7 @@
             "fenomenos",
             "transporte"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "iq-05",
@@ -4690,7 +4692,7 @@
             "operaciones",
             "unitarias"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "iq-06",
@@ -4701,7 +4703,7 @@
             "transferencia",
             "masa"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "iq-07",
@@ -4712,7 +4714,7 @@
             "transferencia",
             "calor"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "iq-08",
@@ -4723,7 +4725,7 @@
             "reactores",
             "quimicos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "iq-09",
@@ -4734,7 +4736,7 @@
             "diseno",
             "procesos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "iq-10",
@@ -4745,7 +4747,7 @@
             "control",
             "procesos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "iq-11",
@@ -4756,7 +4758,7 @@
             "simulacion",
             "procesos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "iq-12",
@@ -4767,7 +4769,7 @@
             "separaciones",
             "destilacion"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "iq-13",
@@ -4778,7 +4780,7 @@
             "absorcion",
             "extraccion"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "iq-14",
@@ -4789,7 +4791,7 @@
             "procesos",
             "petroquimicos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "iq-15",
@@ -4799,7 +4801,7 @@
           "palabras_clave": [
             "bioprocesos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "iq-16",
@@ -4810,7 +4812,7 @@
             "tratamiento",
             "efluentes"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "iq-17",
@@ -4821,7 +4823,7 @@
             "seguridad",
             "procesos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "iq-18",
@@ -4832,7 +4834,7 @@
             "ingenieria",
             "ambiental"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "iq-19",
@@ -4843,7 +4845,7 @@
             "materiales",
             "polimericos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "iq-20",
@@ -4854,7 +4856,7 @@
             "optimizacion",
             "plantas"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         }
       ]
     },
@@ -4875,7 +4877,7 @@
             "istica",
             "aplicada"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "len-02",
@@ -4887,7 +4889,7 @@
             "segunda",
             "lengua"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "len-03",
@@ -4898,7 +4900,7 @@
             "didactica",
             "lenguas"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "len-04",
@@ -4910,7 +4912,7 @@
             "clases",
             "idiomas"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "len-05",
@@ -4923,7 +4925,7 @@
             "ling",
             "isticas"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "len-06",
@@ -4934,7 +4936,7 @@
             "fonetica",
             "fonologia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "len-07",
@@ -4944,7 +4946,7 @@
           "palabras_clave": [
             "morfosintaxis"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "len-08",
@@ -4955,7 +4957,7 @@
             "semantica",
             "pragmatica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "len-09",
@@ -4966,7 +4968,7 @@
             "traduccion",
             "general"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "len-10",
@@ -4977,7 +4979,7 @@
             "traduccion",
             "especializada"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "len-11",
@@ -4988,7 +4990,7 @@
             "interpretacion",
             "consecutiva"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "len-12",
@@ -4999,7 +5001,7 @@
             "interpretacion",
             "simultanea"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "len-13",
@@ -5010,7 +5012,7 @@
             "cultura",
             "lengua"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "len-14",
@@ -5021,7 +5023,7 @@
             "comunicacion",
             "intercultural"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "len-15",
@@ -5032,7 +5034,7 @@
             "ingles",
             "academico"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "len-16",
@@ -5045,7 +5047,7 @@
             "lengua",
             "extranjera"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "len-17",
@@ -5057,7 +5059,7 @@
             "lengua",
             "espanola"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "len-18",
@@ -5069,7 +5071,7 @@
             "materiales",
             "didacticos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "len-19",
@@ -5081,7 +5083,7 @@
             "aprendizaje",
             "idiomas"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "len-20",
@@ -5093,7 +5095,7 @@
             "ensenanza",
             "lenguas"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         }
       ]
     },
@@ -5113,7 +5115,7 @@
             "anatomia",
             "humana"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "med-02",
@@ -5124,7 +5126,7 @@
             "fisiologia",
             "humana"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "med-03",
@@ -5134,7 +5136,7 @@
           "palabras_clave": [
             "histologia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "med-04",
@@ -5145,7 +5147,7 @@
             "bioquimica",
             "medica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "med-05",
@@ -5156,7 +5158,7 @@
             "microbiologia",
             "medica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "med-06",
@@ -5166,7 +5168,7 @@
           "palabras_clave": [
             "inmunologia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "med-07",
@@ -5176,7 +5178,7 @@
           "palabras_clave": [
             "farmacologia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "med-08",
@@ -5186,7 +5188,7 @@
           "palabras_clave": [
             "patologia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "med-09",
@@ -5197,7 +5199,7 @@
             "semiologia",
             "clinica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "med-10",
@@ -5208,7 +5210,7 @@
             "medicina",
             "preventiva"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "med-11",
@@ -5218,7 +5220,7 @@
           "palabras_clave": [
             "epidemiologia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "med-12",
@@ -5229,7 +5231,7 @@
             "salud",
             "publica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "med-13",
@@ -5240,7 +5242,7 @@
             "medicina",
             "interna"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "med-14",
@@ -5250,7 +5252,7 @@
           "palabras_clave": [
             "pediatria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "med-15",
@@ -5261,7 +5263,7 @@
             "ginecologia",
             "obstetricia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "med-16",
@@ -5272,7 +5274,7 @@
             "cirugia",
             "general"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "med-17",
@@ -5282,7 +5284,7 @@
           "palabras_clave": [
             "neurologia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "med-18",
@@ -5292,7 +5294,7 @@
           "palabras_clave": [
             "cardiologia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "med-19",
@@ -5303,7 +5305,7 @@
             "diagnostico",
             "imagen"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "med-20",
@@ -5316,7 +5318,7 @@
             "investigacion",
             "clinica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         }
       ]
     },
@@ -5336,7 +5338,7 @@
             "anatomia",
             "veterinaria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "vet-02",
@@ -5347,7 +5349,7 @@
             "fisiologia",
             "animal"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "vet-03",
@@ -5358,7 +5360,7 @@
             "microbiologia",
             "veterinaria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "vet-04",
@@ -5369,7 +5371,7 @@
             "parasitologia",
             "veterinaria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "vet-05",
@@ -5380,7 +5382,7 @@
             "patologia",
             "veterinaria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "vet-06",
@@ -5391,7 +5393,7 @@
             "farmacologia",
             "veterinaria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "vet-07",
@@ -5403,7 +5405,7 @@
             "preventiva",
             "animal"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "vet-08",
@@ -5415,7 +5417,7 @@
             "perros",
             "gatos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "vet-09",
@@ -5426,7 +5428,7 @@
             "medicina",
             "equina"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "vet-10",
@@ -5437,7 +5439,7 @@
             "produccion",
             "bovina"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "vet-11",
@@ -5448,7 +5450,7 @@
             "produccion",
             "porcina"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "vet-12",
@@ -5459,7 +5461,7 @@
             "produccion",
             "avicola"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "vet-13",
@@ -5470,7 +5472,7 @@
             "nutricion",
             "animal"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "vet-14",
@@ -5481,7 +5483,7 @@
             "reproduccion",
             "animal"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "vet-15",
@@ -5492,7 +5494,7 @@
             "bienestar",
             "animal"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "vet-16",
@@ -5504,7 +5506,7 @@
             "publica",
             "veterinaria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "vet-17",
@@ -5514,7 +5516,7 @@
           "palabras_clave": [
             "zoonosis"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "vet-18",
@@ -5525,7 +5527,7 @@
             "cirugia",
             "veterinaria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "vet-19",
@@ -5537,7 +5539,7 @@
             "fauna",
             "silvestre"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "vet-20",
@@ -5550,7 +5552,7 @@
             "origen",
             "animal"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         }
       ]
     },
@@ -5570,7 +5572,7 @@
             "fundamentos",
             "psicologia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "psi-02",
@@ -5581,7 +5583,7 @@
             "psicologia",
             "desarrollo"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "psi-03",
@@ -5592,7 +5594,7 @@
             "psicologia",
             "social"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "psi-04",
@@ -5603,7 +5605,7 @@
             "psicologia",
             "educativa"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "psi-05",
@@ -5614,7 +5616,7 @@
             "psicologia",
             "clinica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "psi-06",
@@ -5624,7 +5626,7 @@
           "palabras_clave": [
             "psicopatologia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "psi-07",
@@ -5634,7 +5636,7 @@
           "palabras_clave": [
             "neuropsicologia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "psi-08",
@@ -5645,7 +5647,7 @@
             "procesos",
             "cognitivos"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "psi-09",
@@ -5656,7 +5658,7 @@
             "aprendizaje",
             "conducta"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "psi-10",
@@ -5667,7 +5669,7 @@
             "teorias",
             "personalidad"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "psi-11",
@@ -5677,7 +5679,7 @@
           "palabras_clave": [
             "psicometria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "psi-12",
@@ -5688,7 +5690,7 @@
             "evaluacion",
             "psicologica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "psi-13",
@@ -5699,7 +5701,7 @@
             "psicologia",
             "organizacional"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "psi-14",
@@ -5710,7 +5712,7 @@
             "psicologia",
             "comunitaria"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "psi-15",
@@ -5721,7 +5723,7 @@
             "intervencion",
             "psicologica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "psi-16",
@@ -5732,7 +5734,7 @@
             "salud",
             "mental"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "psi-17",
@@ -5743,7 +5745,7 @@
             "psicologia",
             "experimental"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "psi-18",
@@ -5754,7 +5756,7 @@
             "investigacion",
             "psicologica"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "psi-19",
@@ -5765,7 +5767,7 @@
             "desarrollo",
             "humano"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         },
         {
           "id": "psi-20",
@@ -5777,7 +5779,7 @@
             "profesional",
             "psicologia"
           ],
-          "estado": "pendiente"
+          "estado": "generado"
         }
       ]
     }

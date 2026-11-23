@@ -19,25 +19,44 @@ def validar(catalogo, articulos):
     errores = []
     facultades = {f["id"]: f for f in catalogo["facultades"]}
     docs = {a["id"]: a for a in articulos}
+    esperados = {
+        tema["id"]: (fac["id"], tema["titulo"])
+        for fac in catalogo["facultades"]
+        for tema in fac["articulos"]
+    }
+    if len(facultades) != 25:
+        errores.append(f"Se esperaban 25 facultades y se encontraron {len(facultades)}.")
     if len(docs) != len(articulos):
         errores.append("Hay identificadores de artículos duplicados.")
     for f in catalogo["facultades"]:
         if len(f["articulos"]) != 20:
             errores.append(f"{f['nombre']}: el catálogo no contiene 20 títulos.")
-    for a in articulos:
-        if a["facultad_id"] not in facultades:
-            errores.append(f"{a['id']}: facultad_id desconocido.")
-        if contar_palabras(a["contenido"]) > 200:
-            errores.append(f"{a['id']}: supera el límite de 200 palabras.")
+    faltantes = sorted(set(esperados) - set(docs))
+    sobrantes = sorted(set(docs) - set(esperados))
+    if faltantes:
+        errores.append(f"Faltan {len(faltantes)} artículos del catálogo: {', '.join(faltantes[:8])}.")
+    if sobrantes:
+        errores.append(f"Hay {len(sobrantes)} artículos fuera del catálogo: {', '.join(sobrantes[:8])}.")
+    for aid, a in docs.items():
+        if a.get("facultad_id") not in facultades:
+            errores.append(f"{aid}: facultad_id desconocido.")
+        elif aid in esperados and a.get("facultad_id") != esperados[aid][0]:
+            errores.append(f"{aid}: está asignado a una facultad distinta de la del catálogo.")
+        if aid in esperados and a.get("titulo") != esperados[aid][1]:
+            errores.append(f"{aid}: el título no coincide con el catálogo.")
+        if contar_palabras(a.get("contenido", "")) > 200:
+            errores.append(f"{aid}: supera el límite de 200 palabras.")
+        if not a.get("contenido", "").strip():
+            errores.append(f"{aid}: no tiene contenido.")
         for destino in a.get("relacionados", []):
             if destino not in docs:
-                errores.append(f"{a['id']}: enlace relacionado inexistente en este lote: {destino}.")
+                errores.append(f"{aid}: enlace relacionado inexistente: {destino}.")
     if errores:
         print("Se encontraron problemas:")
         for e in errores: print(" -", e)
         raise SystemExit(1)
-    print(f"Validación correcta: {len(facultades)} facultades en catálogo, "
-          f"{sum(len(f['articulos']) for f in facultades.values())} títulos y {len(articulos)} artículos listos para publicar.")
+    print(f"Validación correcta: {len(facultades)} facultades, "
+          f"{len(esperados)} títulos y {len(articulos)} artículos listos para publicar.")
 
 def ruta_articulo(catalogo, articulo_id):
     for f in catalogo["facultades"]:
@@ -58,7 +77,15 @@ def plantilla_inicio(catalogo, generados):
             estado = '<span class="muted">Contenido pendiente de generación</span>'
             badge = '<span class="pill pending">En preparación</span>'
         cards.append(f'''<section class="card"><span class="count">{escape(f['id'].upper())}</span><h2>{escape(f['nombre'])}</h2>{badge}<p>{estado}</p></section>''')
-    return f'''<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BUAP Search | Inicio</title><link rel="stylesheet" href="css/estilos.css"></head><body><header class="top"><div class="wrap"><div class="brand">BUAP Search</div><h1>Mini buscador académico</h1><p class="sub">Corpus demostrativo para la materia de Recuperación de Información.</p></div></header><main class="main wrap"><div class="notice"><strong>Primera entrega:</strong> catálogo de 25 facultades y 500 temas. En esta etapa están publicados los 20 artículos de Administración y los 20 de Arquitectura.</div><p class="count">Selecciona una facultad para consultar los documentos disponibles.</p><div class="grid">{''.join(cards)}</div></main><footer class="footer"><div class="wrap">Proyecto académico demostrativo. El contenido no representa publicaciones oficiales de la BUAP.</div></footer></body></html>'''
+    total_publicados = len(generados)
+    total_catalogados = sum(len(f["articulos"]) for f in catalogo["facultades"])
+    if total_publicados == total_catalogados:
+        aviso = (f'<strong>Corpus completo:</strong> {total_publicados} artículos HTML '
+                 f'distribuidos en {len(catalogo["facultades"])} facultades.')
+    else:
+        aviso = (f'<strong>Corpus en construcción:</strong> {total_publicados} de '
+                 f'{total_catalogados} artículos HTML disponibles.')
+    return f'''<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BUAP Search | Inicio</title><link rel="stylesheet" href="css/estilos.css"></head><body><header class="top"><div class="wrap"><div class="brand">BUAP Search</div><h1>Mini buscador académico</h1><p class="sub">Corpus demostrativo para la materia de Recuperación de Información.</p></div></header><main class="main wrap"><div class="notice">{aviso}</div><p class="count">Selecciona una facultad para consultar sus artículos.</p><div class="grid">{''.join(cards)}</div></main><footer class="footer"><div class="wrap">Proyecto académico demostrativo. El contenido no representa publicaciones oficiales de la BUAP.</div></footer></body></html>'''
 
 def generar(catalogo, articulos):
     PUBLIC.mkdir(parents=True, exist_ok=True)

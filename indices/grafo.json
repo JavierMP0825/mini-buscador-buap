@@ -282,189 +282,6236 @@
       "facultad": "Facultad de Arquitectura",
       "titulo": "Accesibilidad y diseño universal",
       "ruta": "facultades/arquitectura/articulo-20.html"
+    },
+    {
+      "id": "art-01",
+      "facultad_id": "art",
+      "facultad": "Facultad de Artes",
+      "titulo": "Elementos del lenguaje visual",
+      "ruta": "facultades/artes/articulo-01.html"
+    },
+    {
+      "id": "art-02",
+      "facultad_id": "art",
+      "facultad": "Facultad de Artes",
+      "titulo": "Teoría del color",
+      "ruta": "facultades/artes/articulo-02.html"
+    },
+    {
+      "id": "art-03",
+      "facultad_id": "art",
+      "facultad": "Facultad de Artes",
+      "titulo": "Historia del arte antiguo",
+      "ruta": "facultades/artes/articulo-03.html"
+    },
+    {
+      "id": "art-04",
+      "facultad_id": "art",
+      "facultad": "Facultad de Artes",
+      "titulo": "Arte medieval",
+      "ruta": "facultades/artes/articulo-04.html"
+    },
+    {
+      "id": "art-05",
+      "facultad_id": "art",
+      "facultad": "Facultad de Artes",
+      "titulo": "Arte moderno",
+      "ruta": "facultades/artes/articulo-05.html"
+    },
+    {
+      "id": "art-06",
+      "facultad_id": "art",
+      "facultad": "Facultad de Artes",
+      "titulo": "Arte contemporáneo",
+      "ruta": "facultades/artes/articulo-06.html"
+    },
+    {
+      "id": "art-07",
+      "facultad_id": "art",
+      "facultad": "Facultad de Artes",
+      "titulo": "Dibujo artístico",
+      "ruta": "facultades/artes/articulo-07.html"
+    },
+    {
+      "id": "art-08",
+      "facultad_id": "art",
+      "facultad": "Facultad de Artes",
+      "titulo": "Técnicas de pintura",
+      "ruta": "facultades/artes/articulo-08.html"
+    },
+    {
+      "id": "art-09",
+      "facultad_id": "art",
+      "facultad": "Facultad de Artes",
+      "titulo": "Escultura y materiales",
+      "ruta": "facultades/artes/articulo-09.html"
+    },
+    {
+      "id": "art-10",
+      "facultad_id": "art",
+      "facultad": "Facultad de Artes",
+      "titulo": "Grabado artístico",
+      "ruta": "facultades/artes/articulo-10.html"
+    },
+    {
+      "id": "art-11",
+      "facultad_id": "art",
+      "facultad": "Facultad de Artes",
+      "titulo": "Fotografía artística",
+      "ruta": "facultades/artes/articulo-11.html"
+    },
+    {
+      "id": "art-12",
+      "facultad_id": "art",
+      "facultad": "Facultad de Artes",
+      "titulo": "Composición visual",
+      "ruta": "facultades/artes/articulo-12.html"
+    },
+    {
+      "id": "art-13",
+      "facultad_id": "art",
+      "facultad": "Facultad de Artes",
+      "titulo": "Estética y experiencia artística",
+      "ruta": "facultades/artes/articulo-13.html"
+    },
+    {
+      "id": "art-14",
+      "facultad_id": "art",
+      "facultad": "Facultad de Artes",
+      "titulo": "Curaduría de exposiciones",
+      "ruta": "facultades/artes/articulo-14.html"
+    },
+    {
+      "id": "art-15",
+      "facultad_id": "art",
+      "facultad": "Facultad de Artes",
+      "titulo": "Gestión cultural",
+      "ruta": "facultades/artes/articulo-15.html"
+    },
+    {
+      "id": "art-16",
+      "facultad_id": "art",
+      "facultad": "Facultad de Artes",
+      "titulo": "Arte público",
+      "ruta": "facultades/artes/articulo-16.html"
+    },
+    {
+      "id": "art-17",
+      "facultad_id": "art",
+      "facultad": "Facultad de Artes",
+      "titulo": "Performance y expresión corporal",
+      "ruta": "facultades/artes/articulo-17.html"
+    },
+    {
+      "id": "art-18",
+      "facultad_id": "art",
+      "facultad": "Facultad de Artes",
+      "titulo": "Arte digital",
+      "ruta": "facultades/artes/articulo-18.html"
+    },
+    {
+      "id": "art-19",
+      "facultad_id": "art",
+      "facultad": "Facultad de Artes",
+      "titulo": "Crítica de arte",
+      "ruta": "facultades/artes/articulo-19.html"
+    },
+    {
+      "id": "art-20",
+      "facultad_id": "art",
+      "facultad": "Facultad de Artes",
+      "titulo": "Conservación de obras artísticas",
+      "ruta": "facultades/artes/articulo-20.html"
+    },
+    {
+      "id": "arpa-01",
+      "facultad_id": "arpa",
+      "facultad": "Facultad de Artes Plásticas y Audiovisuales",
+      "titulo": "Lenguaje audiovisual",
+      "ruta": "facultades/artes-plasticas-audiovisuales/articulo-01.html"
+    },
+    {
+      "id": "arpa-02",
+      "facultad_id": "arpa",
+      "facultad": "Facultad de Artes Plásticas y Audiovisuales",
+      "titulo": "Narrativa cinematográfica",
+      "ruta": "facultades/artes-plasticas-audiovisuales/articulo-02.html"
+    },
+    {
+      "id": "arpa-03",
+      "facultad_id": "arpa",
+      "facultad": "Facultad de Artes Plásticas y Audiovisuales",
+      "titulo": "Guion audiovisual",
+      "ruta": "facultades/artes-plasticas-audiovisuales/articulo-03.html"
+    },
+    {
+      "id": "arpa-04",
+      "facultad_id": "arpa",
+      "facultad": "Facultad de Artes Plásticas y Audiovisuales",
+      "titulo": "Dirección cinematográfica",
+      "ruta": "facultades/artes-plasticas-audiovisuales/articulo-04.html"
+    },
+    {
+      "id": "arpa-05",
+      "facultad_id": "arpa",
+      "facultad": "Facultad de Artes Plásticas y Audiovisuales",
+      "titulo": "Producción audiovisual",
+      "ruta": "facultades/artes-plasticas-audiovisuales/articulo-05.html"
+    },
+    {
+      "id": "arpa-06",
+      "facultad_id": "arpa",
+      "facultad": "Facultad de Artes Plásticas y Audiovisuales",
+      "titulo": "Fotografía cinematográfica",
+      "ruta": "facultades/artes-plasticas-audiovisuales/articulo-06.html"
+    },
+    {
+      "id": "arpa-07",
+      "facultad_id": "arpa",
+      "facultad": "Facultad de Artes Plásticas y Audiovisuales",
+      "titulo": "Montaje y edición de video",
+      "ruta": "facultades/artes-plasticas-audiovisuales/articulo-07.html"
+    },
+    {
+      "id": "arpa-08",
+      "facultad_id": "arpa",
+      "facultad": "Facultad de Artes Plásticas y Audiovisuales",
+      "titulo": "Diseño sonoro cinematográfico",
+      "ruta": "facultades/artes-plasticas-audiovisuales/articulo-08.html"
+    },
+    {
+      "id": "arpa-09",
+      "facultad_id": "arpa",
+      "facultad": "Facultad de Artes Plásticas y Audiovisuales",
+      "titulo": "Animación bidimensional",
+      "ruta": "facultades/artes-plasticas-audiovisuales/articulo-09.html"
+    },
+    {
+      "id": "arpa-10",
+      "facultad_id": "arpa",
+      "facultad": "Facultad de Artes Plásticas y Audiovisuales",
+      "titulo": "Animación tridimensional",
+      "ruta": "facultades/artes-plasticas-audiovisuales/articulo-10.html"
+    },
+    {
+      "id": "arpa-11",
+      "facultad_id": "arpa",
+      "facultad": "Facultad de Artes Plásticas y Audiovisuales",
+      "titulo": "Diseño de personajes",
+      "ruta": "facultades/artes-plasticas-audiovisuales/articulo-11.html"
+    },
+    {
+      "id": "arpa-12",
+      "facultad_id": "arpa",
+      "facultad": "Facultad de Artes Plásticas y Audiovisuales",
+      "titulo": "Arte conceptual",
+      "ruta": "facultades/artes-plasticas-audiovisuales/articulo-12.html"
+    },
+    {
+      "id": "arpa-13",
+      "facultad_id": "arpa",
+      "facultad": "Facultad de Artes Plásticas y Audiovisuales",
+      "titulo": "Efectos visuales",
+      "ruta": "facultades/artes-plasticas-audiovisuales/articulo-13.html"
+    },
+    {
+      "id": "arpa-14",
+      "facultad_id": "arpa",
+      "facultad": "Facultad de Artes Plásticas y Audiovisuales",
+      "titulo": "Documental audiovisual",
+      "ruta": "facultades/artes-plasticas-audiovisuales/articulo-14.html"
+    },
+    {
+      "id": "arpa-15",
+      "facultad_id": "arpa",
+      "facultad": "Facultad de Artes Plásticas y Audiovisuales",
+      "titulo": "Producción de cortometrajes",
+      "ruta": "facultades/artes-plasticas-audiovisuales/articulo-15.html"
+    },
+    {
+      "id": "arpa-16",
+      "facultad_id": "arpa",
+      "facultad": "Facultad de Artes Plásticas y Audiovisuales",
+      "titulo": "Cine experimental",
+      "ruta": "facultades/artes-plasticas-audiovisuales/articulo-16.html"
+    },
+    {
+      "id": "arpa-17",
+      "facultad_id": "arpa",
+      "facultad": "Facultad de Artes Plásticas y Audiovisuales",
+      "titulo": "Producción multimedia",
+      "ruta": "facultades/artes-plasticas-audiovisuales/articulo-17.html"
+    },
+    {
+      "id": "arpa-18",
+      "facultad_id": "arpa",
+      "facultad": "Facultad de Artes Plásticas y Audiovisuales",
+      "titulo": "Posproducción digital",
+      "ruta": "facultades/artes-plasticas-audiovisuales/articulo-18.html"
+    },
+    {
+      "id": "arpa-19",
+      "facultad_id": "arpa",
+      "facultad": "Facultad de Artes Plásticas y Audiovisuales",
+      "titulo": "Distribución y exhibición cinematográfica",
+      "ruta": "facultades/artes-plasticas-audiovisuales/articulo-19.html"
+    },
+    {
+      "id": "arpa-20",
+      "facultad_id": "arpa",
+      "facultad": "Facultad de Artes Plásticas y Audiovisuales",
+      "titulo": "Derechos de autor en obras audiovisuales",
+      "ruta": "facultades/artes-plasticas-audiovisuales/articulo-20.html"
+    },
+    {
+      "id": "cap-01",
+      "facultad_id": "cap",
+      "facultad": "Facultad de Ciencias Agrícolas y Pecuarias",
+      "titulo": "Agricultura sostenible",
+      "ruta": "facultades/ciencias-agricolas-pecuarias/articulo-01.html"
+    },
+    {
+      "id": "cap-02",
+      "facultad_id": "cap",
+      "facultad": "Facultad de Ciencias Agrícolas y Pecuarias",
+      "titulo": "Edafología y estudio del suelo",
+      "ruta": "facultades/ciencias-agricolas-pecuarias/articulo-02.html"
+    },
+    {
+      "id": "cap-03",
+      "facultad_id": "cap",
+      "facultad": "Facultad de Ciencias Agrícolas y Pecuarias",
+      "titulo": "Conservación de suelos",
+      "ruta": "facultades/ciencias-agricolas-pecuarias/articulo-03.html"
+    },
+    {
+      "id": "cap-04",
+      "facultad_id": "cap",
+      "facultad": "Facultad de Ciencias Agrícolas y Pecuarias",
+      "titulo": "Sistemas de riego",
+      "ruta": "facultades/ciencias-agricolas-pecuarias/articulo-04.html"
+    },
+    {
+      "id": "cap-05",
+      "facultad_id": "cap",
+      "facultad": "Facultad de Ciencias Agrícolas y Pecuarias",
+      "titulo": "Agrohidrología",
+      "ruta": "facultades/ciencias-agricolas-pecuarias/articulo-05.html"
+    },
+    {
+      "id": "cap-06",
+      "facultad_id": "cap",
+      "facultad": "Facultad de Ciencias Agrícolas y Pecuarias",
+      "titulo": "Manejo de cuencas",
+      "ruta": "facultades/ciencias-agricolas-pecuarias/articulo-06.html"
+    },
+    {
+      "id": "cap-07",
+      "facultad_id": "cap",
+      "facultad": "Facultad de Ciencias Agrícolas y Pecuarias",
+      "titulo": "Cultivo de granos básicos",
+      "ruta": "facultades/ciencias-agricolas-pecuarias/articulo-07.html"
+    },
+    {
+      "id": "cap-08",
+      "facultad_id": "cap",
+      "facultad": "Facultad de Ciencias Agrícolas y Pecuarias",
+      "titulo": "Horticultura",
+      "ruta": "facultades/ciencias-agricolas-pecuarias/articulo-08.html"
+    },
+    {
+      "id": "cap-09",
+      "facultad_id": "cap",
+      "facultad": "Facultad de Ciencias Agrícolas y Pecuarias",
+      "titulo": "Fruticultura",
+      "ruta": "facultades/ciencias-agricolas-pecuarias/articulo-09.html"
+    },
+    {
+      "id": "cap-10",
+      "facultad_id": "cap",
+      "facultad": "Facultad de Ciencias Agrícolas y Pecuarias",
+      "titulo": "Fitopatología agrícola",
+      "ruta": "facultades/ciencias-agricolas-pecuarias/articulo-10.html"
+    },
+    {
+      "id": "cap-11",
+      "facultad_id": "cap",
+      "facultad": "Facultad de Ciencias Agrícolas y Pecuarias",
+      "titulo": "Entomología agrícola",
+      "ruta": "facultades/ciencias-agricolas-pecuarias/articulo-11.html"
+    },
+    {
+      "id": "cap-12",
+      "facultad_id": "cap",
+      "facultad": "Facultad de Ciencias Agrícolas y Pecuarias",
+      "titulo": "Fertilidad y nutrición vegetal",
+      "ruta": "facultades/ciencias-agricolas-pecuarias/articulo-12.html"
+    },
+    {
+      "id": "cap-13",
+      "facultad_id": "cap",
+      "facultad": "Facultad de Ciencias Agrícolas y Pecuarias",
+      "titulo": "Agricultura protegida",
+      "ruta": "facultades/ciencias-agricolas-pecuarias/articulo-13.html"
+    },
+    {
+      "id": "cap-14",
+      "facultad_id": "cap",
+      "facultad": "Facultad de Ciencias Agrícolas y Pecuarias",
+      "titulo": "Mecanización agrícola",
+      "ruta": "facultades/ciencias-agricolas-pecuarias/articulo-14.html"
+    },
+    {
+      "id": "cap-15",
+      "facultad_id": "cap",
+      "facultad": "Facultad de Ciencias Agrícolas y Pecuarias",
+      "titulo": "Producción bovina",
+      "ruta": "facultades/ciencias-agricolas-pecuarias/articulo-15.html"
+    },
+    {
+      "id": "cap-16",
+      "facultad_id": "cap",
+      "facultad": "Facultad de Ciencias Agrícolas y Pecuarias",
+      "titulo": "Producción porcina",
+      "ruta": "facultades/ciencias-agricolas-pecuarias/articulo-16.html"
+    },
+    {
+      "id": "cap-17",
+      "facultad_id": "cap",
+      "facultad": "Facultad de Ciencias Agrícolas y Pecuarias",
+      "titulo": "Producción avícola",
+      "ruta": "facultades/ciencias-agricolas-pecuarias/articulo-17.html"
+    },
+    {
+      "id": "cap-18",
+      "facultad_id": "cap",
+      "facultad": "Facultad de Ciencias Agrícolas y Pecuarias",
+      "titulo": "Mejoramiento genético animal",
+      "ruta": "facultades/ciencias-agricolas-pecuarias/articulo-18.html"
+    },
+    {
+      "id": "cap-19",
+      "facultad_id": "cap",
+      "facultad": "Facultad de Ciencias Agrícolas y Pecuarias",
+      "titulo": "Bienestar animal en sistemas pecuarios",
+      "ruta": "facultades/ciencias-agricolas-pecuarias/articulo-19.html"
+    },
+    {
+      "id": "cap-20",
+      "facultad_id": "cap",
+      "facultad": "Facultad de Ciencias Agrícolas y Pecuarias",
+      "titulo": "Comercialización de productos agropecuarios",
+      "ruta": "facultades/ciencias-agricolas-pecuarias/articulo-20.html"
+    },
+    {
+      "id": "bio-01",
+      "facultad_id": "bio",
+      "facultad": "Facultad de Ciencias Biológicas",
+      "titulo": "Biología celular",
+      "ruta": "facultades/ciencias-biologicas/articulo-01.html"
+    },
+    {
+      "id": "bio-02",
+      "facultad_id": "bio",
+      "facultad": "Facultad de Ciencias Biológicas",
+      "titulo": "Genética",
+      "ruta": "facultades/ciencias-biologicas/articulo-02.html"
+    },
+    {
+      "id": "bio-03",
+      "facultad_id": "bio",
+      "facultad": "Facultad de Ciencias Biológicas",
+      "titulo": "Microbiología",
+      "ruta": "facultades/ciencias-biologicas/articulo-03.html"
+    },
+    {
+      "id": "bio-04",
+      "facultad_id": "bio",
+      "facultad": "Facultad de Ciencias Biológicas",
+      "titulo": "Botánica",
+      "ruta": "facultades/ciencias-biologicas/articulo-04.html"
+    },
+    {
+      "id": "bio-05",
+      "facultad_id": "bio",
+      "facultad": "Facultad de Ciencias Biológicas",
+      "titulo": "Zoología",
+      "ruta": "facultades/ciencias-biologicas/articulo-05.html"
+    },
+    {
+      "id": "bio-06",
+      "facultad_id": "bio",
+      "facultad": "Facultad de Ciencias Biológicas",
+      "titulo": "Ecología",
+      "ruta": "facultades/ciencias-biologicas/articulo-06.html"
+    },
+    {
+      "id": "bio-07",
+      "facultad_id": "bio",
+      "facultad": "Facultad de Ciencias Biológicas",
+      "titulo": "Biodiversidad",
+      "ruta": "facultades/ciencias-biologicas/articulo-07.html"
+    },
+    {
+      "id": "bio-08",
+      "facultad_id": "bio",
+      "facultad": "Facultad de Ciencias Biológicas",
+      "titulo": "Evolución biológica",
+      "ruta": "facultades/ciencias-biologicas/articulo-08.html"
+    },
+    {
+      "id": "bio-09",
+      "facultad_id": "bio",
+      "facultad": "Facultad de Ciencias Biológicas",
+      "titulo": "Biología molecular",
+      "ruta": "facultades/ciencias-biologicas/articulo-09.html"
+    },
+    {
+      "id": "bio-10",
+      "facultad_id": "bio",
+      "facultad": "Facultad de Ciencias Biológicas",
+      "titulo": "Fisiología animal",
+      "ruta": "facultades/ciencias-biologicas/articulo-10.html"
+    },
+    {
+      "id": "bio-11",
+      "facultad_id": "bio",
+      "facultad": "Facultad de Ciencias Biológicas",
+      "titulo": "Fisiología vegetal",
+      "ruta": "facultades/ciencias-biologicas/articulo-11.html"
+    },
+    {
+      "id": "bio-12",
+      "facultad_id": "bio",
+      "facultad": "Facultad de Ciencias Biológicas",
+      "titulo": "Conservación de especies",
+      "ruta": "facultades/ciencias-biologicas/articulo-12.html"
+    },
+    {
+      "id": "bio-13",
+      "facultad_id": "bio",
+      "facultad": "Facultad de Ciencias Biológicas",
+      "titulo": "Ecosistemas acuáticos",
+      "ruta": "facultades/ciencias-biologicas/articulo-13.html"
+    },
+    {
+      "id": "bio-14",
+      "facultad_id": "bio",
+      "facultad": "Facultad de Ciencias Biológicas",
+      "titulo": "Entomología",
+      "ruta": "facultades/ciencias-biologicas/articulo-14.html"
+    },
+    {
+      "id": "bio-15",
+      "facultad_id": "bio",
+      "facultad": "Facultad de Ciencias Biológicas",
+      "titulo": "Micología",
+      "ruta": "facultades/ciencias-biologicas/articulo-15.html"
+    },
+    {
+      "id": "bio-16",
+      "facultad_id": "bio",
+      "facultad": "Facultad de Ciencias Biológicas",
+      "titulo": "Parasitología",
+      "ruta": "facultades/ciencias-biologicas/articulo-16.html"
+    },
+    {
+      "id": "bio-17",
+      "facultad_id": "bio",
+      "facultad": "Facultad de Ciencias Biológicas",
+      "titulo": "Biotecnología",
+      "ruta": "facultades/ciencias-biologicas/articulo-17.html"
+    },
+    {
+      "id": "bio-18",
+      "facultad_id": "bio",
+      "facultad": "Facultad de Ciencias Biológicas",
+      "titulo": "Bioinformática",
+      "ruta": "facultades/ciencias-biologicas/articulo-18.html"
+    },
+    {
+      "id": "bio-19",
+      "facultad_id": "bio",
+      "facultad": "Facultad de Ciencias Biológicas",
+      "titulo": "Cambio climático y biodiversidad",
+      "ruta": "facultades/ciencias-biologicas/articulo-19.html"
+    },
+    {
+      "id": "bio-20",
+      "facultad_id": "bio",
+      "facultad": "Facultad de Ciencias Biológicas",
+      "titulo": "Áreas naturales protegidas",
+      "ruta": "facultades/ciencias-biologicas/articulo-20.html"
+    },
+    {
+      "id": "cc-01",
+      "facultad_id": "cc",
+      "facultad": "Facultad de Ciencias de la Computación",
+      "titulo": "Fundamentos de programación",
+      "ruta": "facultades/ciencias-computacion/articulo-01.html"
+    },
+    {
+      "id": "cc-02",
+      "facultad_id": "cc",
+      "facultad": "Facultad de Ciencias de la Computación",
+      "titulo": "Estructuras de datos",
+      "ruta": "facultades/ciencias-computacion/articulo-02.html"
+    },
+    {
+      "id": "cc-03",
+      "facultad_id": "cc",
+      "facultad": "Facultad de Ciencias de la Computación",
+      "titulo": "Algoritmos de ordenamiento",
+      "ruta": "facultades/ciencias-computacion/articulo-03.html"
+    },
+    {
+      "id": "cc-04",
+      "facultad_id": "cc",
+      "facultad": "Facultad de Ciencias de la Computación",
+      "titulo": "Bases de datos relacionales",
+      "ruta": "facultades/ciencias-computacion/articulo-04.html"
+    },
+    {
+      "id": "cc-05",
+      "facultad_id": "cc",
+      "facultad": "Facultad de Ciencias de la Computación",
+      "titulo": "Desarrollo de aplicaciones web",
+      "ruta": "facultades/ciencias-computacion/articulo-05.html"
+    },
+    {
+      "id": "cc-06",
+      "facultad_id": "cc",
+      "facultad": "Facultad de Ciencias de la Computación",
+      "titulo": "Sistemas operativos",
+      "ruta": "facultades/ciencias-computacion/articulo-06.html"
+    },
+    {
+      "id": "cc-07",
+      "facultad_id": "cc",
+      "facultad": "Facultad de Ciencias de la Computación",
+      "titulo": "Redes de computadoras",
+      "ruta": "facultades/ciencias-computacion/articulo-07.html"
+    },
+    {
+      "id": "cc-08",
+      "facultad_id": "cc",
+      "facultad": "Facultad de Ciencias de la Computación",
+      "titulo": "Ciberseguridad",
+      "ruta": "facultades/ciencias-computacion/articulo-08.html"
+    },
+    {
+      "id": "cc-09",
+      "facultad_id": "cc",
+      "facultad": "Facultad de Ciencias de la Computación",
+      "titulo": "Criptografía",
+      "ruta": "facultades/ciencias-computacion/articulo-09.html"
+    },
+    {
+      "id": "cc-10",
+      "facultad_id": "cc",
+      "facultad": "Facultad de Ciencias de la Computación",
+      "titulo": "Inteligencia artificial",
+      "ruta": "facultades/ciencias-computacion/articulo-10.html"
+    },
+    {
+      "id": "cc-11",
+      "facultad_id": "cc",
+      "facultad": "Facultad de Ciencias de la Computación",
+      "titulo": "Aprendizaje automático",
+      "ruta": "facultades/ciencias-computacion/articulo-11.html"
+    },
+    {
+      "id": "cc-12",
+      "facultad_id": "cc",
+      "facultad": "Facultad de Ciencias de la Computación",
+      "titulo": "Procesamiento de lenguaje natural",
+      "ruta": "facultades/ciencias-computacion/articulo-12.html"
+    },
+    {
+      "id": "cc-13",
+      "facultad_id": "cc",
+      "facultad": "Facultad de Ciencias de la Computación",
+      "titulo": "Recuperación de información",
+      "ruta": "facultades/ciencias-computacion/articulo-13.html"
+    },
+    {
+      "id": "cc-14",
+      "facultad_id": "cc",
+      "facultad": "Facultad de Ciencias de la Computación",
+      "titulo": "Minería de datos",
+      "ruta": "facultades/ciencias-computacion/articulo-14.html"
+    },
+    {
+      "id": "cc-15",
+      "facultad_id": "cc",
+      "facultad": "Facultad de Ciencias de la Computación",
+      "titulo": "Ciencia de datos",
+      "ruta": "facultades/ciencias-computacion/articulo-15.html"
+    },
+    {
+      "id": "cc-16",
+      "facultad_id": "cc",
+      "facultad": "Facultad de Ciencias de la Computación",
+      "titulo": "Computación en la nube",
+      "ruta": "facultades/ciencias-computacion/articulo-16.html"
+    },
+    {
+      "id": "cc-17",
+      "facultad_id": "cc",
+      "facultad": "Facultad de Ciencias de la Computación",
+      "titulo": "Sistemas distribuidos",
+      "ruta": "facultades/ciencias-computacion/articulo-17.html"
+    },
+    {
+      "id": "cc-18",
+      "facultad_id": "cc",
+      "facultad": "Facultad de Ciencias de la Computación",
+      "titulo": "Internet de las cosas",
+      "ruta": "facultades/ciencias-computacion/articulo-18.html"
+    },
+    {
+      "id": "cc-19",
+      "facultad_id": "cc",
+      "facultad": "Facultad de Ciencias de la Computación",
+      "titulo": "Robótica computacional",
+      "ruta": "facultades/ciencias-computacion/articulo-19.html"
+    },
+    {
+      "id": "cc-20",
+      "facultad_id": "cc",
+      "facultad": "Facultad de Ciencias de la Computación",
+      "titulo": "Ingeniería de software",
+      "ruta": "facultades/ciencias-computacion/articulo-20.html"
+    },
+    {
+      "id": "com-01",
+      "facultad_id": "com",
+      "facultad": "Facultad de Ciencias de la Comunicación",
+      "titulo": "Teorías de la comunicación",
+      "ruta": "facultades/ciencias-comunicacion/articulo-01.html"
+    },
+    {
+      "id": "com-02",
+      "facultad_id": "com",
+      "facultad": "Facultad de Ciencias de la Comunicación",
+      "titulo": "Comunicación interpersonal",
+      "ruta": "facultades/ciencias-comunicacion/articulo-02.html"
+    },
+    {
+      "id": "com-03",
+      "facultad_id": "com",
+      "facultad": "Facultad de Ciencias de la Comunicación",
+      "titulo": "Comunicación organizacional",
+      "ruta": "facultades/ciencias-comunicacion/articulo-03.html"
+    },
+    {
+      "id": "com-04",
+      "facultad_id": "com",
+      "facultad": "Facultad de Ciencias de la Comunicación",
+      "titulo": "Periodismo informativo",
+      "ruta": "facultades/ciencias-comunicacion/articulo-04.html"
+    },
+    {
+      "id": "com-05",
+      "facultad_id": "com",
+      "facultad": "Facultad de Ciencias de la Comunicación",
+      "titulo": "Periodismo de investigación",
+      "ruta": "facultades/ciencias-comunicacion/articulo-05.html"
+    },
+    {
+      "id": "com-06",
+      "facultad_id": "com",
+      "facultad": "Facultad de Ciencias de la Comunicación",
+      "titulo": "Redacción periodística",
+      "ruta": "facultades/ciencias-comunicacion/articulo-06.html"
+    },
+    {
+      "id": "com-07",
+      "facultad_id": "com",
+      "facultad": "Facultad de Ciencias de la Comunicación",
+      "titulo": "Medios de comunicación masiva",
+      "ruta": "facultades/ciencias-comunicacion/articulo-07.html"
+    },
+    {
+      "id": "com-08",
+      "facultad_id": "com",
+      "facultad": "Facultad de Ciencias de la Comunicación",
+      "titulo": "Comunicación digital",
+      "ruta": "facultades/ciencias-comunicacion/articulo-08.html"
+    },
+    {
+      "id": "com-09",
+      "facultad_id": "com",
+      "facultad": "Facultad de Ciencias de la Comunicación",
+      "titulo": "Redes sociales y sociedad",
+      "ruta": "facultades/ciencias-comunicacion/articulo-09.html"
+    },
+    {
+      "id": "com-10",
+      "facultad_id": "com",
+      "facultad": "Facultad de Ciencias de la Comunicación",
+      "titulo": "Producción radiofónica",
+      "ruta": "facultades/ciencias-comunicacion/articulo-10.html"
+    },
+    {
+      "id": "com-11",
+      "facultad_id": "com",
+      "facultad": "Facultad de Ciencias de la Comunicación",
+      "titulo": "Producción televisiva",
+      "ruta": "facultades/ciencias-comunicacion/articulo-11.html"
+    },
+    {
+      "id": "com-12",
+      "facultad_id": "com",
+      "facultad": "Facultad de Ciencias de la Comunicación",
+      "titulo": "Comunicación política",
+      "ruta": "facultades/ciencias-comunicacion/articulo-12.html"
+    },
+    {
+      "id": "com-13",
+      "facultad_id": "com",
+      "facultad": "Facultad de Ciencias de la Comunicación",
+      "titulo": "Comunicación publicitaria",
+      "ruta": "facultades/ciencias-comunicacion/articulo-13.html"
+    },
+    {
+      "id": "com-14",
+      "facultad_id": "com",
+      "facultad": "Facultad de Ciencias de la Comunicación",
+      "titulo": "Relaciones públicas",
+      "ruta": "facultades/ciencias-comunicacion/articulo-14.html"
+    },
+    {
+      "id": "com-15",
+      "facultad_id": "com",
+      "facultad": "Facultad de Ciencias de la Comunicación",
+      "titulo": "Opinión pública",
+      "ruta": "facultades/ciencias-comunicacion/articulo-15.html"
+    },
+    {
+      "id": "com-16",
+      "facultad_id": "com",
+      "facultad": "Facultad de Ciencias de la Comunicación",
+      "titulo": "Alfabetización mediática",
+      "ruta": "facultades/ciencias-comunicacion/articulo-16.html"
+    },
+    {
+      "id": "com-17",
+      "facultad_id": "com",
+      "facultad": "Facultad de Ciencias de la Comunicación",
+      "titulo": "Ética periodística",
+      "ruta": "facultades/ciencias-comunicacion/articulo-17.html"
+    },
+    {
+      "id": "com-18",
+      "facultad_id": "com",
+      "facultad": "Facultad de Ciencias de la Comunicación",
+      "titulo": "Comunicación de la ciencia",
+      "ruta": "facultades/ciencias-comunicacion/articulo-18.html"
+    },
+    {
+      "id": "com-19",
+      "facultad_id": "com",
+      "facultad": "Facultad de Ciencias de la Comunicación",
+      "titulo": "Fotografía periodística",
+      "ruta": "facultades/ciencias-comunicacion/articulo-19.html"
+    },
+    {
+      "id": "com-20",
+      "facultad_id": "com",
+      "facultad": "Facultad de Ciencias de la Comunicación",
+      "titulo": "Análisis del discurso",
+      "ruta": "facultades/ciencias-comunicacion/articulo-20.html"
+    },
+    {
+      "id": "ele-01",
+      "facultad_id": "ele",
+      "facultad": "Facultad de Ciencias de la Electrónica",
+      "titulo": "Circuitos eléctricos",
+      "ruta": "facultades/ciencias-electronica/articulo-01.html"
+    },
+    {
+      "id": "ele-02",
+      "facultad_id": "ele",
+      "facultad": "Facultad de Ciencias de la Electrónica",
+      "titulo": "Circuitos electrónicos",
+      "ruta": "facultades/ciencias-electronica/articulo-02.html"
+    },
+    {
+      "id": "ele-03",
+      "facultad_id": "ele",
+      "facultad": "Facultad de Ciencias de la Electrónica",
+      "titulo": "Componentes semiconductores",
+      "ruta": "facultades/ciencias-electronica/articulo-03.html"
+    },
+    {
+      "id": "ele-04",
+      "facultad_id": "ele",
+      "facultad": "Facultad de Ciencias de la Electrónica",
+      "titulo": "Electrónica analógica",
+      "ruta": "facultades/ciencias-electronica/articulo-04.html"
+    },
+    {
+      "id": "ele-05",
+      "facultad_id": "ele",
+      "facultad": "Facultad de Ciencias de la Electrónica",
+      "titulo": "Electrónica digital",
+      "ruta": "facultades/ciencias-electronica/articulo-05.html"
+    },
+    {
+      "id": "ele-06",
+      "facultad_id": "ele",
+      "facultad": "Facultad de Ciencias de la Electrónica",
+      "titulo": "Microcontroladores",
+      "ruta": "facultades/ciencias-electronica/articulo-06.html"
+    },
+    {
+      "id": "ele-07",
+      "facultad_id": "ele",
+      "facultad": "Facultad de Ciencias de la Electrónica",
+      "titulo": "Sistemas embebidos",
+      "ruta": "facultades/ciencias-electronica/articulo-07.html"
+    },
+    {
+      "id": "ele-08",
+      "facultad_id": "ele",
+      "facultad": "Facultad de Ciencias de la Electrónica",
+      "titulo": "Instrumentación electrónica",
+      "ruta": "facultades/ciencias-electronica/articulo-08.html"
+    },
+    {
+      "id": "ele-09",
+      "facultad_id": "ele",
+      "facultad": "Facultad de Ciencias de la Electrónica",
+      "titulo": "Sensores y actuadores",
+      "ruta": "facultades/ciencias-electronica/articulo-09.html"
+    },
+    {
+      "id": "ele-10",
+      "facultad_id": "ele",
+      "facultad": "Facultad de Ciencias de la Electrónica",
+      "titulo": "Procesamiento de señales",
+      "ruta": "facultades/ciencias-electronica/articulo-10.html"
+    },
+    {
+      "id": "ele-11",
+      "facultad_id": "ele",
+      "facultad": "Facultad de Ciencias de la Electrónica",
+      "titulo": "Telecomunicaciones",
+      "ruta": "facultades/ciencias-electronica/articulo-11.html"
+    },
+    {
+      "id": "ele-12",
+      "facultad_id": "ele",
+      "facultad": "Facultad de Ciencias de la Electrónica",
+      "titulo": "Antenas y propagación",
+      "ruta": "facultades/ciencias-electronica/articulo-12.html"
+    },
+    {
+      "id": "ele-13",
+      "facultad_id": "ele",
+      "facultad": "Facultad de Ciencias de la Electrónica",
+      "titulo": "Sistemas de control",
+      "ruta": "facultades/ciencias-electronica/articulo-13.html"
+    },
+    {
+      "id": "ele-14",
+      "facultad_id": "ele",
+      "facultad": "Facultad de Ciencias de la Electrónica",
+      "titulo": "Robótica electrónica",
+      "ruta": "facultades/ciencias-electronica/articulo-14.html"
+    },
+    {
+      "id": "ele-15",
+      "facultad_id": "ele",
+      "facultad": "Facultad de Ciencias de la Electrónica",
+      "titulo": "Diseño de circuitos impresos (PCB)",
+      "ruta": "facultades/ciencias-electronica/articulo-15.html"
+    },
+    {
+      "id": "ele-16",
+      "facultad_id": "ele",
+      "facultad": "Facultad de Ciencias de la Electrónica",
+      "titulo": "Fuentes de alimentación",
+      "ruta": "facultades/ciencias-electronica/articulo-16.html"
+    },
+    {
+      "id": "ele-17",
+      "facultad_id": "ele",
+      "facultad": "Facultad de Ciencias de la Electrónica",
+      "titulo": "Electrónica de potencia",
+      "ruta": "facultades/ciencias-electronica/articulo-17.html"
+    },
+    {
+      "id": "ele-18",
+      "facultad_id": "ele",
+      "facultad": "Facultad de Ciencias de la Electrónica",
+      "titulo": "Automatización industrial",
+      "ruta": "facultades/ciencias-electronica/articulo-18.html"
+    },
+    {
+      "id": "ele-19",
+      "facultad_id": "ele",
+      "facultad": "Facultad de Ciencias de la Electrónica",
+      "titulo": "Sistemas de adquisición de datos",
+      "ruta": "facultades/ciencias-electronica/articulo-19.html"
+    },
+    {
+      "id": "ele-20",
+      "facultad_id": "ele",
+      "facultad": "Facultad de Ciencias de la Electrónica",
+      "titulo": "Mantenimiento electrónico",
+      "ruta": "facultades/ciencias-electronica/articulo-20.html"
+    },
+    {
+      "id": "cfm-01",
+      "facultad_id": "cfm",
+      "facultad": "Facultad de Ciencias Físico Matemáticas",
+      "titulo": "Álgebra lineal",
+      "ruta": "facultades/ciencias-fisico-matematicas/articulo-01.html"
+    },
+    {
+      "id": "cfm-02",
+      "facultad_id": "cfm",
+      "facultad": "Facultad de Ciencias Físico Matemáticas",
+      "titulo": "Cálculo diferencial",
+      "ruta": "facultades/ciencias-fisico-matematicas/articulo-02.html"
+    },
+    {
+      "id": "cfm-03",
+      "facultad_id": "cfm",
+      "facultad": "Facultad de Ciencias Físico Matemáticas",
+      "titulo": "Cálculo integral",
+      "ruta": "facultades/ciencias-fisico-matematicas/articulo-03.html"
+    },
+    {
+      "id": "cfm-04",
+      "facultad_id": "cfm",
+      "facultad": "Facultad de Ciencias Físico Matemáticas",
+      "titulo": "Ecuaciones diferenciales",
+      "ruta": "facultades/ciencias-fisico-matematicas/articulo-04.html"
+    },
+    {
+      "id": "cfm-05",
+      "facultad_id": "cfm",
+      "facultad": "Facultad de Ciencias Físico Matemáticas",
+      "titulo": "Análisis matemático",
+      "ruta": "facultades/ciencias-fisico-matematicas/articulo-05.html"
+    },
+    {
+      "id": "cfm-06",
+      "facultad_id": "cfm",
+      "facultad": "Facultad de Ciencias Físico Matemáticas",
+      "titulo": "Probabilidad",
+      "ruta": "facultades/ciencias-fisico-matematicas/articulo-06.html"
+    },
+    {
+      "id": "cfm-07",
+      "facultad_id": "cfm",
+      "facultad": "Facultad de Ciencias Físico Matemáticas",
+      "titulo": "Estadística matemática",
+      "ruta": "facultades/ciencias-fisico-matematicas/articulo-07.html"
+    },
+    {
+      "id": "cfm-08",
+      "facultad_id": "cfm",
+      "facultad": "Facultad de Ciencias Físico Matemáticas",
+      "titulo": "Matemáticas discretas",
+      "ruta": "facultades/ciencias-fisico-matematicas/articulo-08.html"
+    },
+    {
+      "id": "cfm-09",
+      "facultad_id": "cfm",
+      "facultad": "Facultad de Ciencias Físico Matemáticas",
+      "titulo": "Teoría de números",
+      "ruta": "facultades/ciencias-fisico-matematicas/articulo-09.html"
+    },
+    {
+      "id": "cfm-10",
+      "facultad_id": "cfm",
+      "facultad": "Facultad de Ciencias Físico Matemáticas",
+      "titulo": "Geometría analítica",
+      "ruta": "facultades/ciencias-fisico-matematicas/articulo-10.html"
+    },
+    {
+      "id": "cfm-11",
+      "facultad_id": "cfm",
+      "facultad": "Facultad de Ciencias Físico Matemáticas",
+      "titulo": "Topología",
+      "ruta": "facultades/ciencias-fisico-matematicas/articulo-11.html"
+    },
+    {
+      "id": "cfm-12",
+      "facultad_id": "cfm",
+      "facultad": "Facultad de Ciencias Físico Matemáticas",
+      "titulo": "Física clásica",
+      "ruta": "facultades/ciencias-fisico-matematicas/articulo-12.html"
+    },
+    {
+      "id": "cfm-13",
+      "facultad_id": "cfm",
+      "facultad": "Facultad de Ciencias Físico Matemáticas",
+      "titulo": "Mecánica",
+      "ruta": "facultades/ciencias-fisico-matematicas/articulo-13.html"
+    },
+    {
+      "id": "cfm-14",
+      "facultad_id": "cfm",
+      "facultad": "Facultad de Ciencias Físico Matemáticas",
+      "titulo": "Electromagnetismo",
+      "ruta": "facultades/ciencias-fisico-matematicas/articulo-14.html"
+    },
+    {
+      "id": "cfm-15",
+      "facultad_id": "cfm",
+      "facultad": "Facultad de Ciencias Físico Matemáticas",
+      "titulo": "Termodinámica",
+      "ruta": "facultades/ciencias-fisico-matematicas/articulo-15.html"
+    },
+    {
+      "id": "cfm-16",
+      "facultad_id": "cfm",
+      "facultad": "Facultad de Ciencias Físico Matemáticas",
+      "titulo": "Física cuántica",
+      "ruta": "facultades/ciencias-fisico-matematicas/articulo-16.html"
+    },
+    {
+      "id": "cfm-17",
+      "facultad_id": "cfm",
+      "facultad": "Facultad de Ciencias Físico Matemáticas",
+      "titulo": "Óptica",
+      "ruta": "facultades/ciencias-fisico-matematicas/articulo-17.html"
+    },
+    {
+      "id": "cfm-18",
+      "facultad_id": "cfm",
+      "facultad": "Facultad de Ciencias Físico Matemáticas",
+      "titulo": "Física del estado sólido",
+      "ruta": "facultades/ciencias-fisico-matematicas/articulo-18.html"
+    },
+    {
+      "id": "cfm-19",
+      "facultad_id": "cfm",
+      "facultad": "Facultad de Ciencias Físico Matemáticas",
+      "titulo": "Métodos numéricos",
+      "ruta": "facultades/ciencias-fisico-matematicas/articulo-19.html"
+    },
+    {
+      "id": "cfm-20",
+      "facultad_id": "cfm",
+      "facultad": "Facultad de Ciencias Físico Matemáticas",
+      "titulo": "Modelación matemática",
+      "ruta": "facultades/ciencias-fisico-matematicas/articulo-20.html"
+    },
+    {
+      "id": "cps-01",
+      "facultad_id": "cps",
+      "facultad": "Facultad de Ciencias Políticas y Sociales",
+      "titulo": "Teoría política",
+      "ruta": "facultades/ciencias-politicas-sociales/articulo-01.html"
+    },
+    {
+      "id": "cps-02",
+      "facultad_id": "cps",
+      "facultad": "Facultad de Ciencias Políticas y Sociales",
+      "titulo": "Estado y gobierno",
+      "ruta": "facultades/ciencias-politicas-sociales/articulo-02.html"
+    },
+    {
+      "id": "cps-03",
+      "facultad_id": "cps",
+      "facultad": "Facultad de Ciencias Políticas y Sociales",
+      "titulo": "Sistemas políticos comparados",
+      "ruta": "facultades/ciencias-politicas-sociales/articulo-03.html"
+    },
+    {
+      "id": "cps-04",
+      "facultad_id": "cps",
+      "facultad": "Facultad de Ciencias Políticas y Sociales",
+      "titulo": "Instituciones democráticas",
+      "ruta": "facultades/ciencias-politicas-sociales/articulo-04.html"
+    },
+    {
+      "id": "cps-05",
+      "facultad_id": "cps",
+      "facultad": "Facultad de Ciencias Políticas y Sociales",
+      "titulo": "Políticas públicas",
+      "ruta": "facultades/ciencias-politicas-sociales/articulo-05.html"
+    },
+    {
+      "id": "cps-06",
+      "facultad_id": "cps",
+      "facultad": "Facultad de Ciencias Políticas y Sociales",
+      "titulo": "Administración pública",
+      "ruta": "facultades/ciencias-politicas-sociales/articulo-06.html"
+    },
+    {
+      "id": "cps-07",
+      "facultad_id": "cps",
+      "facultad": "Facultad de Ciencias Políticas y Sociales",
+      "titulo": "Relaciones internacionales",
+      "ruta": "facultades/ciencias-politicas-sociales/articulo-07.html"
+    },
+    {
+      "id": "cps-08",
+      "facultad_id": "cps",
+      "facultad": "Facultad de Ciencias Políticas y Sociales",
+      "titulo": "Derechos humanos",
+      "ruta": "facultades/ciencias-politicas-sociales/articulo-08.html"
+    },
+    {
+      "id": "cps-09",
+      "facultad_id": "cps",
+      "facultad": "Facultad de Ciencias Políticas y Sociales",
+      "titulo": "Participación ciudadana",
+      "ruta": "facultades/ciencias-politicas-sociales/articulo-09.html"
+    },
+    {
+      "id": "cps-10",
+      "facultad_id": "cps",
+      "facultad": "Facultad de Ciencias Políticas y Sociales",
+      "titulo": "Movimientos sociales",
+      "ruta": "facultades/ciencias-politicas-sociales/articulo-10.html"
+    },
+    {
+      "id": "cps-11",
+      "facultad_id": "cps",
+      "facultad": "Facultad de Ciencias Políticas y Sociales",
+      "titulo": "Sociología política",
+      "ruta": "facultades/ciencias-politicas-sociales/articulo-11.html"
+    },
+    {
+      "id": "cps-12",
+      "facultad_id": "cps",
+      "facultad": "Facultad de Ciencias Políticas y Sociales",
+      "titulo": "Opinión pública",
+      "ruta": "facultades/ciencias-politicas-sociales/articulo-12.html"
+    },
+    {
+      "id": "cps-13",
+      "facultad_id": "cps",
+      "facultad": "Facultad de Ciencias Políticas y Sociales",
+      "titulo": "Elecciones y sistemas electorales",
+      "ruta": "facultades/ciencias-politicas-sociales/articulo-13.html"
+    },
+    {
+      "id": "cps-14",
+      "facultad_id": "cps",
+      "facultad": "Facultad de Ciencias Políticas y Sociales",
+      "titulo": "Partidos políticos",
+      "ruta": "facultades/ciencias-politicas-sociales/articulo-14.html"
+    },
+    {
+      "id": "cps-15",
+      "facultad_id": "cps",
+      "facultad": "Facultad de Ciencias Políticas y Sociales",
+      "titulo": "Seguridad pública",
+      "ruta": "facultades/ciencias-politicas-sociales/articulo-15.html"
+    },
+    {
+      "id": "cps-16",
+      "facultad_id": "cps",
+      "facultad": "Facultad de Ciencias Políticas y Sociales",
+      "titulo": "Gobernanza",
+      "ruta": "facultades/ciencias-politicas-sociales/articulo-16.html"
+    },
+    {
+      "id": "cps-17",
+      "facultad_id": "cps",
+      "facultad": "Facultad de Ciencias Políticas y Sociales",
+      "titulo": "Análisis de coyuntura",
+      "ruta": "facultades/ciencias-politicas-sociales/articulo-17.html"
+    },
+    {
+      "id": "cps-18",
+      "facultad_id": "cps",
+      "facultad": "Facultad de Ciencias Políticas y Sociales",
+      "titulo": "Investigación social",
+      "ruta": "facultades/ciencias-politicas-sociales/articulo-18.html"
+    },
+    {
+      "id": "cps-19",
+      "facultad_id": "cps",
+      "facultad": "Facultad de Ciencias Políticas y Sociales",
+      "titulo": "Desigualdad social",
+      "ruta": "facultades/ciencias-politicas-sociales/articulo-19.html"
+    },
+    {
+      "id": "cps-20",
+      "facultad_id": "cps",
+      "facultad": "Facultad de Ciencias Políticas y Sociales",
+      "titulo": "Comunicación política",
+      "ruta": "facultades/ciencias-politicas-sociales/articulo-20.html"
+    },
+    {
+      "id": "quim-01",
+      "facultad_id": "quim",
+      "facultad": "Facultad de Ciencias Químicas",
+      "titulo": "Estructura atómica",
+      "ruta": "facultades/ciencias-quimicas/articulo-01.html"
+    },
+    {
+      "id": "quim-02",
+      "facultad_id": "quim",
+      "facultad": "Facultad de Ciencias Químicas",
+      "titulo": "Tabla periódica",
+      "ruta": "facultades/ciencias-quimicas/articulo-02.html"
+    },
+    {
+      "id": "quim-03",
+      "facultad_id": "quim",
+      "facultad": "Facultad de Ciencias Químicas",
+      "titulo": "Enlace químico",
+      "ruta": "facultades/ciencias-quimicas/articulo-03.html"
+    },
+    {
+      "id": "quim-04",
+      "facultad_id": "quim",
+      "facultad": "Facultad de Ciencias Químicas",
+      "titulo": "Estequiometría",
+      "ruta": "facultades/ciencias-quimicas/articulo-04.html"
+    },
+    {
+      "id": "quim-05",
+      "facultad_id": "quim",
+      "facultad": "Facultad de Ciencias Químicas",
+      "titulo": "Soluciones químicas",
+      "ruta": "facultades/ciencias-quimicas/articulo-05.html"
+    },
+    {
+      "id": "quim-06",
+      "facultad_id": "quim",
+      "facultad": "Facultad de Ciencias Químicas",
+      "titulo": "Equilibrio químico",
+      "ruta": "facultades/ciencias-quimicas/articulo-06.html"
+    },
+    {
+      "id": "quim-07",
+      "facultad_id": "quim",
+      "facultad": "Facultad de Ciencias Químicas",
+      "titulo": "Cinética química",
+      "ruta": "facultades/ciencias-quimicas/articulo-07.html"
+    },
+    {
+      "id": "quim-08",
+      "facultad_id": "quim",
+      "facultad": "Facultad de Ciencias Químicas",
+      "titulo": "Química orgánica",
+      "ruta": "facultades/ciencias-quimicas/articulo-08.html"
+    },
+    {
+      "id": "quim-09",
+      "facultad_id": "quim",
+      "facultad": "Facultad de Ciencias Químicas",
+      "titulo": "Grupos funcionales",
+      "ruta": "facultades/ciencias-quimicas/articulo-09.html"
+    },
+    {
+      "id": "quim-10",
+      "facultad_id": "quim",
+      "facultad": "Facultad de Ciencias Químicas",
+      "titulo": "Química inorgánica",
+      "ruta": "facultades/ciencias-quimicas/articulo-10.html"
+    },
+    {
+      "id": "quim-11",
+      "facultad_id": "quim",
+      "facultad": "Facultad de Ciencias Químicas",
+      "titulo": "Química analítica",
+      "ruta": "facultades/ciencias-quimicas/articulo-11.html"
+    },
+    {
+      "id": "quim-12",
+      "facultad_id": "quim",
+      "facultad": "Facultad de Ciencias Químicas",
+      "titulo": "Espectroscopia",
+      "ruta": "facultades/ciencias-quimicas/articulo-12.html"
+    },
+    {
+      "id": "quim-13",
+      "facultad_id": "quim",
+      "facultad": "Facultad de Ciencias Químicas",
+      "titulo": "Química ambiental",
+      "ruta": "facultades/ciencias-quimicas/articulo-13.html"
+    },
+    {
+      "id": "quim-14",
+      "facultad_id": "quim",
+      "facultad": "Facultad de Ciencias Químicas",
+      "titulo": "Bioquímica",
+      "ruta": "facultades/ciencias-quimicas/articulo-14.html"
+    },
+    {
+      "id": "quim-15",
+      "facultad_id": "quim",
+      "facultad": "Facultad de Ciencias Químicas",
+      "titulo": "Polímeros",
+      "ruta": "facultades/ciencias-quimicas/articulo-15.html"
+    },
+    {
+      "id": "quim-16",
+      "facultad_id": "quim",
+      "facultad": "Facultad de Ciencias Químicas",
+      "titulo": "Corrosión de materiales",
+      "ruta": "facultades/ciencias-quimicas/articulo-16.html"
+    },
+    {
+      "id": "quim-17",
+      "facultad_id": "quim",
+      "facultad": "Facultad de Ciencias Químicas",
+      "titulo": "Seguridad en el laboratorio",
+      "ruta": "facultades/ciencias-quimicas/articulo-17.html"
+    },
+    {
+      "id": "quim-18",
+      "facultad_id": "quim",
+      "facultad": "Facultad de Ciencias Químicas",
+      "titulo": "Química industrial",
+      "ruta": "facultades/ciencias-quimicas/articulo-18.html"
+    },
+    {
+      "id": "quim-19",
+      "facultad_id": "quim",
+      "facultad": "Facultad de Ciencias Químicas",
+      "titulo": "Tratamiento de aguas",
+      "ruta": "facultades/ciencias-quimicas/articulo-19.html"
+    },
+    {
+      "id": "quim-20",
+      "facultad_id": "quim",
+      "facultad": "Facultad de Ciencias Químicas",
+      "titulo": "Nanotecnología química",
+      "ruta": "facultades/ciencias-quimicas/articulo-20.html"
+    },
+    {
+      "id": "cont-01",
+      "facultad_id": "cont",
+      "facultad": "Facultad de Contaduría Pública",
+      "titulo": "Fundamentos de contabilidad",
+      "ruta": "facultades/contaduria-publica/articulo-01.html"
+    },
+    {
+      "id": "cont-02",
+      "facultad_id": "cont",
+      "facultad": "Facultad de Contaduría Pública",
+      "titulo": "Estados financieros",
+      "ruta": "facultades/contaduria-publica/articulo-02.html"
+    },
+    {
+      "id": "cont-03",
+      "facultad_id": "cont",
+      "facultad": "Facultad de Contaduría Pública",
+      "titulo": "Balance general",
+      "ruta": "facultades/contaduria-publica/articulo-03.html"
+    },
+    {
+      "id": "cont-04",
+      "facultad_id": "cont",
+      "facultad": "Facultad de Contaduría Pública",
+      "titulo": "Estado de resultados",
+      "ruta": "facultades/contaduria-publica/articulo-04.html"
+    },
+    {
+      "id": "cont-05",
+      "facultad_id": "cont",
+      "facultad": "Facultad de Contaduría Pública",
+      "titulo": "Contabilidad de costos",
+      "ruta": "facultades/contaduria-publica/articulo-05.html"
+    },
+    {
+      "id": "cont-06",
+      "facultad_id": "cont",
+      "facultad": "Facultad de Contaduría Pública",
+      "titulo": "Presupuestos empresariales",
+      "ruta": "facultades/contaduria-publica/articulo-06.html"
+    },
+    {
+      "id": "cont-07",
+      "facultad_id": "cont",
+      "facultad": "Facultad de Contaduría Pública",
+      "titulo": "Auditoría financiera",
+      "ruta": "facultades/contaduria-publica/articulo-07.html"
+    },
+    {
+      "id": "cont-08",
+      "facultad_id": "cont",
+      "facultad": "Facultad de Contaduría Pública",
+      "titulo": "Control interno",
+      "ruta": "facultades/contaduria-publica/articulo-08.html"
+    },
+    {
+      "id": "cont-09",
+      "facultad_id": "cont",
+      "facultad": "Facultad de Contaduría Pública",
+      "titulo": "Contabilidad fiscal",
+      "ruta": "facultades/contaduria-publica/articulo-09.html"
+    },
+    {
+      "id": "cont-10",
+      "facultad_id": "cont",
+      "facultad": "Facultad de Contaduría Pública",
+      "titulo": "Obligaciones tributarias",
+      "ruta": "facultades/contaduria-publica/articulo-10.html"
+    },
+    {
+      "id": "cont-11",
+      "facultad_id": "cont",
+      "facultad": "Facultad de Contaduría Pública",
+      "titulo": "Costos de producción",
+      "ruta": "facultades/contaduria-publica/articulo-11.html"
+    },
+    {
+      "id": "cont-12",
+      "facultad_id": "cont",
+      "facultad": "Facultad de Contaduría Pública",
+      "titulo": "Contabilidad administrativa",
+      "ruta": "facultades/contaduria-publica/articulo-12.html"
+    },
+    {
+      "id": "cont-13",
+      "facultad_id": "cont",
+      "facultad": "Facultad de Contaduría Pública",
+      "titulo": "Finanzas corporativas",
+      "ruta": "facultades/contaduria-publica/articulo-13.html"
+    },
+    {
+      "id": "cont-14",
+      "facultad_id": "cont",
+      "facultad": "Facultad de Contaduría Pública",
+      "titulo": "Análisis financiero",
+      "ruta": "facultades/contaduria-publica/articulo-14.html"
+    },
+    {
+      "id": "cont-15",
+      "facultad_id": "cont",
+      "facultad": "Facultad de Contaduría Pública",
+      "titulo": "Flujo de efectivo",
+      "ruta": "facultades/contaduria-publica/articulo-15.html"
+    },
+    {
+      "id": "cont-16",
+      "facultad_id": "cont",
+      "facultad": "Facultad de Contaduría Pública",
+      "titulo": "Normas de información financiera",
+      "ruta": "facultades/contaduria-publica/articulo-16.html"
+    },
+    {
+      "id": "cont-17",
+      "facultad_id": "cont",
+      "facultad": "Facultad de Contaduría Pública",
+      "titulo": "Contabilidad electrónica",
+      "ruta": "facultades/contaduria-publica/articulo-17.html"
+    },
+    {
+      "id": "cont-18",
+      "facultad_id": "cont",
+      "facultad": "Facultad de Contaduría Pública",
+      "titulo": "Gobierno corporativo",
+      "ruta": "facultades/contaduria-publica/articulo-18.html"
+    },
+    {
+      "id": "cont-19",
+      "facultad_id": "cont",
+      "facultad": "Facultad de Contaduría Pública",
+      "titulo": "Riesgos financieros",
+      "ruta": "facultades/contaduria-publica/articulo-19.html"
+    },
+    {
+      "id": "cont-20",
+      "facultad_id": "cont",
+      "facultad": "Facultad de Contaduría Pública",
+      "titulo": "Ética profesional contable",
+      "ruta": "facultades/contaduria-publica/articulo-20.html"
+    },
+    {
+      "id": "cf-01",
+      "facultad_id": "cf",
+      "facultad": "Facultad de Cultura Física",
+      "titulo": "Anatomía aplicada al ejercicio",
+      "ruta": "facultades/cultura-fisica/articulo-01.html"
+    },
+    {
+      "id": "cf-02",
+      "facultad_id": "cf",
+      "facultad": "Facultad de Cultura Física",
+      "titulo": "Fisiología del ejercicio",
+      "ruta": "facultades/cultura-fisica/articulo-02.html"
+    },
+    {
+      "id": "cf-03",
+      "facultad_id": "cf",
+      "facultad": "Facultad de Cultura Física",
+      "titulo": "Biomecánica deportiva",
+      "ruta": "facultades/cultura-fisica/articulo-03.html"
+    },
+    {
+      "id": "cf-04",
+      "facultad_id": "cf",
+      "facultad": "Facultad de Cultura Física",
+      "titulo": "Entrenamiento deportivo",
+      "ruta": "facultades/cultura-fisica/articulo-04.html"
+    },
+    {
+      "id": "cf-05",
+      "facultad_id": "cf",
+      "facultad": "Facultad de Cultura Física",
+      "titulo": "Planificación del entrenamiento",
+      "ruta": "facultades/cultura-fisica/articulo-05.html"
+    },
+    {
+      "id": "cf-06",
+      "facultad_id": "cf",
+      "facultad": "Facultad de Cultura Física",
+      "titulo": "Fuerza y resistencia",
+      "ruta": "facultades/cultura-fisica/articulo-06.html"
+    },
+    {
+      "id": "cf-07",
+      "facultad_id": "cf",
+      "facultad": "Facultad de Cultura Física",
+      "titulo": "Velocidad y flexibilidad",
+      "ruta": "facultades/cultura-fisica/articulo-07.html"
+    },
+    {
+      "id": "cf-08",
+      "facultad_id": "cf",
+      "facultad": "Facultad de Cultura Física",
+      "titulo": "Nutrición deportiva",
+      "ruta": "facultades/cultura-fisica/articulo-08.html"
+    },
+    {
+      "id": "cf-09",
+      "facultad_id": "cf",
+      "facultad": "Facultad de Cultura Física",
+      "titulo": "Psicología del deporte",
+      "ruta": "facultades/cultura-fisica/articulo-09.html"
+    },
+    {
+      "id": "cf-10",
+      "facultad_id": "cf",
+      "facultad": "Facultad de Cultura Física",
+      "titulo": "Aprendizaje motor",
+      "ruta": "facultades/cultura-fisica/articulo-10.html"
+    },
+    {
+      "id": "cf-11",
+      "facultad_id": "cf",
+      "facultad": "Facultad de Cultura Física",
+      "titulo": "Educación física escolar",
+      "ruta": "facultades/cultura-fisica/articulo-11.html"
+    },
+    {
+      "id": "cf-12",
+      "facultad_id": "cf",
+      "facultad": "Facultad de Cultura Física",
+      "titulo": "Actividad física y salud",
+      "ruta": "facultades/cultura-fisica/articulo-12.html"
+    },
+    {
+      "id": "cf-13",
+      "facultad_id": "cf",
+      "facultad": "Facultad de Cultura Física",
+      "titulo": "Deporte adaptado",
+      "ruta": "facultades/cultura-fisica/articulo-13.html"
+    },
+    {
+      "id": "cf-14",
+      "facultad_id": "cf",
+      "facultad": "Facultad de Cultura Física",
+      "titulo": "Evaluación de la condición física",
+      "ruta": "facultades/cultura-fisica/articulo-14.html"
+    },
+    {
+      "id": "cf-15",
+      "facultad_id": "cf",
+      "facultad": "Facultad de Cultura Física",
+      "titulo": "Prevención de lesiones deportivas",
+      "ruta": "facultades/cultura-fisica/articulo-15.html"
+    },
+    {
+      "id": "cf-16",
+      "facultad_id": "cf",
+      "facultad": "Facultad de Cultura Física",
+      "titulo": "Rehabilitación deportiva",
+      "ruta": "facultades/cultura-fisica/articulo-16.html"
+    },
+    {
+      "id": "cf-17",
+      "facultad_id": "cf",
+      "facultad": "Facultad de Cultura Física",
+      "titulo": "Gestión de organizaciones deportivas",
+      "ruta": "facultades/cultura-fisica/articulo-17.html"
+    },
+    {
+      "id": "cf-18",
+      "facultad_id": "cf",
+      "facultad": "Facultad de Cultura Física",
+      "titulo": "Recreación y tiempo libre",
+      "ruta": "facultades/cultura-fisica/articulo-18.html"
+    },
+    {
+      "id": "cf-19",
+      "facultad_id": "cf",
+      "facultad": "Facultad de Cultura Física",
+      "titulo": "Deporte de alto rendimiento",
+      "ruta": "facultades/cultura-fisica/articulo-19.html"
+    },
+    {
+      "id": "cf-20",
+      "facultad_id": "cf",
+      "facultad": "Facultad de Cultura Física",
+      "titulo": "Hidratación y recuperación",
+      "ruta": "facultades/cultura-fisica/articulo-20.html"
+    },
+    {
+      "id": "der-01",
+      "facultad_id": "der",
+      "facultad": "Facultad de Derecho",
+      "titulo": "Teoría general del derecho",
+      "ruta": "facultades/derecho/articulo-01.html"
+    },
+    {
+      "id": "der-02",
+      "facultad_id": "der",
+      "facultad": "Facultad de Derecho",
+      "titulo": "Fuentes del derecho",
+      "ruta": "facultades/derecho/articulo-02.html"
+    },
+    {
+      "id": "der-03",
+      "facultad_id": "der",
+      "facultad": "Facultad de Derecho",
+      "titulo": "Derecho constitucional",
+      "ruta": "facultades/derecho/articulo-03.html"
+    },
+    {
+      "id": "der-04",
+      "facultad_id": "der",
+      "facultad": "Facultad de Derecho",
+      "titulo": "Derechos humanos",
+      "ruta": "facultades/derecho/articulo-04.html"
+    },
+    {
+      "id": "der-05",
+      "facultad_id": "der",
+      "facultad": "Facultad de Derecho",
+      "titulo": "Derecho civil: personas",
+      "ruta": "facultades/derecho/articulo-05.html"
+    },
+    {
+      "id": "der-06",
+      "facultad_id": "der",
+      "facultad": "Facultad de Derecho",
+      "titulo": "Contratos civiles",
+      "ruta": "facultades/derecho/articulo-06.html"
+    },
+    {
+      "id": "der-07",
+      "facultad_id": "der",
+      "facultad": "Facultad de Derecho",
+      "titulo": "Derecho familiar",
+      "ruta": "facultades/derecho/articulo-07.html"
+    },
+    {
+      "id": "der-08",
+      "facultad_id": "der",
+      "facultad": "Facultad de Derecho",
+      "titulo": "Derecho penal",
+      "ruta": "facultades/derecho/articulo-08.html"
+    },
+    {
+      "id": "der-09",
+      "facultad_id": "der",
+      "facultad": "Facultad de Derecho",
+      "titulo": "Proceso penal",
+      "ruta": "facultades/derecho/articulo-09.html"
+    },
+    {
+      "id": "der-10",
+      "facultad_id": "der",
+      "facultad": "Facultad de Derecho",
+      "titulo": "Derecho mercantil",
+      "ruta": "facultades/derecho/articulo-10.html"
+    },
+    {
+      "id": "der-11",
+      "facultad_id": "der",
+      "facultad": "Facultad de Derecho",
+      "titulo": "Sociedades mercantiles",
+      "ruta": "facultades/derecho/articulo-11.html"
+    },
+    {
+      "id": "der-12",
+      "facultad_id": "der",
+      "facultad": "Facultad de Derecho",
+      "titulo": "Derecho laboral",
+      "ruta": "facultades/derecho/articulo-12.html"
+    },
+    {
+      "id": "der-13",
+      "facultad_id": "der",
+      "facultad": "Facultad de Derecho",
+      "titulo": "Derecho administrativo",
+      "ruta": "facultades/derecho/articulo-13.html"
+    },
+    {
+      "id": "der-14",
+      "facultad_id": "der",
+      "facultad": "Facultad de Derecho",
+      "titulo": "Derecho fiscal",
+      "ruta": "facultades/derecho/articulo-14.html"
+    },
+    {
+      "id": "der-15",
+      "facultad_id": "der",
+      "facultad": "Facultad de Derecho",
+      "titulo": "Derecho internacional público",
+      "ruta": "facultades/derecho/articulo-15.html"
+    },
+    {
+      "id": "der-16",
+      "facultad_id": "der",
+      "facultad": "Facultad de Derecho",
+      "titulo": "Derecho internacional privado",
+      "ruta": "facultades/derecho/articulo-16.html"
+    },
+    {
+      "id": "der-17",
+      "facultad_id": "der",
+      "facultad": "Facultad de Derecho",
+      "titulo": "Derecho procesal",
+      "ruta": "facultades/derecho/articulo-17.html"
+    },
+    {
+      "id": "der-18",
+      "facultad_id": "der",
+      "facultad": "Facultad de Derecho",
+      "titulo": "Argumentación jurídica",
+      "ruta": "facultades/derecho/articulo-18.html"
+    },
+    {
+      "id": "der-19",
+      "facultad_id": "der",
+      "facultad": "Facultad de Derecho",
+      "titulo": "Justicia alternativa",
+      "ruta": "facultades/derecho/articulo-19.html"
+    },
+    {
+      "id": "der-20",
+      "facultad_id": "der",
+      "facultad": "Facultad de Derecho",
+      "titulo": "Ética jurídica",
+      "ruta": "facultades/derecho/articulo-20.html"
+    },
+    {
+      "id": "eco-01",
+      "facultad_id": "eco",
+      "facultad": "Facultad de Economía",
+      "titulo": "Principios de economía",
+      "ruta": "facultades/economia/articulo-01.html"
+    },
+    {
+      "id": "eco-02",
+      "facultad_id": "eco",
+      "facultad": "Facultad de Economía",
+      "titulo": "Microeconomía",
+      "ruta": "facultades/economia/articulo-02.html"
+    },
+    {
+      "id": "eco-03",
+      "facultad_id": "eco",
+      "facultad": "Facultad de Economía",
+      "titulo": "Macroeconomía",
+      "ruta": "facultades/economia/articulo-03.html"
+    },
+    {
+      "id": "eco-04",
+      "facultad_id": "eco",
+      "facultad": "Facultad de Economía",
+      "titulo": "Oferta y demanda",
+      "ruta": "facultades/economia/articulo-04.html"
+    },
+    {
+      "id": "eco-05",
+      "facultad_id": "eco",
+      "facultad": "Facultad de Economía",
+      "titulo": "Elasticidad de mercado",
+      "ruta": "facultades/economia/articulo-05.html"
+    },
+    {
+      "id": "eco-06",
+      "facultad_id": "eco",
+      "facultad": "Facultad de Economía",
+      "titulo": "Teoría del consumidor",
+      "ruta": "facultades/economia/articulo-06.html"
+    },
+    {
+      "id": "eco-07",
+      "facultad_id": "eco",
+      "facultad": "Facultad de Economía",
+      "titulo": "Teoría del productor",
+      "ruta": "facultades/economia/articulo-07.html"
+    },
+    {
+      "id": "eco-08",
+      "facultad_id": "eco",
+      "facultad": "Facultad de Economía",
+      "titulo": "Estructuras de mercado",
+      "ruta": "facultades/economia/articulo-08.html"
+    },
+    {
+      "id": "eco-09",
+      "facultad_id": "eco",
+      "facultad": "Facultad de Economía",
+      "titulo": "Crecimiento económico",
+      "ruta": "facultades/economia/articulo-09.html"
+    },
+    {
+      "id": "eco-10",
+      "facultad_id": "eco",
+      "facultad": "Facultad de Economía",
+      "titulo": "Inflación y desempleo",
+      "ruta": "facultades/economia/articulo-10.html"
+    },
+    {
+      "id": "eco-11",
+      "facultad_id": "eco",
+      "facultad": "Facultad de Economía",
+      "titulo": "Política monetaria",
+      "ruta": "facultades/economia/articulo-11.html"
+    },
+    {
+      "id": "eco-12",
+      "facultad_id": "eco",
+      "facultad": "Facultad de Economía",
+      "titulo": "Política fiscal",
+      "ruta": "facultades/economia/articulo-12.html"
+    },
+    {
+      "id": "eco-13",
+      "facultad_id": "eco",
+      "facultad": "Facultad de Economía",
+      "titulo": "Economía internacional",
+      "ruta": "facultades/economia/articulo-13.html"
+    },
+    {
+      "id": "eco-14",
+      "facultad_id": "eco",
+      "facultad": "Facultad de Economía",
+      "titulo": "Comercio exterior",
+      "ruta": "facultades/economia/articulo-14.html"
+    },
+    {
+      "id": "eco-15",
+      "facultad_id": "eco",
+      "facultad": "Facultad de Economía",
+      "titulo": "Desarrollo regional",
+      "ruta": "facultades/economia/articulo-15.html"
+    },
+    {
+      "id": "eco-16",
+      "facultad_id": "eco",
+      "facultad": "Facultad de Economía",
+      "titulo": "Economía pública",
+      "ruta": "facultades/economia/articulo-16.html"
+    },
+    {
+      "id": "eco-17",
+      "facultad_id": "eco",
+      "facultad": "Facultad de Economía",
+      "titulo": "Economía laboral",
+      "ruta": "facultades/economia/articulo-17.html"
+    },
+    {
+      "id": "eco-18",
+      "facultad_id": "eco",
+      "facultad": "Facultad de Economía",
+      "titulo": "Economía ambiental",
+      "ruta": "facultades/economia/articulo-18.html"
+    },
+    {
+      "id": "eco-19",
+      "facultad_id": "eco",
+      "facultad": "Facultad de Economía",
+      "titulo": "Econometría",
+      "ruta": "facultades/economia/articulo-19.html"
+    },
+    {
+      "id": "eco-20",
+      "facultad_id": "eco",
+      "facultad": "Facultad de Economía",
+      "titulo": "Desigualdad y distribución del ingreso",
+      "ruta": "facultades/economia/articulo-20.html"
+    },
+    {
+      "id": "enf-01",
+      "facultad_id": "enf",
+      "facultad": "Facultad de Enfermería",
+      "titulo": "Fundamentos de enfermería",
+      "ruta": "facultades/enfermeria/articulo-01.html"
+    },
+    {
+      "id": "enf-02",
+      "facultad_id": "enf",
+      "facultad": "Facultad de Enfermería",
+      "titulo": "Proceso de atención de enfermería",
+      "ruta": "facultades/enfermeria/articulo-02.html"
+    },
+    {
+      "id": "enf-03",
+      "facultad_id": "enf",
+      "facultad": "Facultad de Enfermería",
+      "titulo": "Anatomía y fisiología para enfermería",
+      "ruta": "facultades/enfermeria/articulo-03.html"
+    },
+    {
+      "id": "enf-04",
+      "facultad_id": "enf",
+      "facultad": "Facultad de Enfermería",
+      "titulo": "Valoración de signos vitales",
+      "ruta": "facultades/enfermeria/articulo-04.html"
+    },
+    {
+      "id": "enf-05",
+      "facultad_id": "enf",
+      "facultad": "Facultad de Enfermería",
+      "titulo": "Higiene y seguridad del paciente",
+      "ruta": "facultades/enfermeria/articulo-05.html"
+    },
+    {
+      "id": "enf-06",
+      "facultad_id": "enf",
+      "facultad": "Facultad de Enfermería",
+      "titulo": "Farmacología para enfermería",
+      "ruta": "facultades/enfermeria/articulo-06.html"
+    },
+    {
+      "id": "enf-07",
+      "facultad_id": "enf",
+      "facultad": "Facultad de Enfermería",
+      "titulo": "Cuidado del adulto mayor",
+      "ruta": "facultades/enfermeria/articulo-07.html"
+    },
+    {
+      "id": "enf-08",
+      "facultad_id": "enf",
+      "facultad": "Facultad de Enfermería",
+      "titulo": "Enfermería pediátrica",
+      "ruta": "facultades/enfermeria/articulo-08.html"
+    },
+    {
+      "id": "enf-09",
+      "facultad_id": "enf",
+      "facultad": "Facultad de Enfermería",
+      "titulo": "Enfermería materno infantil",
+      "ruta": "facultades/enfermeria/articulo-09.html"
+    },
+    {
+      "id": "enf-10",
+      "facultad_id": "enf",
+      "facultad": "Facultad de Enfermería",
+      "titulo": "Salud comunitaria",
+      "ruta": "facultades/enfermeria/articulo-10.html"
+    },
+    {
+      "id": "enf-11",
+      "facultad_id": "enf",
+      "facultad": "Facultad de Enfermería",
+      "titulo": "Promoción de la salud",
+      "ruta": "facultades/enfermeria/articulo-11.html"
+    },
+    {
+      "id": "enf-12",
+      "facultad_id": "enf",
+      "facultad": "Facultad de Enfermería",
+      "titulo": "Prevención de infecciones",
+      "ruta": "facultades/enfermeria/articulo-12.html"
+    },
+    {
+      "id": "enf-13",
+      "facultad_id": "enf",
+      "facultad": "Facultad de Enfermería",
+      "titulo": "Cuidados del paciente crónico",
+      "ruta": "facultades/enfermeria/articulo-13.html"
+    },
+    {
+      "id": "enf-14",
+      "facultad_id": "enf",
+      "facultad": "Facultad de Enfermería",
+      "titulo": "Urgencias y primeros auxilios",
+      "ruta": "facultades/enfermeria/articulo-14.html"
+    },
+    {
+      "id": "enf-15",
+      "facultad_id": "enf",
+      "facultad": "Facultad de Enfermería",
+      "titulo": "Salud mental en enfermería",
+      "ruta": "facultades/enfermeria/articulo-15.html"
+    },
+    {
+      "id": "enf-16",
+      "facultad_id": "enf",
+      "facultad": "Facultad de Enfermería",
+      "titulo": "Nutrición del paciente",
+      "ruta": "facultades/enfermeria/articulo-16.html"
+    },
+    {
+      "id": "enf-17",
+      "facultad_id": "enf",
+      "facultad": "Facultad de Enfermería",
+      "titulo": "Cuidados postoperatorios",
+      "ruta": "facultades/enfermeria/articulo-17.html"
+    },
+    {
+      "id": "enf-18",
+      "facultad_id": "enf",
+      "facultad": "Facultad de Enfermería",
+      "titulo": "Bioética en enfermería",
+      "ruta": "facultades/enfermeria/articulo-18.html"
+    },
+    {
+      "id": "enf-19",
+      "facultad_id": "enf",
+      "facultad": "Facultad de Enfermería",
+      "titulo": "Investigación en enfermería",
+      "ruta": "facultades/enfermeria/articulo-19.html"
+    },
+    {
+      "id": "enf-20",
+      "facultad_id": "enf",
+      "facultad": "Facultad de Enfermería",
+      "titulo": "Gestión de servicios de enfermería",
+      "ruta": "facultades/enfermeria/articulo-20.html"
+    },
+    {
+      "id": "est-01",
+      "facultad_id": "est",
+      "facultad": "Facultad de Estomatología",
+      "titulo": "Anatomía de cabeza y cuello",
+      "ruta": "facultades/estomatologia/articulo-01.html"
+    },
+    {
+      "id": "est-02",
+      "facultad_id": "est",
+      "facultad": "Facultad de Estomatología",
+      "titulo": "Histología oral",
+      "ruta": "facultades/estomatologia/articulo-02.html"
+    },
+    {
+      "id": "est-03",
+      "facultad_id": "est",
+      "facultad": "Facultad de Estomatología",
+      "titulo": "Microbiología oral",
+      "ruta": "facultades/estomatologia/articulo-03.html"
+    },
+    {
+      "id": "est-04",
+      "facultad_id": "est",
+      "facultad": "Facultad de Estomatología",
+      "titulo": "Caries dental",
+      "ruta": "facultades/estomatologia/articulo-04.html"
+    },
+    {
+      "id": "est-05",
+      "facultad_id": "est",
+      "facultad": "Facultad de Estomatología",
+      "titulo": "Enfermedad periodontal",
+      "ruta": "facultades/estomatologia/articulo-05.html"
+    },
+    {
+      "id": "est-06",
+      "facultad_id": "est",
+      "facultad": "Facultad de Estomatología",
+      "titulo": "Prevención de la salud bucal",
+      "ruta": "facultades/estomatologia/articulo-06.html"
+    },
+    {
+      "id": "est-07",
+      "facultad_id": "est",
+      "facultad": "Facultad de Estomatología",
+      "titulo": "Diagnóstico odontológico",
+      "ruta": "facultades/estomatologia/articulo-07.html"
+    },
+    {
+      "id": "est-08",
+      "facultad_id": "est",
+      "facultad": "Facultad de Estomatología",
+      "titulo": "Radiología dental",
+      "ruta": "facultades/estomatologia/articulo-08.html"
+    },
+    {
+      "id": "est-09",
+      "facultad_id": "est",
+      "facultad": "Facultad de Estomatología",
+      "titulo": "Materiales dentales",
+      "ruta": "facultades/estomatologia/articulo-09.html"
+    },
+    {
+      "id": "est-10",
+      "facultad_id": "est",
+      "facultad": "Facultad de Estomatología",
+      "titulo": "Operatoria dental",
+      "ruta": "facultades/estomatologia/articulo-10.html"
+    },
+    {
+      "id": "est-11",
+      "facultad_id": "est",
+      "facultad": "Facultad de Estomatología",
+      "titulo": "Endodoncia",
+      "ruta": "facultades/estomatologia/articulo-11.html"
+    },
+    {
+      "id": "est-12",
+      "facultad_id": "est",
+      "facultad": "Facultad de Estomatología",
+      "titulo": "Ortodoncia",
+      "ruta": "facultades/estomatologia/articulo-12.html"
+    },
+    {
+      "id": "est-13",
+      "facultad_id": "est",
+      "facultad": "Facultad de Estomatología",
+      "titulo": "Prostodoncia",
+      "ruta": "facultades/estomatologia/articulo-13.html"
+    },
+    {
+      "id": "est-14",
+      "facultad_id": "est",
+      "facultad": "Facultad de Estomatología",
+      "titulo": "Cirugía bucal",
+      "ruta": "facultades/estomatologia/articulo-14.html"
+    },
+    {
+      "id": "est-15",
+      "facultad_id": "est",
+      "facultad": "Facultad de Estomatología",
+      "titulo": "Odontopediatría",
+      "ruta": "facultades/estomatologia/articulo-15.html"
+    },
+    {
+      "id": "est-16",
+      "facultad_id": "est",
+      "facultad": "Facultad de Estomatología",
+      "titulo": "Salud pública bucal",
+      "ruta": "facultades/estomatologia/articulo-16.html"
+    },
+    {
+      "id": "est-17",
+      "facultad_id": "est",
+      "facultad": "Facultad de Estomatología",
+      "titulo": "Oclusión dental",
+      "ruta": "facultades/estomatologia/articulo-17.html"
+    },
+    {
+      "id": "est-18",
+      "facultad_id": "est",
+      "facultad": "Facultad de Estomatología",
+      "titulo": "Implantología",
+      "ruta": "facultades/estomatologia/articulo-18.html"
+    },
+    {
+      "id": "est-19",
+      "facultad_id": "est",
+      "facultad": "Facultad de Estomatología",
+      "titulo": "Bioseguridad en el consultorio",
+      "ruta": "facultades/estomatologia/articulo-19.html"
+    },
+    {
+      "id": "est-20",
+      "facultad_id": "est",
+      "facultad": "Facultad de Estomatología",
+      "titulo": "Rehabilitación oral",
+      "ruta": "facultades/estomatologia/articulo-20.html"
+    },
+    {
+      "id": "fil-01",
+      "facultad_id": "fil",
+      "facultad": "Facultad de Filosofía y Letras",
+      "titulo": "Historia de la filosofía",
+      "ruta": "facultades/filosofia-letras/articulo-01.html"
+    },
+    {
+      "id": "fil-02",
+      "facultad_id": "fil",
+      "facultad": "Facultad de Filosofía y Letras",
+      "titulo": "Lógica y argumentación",
+      "ruta": "facultades/filosofia-letras/articulo-02.html"
+    },
+    {
+      "id": "fil-03",
+      "facultad_id": "fil",
+      "facultad": "Facultad de Filosofía y Letras",
+      "titulo": "Ética",
+      "ruta": "facultades/filosofia-letras/articulo-03.html"
+    },
+    {
+      "id": "fil-04",
+      "facultad_id": "fil",
+      "facultad": "Facultad de Filosofía y Letras",
+      "titulo": "Epistemología",
+      "ruta": "facultades/filosofia-letras/articulo-04.html"
+    },
+    {
+      "id": "fil-05",
+      "facultad_id": "fil",
+      "facultad": "Facultad de Filosofía y Letras",
+      "titulo": "Metafísica",
+      "ruta": "facultades/filosofia-letras/articulo-05.html"
+    },
+    {
+      "id": "fil-06",
+      "facultad_id": "fil",
+      "facultad": "Facultad de Filosofía y Letras",
+      "titulo": "Filosofía política",
+      "ruta": "facultades/filosofia-letras/articulo-06.html"
+    },
+    {
+      "id": "fil-07",
+      "facultad_id": "fil",
+      "facultad": "Facultad de Filosofía y Letras",
+      "titulo": "Filosofía de la ciencia",
+      "ruta": "facultades/filosofia-letras/articulo-07.html"
+    },
+    {
+      "id": "fil-08",
+      "facultad_id": "fil",
+      "facultad": "Facultad de Filosofía y Letras",
+      "titulo": "Literatura universal",
+      "ruta": "facultades/filosofia-letras/articulo-08.html"
+    },
+    {
+      "id": "fil-09",
+      "facultad_id": "fil",
+      "facultad": "Facultad de Filosofía y Letras",
+      "titulo": "Literatura mexicana",
+      "ruta": "facultades/filosofia-letras/articulo-09.html"
+    },
+    {
+      "id": "fil-10",
+      "facultad_id": "fil",
+      "facultad": "Facultad de Filosofía y Letras",
+      "titulo": "Poesía",
+      "ruta": "facultades/filosofia-letras/articulo-10.html"
+    },
+    {
+      "id": "fil-11",
+      "facultad_id": "fil",
+      "facultad": "Facultad de Filosofía y Letras",
+      "titulo": "Narrativa: cuento y novela",
+      "ruta": "facultades/filosofia-letras/articulo-11.html"
+    },
+    {
+      "id": "fil-12",
+      "facultad_id": "fil",
+      "facultad": "Facultad de Filosofía y Letras",
+      "titulo": "Teoría literaria",
+      "ruta": "facultades/filosofia-letras/articulo-12.html"
+    },
+    {
+      "id": "fil-13",
+      "facultad_id": "fil",
+      "facultad": "Facultad de Filosofía y Letras",
+      "titulo": "Crítica literaria",
+      "ruta": "facultades/filosofia-letras/articulo-13.html"
+    },
+    {
+      "id": "fil-14",
+      "facultad_id": "fil",
+      "facultad": "Facultad de Filosofía y Letras",
+      "titulo": "Lingüística general",
+      "ruta": "facultades/filosofia-letras/articulo-14.html"
+    },
+    {
+      "id": "fil-15",
+      "facultad_id": "fil",
+      "facultad": "Facultad de Filosofía y Letras",
+      "titulo": "Gramática española",
+      "ruta": "facultades/filosofia-letras/articulo-15.html"
+    },
+    {
+      "id": "fil-16",
+      "facultad_id": "fil",
+      "facultad": "Facultad de Filosofía y Letras",
+      "titulo": "Historia de la lengua española",
+      "ruta": "facultades/filosofia-letras/articulo-16.html"
+    },
+    {
+      "id": "fil-17",
+      "facultad_id": "fil",
+      "facultad": "Facultad de Filosofía y Letras",
+      "titulo": "Hermenéutica",
+      "ruta": "facultades/filosofia-letras/articulo-17.html"
+    },
+    {
+      "id": "fil-18",
+      "facultad_id": "fil",
+      "facultad": "Facultad de Filosofía y Letras",
+      "titulo": "Retórica",
+      "ruta": "facultades/filosofia-letras/articulo-18.html"
+    },
+    {
+      "id": "fil-19",
+      "facultad_id": "fil",
+      "facultad": "Facultad de Filosofía y Letras",
+      "titulo": "Pensamiento latinoamericano",
+      "ruta": "facultades/filosofia-letras/articulo-19.html"
+    },
+    {
+      "id": "fil-20",
+      "facultad_id": "fil",
+      "facultad": "Facultad de Filosofía y Letras",
+      "titulo": "Investigación humanística",
+      "ruta": "facultades/filosofia-letras/articulo-20.html"
+    },
+    {
+      "id": "ing-01",
+      "facultad_id": "ing",
+      "facultad": "Facultad de Ingeniería",
+      "titulo": "Estática y dinámica",
+      "ruta": "facultades/ingenieria/articulo-01.html"
+    },
+    {
+      "id": "ing-02",
+      "facultad_id": "ing",
+      "facultad": "Facultad de Ingeniería",
+      "titulo": "Resistencia de materiales",
+      "ruta": "facultades/ingenieria/articulo-02.html"
+    },
+    {
+      "id": "ing-03",
+      "facultad_id": "ing",
+      "facultad": "Facultad de Ingeniería",
+      "titulo": "Mecánica de materiales",
+      "ruta": "facultades/ingenieria/articulo-03.html"
+    },
+    {
+      "id": "ing-04",
+      "facultad_id": "ing",
+      "facultad": "Facultad de Ingeniería",
+      "titulo": "Termodinámica para ingeniería",
+      "ruta": "facultades/ingenieria/articulo-04.html"
+    },
+    {
+      "id": "ing-05",
+      "facultad_id": "ing",
+      "facultad": "Facultad de Ingeniería",
+      "titulo": "Mecánica de fluidos",
+      "ruta": "facultades/ingenieria/articulo-05.html"
+    },
+    {
+      "id": "ing-06",
+      "facultad_id": "ing",
+      "facultad": "Facultad de Ingeniería",
+      "titulo": "Transferencia de calor",
+      "ruta": "facultades/ingenieria/articulo-06.html"
+    },
+    {
+      "id": "ing-07",
+      "facultad_id": "ing",
+      "facultad": "Facultad de Ingeniería",
+      "titulo": "Circuitos para ingeniería",
+      "ruta": "facultades/ingenieria/articulo-07.html"
+    },
+    {
+      "id": "ing-08",
+      "facultad_id": "ing",
+      "facultad": "Facultad de Ingeniería",
+      "titulo": "Dibujo técnico y CAD",
+      "ruta": "facultades/ingenieria/articulo-08.html"
+    },
+    {
+      "id": "ing-09",
+      "facultad_id": "ing",
+      "facultad": "Facultad de Ingeniería",
+      "titulo": "Procesos de manufactura",
+      "ruta": "facultades/ingenieria/articulo-09.html"
+    },
+    {
+      "id": "ing-10",
+      "facultad_id": "ing",
+      "facultad": "Facultad de Ingeniería",
+      "titulo": "Ciencia de materiales",
+      "ruta": "facultades/ingenieria/articulo-10.html"
+    },
+    {
+      "id": "ing-11",
+      "facultad_id": "ing",
+      "facultad": "Facultad de Ingeniería",
+      "titulo": "Ingeniería industrial",
+      "ruta": "facultades/ingenieria/articulo-11.html"
+    },
+    {
+      "id": "ing-12",
+      "facultad_id": "ing",
+      "facultad": "Facultad de Ingeniería",
+      "titulo": "Investigación de operaciones",
+      "ruta": "facultades/ingenieria/articulo-12.html"
+    },
+    {
+      "id": "ing-13",
+      "facultad_id": "ing",
+      "facultad": "Facultad de Ingeniería",
+      "titulo": "Gestión de proyectos de ingeniería",
+      "ruta": "facultades/ingenieria/articulo-13.html"
+    },
+    {
+      "id": "ing-14",
+      "facultad_id": "ing",
+      "facultad": "Facultad de Ingeniería",
+      "titulo": "Control de calidad",
+      "ruta": "facultades/ingenieria/articulo-14.html"
+    },
+    {
+      "id": "ing-15",
+      "facultad_id": "ing",
+      "facultad": "Facultad de Ingeniería",
+      "titulo": "Seguridad industrial",
+      "ruta": "facultades/ingenieria/articulo-15.html"
+    },
+    {
+      "id": "ing-16",
+      "facultad_id": "ing",
+      "facultad": "Facultad de Ingeniería",
+      "titulo": "Mantenimiento industrial",
+      "ruta": "facultades/ingenieria/articulo-16.html"
+    },
+    {
+      "id": "ing-17",
+      "facultad_id": "ing",
+      "facultad": "Facultad de Ingeniería",
+      "titulo": "Diseño de máquinas",
+      "ruta": "facultades/ingenieria/articulo-17.html"
+    },
+    {
+      "id": "ing-18",
+      "facultad_id": "ing",
+      "facultad": "Facultad de Ingeniería",
+      "titulo": "Energías renovables",
+      "ruta": "facultades/ingenieria/articulo-18.html"
+    },
+    {
+      "id": "ing-19",
+      "facultad_id": "ing",
+      "facultad": "Facultad de Ingeniería",
+      "titulo": "Infraestructura civil",
+      "ruta": "facultades/ingenieria/articulo-19.html"
+    },
+    {
+      "id": "ing-20",
+      "facultad_id": "ing",
+      "facultad": "Facultad de Ingeniería",
+      "titulo": "Gestión ambiental en ingeniería",
+      "ruta": "facultades/ingenieria/articulo-20.html"
+    },
+    {
+      "id": "iq-01",
+      "facultad_id": "iq",
+      "facultad": "Facultad de Ingeniería Química",
+      "titulo": "Balances de materia",
+      "ruta": "facultades/ingenieria-quimica/articulo-01.html"
+    },
+    {
+      "id": "iq-02",
+      "facultad_id": "iq",
+      "facultad": "Facultad de Ingeniería Química",
+      "titulo": "Balances de energía",
+      "ruta": "facultades/ingenieria-quimica/articulo-02.html"
+    },
+    {
+      "id": "iq-03",
+      "facultad_id": "iq",
+      "facultad": "Facultad de Ingeniería Química",
+      "titulo": "Termodinámica química",
+      "ruta": "facultades/ingenieria-quimica/articulo-03.html"
+    },
+    {
+      "id": "iq-04",
+      "facultad_id": "iq",
+      "facultad": "Facultad de Ingeniería Química",
+      "titulo": "Fenómenos de transporte",
+      "ruta": "facultades/ingenieria-quimica/articulo-04.html"
+    },
+    {
+      "id": "iq-05",
+      "facultad_id": "iq",
+      "facultad": "Facultad de Ingeniería Química",
+      "titulo": "Operaciones unitarias",
+      "ruta": "facultades/ingenieria-quimica/articulo-05.html"
+    },
+    {
+      "id": "iq-06",
+      "facultad_id": "iq",
+      "facultad": "Facultad de Ingeniería Química",
+      "titulo": "Transferencia de masa",
+      "ruta": "facultades/ingenieria-quimica/articulo-06.html"
+    },
+    {
+      "id": "iq-07",
+      "facultad_id": "iq",
+      "facultad": "Facultad de Ingeniería Química",
+      "titulo": "Transferencia de calor",
+      "ruta": "facultades/ingenieria-quimica/articulo-07.html"
+    },
+    {
+      "id": "iq-08",
+      "facultad_id": "iq",
+      "facultad": "Facultad de Ingeniería Química",
+      "titulo": "Reactores químicos",
+      "ruta": "facultades/ingenieria-quimica/articulo-08.html"
+    },
+    {
+      "id": "iq-09",
+      "facultad_id": "iq",
+      "facultad": "Facultad de Ingeniería Química",
+      "titulo": "Diseño de procesos",
+      "ruta": "facultades/ingenieria-quimica/articulo-09.html"
+    },
+    {
+      "id": "iq-10",
+      "facultad_id": "iq",
+      "facultad": "Facultad de Ingeniería Química",
+      "titulo": "Control de procesos",
+      "ruta": "facultades/ingenieria-quimica/articulo-10.html"
+    },
+    {
+      "id": "iq-11",
+      "facultad_id": "iq",
+      "facultad": "Facultad de Ingeniería Química",
+      "titulo": "Simulación de procesos",
+      "ruta": "facultades/ingenieria-quimica/articulo-11.html"
+    },
+    {
+      "id": "iq-12",
+      "facultad_id": "iq",
+      "facultad": "Facultad de Ingeniería Química",
+      "titulo": "Separaciones por destilación",
+      "ruta": "facultades/ingenieria-quimica/articulo-12.html"
+    },
+    {
+      "id": "iq-13",
+      "facultad_id": "iq",
+      "facultad": "Facultad de Ingeniería Química",
+      "titulo": "Absorción y extracción",
+      "ruta": "facultades/ingenieria-quimica/articulo-13.html"
+    },
+    {
+      "id": "iq-14",
+      "facultad_id": "iq",
+      "facultad": "Facultad de Ingeniería Química",
+      "titulo": "Procesos petroquímicos",
+      "ruta": "facultades/ingenieria-quimica/articulo-14.html"
+    },
+    {
+      "id": "iq-15",
+      "facultad_id": "iq",
+      "facultad": "Facultad de Ingeniería Química",
+      "titulo": "Bioprocesos",
+      "ruta": "facultades/ingenieria-quimica/articulo-15.html"
+    },
+    {
+      "id": "iq-16",
+      "facultad_id": "iq",
+      "facultad": "Facultad de Ingeniería Química",
+      "titulo": "Tratamiento de efluentes",
+      "ruta": "facultades/ingenieria-quimica/articulo-16.html"
+    },
+    {
+      "id": "iq-17",
+      "facultad_id": "iq",
+      "facultad": "Facultad de Ingeniería Química",
+      "titulo": "Seguridad de procesos",
+      "ruta": "facultades/ingenieria-quimica/articulo-17.html"
+    },
+    {
+      "id": "iq-18",
+      "facultad_id": "iq",
+      "facultad": "Facultad de Ingeniería Química",
+      "titulo": "Ingeniería ambiental",
+      "ruta": "facultades/ingenieria-quimica/articulo-18.html"
+    },
+    {
+      "id": "iq-19",
+      "facultad_id": "iq",
+      "facultad": "Facultad de Ingeniería Química",
+      "titulo": "Materiales poliméricos",
+      "ruta": "facultades/ingenieria-quimica/articulo-19.html"
+    },
+    {
+      "id": "iq-20",
+      "facultad_id": "iq",
+      "facultad": "Facultad de Ingeniería Química",
+      "titulo": "Optimización de plantas",
+      "ruta": "facultades/ingenieria-quimica/articulo-20.html"
+    },
+    {
+      "id": "len-01",
+      "facultad_id": "len",
+      "facultad": "Facultad de Lenguas",
+      "titulo": "Lingüística aplicada",
+      "ruta": "facultades/lenguas/articulo-01.html"
+    },
+    {
+      "id": "len-02",
+      "facultad_id": "len",
+      "facultad": "Facultad de Lenguas",
+      "titulo": "Adquisición de una segunda lengua",
+      "ruta": "facultades/lenguas/articulo-02.html"
+    },
+    {
+      "id": "len-03",
+      "facultad_id": "len",
+      "facultad": "Facultad de Lenguas",
+      "titulo": "Didáctica de lenguas",
+      "ruta": "facultades/lenguas/articulo-03.html"
+    },
+    {
+      "id": "len-04",
+      "facultad_id": "len",
+      "facultad": "Facultad de Lenguas",
+      "titulo": "Planeación de clases de idiomas",
+      "ruta": "facultades/lenguas/articulo-04.html"
+    },
+    {
+      "id": "len-05",
+      "facultad_id": "len",
+      "facultad": "Facultad de Lenguas",
+      "titulo": "Evaluación de competencias lingüísticas",
+      "ruta": "facultades/lenguas/articulo-05.html"
+    },
+    {
+      "id": "len-06",
+      "facultad_id": "len",
+      "facultad": "Facultad de Lenguas",
+      "titulo": "Fonética y fonología",
+      "ruta": "facultades/lenguas/articulo-06.html"
+    },
+    {
+      "id": "len-07",
+      "facultad_id": "len",
+      "facultad": "Facultad de Lenguas",
+      "titulo": "Morfosintaxis",
+      "ruta": "facultades/lenguas/articulo-07.html"
+    },
+    {
+      "id": "len-08",
+      "facultad_id": "len",
+      "facultad": "Facultad de Lenguas",
+      "titulo": "Semántica y pragmática",
+      "ruta": "facultades/lenguas/articulo-08.html"
+    },
+    {
+      "id": "len-09",
+      "facultad_id": "len",
+      "facultad": "Facultad de Lenguas",
+      "titulo": "Traducción general",
+      "ruta": "facultades/lenguas/articulo-09.html"
+    },
+    {
+      "id": "len-10",
+      "facultad_id": "len",
+      "facultad": "Facultad de Lenguas",
+      "titulo": "Traducción especializada",
+      "ruta": "facultades/lenguas/articulo-10.html"
+    },
+    {
+      "id": "len-11",
+      "facultad_id": "len",
+      "facultad": "Facultad de Lenguas",
+      "titulo": "Interpretación consecutiva",
+      "ruta": "facultades/lenguas/articulo-11.html"
+    },
+    {
+      "id": "len-12",
+      "facultad_id": "len",
+      "facultad": "Facultad de Lenguas",
+      "titulo": "Interpretación simultánea",
+      "ruta": "facultades/lenguas/articulo-12.html"
+    },
+    {
+      "id": "len-13",
+      "facultad_id": "len",
+      "facultad": "Facultad de Lenguas",
+      "titulo": "Cultura y lengua",
+      "ruta": "facultades/lenguas/articulo-13.html"
+    },
+    {
+      "id": "len-14",
+      "facultad_id": "len",
+      "facultad": "Facultad de Lenguas",
+      "titulo": "Comunicación intercultural",
+      "ruta": "facultades/lenguas/articulo-14.html"
+    },
+    {
+      "id": "len-15",
+      "facultad_id": "len",
+      "facultad": "Facultad de Lenguas",
+      "titulo": "Inglés académico",
+      "ruta": "facultades/lenguas/articulo-15.html"
+    },
+    {
+      "id": "len-16",
+      "facultad_id": "len",
+      "facultad": "Facultad de Lenguas",
+      "titulo": "Francés como lengua extranjera",
+      "ruta": "facultades/lenguas/articulo-16.html"
+    },
+    {
+      "id": "len-17",
+      "facultad_id": "len",
+      "facultad": "Facultad de Lenguas",
+      "titulo": "Enseñanza de la lengua española",
+      "ruta": "facultades/lenguas/articulo-17.html"
+    },
+    {
+      "id": "len-18",
+      "facultad_id": "len",
+      "facultad": "Facultad de Lenguas",
+      "titulo": "Diseño de materiales didácticos",
+      "ruta": "facultades/lenguas/articulo-18.html"
+    },
+    {
+      "id": "len-19",
+      "facultad_id": "len",
+      "facultad": "Facultad de Lenguas",
+      "titulo": "Tecnologías para el aprendizaje de idiomas",
+      "ruta": "facultades/lenguas/articulo-19.html"
+    },
+    {
+      "id": "len-20",
+      "facultad_id": "len",
+      "facultad": "Facultad de Lenguas",
+      "titulo": "Investigación en enseñanza de lenguas",
+      "ruta": "facultades/lenguas/articulo-20.html"
+    },
+    {
+      "id": "med-01",
+      "facultad_id": "med",
+      "facultad": "Facultad de Medicina",
+      "titulo": "Anatomía humana",
+      "ruta": "facultades/medicina/articulo-01.html"
+    },
+    {
+      "id": "med-02",
+      "facultad_id": "med",
+      "facultad": "Facultad de Medicina",
+      "titulo": "Fisiología humana",
+      "ruta": "facultades/medicina/articulo-02.html"
+    },
+    {
+      "id": "med-03",
+      "facultad_id": "med",
+      "facultad": "Facultad de Medicina",
+      "titulo": "Histología",
+      "ruta": "facultades/medicina/articulo-03.html"
+    },
+    {
+      "id": "med-04",
+      "facultad_id": "med",
+      "facultad": "Facultad de Medicina",
+      "titulo": "Bioquímica médica",
+      "ruta": "facultades/medicina/articulo-04.html"
+    },
+    {
+      "id": "med-05",
+      "facultad_id": "med",
+      "facultad": "Facultad de Medicina",
+      "titulo": "Microbiología médica",
+      "ruta": "facultades/medicina/articulo-05.html"
+    },
+    {
+      "id": "med-06",
+      "facultad_id": "med",
+      "facultad": "Facultad de Medicina",
+      "titulo": "Inmunología",
+      "ruta": "facultades/medicina/articulo-06.html"
+    },
+    {
+      "id": "med-07",
+      "facultad_id": "med",
+      "facultad": "Facultad de Medicina",
+      "titulo": "Farmacología",
+      "ruta": "facultades/medicina/articulo-07.html"
+    },
+    {
+      "id": "med-08",
+      "facultad_id": "med",
+      "facultad": "Facultad de Medicina",
+      "titulo": "Patología",
+      "ruta": "facultades/medicina/articulo-08.html"
+    },
+    {
+      "id": "med-09",
+      "facultad_id": "med",
+      "facultad": "Facultad de Medicina",
+      "titulo": "Semiología clínica",
+      "ruta": "facultades/medicina/articulo-09.html"
+    },
+    {
+      "id": "med-10",
+      "facultad_id": "med",
+      "facultad": "Facultad de Medicina",
+      "titulo": "Medicina preventiva",
+      "ruta": "facultades/medicina/articulo-10.html"
+    },
+    {
+      "id": "med-11",
+      "facultad_id": "med",
+      "facultad": "Facultad de Medicina",
+      "titulo": "Epidemiología",
+      "ruta": "facultades/medicina/articulo-11.html"
+    },
+    {
+      "id": "med-12",
+      "facultad_id": "med",
+      "facultad": "Facultad de Medicina",
+      "titulo": "Salud pública",
+      "ruta": "facultades/medicina/articulo-12.html"
+    },
+    {
+      "id": "med-13",
+      "facultad_id": "med",
+      "facultad": "Facultad de Medicina",
+      "titulo": "Medicina interna",
+      "ruta": "facultades/medicina/articulo-13.html"
+    },
+    {
+      "id": "med-14",
+      "facultad_id": "med",
+      "facultad": "Facultad de Medicina",
+      "titulo": "Pediatría",
+      "ruta": "facultades/medicina/articulo-14.html"
+    },
+    {
+      "id": "med-15",
+      "facultad_id": "med",
+      "facultad": "Facultad de Medicina",
+      "titulo": "Ginecología y obstetricia",
+      "ruta": "facultades/medicina/articulo-15.html"
+    },
+    {
+      "id": "med-16",
+      "facultad_id": "med",
+      "facultad": "Facultad de Medicina",
+      "titulo": "Cirugía general",
+      "ruta": "facultades/medicina/articulo-16.html"
+    },
+    {
+      "id": "med-17",
+      "facultad_id": "med",
+      "facultad": "Facultad de Medicina",
+      "titulo": "Neurología",
+      "ruta": "facultades/medicina/articulo-17.html"
+    },
+    {
+      "id": "med-18",
+      "facultad_id": "med",
+      "facultad": "Facultad de Medicina",
+      "titulo": "Cardiología",
+      "ruta": "facultades/medicina/articulo-18.html"
+    },
+    {
+      "id": "med-19",
+      "facultad_id": "med",
+      "facultad": "Facultad de Medicina",
+      "titulo": "Diagnóstico por imagen",
+      "ruta": "facultades/medicina/articulo-19.html"
+    },
+    {
+      "id": "med-20",
+      "facultad_id": "med",
+      "facultad": "Facultad de Medicina",
+      "titulo": "Bioética e investigación clínica",
+      "ruta": "facultades/medicina/articulo-20.html"
+    },
+    {
+      "id": "vet-01",
+      "facultad_id": "vet",
+      "facultad": "Facultad de Medicina Veterinaria y Zootecnia",
+      "titulo": "Anatomía veterinaria",
+      "ruta": "facultades/medicina-veterinaria-zootecnia/articulo-01.html"
+    },
+    {
+      "id": "vet-02",
+      "facultad_id": "vet",
+      "facultad": "Facultad de Medicina Veterinaria y Zootecnia",
+      "titulo": "Fisiología animal",
+      "ruta": "facultades/medicina-veterinaria-zootecnia/articulo-02.html"
+    },
+    {
+      "id": "vet-03",
+      "facultad_id": "vet",
+      "facultad": "Facultad de Medicina Veterinaria y Zootecnia",
+      "titulo": "Microbiología veterinaria",
+      "ruta": "facultades/medicina-veterinaria-zootecnia/articulo-03.html"
+    },
+    {
+      "id": "vet-04",
+      "facultad_id": "vet",
+      "facultad": "Facultad de Medicina Veterinaria y Zootecnia",
+      "titulo": "Parasitología veterinaria",
+      "ruta": "facultades/medicina-veterinaria-zootecnia/articulo-04.html"
+    },
+    {
+      "id": "vet-05",
+      "facultad_id": "vet",
+      "facultad": "Facultad de Medicina Veterinaria y Zootecnia",
+      "titulo": "Patología veterinaria",
+      "ruta": "facultades/medicina-veterinaria-zootecnia/articulo-05.html"
+    },
+    {
+      "id": "vet-06",
+      "facultad_id": "vet",
+      "facultad": "Facultad de Medicina Veterinaria y Zootecnia",
+      "titulo": "Farmacología veterinaria",
+      "ruta": "facultades/medicina-veterinaria-zootecnia/articulo-06.html"
+    },
+    {
+      "id": "vet-07",
+      "facultad_id": "vet",
+      "facultad": "Facultad de Medicina Veterinaria y Zootecnia",
+      "titulo": "Medicina preventiva animal",
+      "ruta": "facultades/medicina-veterinaria-zootecnia/articulo-07.html"
+    },
+    {
+      "id": "vet-08",
+      "facultad_id": "vet",
+      "facultad": "Facultad de Medicina Veterinaria y Zootecnia",
+      "titulo": "Clínica de perros y gatos",
+      "ruta": "facultades/medicina-veterinaria-zootecnia/articulo-08.html"
+    },
+    {
+      "id": "vet-09",
+      "facultad_id": "vet",
+      "facultad": "Facultad de Medicina Veterinaria y Zootecnia",
+      "titulo": "Medicina equina",
+      "ruta": "facultades/medicina-veterinaria-zootecnia/articulo-09.html"
+    },
+    {
+      "id": "vet-10",
+      "facultad_id": "vet",
+      "facultad": "Facultad de Medicina Veterinaria y Zootecnia",
+      "titulo": "Producción bovina",
+      "ruta": "facultades/medicina-veterinaria-zootecnia/articulo-10.html"
+    },
+    {
+      "id": "vet-11",
+      "facultad_id": "vet",
+      "facultad": "Facultad de Medicina Veterinaria y Zootecnia",
+      "titulo": "Producción porcina",
+      "ruta": "facultades/medicina-veterinaria-zootecnia/articulo-11.html"
+    },
+    {
+      "id": "vet-12",
+      "facultad_id": "vet",
+      "facultad": "Facultad de Medicina Veterinaria y Zootecnia",
+      "titulo": "Producción avícola",
+      "ruta": "facultades/medicina-veterinaria-zootecnia/articulo-12.html"
+    },
+    {
+      "id": "vet-13",
+      "facultad_id": "vet",
+      "facultad": "Facultad de Medicina Veterinaria y Zootecnia",
+      "titulo": "Nutrición animal",
+      "ruta": "facultades/medicina-veterinaria-zootecnia/articulo-13.html"
+    },
+    {
+      "id": "vet-14",
+      "facultad_id": "vet",
+      "facultad": "Facultad de Medicina Veterinaria y Zootecnia",
+      "titulo": "Reproducción animal",
+      "ruta": "facultades/medicina-veterinaria-zootecnia/articulo-14.html"
+    },
+    {
+      "id": "vet-15",
+      "facultad_id": "vet",
+      "facultad": "Facultad de Medicina Veterinaria y Zootecnia",
+      "titulo": "Bienestar animal",
+      "ruta": "facultades/medicina-veterinaria-zootecnia/articulo-15.html"
+    },
+    {
+      "id": "vet-16",
+      "facultad_id": "vet",
+      "facultad": "Facultad de Medicina Veterinaria y Zootecnia",
+      "titulo": "Salud pública veterinaria",
+      "ruta": "facultades/medicina-veterinaria-zootecnia/articulo-16.html"
+    },
+    {
+      "id": "vet-17",
+      "facultad_id": "vet",
+      "facultad": "Facultad de Medicina Veterinaria y Zootecnia",
+      "titulo": "Zoonosis",
+      "ruta": "facultades/medicina-veterinaria-zootecnia/articulo-17.html"
+    },
+    {
+      "id": "vet-18",
+      "facultad_id": "vet",
+      "facultad": "Facultad de Medicina Veterinaria y Zootecnia",
+      "titulo": "Cirugía veterinaria",
+      "ruta": "facultades/medicina-veterinaria-zootecnia/articulo-18.html"
+    },
+    {
+      "id": "vet-19",
+      "facultad_id": "vet",
+      "facultad": "Facultad de Medicina Veterinaria y Zootecnia",
+      "titulo": "Manejo de fauna silvestre",
+      "ruta": "facultades/medicina-veterinaria-zootecnia/articulo-19.html"
+    },
+    {
+      "id": "vet-20",
+      "facultad_id": "vet",
+      "facultad": "Facultad de Medicina Veterinaria y Zootecnia",
+      "titulo": "Inocuidad de productos de origen animal",
+      "ruta": "facultades/medicina-veterinaria-zootecnia/articulo-20.html"
+    },
+    {
+      "id": "psi-01",
+      "facultad_id": "psi",
+      "facultad": "Facultad de Psicología",
+      "titulo": "Fundamentos de psicología",
+      "ruta": "facultades/psicologia/articulo-01.html"
+    },
+    {
+      "id": "psi-02",
+      "facultad_id": "psi",
+      "facultad": "Facultad de Psicología",
+      "titulo": "Psicología del desarrollo",
+      "ruta": "facultades/psicologia/articulo-02.html"
+    },
+    {
+      "id": "psi-03",
+      "facultad_id": "psi",
+      "facultad": "Facultad de Psicología",
+      "titulo": "Psicología social",
+      "ruta": "facultades/psicologia/articulo-03.html"
+    },
+    {
+      "id": "psi-04",
+      "facultad_id": "psi",
+      "facultad": "Facultad de Psicología",
+      "titulo": "Psicología educativa",
+      "ruta": "facultades/psicologia/articulo-04.html"
+    },
+    {
+      "id": "psi-05",
+      "facultad_id": "psi",
+      "facultad": "Facultad de Psicología",
+      "titulo": "Psicología clínica",
+      "ruta": "facultades/psicologia/articulo-05.html"
+    },
+    {
+      "id": "psi-06",
+      "facultad_id": "psi",
+      "facultad": "Facultad de Psicología",
+      "titulo": "Psicopatología",
+      "ruta": "facultades/psicologia/articulo-06.html"
+    },
+    {
+      "id": "psi-07",
+      "facultad_id": "psi",
+      "facultad": "Facultad de Psicología",
+      "titulo": "Neuropsicología",
+      "ruta": "facultades/psicologia/articulo-07.html"
+    },
+    {
+      "id": "psi-08",
+      "facultad_id": "psi",
+      "facultad": "Facultad de Psicología",
+      "titulo": "Procesos cognitivos",
+      "ruta": "facultades/psicologia/articulo-08.html"
+    },
+    {
+      "id": "psi-09",
+      "facultad_id": "psi",
+      "facultad": "Facultad de Psicología",
+      "titulo": "Aprendizaje y conducta",
+      "ruta": "facultades/psicologia/articulo-09.html"
+    },
+    {
+      "id": "psi-10",
+      "facultad_id": "psi",
+      "facultad": "Facultad de Psicología",
+      "titulo": "Teorías de la personalidad",
+      "ruta": "facultades/psicologia/articulo-10.html"
+    },
+    {
+      "id": "psi-11",
+      "facultad_id": "psi",
+      "facultad": "Facultad de Psicología",
+      "titulo": "Psicometría",
+      "ruta": "facultades/psicologia/articulo-11.html"
+    },
+    {
+      "id": "psi-12",
+      "facultad_id": "psi",
+      "facultad": "Facultad de Psicología",
+      "titulo": "Evaluación psicológica",
+      "ruta": "facultades/psicologia/articulo-12.html"
+    },
+    {
+      "id": "psi-13",
+      "facultad_id": "psi",
+      "facultad": "Facultad de Psicología",
+      "titulo": "Psicología organizacional",
+      "ruta": "facultades/psicologia/articulo-13.html"
+    },
+    {
+      "id": "psi-14",
+      "facultad_id": "psi",
+      "facultad": "Facultad de Psicología",
+      "titulo": "Psicología comunitaria",
+      "ruta": "facultades/psicologia/articulo-14.html"
+    },
+    {
+      "id": "psi-15",
+      "facultad_id": "psi",
+      "facultad": "Facultad de Psicología",
+      "titulo": "Intervención psicológica",
+      "ruta": "facultades/psicologia/articulo-15.html"
+    },
+    {
+      "id": "psi-16",
+      "facultad_id": "psi",
+      "facultad": "Facultad de Psicología",
+      "titulo": "Salud mental",
+      "ruta": "facultades/psicologia/articulo-16.html"
+    },
+    {
+      "id": "psi-17",
+      "facultad_id": "psi",
+      "facultad": "Facultad de Psicología",
+      "titulo": "Psicología experimental",
+      "ruta": "facultades/psicologia/articulo-17.html"
+    },
+    {
+      "id": "psi-18",
+      "facultad_id": "psi",
+      "facultad": "Facultad de Psicología",
+      "titulo": "Investigación psicológica",
+      "ruta": "facultades/psicologia/articulo-18.html"
+    },
+    {
+      "id": "psi-19",
+      "facultad_id": "psi",
+      "facultad": "Facultad de Psicología",
+      "titulo": "Desarrollo humano",
+      "ruta": "facultades/psicologia/articulo-19.html"
+    },
+    {
+      "id": "psi-20",
+      "facultad_id": "psi",
+      "facultad": "Facultad de Psicología",
+      "titulo": "Ética profesional en psicología",
+      "ruta": "facultades/psicologia/articulo-20.html"
     }
   ],
   "adyacencia": {
     "adm-01": [
       "adm-02",
-      "adm-04"
+      "adm-06",
+      "cont-13",
+      "eco-07"
     ],
     "adm-02": [
       "adm-03",
-      "adm-11"
+      "adm-07",
+      "cont-06",
+      "eco-18"
     ],
     "adm-03": [
       "adm-04",
-      "adm-11",
-      "arq-18"
+      "adm-08",
+      "cont-19",
+      "eco-20"
     ],
     "adm-04": [
       "adm-05",
-      "arq-18"
+      "adm-09",
+      "cont-05",
+      "eco-20"
     ],
     "adm-05": [
       "adm-06",
-      "adm-07"
+      "adm-10",
+      "cont-20",
+      "eco-09"
     ],
     "adm-06": [
-      "adm-05",
       "adm-07",
-      "adm-10"
+      "adm-11",
+      "cont-12",
+      "eco-11"
     ],
     "adm-07": [
       "adm-08",
-      "adm-09"
+      "adm-12",
+      "cont-18",
+      "eco-20"
     ],
     "adm-08": [
-      "adm-07",
-      "adm-09"
+      "adm-09",
+      "adm-13",
+      "cont-09",
+      "eco-20"
     ],
     "adm-09": [
-      "adm-07",
-      "adm-10"
+      "adm-10",
+      "adm-14",
+      "cont-20",
+      "eco-18"
     ],
     "adm-10": [
-      "adm-05",
-      "adm-06",
-      "adm-11"
+      "adm-11",
+      "adm-15",
+      "cont-18",
+      "eco-11"
     ],
     "adm-11": [
-      "adm-03",
       "adm-12",
-      "arq-18"
+      "adm-16",
+      "cont-19",
+      "eco-18"
     ],
     "adm-12": [
       "adm-13",
-      "adm-19"
+      "adm-17",
+      "cont-13",
+      "eco-04"
     ],
     "adm-13": [
       "adm-14",
-      "adm-15"
+      "adm-18",
+      "cont-12",
+      "eco-20"
     ],
     "adm-14": [
-      "adm-13",
-      "adm-15"
+      "adm-15",
+      "adm-19",
+      "cont-14",
+      "eco-02"
     ],
     "adm-15": [
-      "adm-13",
-      "adm-14",
-      "adm-16"
+      "adm-16",
+      "adm-20",
+      "cont-05",
+      "eco-07"
     ],
     "adm-16": [
-      "adm-11",
+      "adm-01",
       "adm-17",
-      "arq-17"
+      "cont-05",
+      "eco-17"
     ],
     "adm-17": [
-      "adm-16",
+      "adm-02",
       "adm-18",
-      "arq-17"
+      "cont-12",
+      "eco-18"
     ],
     "adm-18": [
+      "adm-03",
       "adm-19",
-      "arq-11"
+      "cont-18",
+      "eco-18"
     ],
     "adm-19": [
-      "adm-12",
-      "adm-20"
+      "adm-04",
+      "adm-20",
+      "cont-05",
+      "eco-01"
     ],
     "adm-20": [
-      "adm-19",
-      "arq-01",
-      "arq-11"
+      "adm-01",
+      "adm-05",
+      "cont-12",
+      "eco-18"
     ],
     "arq-01": [
       "arq-02",
-      "arq-03",
-      "arq-10"
+      "arq-06",
+      "art-20",
+      "ing-17"
     ],
     "arq-02": [
       "arq-03",
-      "arq-15",
-      "arq-16"
+      "arq-07",
+      "art-17",
+      "ing-17"
     ],
     "arq-03": [
       "arq-04",
-      "arq-19"
+      "arq-08",
+      "art-07",
+      "ing-08"
     ],
     "arq-04": [
-      "arq-03",
       "arq-05",
-      "arq-07"
+      "arq-09",
+      "art-01",
+      "ing-08"
     ],
     "arq-05": [
       "arq-06",
-      "arq-17"
+      "arq-10",
+      "art-09",
+      "ing-10"
     ],
     "arq-06": [
       "arq-07",
-      "arq-18"
+      "arq-11",
+      "art-17",
+      "ing-07"
     ],
     "arq-07": [
-      "arq-06",
       "arq-08",
-      "arq-18"
+      "arq-12",
+      "art-09",
+      "ing-10"
     ],
     "arq-08": [
       "arq-09",
-      "arq-18"
+      "arq-13",
+      "art-12",
+      "ing-16"
     ],
     "arq-09": [
-      "arq-08",
-      "arq-10"
+      "arq-10",
+      "arq-14",
+      "art-17",
+      "ing-15"
     ],
     "arq-10": [
       "arq-11",
-      "arq-12"
+      "arq-15",
+      "art-20",
+      "ing-17"
     ],
     "arq-11": [
-      "arq-10",
       "arq-12",
-      "arq-16"
+      "arq-16",
+      "art-03",
+      "ing-18"
     ],
     "arq-12": [
       "arq-13",
-      "arq-16"
+      "arq-17",
+      "art-15",
+      "ing-19"
     ],
     "arq-13": [
-      "arq-12",
       "arq-14",
-      "arq-16"
+      "arq-18",
+      "art-16",
+      "ing-11"
     ],
     "arq-14": [
-      "arq-12",
       "arq-15",
-      "arq-20"
+      "arq-19",
+      "art-19",
+      "ing-19"
     ],
     "arq-15": [
-      "arq-02",
-      "arq-16"
+      "arq-16",
+      "arq-20",
+      "art-19",
+      "ing-16"
     ],
     "arq-16": [
-      "arq-12",
-      "arq-15",
-      "arq-17"
+      "arq-01",
+      "arq-17",
+      "art-16",
+      "ing-17"
     ],
     "arq-17": [
-      "adm-11",
-      "arq-18"
+      "arq-02",
+      "arq-18",
+      "art-17",
+      "ing-17"
     ],
     "arq-18": [
-      "adm-11",
-      "arq-17",
-      "arq-19"
+      "arq-03",
+      "arq-19",
+      "art-15",
+      "ing-13"
     ],
     "arq-19": [
-      "arq-03",
-      "arq-07",
-      "arq-20"
+      "arq-04",
+      "arq-20",
+      "art-18",
+      "bio-09",
+      "ing-15"
     ],
     "arq-20": [
+      "arq-01",
+      "arq-05",
+      "art-12",
+      "ing-17"
+    ],
+    "art-01": [
+      "arpa-01",
+      "art-02",
+      "art-06",
+      "fil-14"
+    ],
+    "art-02": [
+      "arpa-04",
+      "art-03",
+      "art-07",
+      "fil-12"
+    ],
+    "art-03": [
+      "arpa-09",
+      "art-04",
+      "art-08",
+      "fil-19"
+    ],
+    "art-04": [
+      "arpa-16",
+      "art-05",
+      "art-09",
+      "fil-10"
+    ],
+    "art-05": [
+      "arpa-04",
+      "art-06",
+      "art-10",
+      "fil-13"
+    ],
+    "art-06": [
+      "arpa-14",
+      "art-07",
+      "art-11",
+      "fil-14"
+    ],
+    "art-07": [
+      "arpa-14",
+      "art-08",
+      "art-12",
+      "fil-13"
+    ],
+    "art-08": [
+      "arpa-13",
+      "art-09",
+      "art-13",
+      "fil-13"
+    ],
+    "art-09": [
+      "arpa-10",
+      "art-10",
+      "art-14",
+      "fil-20"
+    ],
+    "art-10": [
+      "arpa-15",
+      "art-11",
+      "art-15",
+      "fil-13"
+    ],
+    "art-11": [
+      "arpa-06",
+      "art-12",
+      "art-16",
+      "fil-10"
+    ],
+    "art-12": [
+      "arpa-06",
+      "art-13",
+      "art-17",
+      "fil-10"
+    ],
+    "art-13": [
+      "arpa-14",
+      "art-14",
+      "art-18",
+      "fil-20"
+    ],
+    "art-14": [
+      "arpa-14",
+      "art-15",
+      "art-19",
+      "fil-13"
+    ],
+    "art-15": [
+      "arpa-17",
+      "art-16",
+      "art-20",
+      "fil-13"
+    ],
+    "art-16": [
+      "arpa-04",
+      "art-01",
+      "art-17",
+      "fil-20"
+    ],
+    "art-17": [
+      "arpa-14",
+      "art-02",
+      "art-18",
+      "fil-11"
+    ],
+    "art-18": [
+      "arpa-17",
+      "art-03",
+      "art-19",
+      "fil-12"
+    ],
+    "art-19": [
+      "arpa-12",
+      "art-04",
+      "art-20",
+      "fil-13"
+    ],
+    "art-20": [
+      "arpa-16",
+      "art-01",
+      "art-05",
+      "fil-03"
+    ],
+    "arpa-01": [
+      "arpa-02",
+      "arpa-06",
+      "art-12",
+      "com-11"
+    ],
+    "arpa-02": [
+      "arpa-03",
+      "arpa-07",
+      "art-17",
+      "com-19"
+    ],
+    "arpa-03": [
+      "arpa-04",
+      "arpa-08",
+      "art-17",
+      "com-10"
+    ],
+    "arpa-04": [
+      "arpa-05",
+      "arpa-09",
+      "art-18",
+      "com-11"
+    ],
+    "arpa-05": [
+      "arpa-06",
+      "arpa-10",
+      "art-17",
+      "com-11"
+    ],
+    "arpa-06": [
+      "arpa-07",
+      "arpa-11",
+      "art-12",
+      "com-19"
+    ],
+    "arpa-07": [
+      "arpa-08",
+      "arpa-12",
+      "art-18",
+      "com-19"
+    ],
+    "arpa-08": [
+      "arpa-09",
+      "arpa-13",
+      "art-17",
+      "com-19"
+    ],
+    "arpa-09": [
+      "arpa-10",
+      "arpa-14",
+      "art-07",
+      "com-19"
+    ],
+    "arpa-10": [
+      "arpa-11",
+      "arpa-15",
+      "art-17",
+      "com-11"
+    ],
+    "arpa-11": [
+      "arpa-12",
+      "arpa-16",
+      "art-20",
+      "com-19"
+    ],
+    "arpa-12": [
+      "arpa-13",
+      "arpa-17",
+      "art-19",
+      "com-11"
+    ],
+    "arpa-13": [
+      "arpa-14",
+      "arpa-18",
+      "art-10",
+      "com-20"
+    ],
+    "arpa-14": [
+      "arpa-15",
+      "arpa-19",
+      "art-17",
+      "com-05"
+    ],
+    "arpa-15": [
+      "arpa-16",
+      "arpa-20",
+      "art-10",
+      "com-10"
+    ],
+    "arpa-16": [
+      "arpa-01",
+      "arpa-17",
+      "art-20",
+      "com-11"
+    ],
+    "arpa-17": [
+      "arpa-02",
+      "arpa-18",
+      "art-18",
+      "com-11"
+    ],
+    "arpa-18": [
+      "arpa-03",
+      "arpa-19",
+      "art-17",
+      "com-06"
+    ],
+    "arpa-19": [
+      "arpa-04",
+      "arpa-20",
+      "art-18",
+      "com-18"
+    ],
+    "arpa-20": [
+      "arpa-01",
+      "arpa-05",
+      "art-19",
+      "com-19"
+    ],
+    "cap-01": [
+      "bio-10",
+      "cap-02",
+      "cap-06",
+      "vet-15"
+    ],
+    "cap-02": [
+      "bio-20",
+      "cap-03",
+      "cap-07",
+      "vet-20"
+    ],
+    "cap-03": [
+      "bio-20",
+      "cap-04",
+      "cap-08",
+      "vet-18"
+    ],
+    "cap-04": [
+      "bio-20",
+      "cap-05",
+      "cap-09",
+      "vet-12"
+    ],
+    "cap-05": [
+      "bio-20",
+      "cap-06",
+      "cap-10",
+      "vet-12"
+    ],
+    "cap-06": [
+      "bio-20",
+      "cap-07",
+      "cap-11",
+      "vet-17"
+    ],
+    "cap-07": [
+      "bio-20",
+      "cap-08",
+      "cap-12",
+      "vet-18"
+    ],
+    "cap-08": [
+      "bio-20",
+      "cap-09",
+      "cap-13",
+      "vet-13"
+    ],
+    "cap-09": [
+      "bio-20",
+      "cap-10",
+      "cap-14",
+      "vet-19"
+    ],
+    "cap-10": [
+      "bio-20",
+      "cap-11",
+      "cap-15",
+      "vet-17"
+    ],
+    "cap-11": [
+      "bio-16",
+      "cap-12",
+      "cap-16",
+      "vet-04"
+    ],
+    "cap-12": [
+      "bio-11",
+      "cap-13",
+      "cap-17",
+      "vet-13"
+    ],
+    "cap-13": [
+      "bio-20",
+      "cap-14",
+      "cap-18",
+      "vet-12"
+    ],
+    "cap-14": [
+      "bio-20",
+      "cap-15",
+      "cap-19",
+      "vet-15"
+    ],
+    "cap-15": [
+      "bio-20",
+      "cap-16",
+      "cap-20",
+      "vet-10"
+    ],
+    "cap-16": [
+      "bio-20",
+      "cap-01",
+      "cap-17",
+      "vet-11"
+    ],
+    "cap-17": [
+      "bio-20",
+      "cap-02",
+      "cap-18",
+      "vet-12"
+    ],
+    "cap-18": [
+      "bio-08",
+      "cap-03",
+      "cap-19",
+      "vet-07"
+    ],
+    "cap-19": [
+      "bio-10",
+      "cap-04",
+      "cap-20",
+      "vet-15"
+    ],
+    "cap-20": [
+      "bio-20",
+      "cap-01",
+      "cap-05",
+      "vet-12"
+    ],
+    "bio-01": [
+      "bio-02",
+      "bio-06",
+      "cap-16",
+      "med-08"
+    ],
+    "bio-02": [
+      "bio-03",
+      "bio-07",
+      "cap-19",
+      "med-19"
+    ],
+    "bio-03": [
+      "bio-04",
+      "bio-08",
+      "cap-18",
+      "med-05"
+    ],
+    "bio-04": [
+      "bio-05",
+      "bio-09",
+      "cap-18",
+      "med-19"
+    ],
+    "bio-05": [
+      "bio-06",
+      "bio-10",
+      "cap-19",
+      "med-01"
+    ],
+    "bio-06": [
+      "bio-07",
+      "bio-11",
+      "cap-19",
+      "med-10"
+    ],
+    "bio-07": [
+      "bio-08",
+      "bio-12",
+      "cap-10",
+      "med-19"
+    ],
+    "bio-08": [
+      "bio-09",
+      "bio-13",
+      "cap-18",
+      "med-19"
+    ],
+    "bio-09": [
+      "bio-10",
+      "bio-14",
+      "cap-02",
+      "med-18"
+    ],
+    "bio-10": [
+      "bio-11",
+      "bio-15",
+      "cap-19",
+      "med-02"
+    ],
+    "bio-11": [
+      "bio-12",
+      "bio-16",
+      "cap-12",
+      "med-02"
+    ],
+    "bio-12": [
+      "bio-13",
+      "bio-17",
+      "cap-06",
+      "med-19"
+    ],
+    "bio-13": [
+      "bio-14",
+      "bio-18",
+      "cap-18",
+      "med-19"
+    ],
+    "bio-14": [
+      "bio-15",
+      "bio-19",
+      "cap-11",
+      "med-02"
+    ],
+    "bio-15": [
+      "bio-16",
+      "bio-20",
+      "cap-17",
+      "med-19"
+    ],
+    "bio-16": [
+      "bio-01",
+      "bio-17",
+      "cap-11",
+      "med-18"
+    ],
+    "bio-17": [
+      "bio-02",
+      "bio-18",
+      "cap-13",
+      "med-04"
+    ],
+    "bio-18": [
+      "bio-03",
+      "bio-19",
+      "cap-13",
+      "med-19"
+    ],
+    "bio-19": [
+      "bio-04",
+      "bio-20",
+      "cap-19",
+      "med-17"
+    ],
+    "bio-20": [
+      "bio-01",
+      "bio-05",
+      "cap-06",
+      "med-20"
+    ],
+    "cc-01": [
+      "cc-02",
+      "cc-06",
+      "com-14",
+      "ele-14"
+    ],
+    "cc-02": [
+      "cc-03",
+      "cc-07",
+      "com-15",
+      "ele-20"
+    ],
+    "cc-03": [
+      "cc-04",
+      "cc-08",
+      "com-15",
+      "ele-20"
+    ],
+    "cc-04": [
+      "cc-05",
+      "cc-09",
+      "com-14",
+      "ele-05"
+    ],
+    "cc-05": [
+      "cc-06",
+      "cc-10",
+      "com-20",
+      "ele-09"
+    ],
+    "cc-06": [
+      "cc-07",
+      "cc-11",
+      "com-19",
+      "ele-07"
+    ],
+    "cc-07": [
+      "cc-08",
+      "cc-12",
+      "com-12",
+      "ele-19"
+    ],
+    "cc-08": [
+      "cc-09",
+      "cc-13",
+      "com-17",
+      "ele-11"
+    ],
+    "cc-09": [
+      "cc-10",
+      "cc-14",
+      "com-14",
+      "ele-10"
+    ],
+    "cc-10": [
+      "cc-11",
+      "cc-15",
+      "com-20",
+      "ele-20"
+    ],
+    "cc-11": [
+      "cc-12",
+      "cc-16",
+      "com-15",
+      "ele-20"
+    ],
+    "cc-12": [
+      "cc-13",
+      "cc-17",
+      "com-19",
+      "ele-10"
+    ],
+    "cc-13": [
+      "cc-14",
+      "cc-18",
+      "com-14",
+      "ele-03"
+    ],
+    "cc-14": [
+      "cc-15",
+      "cc-19",
+      "com-20",
+      "ele-20"
+    ],
+    "cc-15": [
+      "cc-16",
+      "cc-20",
+      "com-18",
+      "ele-20"
+    ],
+    "cc-16": [
+      "cc-01",
+      "cc-17",
+      "com-15",
+      "ele-20"
+    ],
+    "cc-17": [
+      "cc-02",
+      "cc-18",
+      "com-19",
+      "ele-19"
+    ],
+    "cc-18": [
+      "cc-03",
+      "cc-19",
+      "com-20",
+      "ele-09"
+    ],
+    "cc-19": [
+      "cc-04",
+      "cc-20",
+      "com-14",
+      "ele-14"
+    ],
+    "cc-20": [
+      "cc-01",
+      "cc-05",
+      "com-16",
+      "ele-20"
+    ],
+    "com-01": [
+      "arpa-15",
+      "com-02",
+      "com-06",
+      "cps-20"
+    ],
+    "com-02": [
+      "arpa-16",
+      "com-03",
+      "com-07",
+      "cps-20"
+    ],
+    "com-03": [
+      "arpa-01",
+      "com-04",
+      "com-08",
+      "cps-20"
+    ],
+    "com-04": [
+      "arpa-07",
+      "com-05",
+      "com-09",
+      "cps-20"
+    ],
+    "com-05": [
+      "arpa-14",
+      "com-06",
+      "com-10",
+      "cps-18"
+    ],
+    "com-06": [
+      "arpa-18",
+      "com-07",
+      "com-11",
+      "cps-20"
+    ],
+    "com-07": [
+      "arpa-13",
+      "com-08",
+      "com-12",
+      "cps-20"
+    ],
+    "com-08": [
+      "arpa-17",
+      "com-09",
+      "com-13",
+      "cps-20"
+    ],
+    "com-09": [
+      "arpa-01",
+      "com-10",
+      "com-14",
+      "cps-20"
+    ],
+    "com-10": [
+      "arpa-15",
+      "com-11",
+      "com-15",
+      "cps-08"
+    ],
+    "com-11": [
+      "arpa-05",
+      "com-12",
+      "com-16",
+      "cps-20"
+    ],
+    "com-12": [
+      "arpa-01",
+      "com-13",
+      "com-17",
+      "cps-20"
+    ],
+    "com-13": [
+      "arpa-19",
+      "com-14",
+      "com-18",
+      "cps-20"
+    ],
+    "com-14": [
+      "arpa-01",
+      "cc-09",
+      "com-15",
+      "com-19",
+      "cps-16"
+    ],
+    "com-15": [
+      "arpa-16",
+      "com-16",
+      "com-20",
+      "cps-12"
+    ],
+    "com-16": [
+      "arpa-07",
+      "com-01",
+      "com-17",
+      "cps-08"
+    ],
+    "com-17": [
+      "arpa-17",
+      "com-02",
+      "com-18",
+      "cps-20"
+    ],
+    "com-18": [
+      "arpa-19",
+      "com-03",
+      "com-19",
+      "cps-20"
+    ],
+    "com-19": [
+      "arpa-06",
+      "com-04",
+      "com-20",
+      "cps-20"
+    ],
+    "com-20": [
+      "arpa-13",
+      "com-01",
+      "com-05",
+      "cps-17"
+    ],
+    "ele-01": [
+      "cc-12",
+      "ele-02",
+      "ele-06",
+      "ing-17"
+    ],
+    "ele-02": [
+      "cc-07",
+      "ele-03",
+      "ele-07",
+      "ing-07"
+    ],
+    "ele-03": [
+      "cc-13",
+      "ele-04",
+      "ele-08",
+      "ing-03"
+    ],
+    "ele-04": [
+      "cc-18",
+      "ele-05",
+      "ele-09",
+      "ing-03"
+    ],
+    "ele-05": [
+      "cc-20",
+      "ele-06",
+      "ele-10",
+      "ing-19"
+    ],
+    "ele-06": [
+      "cc-06",
+      "ele-07",
+      "ele-11",
+      "ing-07"
+    ],
+    "ele-07": [
+      "cc-06",
+      "cfm-02",
+      "ele-08",
+      "ele-12",
+      "ing-07"
+    ],
+    "ele-08": [
+      "cc-20",
+      "ele-09",
+      "ele-13",
+      "ing-19"
+    ],
+    "ele-09": [
+      "cc-18",
+      "ele-10",
+      "ele-14",
+      "ing-03"
+    ],
+    "ele-10": [
+      "cc-12",
+      "ele-11",
+      "ele-15",
+      "ing-17"
+    ],
+    "ele-11": [
+      "cc-18",
+      "ele-12",
+      "ele-16",
+      "ing-19"
+    ],
+    "ele-12": [
+      "cc-07",
+      "ele-13",
+      "ele-17",
+      "ing-10"
+    ],
+    "ele-13": [
+      "cc-06",
+      "ele-14",
+      "ele-18",
+      "ing-07"
+    ],
+    "ele-14": [
+      "cc-19",
+      "ele-15",
+      "ele-19",
+      "ing-17"
+    ],
+    "ele-15": [
+      "cc-20",
+      "ele-16",
+      "ele-20",
+      "ing-03"
+    ],
+    "ele-16": [
+      "cc-07",
+      "ele-01",
+      "ele-17",
+      "ing-18"
+    ],
+    "ele-17": [
+      "cc-18",
+      "ele-02",
+      "ele-18",
+      "ing-03"
+    ],
+    "ele-18": [
+      "cc-19",
+      "ele-03",
+      "ele-19",
+      "ing-17"
+    ],
+    "ele-19": [
+      "cc-07",
+      "ele-04",
+      "ele-20",
+      "ing-17"
+    ],
+    "ele-20": [
+      "cc-20",
+      "ele-01",
+      "ele-05",
+      "ing-16"
+    ],
+    "cfm-01": [
+      "cfm-02",
+      "cfm-06",
+      "ing-08",
+      "quim-14"
+    ],
+    "cfm-02": [
+      "cfm-03",
+      "cfm-07",
+      "ing-10",
+      "quim-18"
+    ],
+    "cfm-03": [
+      "cfm-04",
+      "cfm-08",
+      "ing-03",
+      "quim-16"
+    ],
+    "cfm-04": [
+      "cfm-05",
+      "cfm-09",
+      "ing-11",
+      "quim-11"
+    ],
+    "cfm-05": [
+      "cfm-06",
+      "cfm-10",
+      "ing-17",
+      "quim-14"
+    ],
+    "cfm-06": [
+      "cfm-07",
+      "cfm-11",
+      "ing-19",
+      "quim-14"
+    ],
+    "cfm-07": [
+      "cfm-08",
+      "cfm-12",
+      "ing-10",
+      "quim-18"
+    ],
+    "cfm-08": [
+      "cfm-09",
+      "cfm-13",
+      "ing-17",
+      "quim-14"
+    ],
+    "cfm-09": [
+      "cfm-10",
+      "cfm-14",
+      "ing-03",
+      "quim-16"
+    ],
+    "cfm-10": [
+      "cfm-11",
+      "cfm-15",
+      "ing-19",
+      "quim-11"
+    ],
+    "cfm-11": [
+      "cfm-12",
+      "cfm-16",
+      "ing-10",
+      "quim-14"
+    ],
+    "cfm-12": [
+      "cfm-13",
+      "cfm-17",
+      "ing-04",
+      "quim-11"
+    ],
+    "cfm-13": [
+      "cfm-14",
+      "cfm-18",
+      "ing-01",
+      "quim-14"
+    ],
+    "cfm-14": [
+      "cfm-15",
+      "cfm-19",
+      "ing-12",
+      "quim-18"
+    ],
+    "cfm-15": [
+      "cfm-16",
+      "cfm-20",
+      "ing-04",
+      "quim-07"
+    ],
+    "cfm-16": [
+      "cfm-01",
+      "cfm-17",
+      "ing-19",
+      "quim-20"
+    ],
+    "cfm-17": [
+      "cfm-02",
+      "cfm-18",
+      "ing-19",
+      "quim-14"
+    ],
+    "cfm-18": [
+      "cfm-03",
+      "cfm-19",
+      "ing-10",
+      "quim-01"
+    ],
+    "cfm-19": [
+      "cfm-04",
+      "cfm-20",
+      "ing-19",
+      "quim-20"
+    ],
+    "cfm-20": [
+      "cfm-01",
+      "cfm-05",
+      "ing-12",
+      "quim-20"
+    ],
+    "cps-01": [
+      "com-12",
+      "cps-02",
+      "cps-06",
+      "der-01"
+    ],
+    "cps-02": [
+      "com-19",
+      "cps-03",
+      "cps-07",
+      "der-11"
+    ],
+    "cps-03": [
+      "com-19",
+      "cps-04",
+      "cps-08",
+      "der-17"
+    ],
+    "cps-04": [
+      "com-08",
+      "cps-05",
+      "cps-09",
+      "der-19"
+    ],
+    "cps-05": [
+      "com-14",
+      "cps-06",
+      "cps-10",
+      "der-17"
+    ],
+    "cps-06": [
+      "com-15",
+      "cps-07",
+      "cps-11",
+      "der-07"
+    ],
+    "cps-07": [
+      "com-19",
+      "cps-08",
+      "cps-12",
+      "der-15"
+    ],
+    "cps-08": [
+      "com-16",
+      "cps-09",
+      "cps-13",
+      "der-04"
+    ],
+    "cps-09": [
+      "com-08",
+      "cps-10",
+      "cps-14",
+      "der-19"
+    ],
+    "cps-10": [
+      "com-09",
+      "cps-11",
+      "cps-15",
+      "der-16"
+    ],
+    "cps-11": [
+      "com-12",
+      "cps-12",
+      "cps-16",
+      "der-20"
+    ],
+    "cps-12": [
+      "com-15",
+      "cps-13",
+      "cps-17",
+      "der-19"
+    ],
+    "cps-13": [
+      "com-19",
+      "cps-14",
+      "cps-18",
+      "der-17"
+    ],
+    "cps-14": [
+      "com-20",
+      "cps-15",
+      "cps-19",
+      "der-03"
+    ],
+    "cps-15": [
+      "com-15",
+      "cps-16",
+      "cps-20",
+      "der-07"
+    ],
+    "cps-16": [
+      "com-14",
+      "cps-01",
+      "cps-17",
+      "der-19"
+    ],
+    "cps-17": [
+      "com-20",
+      "cps-02",
+      "cps-18",
+      "der-18"
+    ],
+    "cps-18": [
+      "com-05",
+      "cps-03",
+      "cps-19",
+      "der-09"
+    ],
+    "cps-19": [
+      "com-20",
+      "cps-04",
+      "cps-20",
+      "der-12"
+    ],
+    "cps-20": [
+      "com-12",
+      "cps-01",
+      "cps-05",
+      "der-19"
+    ],
+    "quim-01": [
+      "bio-11",
+      "iq-11",
+      "quim-02",
+      "quim-06"
+    ],
+    "quim-02": [
+      "bio-17",
+      "iq-10",
+      "quim-03",
+      "quim-07"
+    ],
+    "quim-03": [
+      "bio-09",
+      "iq-10",
+      "quim-04",
+      "quim-08"
+    ],
+    "quim-04": [
+      "bio-17",
+      "iq-10",
+      "quim-05",
+      "quim-09"
+    ],
+    "quim-05": [
+      "bio-19",
+      "iq-10",
+      "quim-06",
+      "quim-10"
+    ],
+    "quim-06": [
+      "bio-01",
+      "iq-03",
+      "quim-07",
+      "quim-11"
+    ],
+    "quim-07": [
+      "bio-17",
+      "iq-10",
+      "quim-08",
+      "quim-12"
+    ],
+    "quim-08": [
+      "bio-11",
+      "iq-10",
+      "quim-09",
+      "quim-13"
+    ],
+    "quim-09": [
+      "bio-03",
+      "iq-10",
+      "quim-10",
+      "quim-14"
+    ],
+    "quim-10": [
+      "bio-01",
+      "iq-03",
+      "quim-11",
+      "quim-15"
+    ],
+    "quim-11": [
+      "bio-16",
+      "iq-01",
+      "quim-12",
+      "quim-16"
+    ],
+    "quim-12": [
+      "bio-03",
+      "iq-10",
+      "quim-13",
+      "quim-17"
+    ],
+    "quim-13": [
+      "bio-16",
+      "iq-10",
+      "quim-14",
+      "quim-18"
+    ],
+    "quim-14": [
+      "bio-17",
+      "iq-10",
+      "quim-15",
+      "quim-19"
+    ],
+    "quim-15": [
+      "bio-11",
+      "iq-19",
+      "quim-16",
+      "quim-20"
+    ],
+    "quim-16": [
+      "bio-03",
+      "iq-18",
+      "quim-01",
+      "quim-17"
+    ],
+    "quim-17": [
+      "bio-20",
+      "iq-17",
+      "quim-02",
+      "quim-18"
+    ],
+    "quim-18": [
+      "bio-06",
+      "iq-10",
+      "quim-03",
+      "quim-19"
+    ],
+    "quim-19": [
+      "bio-13",
+      "iq-16",
+      "quim-04",
+      "quim-20"
+    ],
+    "quim-20": [
+      "bio-17",
+      "iq-19",
+      "quim-01",
+      "quim-05"
+    ],
+    "cont-01": [
+      "adm-17",
+      "cont-02",
+      "cont-06",
+      "eco-14"
+    ],
+    "cont-02": [
+      "adm-17",
+      "cont-03",
+      "cont-07",
+      "eco-14"
+    ],
+    "cont-03": [
+      "adm-18",
+      "cont-04",
+      "cont-08",
+      "eco-14"
+    ],
+    "cont-04": [
+      "adm-20",
+      "cont-05",
+      "cont-09",
+      "eco-18"
+    ],
+    "cont-05": [
+      "adm-17",
+      "cont-06",
+      "cont-10",
+      "eco-07"
+    ],
+    "cont-06": [
+      "adm-02",
+      "cont-07",
+      "cont-11",
+      "eco-14"
+    ],
+    "cont-07": [
+      "adm-20",
+      "cont-08",
+      "cont-12",
+      "eco-14"
+    ],
+    "cont-08": [
+      "adm-17",
+      "cont-09",
+      "cont-13",
+      "eco-20"
+    ],
+    "cont-09": [
+      "adm-15",
+      "cont-10",
+      "cont-14",
+      "eco-16"
+    ],
+    "cont-10": [
+      "adm-17",
+      "cont-11",
+      "cont-15",
+      "eco-14"
+    ],
+    "cont-11": [
+      "adm-17",
+      "cont-12",
+      "cont-16",
+      "eco-02"
+    ],
+    "cont-12": [
+      "adm-17",
+      "cont-13",
+      "cont-17",
+      "eco-14"
+    ],
+    "cont-13": [
       "adm-01",
+      "cont-14",
+      "cont-18",
+      "eco-14"
+    ],
+    "cont-14": [
+      "adm-14",
+      "cont-15",
+      "cont-19",
+      "eco-14"
+    ],
+    "cont-15": [
+      "adm-18",
+      "cont-16",
+      "cont-20",
+      "eco-14"
+    ],
+    "cont-16": [
+      "adm-17",
+      "cont-01",
+      "cont-17",
+      "eco-14"
+    ],
+    "cont-17": [
+      "adm-17",
+      "cont-02",
+      "cont-18",
+      "eco-14"
+    ],
+    "cont-18": [
+      "adm-18",
+      "cont-03",
+      "cont-19",
+      "eco-14"
+    ],
+    "cont-19": [
+      "adm-17",
+      "cont-04",
+      "cont-20",
+      "eco-02"
+    ],
+    "cont-20": [
+      "adm-01",
+      "cont-01",
+      "cont-05",
+      "eco-14"
+    ],
+    "cf-01": [
+      "cf-02",
+      "cf-06",
+      "med-01",
+      "psi-07"
+    ],
+    "cf-02": [
+      "cf-03",
+      "cf-07",
+      "med-02",
+      "psi-19"
+    ],
+    "cf-03": [
+      "cf-04",
+      "cf-08",
+      "med-20",
+      "psi-19"
+    ],
+    "cf-04": [
+      "cf-05",
+      "cf-09",
+      "med-19",
+      "psi-18"
+    ],
+    "cf-05": [
+      "cf-06",
+      "cf-10",
+      "med-19",
+      "psi-15"
+    ],
+    "cf-06": [
+      "cf-07",
+      "cf-11",
+      "med-18",
+      "psi-19"
+    ],
+    "cf-07": [
+      "cf-08",
+      "cf-12",
+      "med-18",
+      "psi-19"
+    ],
+    "cf-08": [
+      "cf-09",
+      "cf-13",
+      "med-20",
+      "psi-17"
+    ],
+    "cf-09": [
+      "cf-10",
+      "cf-14",
+      "med-19",
+      "psi-20"
+    ],
+    "cf-10": [
+      "cf-11",
+      "cf-15",
+      "med-01",
+      "psi-19"
+    ],
+    "cf-11": [
+      "cf-12",
+      "cf-16",
+      "med-20",
+      "psi-04"
+    ],
+    "cf-12": [
+      "cf-13",
+      "cf-17",
+      "med-14",
+      "psi-16"
+    ],
+    "cf-13": [
+      "cf-14",
+      "cf-18",
+      "med-18",
+      "psi-03"
+    ],
+    "cf-14": [
+      "cf-15",
+      "cf-19",
+      "med-16",
+      "psi-12"
+    ],
+    "cf-15": [
+      "cf-16",
+      "cf-20",
+      "med-18",
+      "psi-16"
+    ],
+    "cf-16": [
+      "cf-01",
+      "cf-17",
+      "med-20",
+      "psi-17"
+    ],
+    "cf-17": [
+      "cf-02",
+      "cf-18",
+      "med-09",
+      "psi-19"
+    ],
+    "cf-18": [
+      "cf-03",
+      "cf-19",
+      "med-18",
+      "psi-19"
+    ],
+    "cf-19": [
+      "cf-04",
+      "cf-20",
+      "med-19",
+      "psi-15"
+    ],
+    "cf-20": [
+      "cf-01",
+      "cf-05",
+      "med-16",
+      "psi-15"
+    ],
+    "der-01": [
+      "cont-09",
+      "cps-01",
+      "der-02",
+      "der-06"
+    ],
+    "der-02": [
+      "cont-09",
+      "cps-20",
+      "der-03",
+      "der-07"
+    ],
+    "der-03": [
+      "cont-09",
+      "cps-14",
+      "der-04",
+      "der-08"
+    ],
+    "der-04": [
+      "cont-20",
+      "cps-08",
+      "der-05",
+      "der-09"
+    ],
+    "der-05": [
+      "cont-09",
+      "cps-02",
+      "der-06",
+      "der-10"
+    ],
+    "der-06": [
+      "cont-09",
+      "cps-20",
+      "der-07",
+      "der-11"
+    ],
+    "der-07": [
+      "cont-09",
+      "cps-15",
+      "der-08",
+      "der-12"
+    ],
+    "der-08": [
+      "cont-09",
+      "cps-16",
+      "der-09",
+      "der-13"
+    ],
+    "der-09": [
+      "cont-16",
+      "cps-18",
+      "der-10",
+      "der-14"
+    ],
+    "der-10": [
+      "cont-09",
+      "cps-20",
+      "der-11",
+      "der-15"
+    ],
+    "der-11": [
+      "cont-09",
+      "cps-02",
+      "der-12",
+      "der-16"
+    ],
+    "der-12": [
+      "cont-10",
+      "cps-19",
+      "der-13",
+      "der-17"
+    ],
+    "der-13": [
+      "cont-09",
+      "cps-20",
+      "der-14",
+      "der-18"
+    ],
+    "der-14": [
+      "cont-10",
+      "cps-20",
+      "der-15",
+      "der-19"
+    ],
+    "der-15": [
+      "cont-09",
+      "cps-07",
+      "der-16",
+      "der-20"
+    ],
+    "der-16": [
+      "cont-16",
+      "cps-19",
+      "der-01",
+      "der-17",
+      "len-08"
+    ],
+    "der-17": [
+      "cont-16",
+      "cps-13",
+      "der-02",
+      "der-18"
+    ],
+    "der-18": [
+      "cont-14",
+      "cps-17",
+      "der-03",
+      "der-19"
+    ],
+    "der-19": [
+      "cont-19",
+      "cps-16",
+      "der-04",
+      "der-20"
+    ],
+    "der-20": [
+      "cont-20",
+      "cps-16",
+      "der-01",
+      "der-05"
+    ],
+    "eco-01": [
+      "cont-13",
+      "cps-19",
+      "eco-02",
+      "eco-06"
+    ],
+    "eco-02": [
+      "cont-11",
+      "cps-12",
+      "eco-03",
+      "eco-07"
+    ],
+    "eco-03": [
+      "cont-13",
+      "cps-16",
+      "eco-04",
+      "eco-08"
+    ],
+    "eco-04": [
+      "cont-17",
+      "cps-19",
+      "eco-05",
+      "eco-09"
+    ],
+    "eco-05": [
+      "cont-19",
+      "cps-19",
+      "eco-06",
+      "eco-10"
+    ],
+    "eco-06": [
+      "cont-19",
+      "cps-09",
+      "eco-07",
+      "eco-11"
+    ],
+    "eco-07": [
+      "cont-05",
+      "cps-01",
+      "eco-08",
+      "eco-12"
+    ],
+    "eco-08": [
+      "cont-14",
+      "cps-03",
+      "eco-09",
+      "eco-13"
+    ],
+    "eco-09": [
+      "cont-19",
+      "cps-15",
+      "eco-10",
+      "eco-14"
+    ],
+    "eco-10": [
+      "cont-17",
+      "cps-19",
+      "eco-11",
+      "eco-15"
+    ],
+    "eco-11": [
+      "cont-14",
+      "cps-11",
+      "eco-12",
+      "eco-16"
+    ],
+    "eco-12": [
+      "cont-19",
+      "cps-20",
+      "eco-13",
+      "eco-17"
+    ],
+    "eco-13": [
+      "cont-17",
+      "cps-03",
+      "eco-14",
+      "eco-18"
+    ],
+    "eco-14": [
+      "cont-16",
+      "cps-13",
+      "eco-15",
+      "eco-19"
+    ],
+    "eco-15": [
+      "cont-11",
+      "cps-15",
+      "eco-16",
+      "eco-20"
+    ],
+    "eco-16": [
+      "cont-09",
+      "cps-15",
+      "eco-01",
+      "eco-17"
+    ],
+    "eco-17": [
+      "cont-17",
+      "cps-15",
+      "eco-02",
+      "eco-18"
+    ],
+    "eco-18": [
+      "cont-14",
+      "cps-06",
+      "eco-03",
+      "eco-19"
+    ],
+    "eco-19": [
+      "cont-14",
+      "cps-17",
+      "eco-04",
+      "eco-20"
+    ],
+    "eco-20": [
+      "cont-11",
+      "cps-19",
+      "eco-01",
+      "eco-05"
+    ],
+    "enf-01": [
+      "enf-02",
+      "enf-06",
+      "est-17",
+      "med-13"
+    ],
+    "enf-02": [
+      "enf-03",
+      "enf-07",
+      "est-18",
+      "med-16"
+    ],
+    "enf-03": [
+      "enf-04",
+      "enf-08",
+      "est-01",
+      "med-02"
+    ],
+    "enf-04": [
+      "enf-05",
+      "enf-09",
+      "est-12",
+      "med-13"
+    ],
+    "enf-05": [
+      "enf-06",
+      "enf-10",
+      "est-19",
+      "med-14"
+    ],
+    "enf-06": [
+      "enf-07",
+      "enf-11",
+      "est-11",
+      "med-07"
+    ],
+    "enf-07": [
+      "enf-08",
+      "enf-12",
+      "est-15",
+      "med-13"
+    ],
+    "enf-08": [
+      "enf-09",
+      "enf-13",
+      "est-15",
+      "med-14"
+    ],
+    "enf-09": [
+      "enf-10",
+      "enf-14",
+      "est-15",
+      "med-15"
+    ],
+    "enf-10": [
+      "enf-11",
+      "enf-15",
+      "est-16",
+      "med-13"
+    ],
+    "enf-11": [
+      "enf-12",
+      "enf-16",
+      "est-06",
+      "med-13"
+    ],
+    "enf-12": [
+      "enf-13",
+      "enf-17",
+      "est-15",
+      "med-13"
+    ],
+    "enf-13": [
+      "enf-14",
+      "enf-18",
+      "est-20",
+      "med-13"
+    ],
+    "enf-14": [
+      "enf-15",
+      "enf-19",
+      "est-18",
+      "med-13"
+    ],
+    "enf-15": [
+      "enf-16",
+      "enf-20",
+      "est-16",
+      "med-13"
+    ],
+    "enf-16": [
+      "enf-01",
+      "enf-17",
+      "est-17",
+      "med-13"
+    ],
+    "enf-17": [
+      "enf-02",
+      "enf-18",
+      "est-14",
+      "med-16"
+    ],
+    "enf-18": [
+      "enf-03",
+      "enf-19",
+      "est-19",
+      "med-20"
+    ],
+    "enf-19": [
+      "enf-04",
+      "enf-20",
+      "est-17",
+      "med-20"
+    ],
+    "enf-20": [
+      "enf-01",
+      "enf-05",
+      "est-12",
+      "med-13"
+    ],
+    "est-01": [
+      "cf-01",
+      "enf-03",
+      "est-02",
+      "est-06",
+      "med-01"
+    ],
+    "est-02": [
+      "enf-02",
+      "est-03",
+      "est-07",
+      "med-03"
+    ],
+    "est-03": [
+      "enf-10",
+      "est-04",
+      "est-08",
+      "med-05"
+    ],
+    "est-04": [
+      "enf-02",
+      "est-05",
+      "est-09",
+      "med-18"
+    ],
+    "est-05": [
+      "enf-12",
+      "est-06",
+      "est-10",
+      "med-18"
+    ],
+    "est-06": [
+      "enf-12",
+      "est-07",
+      "est-11",
+      "med-13"
+    ],
+    "est-07": [
+      "enf-02",
+      "est-08",
+      "est-12",
+      "med-19"
+    ],
+    "est-08": [
+      "enf-02",
+      "est-09",
+      "est-13",
+      "med-19"
+    ],
+    "est-09": [
+      "enf-20",
+      "est-10",
+      "est-14",
+      "med-09"
+    ],
+    "est-10": [
+      "enf-02",
+      "est-11",
+      "est-15",
+      "med-19"
+    ],
+    "est-11": [
+      "enf-02",
+      "est-12",
+      "est-16",
+      "med-20"
+    ],
+    "est-12": [
+      "enf-20",
+      "est-13",
+      "est-17",
+      "med-14"
+    ],
+    "est-13": [
+      "enf-02",
+      "est-14",
+      "est-18",
+      "med-09"
+    ],
+    "est-14": [
+      "enf-02",
+      "est-15",
+      "est-19",
+      "med-16"
+    ],
+    "est-15": [
+      "enf-08",
+      "est-16",
+      "est-20",
+      "med-14"
+    ],
+    "est-16": [
+      "enf-10",
+      "est-01",
+      "est-17",
+      "med-12"
+    ],
+    "est-17": [
+      "enf-02",
+      "est-02",
+      "est-18",
+      "med-20"
+    ],
+    "est-18": [
+      "enf-02",
+      "est-03",
+      "est-19",
+      "med-16"
+    ],
+    "est-19": [
+      "enf-12",
+      "est-04",
+      "est-20",
+      "med-19"
+    ],
+    "est-20": [
+      "enf-02",
+      "est-01",
+      "est-05",
+      "med-17"
+    ],
+    "fil-01": [
+      "art-13",
+      "fil-02",
+      "fil-06",
+      "len-01"
+    ],
+    "fil-02": [
+      "art-01",
+      "fil-03",
+      "fil-07",
+      "len-14"
+    ],
+    "fil-03": [
+      "art-20",
+      "fil-04",
+      "fil-08",
+      "len-18"
+    ],
+    "fil-04": [
+      "art-19",
+      "fil-05",
+      "fil-09",
+      "len-18"
+    ],
+    "fil-05": [
+      "art-17",
+      "fil-06",
+      "fil-10",
+      "len-14"
+    ],
+    "fil-06": [
+      "art-20",
+      "fil-07",
+      "fil-11",
+      "len-17"
+    ],
+    "fil-07": [
+      "art-19",
+      "fil-08",
+      "fil-12",
+      "len-18"
+    ],
+    "fil-08": [
+      "art-19",
+      "fil-09",
+      "fil-13",
+      "len-15"
+    ],
+    "fil-09": [
+      "art-19",
+      "fil-10",
+      "fil-14",
+      "len-14"
+    ],
+    "fil-10": [
+      "art-12",
+      "fil-11",
+      "fil-15",
+      "len-18"
+    ],
+    "fil-11": [
+      "art-17",
+      "fil-12",
+      "fil-16",
+      "len-18"
+    ],
+    "fil-12": [
+      "art-19",
+      "fil-13",
+      "fil-17",
+      "len-03"
+    ],
+    "fil-13": [
+      "art-19",
+      "fil-14",
+      "fil-18",
+      "len-10"
+    ],
+    "fil-14": [
+      "art-01",
+      "fil-15",
+      "fil-19",
+      "len-01"
+    ],
+    "fil-15": [
+      "art-20",
+      "fil-16",
+      "fil-20",
+      "len-17"
+    ],
+    "fil-16": [
+      "art-19",
+      "fil-01",
+      "fil-17",
+      "len-17"
+    ],
+    "fil-17": [
+      "art-19",
+      "fil-02",
+      "fil-18",
+      "len-08"
+    ],
+    "fil-18": [
+      "art-14",
+      "fil-03",
+      "fil-19",
+      "len-18"
+    ],
+    "fil-19": [
+      "art-03",
+      "fil-04",
+      "fil-20",
+      "len-13"
+    ],
+    "fil-20": [
+      "art-19",
+      "fil-01",
+      "fil-05",
+      "len-20"
+    ],
+    "ing-01": [
+      "arq-04",
+      "ele-16",
+      "ing-02",
+      "ing-06"
+    ],
+    "ing-02": [
+      "arq-07",
+      "ele-01",
+      "ing-03",
+      "ing-07"
+    ],
+    "ing-03": [
+      "arq-05",
+      "ele-17",
+      "ing-04",
+      "ing-08"
+    ],
+    "ing-04": [
+      "arq-05",
+      "ele-18",
+      "ing-05",
+      "ing-09"
+    ],
+    "ing-05": [
+      "arq-04",
+      "ele-19",
+      "ing-06",
+      "ing-10"
+    ],
+    "ing-06": [
+      "arq-04",
+      "ele-12",
+      "ing-07",
+      "ing-11"
+    ],
+    "ing-07": [
+      "arq-06",
+      "ele-15",
+      "ing-08",
+      "ing-12"
+    ],
+    "ing-08": [
+      "arq-04",
+      "ele-10",
+      "ing-09",
+      "ing-13"
+    ],
+    "ing-09": [
+      "arq-04",
+      "ele-17",
+      "ing-10",
+      "ing-14"
+    ],
+    "ing-10": [
+      "arq-05",
+      "ele-16",
+      "ing-11",
+      "ing-15"
+    ],
+    "ing-11": [
       "arq-13",
-      "arq-14"
+      "ele-18",
+      "ing-12",
+      "ing-16"
+    ],
+    "ing-12": [
+      "arq-04",
+      "ele-19",
+      "ing-13",
+      "ing-17"
+    ],
+    "ing-13": [
+      "arq-18",
+      "ele-15",
+      "ing-14",
+      "ing-18"
+    ],
+    "ing-14": [
+      "arq-13",
+      "ele-16",
+      "ing-15",
+      "ing-19"
+    ],
+    "ing-15": [
+      "arq-01",
+      "ele-18",
+      "ing-16",
+      "ing-20"
+    ],
+    "ing-16": [
+      "arq-15",
+      "ele-20",
+      "ing-01",
+      "ing-17"
+    ],
+    "ing-17": [
+      "arq-01",
+      "ele-19",
+      "ing-02",
+      "ing-18"
+    ],
+    "ing-18": [
+      "arq-11",
+      "ele-16",
+      "ing-03",
+      "ing-19"
+    ],
+    "ing-19": [
+      "arq-01",
+      "ele-15",
+      "ing-04",
+      "ing-20"
+    ],
+    "ing-20": [
+      "arq-18",
+      "ele-17",
+      "ing-01",
+      "ing-05"
+    ],
+    "iq-01": [
+      "ing-16",
+      "iq-02",
+      "iq-06",
+      "quim-11"
+    ],
+    "iq-02": [
+      "ing-06",
+      "iq-03",
+      "iq-07",
+      "quim-18"
+    ],
+    "iq-03": [
+      "ing-04",
+      "iq-04",
+      "iq-08",
+      "quim-06"
+    ],
+    "iq-04": [
+      "ing-15",
+      "iq-05",
+      "iq-09",
+      "quim-12"
+    ],
+    "iq-05": [
+      "ing-19",
+      "iq-06",
+      "iq-10",
+      "quim-18"
+    ],
+    "iq-06": [
+      "ing-06",
+      "iq-07",
+      "iq-11",
+      "quim-18"
+    ],
+    "iq-07": [
+      "ing-06",
+      "iq-08",
+      "iq-12",
+      "quim-19"
+    ],
+    "iq-08": [
+      "ing-18",
+      "iq-09",
+      "iq-13",
+      "quim-17"
+    ],
+    "iq-09": [
+      "ing-17",
+      "iq-10",
+      "iq-14",
+      "quim-18"
+    ],
+    "iq-10": [
+      "ing-14",
+      "iq-11",
+      "iq-15",
+      "quim-18"
+    ],
+    "iq-11": [
+      "ing-09",
+      "iq-12",
+      "iq-16",
+      "quim-01"
+    ],
+    "iq-12": [
+      "ing-17",
+      "iq-13",
+      "iq-17",
+      "quim-06"
+    ],
+    "iq-13": [
+      "ing-03",
+      "iq-14",
+      "iq-18",
+      "quim-12"
+    ],
+    "iq-14": [
+      "ing-14",
+      "iq-15",
+      "iq-19",
+      "quim-13"
+    ],
+    "iq-15": [
+      "ing-16",
+      "iq-16",
+      "iq-20",
+      "quim-17"
+    ],
+    "iq-16": [
+      "ing-17",
+      "iq-01",
+      "iq-17",
+      "quim-19"
+    ],
+    "iq-17": [
+      "ing-15",
+      "iq-02",
+      "iq-18",
+      "quim-17"
+    ],
+    "iq-18": [
+      "ing-20",
+      "iq-03",
+      "iq-19",
+      "quim-16"
+    ],
+    "iq-19": [
+      "ing-10",
+      "iq-04",
+      "iq-20",
+      "quim-15"
+    ],
+    "iq-20": [
+      "ing-15",
+      "iq-01",
+      "iq-05",
+      "quim-17"
+    ],
+    "len-01": [
+      "com-13",
+      "fil-14",
+      "len-02",
+      "len-06"
+    ],
+    "len-02": [
+      "com-02",
+      "fil-14",
+      "len-03",
+      "len-07"
+    ],
+    "len-03": [
+      "com-01",
+      "fil-20",
+      "len-04",
+      "len-08"
+    ],
+    "len-04": [
+      "com-11",
+      "fil-20",
+      "len-05",
+      "len-09"
+    ],
+    "len-05": [
+      "com-13",
+      "fil-07",
+      "len-06",
+      "len-10"
+    ],
+    "len-06": [
+      "com-03",
+      "fil-14",
+      "len-07",
+      "len-11"
+    ],
+    "len-07": [
+      "com-12",
+      "fil-15",
+      "len-08",
+      "len-12"
+    ],
+    "len-08": [
+      "com-20",
+      "fil-17",
+      "len-09",
+      "len-13"
+    ],
+    "len-09": [
+      "com-19",
+      "fil-20",
+      "len-10",
+      "len-14"
+    ],
+    "len-10": [
+      "com-18",
+      "fil-13",
+      "len-11",
+      "len-15"
+    ],
+    "len-11": [
+      "com-06",
+      "fil-17",
+      "len-12",
+      "len-16"
+    ],
+    "len-12": [
+      "com-02",
+      "fil-13",
+      "len-13",
+      "len-17"
+    ],
+    "len-13": [
+      "com-20",
+      "fil-14",
+      "len-14",
+      "len-18"
+    ],
+    "len-14": [
+      "com-02",
+      "fil-09",
+      "len-15",
+      "len-19"
+    ],
+    "len-15": [
+      "com-20",
+      "fil-20",
+      "len-16",
+      "len-20"
+    ],
+    "len-16": [
+      "com-06",
+      "fil-14",
+      "len-01",
+      "len-17"
+    ],
+    "len-17": [
+      "com-02",
+      "fil-15",
+      "len-02",
+      "len-18"
+    ],
+    "len-18": [
+      "com-06",
+      "fil-07",
+      "len-03",
+      "len-19"
+    ],
+    "len-19": [
+      "com-16",
+      "fil-20",
+      "len-04",
+      "len-20"
+    ],
+    "len-20": [
+      "com-05",
+      "fil-20",
+      "len-01",
+      "len-05"
+    ],
+    "med-01": [
+      "enf-03",
+      "est-01",
+      "med-02",
+      "med-06"
+    ],
+    "med-02": [
+      "enf-03",
+      "est-17",
+      "med-03",
+      "med-07"
+    ],
+    "med-03": [
+      "enf-19",
+      "est-02",
+      "med-04",
+      "med-08"
+    ],
+    "med-04": [
+      "enf-19",
+      "est-05",
+      "med-05",
+      "med-09"
+    ],
+    "med-05": [
+      "enf-05",
+      "est-03",
+      "med-06",
+      "med-10"
+    ],
+    "med-06": [
+      "enf-19",
+      "est-07",
+      "med-07",
+      "med-11"
+    ],
+    "med-07": [
+      "enf-06",
+      "est-11",
+      "med-08",
+      "med-12"
+    ],
+    "med-08": [
+      "enf-19",
+      "est-05",
+      "med-09",
+      "med-13"
+    ],
+    "med-09": [
+      "enf-02",
+      "est-07",
+      "med-10",
+      "med-14"
+    ],
+    "med-10": [
+      "enf-05",
+      "est-04",
+      "med-11",
+      "med-15"
+    ],
+    "med-11": [
+      "enf-19",
+      "est-16",
+      "med-12",
+      "med-16"
+    ],
+    "med-12": [
+      "enf-18",
+      "est-16",
+      "med-13",
+      "med-17"
+    ],
+    "med-13": [
+      "enf-19",
+      "est-11",
+      "med-14",
+      "med-18"
+    ],
+    "med-14": [
+      "enf-08",
+      "est-15",
+      "med-15",
+      "med-19"
+    ],
+    "med-15": [
+      "enf-09",
+      "est-15",
+      "med-16",
+      "med-20"
+    ],
+    "med-16": [
+      "enf-17",
+      "est-14",
+      "med-01",
+      "med-17"
+    ],
+    "med-17": [
+      "enf-20",
+      "est-20",
+      "med-02",
+      "med-18"
+    ],
+    "med-18": [
+      "enf-19",
+      "est-05",
+      "med-03",
+      "med-19"
+    ],
+    "med-19": [
+      "enf-19",
+      "est-07",
+      "med-04",
+      "med-20"
+    ],
+    "med-20": [
+      "enf-18",
+      "est-11",
+      "med-01",
+      "med-05"
+    ],
+    "vet-01": [
+      "bio-09",
+      "med-01",
+      "vet-02",
+      "vet-06"
+    ],
+    "vet-02": [
+      "bio-10",
+      "med-02",
+      "vet-03",
+      "vet-07"
+    ],
+    "vet-03": [
+      "bio-03",
+      "med-05",
+      "vet-04",
+      "vet-08"
+    ],
+    "vet-04": [
+      "bio-16",
+      "med-18",
+      "vet-05",
+      "vet-09"
+    ],
+    "vet-05": [
+      "bio-20",
+      "med-08",
+      "vet-06",
+      "vet-10"
+    ],
+    "vet-06": [
+      "bio-20",
+      "med-07",
+      "vet-07",
+      "vet-11"
+    ],
+    "vet-07": [
+      "bio-10",
+      "med-10",
+      "vet-08",
+      "vet-12"
+    ],
+    "vet-08": [
+      "bio-12",
+      "med-13",
+      "vet-09",
+      "vet-13"
+    ],
+    "vet-09": [
+      "bio-20",
+      "med-13",
+      "vet-10",
+      "vet-14"
+    ],
+    "vet-10": [
+      "bio-15",
+      "med-09",
+      "vet-11",
+      "vet-15"
+    ],
+    "vet-11": [
+      "bio-20",
+      "med-20",
+      "vet-12",
+      "vet-16"
+    ],
+    "vet-12": [
+      "bio-17",
+      "med-19",
+      "vet-13",
+      "vet-17"
+    ],
+    "vet-13": [
+      "bio-20",
+      "med-18",
+      "vet-14",
+      "vet-18"
+    ],
+    "vet-14": [
+      "bio-20",
+      "med-20",
+      "vet-15",
+      "vet-19"
+    ],
+    "vet-15": [
+      "bio-10",
+      "med-20",
+      "vet-16",
+      "vet-20"
+    ],
+    "vet-16": [
+      "bio-17",
+      "med-12",
+      "vet-01",
+      "vet-17"
+    ],
+    "vet-17": [
+      "bio-12",
+      "med-18",
+      "vet-02",
+      "vet-18"
+    ],
+    "vet-18": [
+      "bio-20",
+      "med-16",
+      "vet-03",
+      "vet-19"
+    ],
+    "vet-19": [
+      "bio-12",
+      "med-14",
+      "vet-04",
+      "vet-20"
+    ],
+    "vet-20": [
+      "bio-17",
+      "med-18",
+      "vet-01",
+      "vet-05"
+    ],
+    "psi-01": [
+      "cf-09",
+      "enf-14",
+      "psi-02",
+      "psi-06"
+    ],
+    "psi-02": [
+      "cf-09",
+      "enf-20",
+      "psi-03",
+      "psi-07"
+    ],
+    "psi-03": [
+      "adm-15",
+      "cf-13",
+      "enf-07",
+      "psi-04",
+      "psi-08"
+    ],
+    "psi-04": [
+      "cf-09",
+      "enf-18",
+      "psi-05",
+      "psi-09"
+    ],
+    "psi-05": [
+      "cf-09",
+      "enf-16",
+      "psi-06",
+      "psi-10"
+    ],
+    "psi-06": [
+      "cf-17",
+      "enf-20",
+      "psi-07",
+      "psi-11"
+    ],
+    "psi-07": [
+      "cf-10",
+      "enf-02",
+      "psi-08",
+      "psi-12"
+    ],
+    "psi-08": [
+      "cf-05",
+      "enf-09",
+      "psi-09",
+      "psi-13"
+    ],
+    "psi-09": [
+      "cf-02",
+      "enf-16",
+      "psi-10",
+      "psi-14"
+    ],
+    "psi-10": [
+      "cf-20",
+      "enf-14",
+      "psi-11",
+      "psi-15"
+    ],
+    "psi-11": [
+      "cf-16",
+      "enf-14",
+      "psi-12",
+      "psi-16"
+    ],
+    "psi-12": [
+      "cf-14",
+      "enf-02",
+      "psi-13",
+      "psi-17"
+    ],
+    "psi-13": [
+      "cf-09",
+      "enf-16",
+      "psi-14",
+      "psi-18"
+    ],
+    "psi-14": [
+      "cf-12",
+      "enf-10",
+      "psi-15",
+      "psi-19"
+    ],
+    "psi-15": [
+      "cf-05",
+      "enf-18",
+      "psi-16",
+      "psi-20"
+    ],
+    "psi-16": [
+      "cf-12",
+      "enf-15",
+      "psi-01",
+      "psi-17"
+    ],
+    "psi-17": [
+      "cf-09",
+      "enf-19",
+      "psi-02",
+      "psi-18"
+    ],
+    "psi-18": [
+      "cf-04",
+      "enf-19",
+      "psi-03",
+      "psi-19"
+    ],
+    "psi-19": [
+      "cf-18",
+      "enf-10",
+      "psi-04",
+      "psi-20"
+    ],
+    "psi-20": [
+      "cf-09",
+      "enf-18",
+      "psi-01",
+      "psi-05"
     ]
   },
-  "total_nodos": 40,
-  "total_aristas": 99
+  "total_nodos": 500,
+  "total_aristas": 2006
 }

@@ -1,112 +1,112 @@
 {
-  "total_documentos": 40,
-  "total_tokens_sin_stopwords": 1640,
-  "total_tokens_antes_stopwords": 2565,
-  "tokens_descartados": 925,
-  "total_terminos_unicos": 783,
-  "promedio_terminos_por_documento": 41.0,
+  "total_documentos": 500,
+  "total_tokens_sin_stopwords": 12847,
+  "total_tokens_antes_stopwords": 19398,
+  "tokens_descartados": 6551,
+  "total_terminos_unicos": 2604,
+  "promedio_terminos_por_documento": 25.694,
   "cantidad_stopwords": 117,
   "documentos_sin_terminos": [],
   "terminos_mas_frecuentes": [
     {
-      "termino": "diseño",
-      "frecuencia_total": 17,
-      "frecuencia_documental": 12
+      "termino": "permiten",
+      "frecuencia_total": 169,
+      "frecuencia_documental": 169
     },
     {
-      "termino": "organizacion",
-      "frecuencia_total": 16,
-      "frecuencia_documental": 14
+      "termino": "evaluar",
+      "frecuencia_total": 111,
+      "frecuencia_documental": 110
     },
     {
-      "termino": "planeacion",
-      "frecuencia_total": 13,
-      "frecuencia_documental": 7
+      "termino": "estudia",
+      "frecuencia_total": 108,
+      "frecuencia_documental": 108
     },
     {
-      "termino": "actividades",
-      "frecuencia_total": 12,
-      "frecuencia_documental": 12
+      "termino": "observacion",
+      "frecuencia_total": 108,
+      "frecuencia_documental": 107
     },
     {
-      "termino": "edificios",
-      "frecuencia_total": 12,
-      "frecuencia_documental": 6
+      "termino": "analiza",
+      "frecuencia_total": 107,
+      "frecuencia_documental": 107
     },
     {
-      "termino": "gestion",
-      "frecuencia_total": 12,
-      "frecuencia_documental": 5
+      "termino": "analisis",
+      "frecuencia_total": 106,
+      "frecuencia_documental": 97
     },
     {
-      "termino": "materiales",
-      "frecuencia_total": 12,
-      "frecuencia_documental": 9
+      "termino": "ayudan",
+      "frecuencia_total": 102,
+      "frecuencia_documental": 102
     },
     {
-      "termino": "puede",
-      "frecuencia_total": 12,
-      "frecuencia_documental": 12
+      "termino": "evaluacion",
+      "frecuencia_total": 94,
+      "frecuencia_documental": 82
     },
     {
-      "termino": "construccion",
-      "frecuencia_total": 11,
-      "frecuencia_documental": 7
+      "termino": "registro",
+      "frecuencia_total": 87,
+      "frecuencia_documental": 85
     },
     {
-      "termino": "calidad",
-      "frecuencia_total": 10,
-      "frecuencia_documental": 7
+      "termino": "examina",
+      "frecuencia_total": 80,
+      "frecuencia_documental": 80
     },
     {
-      "termino": "considera",
-      "frecuencia_total": 10,
-      "frecuencia_documental": 10
+      "termino": "procesos",
+      "frecuencia_total": 74,
+      "frecuencia_documental": 62
     },
     {
-      "termino": "debe",
-      "frecuencia_total": 10,
-      "frecuencia_documental": 10
+      "termino": "permite",
+      "frecuencia_total": 69,
+      "frecuencia_documental": 69
+    },
+    {
+      "termino": "produccion",
+      "frecuencia_total": 69,
+      "frecuencia_documental": 45
+    },
+    {
+      "termino": "datos",
+      "frecuencia_total": 67,
+      "frecuencia_documental": 59
+    },
+    {
+      "termino": "documentacion",
+      "frecuencia_total": 67,
+      "frecuencia_documental": 66
     },
     {
       "termino": "decisiones",
-      "frecuencia_total": 10,
-      "frecuencia_documental": 10
+      "frecuencia_total": 66,
+      "frecuencia_documental": 63
     },
     {
-      "termino": "informacion",
-      "frecuencia_total": 10,
-      "frecuencia_documental": 7
+      "termino": "describe",
+      "frecuencia_total": 64,
+      "frecuencia_documental": 64
     },
     {
-      "termino": "organizacional",
-      "frecuencia_total": 10,
-      "frecuencia_documental": 4
+      "termino": "orientan",
+      "frecuencia_total": 64,
+      "frecuencia_documental": 64
     },
     {
-      "termino": "personas",
-      "frecuencia_total": 10,
-      "frecuencia_documental": 10
+      "termino": "presenta",
+      "frecuencia_total": 62,
+      "frecuencia_documental": 62
     },
     {
-      "termino": "arquitectonico",
-      "frecuencia_total": 9,
-      "frecuencia_documental": 3
-    },
-    {
-      "termino": "arquitectura",
-      "frecuencia_total": 9,
-      "frecuencia_documental": 5
-    },
-    {
-      "termino": "comunicacion",
-      "frecuencia_total": 9,
-      "frecuencia_documental": 6
-    },
-    {
-      "termino": "objetivos",
-      "frecuencia_total": 9,
-      "frecuencia_documental": 9
+      "termino": "sistemas",
+      "frecuencia_total": 60,
+      "frecuencia_documental": 45
     }
   ]
 }
