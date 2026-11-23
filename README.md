@@ -4,7 +4,7 @@ Proyecto integrador de la materia **Recuperación de Información**. Implementa 
 
 > **Aviso:** los artículos son textos demostrativos creados para este proyecto. No son publicaciones oficiales ni representan contenido institucional de la BUAP.
 
-## Estado actual — Fase 2, entrega 8
+## Estado actual — Fase 2, entrega 9
 
 - **25 facultades** incluidas en el catálogo.
 - **20 artículos por facultad**, para un total de **500 documentos**.
@@ -15,12 +15,16 @@ Proyecto integrador de la materia **Recuperación de Información**. Implementa 
 - Índice invertido con **500 documentos** y **2,604 términos únicos**.
 - PageRank calculado para los 500 artículos y convergencia alcanzada.
 - Motor de consulta OR/AND, ranking TF-IDF, PageRank y ranking híbrido.
-- **60 pruebas unitarias** pasan correctamente.
+- Interfaz web interactiva con búsqueda, filtros por facultad, selección de ranking y paginación.
+- API REST con Flask: `/api/health`, `/api/facultades` y `/api/search`.
+- Integración preparada para Apache mediante proxy inverso hacia Flask.
+- **78 pruebas de lógica e interfaz** pasan; 5 pruebas HTTP adicionales se habilitan al instalar Flask.
 
 ## Requisitos
 
 - Python 3.9 o posterior.
-- No se requieren paquetes externos para generar las páginas, extraer enlaces, indexar o ejecutar los algoritmos. Se utiliza la biblioteca estándar de Python.
+- No se requieren paquetes externos para generar las páginas, extraer enlaces, indexar o ejecutar los algoritmos de recuperación. Se utiliza la biblioteca estándar de Python.
+- La interfaz con búsquedas en vivo requiere Flask y Gunicorn; se instalan con `python3 -m pip install -r requirements.txt` dentro de un entorno virtual.
 - Graphviz es opcional y solamente se necesita para convertir `indices/grafo.dot` en una imagen.
 
 ## Estructura principal
@@ -32,8 +36,9 @@ mini-buscador-buap-entrega-1/
 │   ├── articulos.json            # Contenido de los 500 documentos
 │   └── stopwords_es.txt          # Palabras vacías en español
 ├── public/
-│   ├── index.html                # Inicio con las 25 facultades
+│   ├── index.html                # Buscador web y catálogo de facultades
 │   ├── css/estilos.css
+│   ├── js/buscador.js            # Cliente JavaScript de la API
 │   └── facultades/               # 25 directorios, 20 artículos por facultad
 ├── indices/
 │   ├── grafo.json
@@ -51,7 +56,10 @@ mini-buscador-buap-entrega-1/
 │   ├── test_ranking.py
 │   ├── test_pagerank.py
 │   ├── test_comparador.py
-│   └── test_corpus_500.py
+│   ├── test_corpus_500.py
+│   ├── test_servicio_busqueda.py
+│   ├── test_web_assets.py
+│   └── test_api.py
 ├── completar_corpus.py           # Construye los 460 artículos faltantes
 ├── resumir_corpus.py              # Genera estadísticas del corpus
 ├── generar.py                    # Genera los HTML desde los JSON
@@ -60,7 +68,13 @@ mini-buscador-buap-entrega-1/
 ├── buscador.py                   # Consultas OR/AND y ranking
 ├── ranking.py                    # TF-IDF y similitud del coseno
 ├── pagerank.py                   # PageRank
-└── comparador.py                 # Comparación y ranking híbrido
+├── comparador.py                 # Comparación y ranking híbrido
+├── servicio_busqueda.py          # Capa de servicio consumida por Flask
+├── app.py                        # API HTTP
+├── wsgi.py                       # Punto de entrada WSGI
+├── requirements.txt              # Flask y Gunicorn
+├── deploy/                       # Ejemplo de VirtualHost Apache
+└── README.md
 ```
 
 ## Generar o reconstruir el corpus
@@ -154,19 +168,94 @@ Ejecutar todas las pruebas:
 python3 -m unittest discover -s pruebas -v
 ```
 
-Las pruebas verifican los algoritmos y también la integridad del corpus completo: número de facultades, 20 artículos por facultad, 500 HTML, límite de palabras, enlaces válidos, conectividad, índice y suma de PageRank.
+Las pruebas verifican los algoritmos, la integridad del corpus completo, la capa de servicio de búsqueda, la paginación, los filtros y los recursos web. El archivo `pruebas/test_api.py` contiene cinco pruebas HTTP que se omiten automáticamente cuando Flask no está instalado; después de instalar `requirements.txt` se ejecutan junto con las demás.
 
-## Probar la interfaz estática
+## Entregable 9: interfaz web y API Flask
 
-Para una prueba local rápida:
+La portada `public/index.html` es generada por `generar.py` e incluye una interfaz web para:
+
+- Enviar consultas al motor de recuperación.
+- Elegir recuperación OR o AND.
+- Ordenar por TF-IDF, PageRank, ranking híbrido o identificador.
+- Ajustar el peso de TF-IDF en el ranking híbrido.
+- Filtrar por cualquiera de las 25 facultades.
+- Navegar los resultados mediante paginación y abrir el HTML original.
+
+El JavaScript consume la API en el mismo origen, bajo `/api/`. No se requiere configurar CORS cuando Apache sirve el frontend y reenvía esas rutas al backend.
+
+### Endpoints
+
+| Método | Ruta | Función |
+|---|---|---|
+| GET | `/api/health` | Estado de la API y estadísticas del corpus. |
+| GET | `/api/facultades` | Catálogo para el filtro de facultades. |
+| GET o POST | `/api/search` | Recupera, ordena, filtra y pagina documentos. |
+
+Ejemplo POST:
 
 ```bash
-python3 -m http.server 8000 --directory public
+curl -X POST http://127.0.0.1:5000/api/search \
+  -H 'Content-Type: application/json' \
+  -d '{"q":"inteligencia artificial","modo":"OR","ranking":"tfidf","facultad":"all","pagina":1,"por_pagina":10}'
 ```
 
-Abrir `http://127.0.0.1:8000` en el navegador. Para probar desde otro dispositivo de la misma red, usar la IP del equipo anfitrión y el puerto 8000, siempre que el puerto esté expuesto y permitido por el firewall.
+### Instalar dependencias Python
 
-Esta vista estática sirve para navegar por los artículos. La interfaz que envíe consultas al motor Python mediante una API y su integración definitiva con Apache/Flask forman parte de la siguiente etapa de desarrollo.
+Se recomienda utilizar un entorno virtual dentro del Distrobox Debian:
+
+```bash
+cd ~/proyectos/mini-buscador-buap-entrega-1
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install -r requirements.txt
+```
+
+### Iniciar la API
+
+Para el servidor de aplicación detrás de Apache:
+
+```bash
+gunicorn --workers 2 --bind 127.0.0.1:5000 app:app
+```
+
+La API escucha únicamente en `127.0.0.1:5000`; Apache es el punto de entrada desde otros dispositivos. Para una prueba local de desarrollo también se puede ejecutar `python3 app.py`, que utiliza el mismo host y puerto de forma predeterminada. No actives `--debug` para un despliegue normal.
+
+Comprobar el backend desde otra terminal del mismo Distrobox:
+
+```bash
+curl http://127.0.0.1:5000/api/health
+```
+
+### Publicar los archivos estáticos en Apache
+
+Esta guía conserva el puerto 8080 que ya se utilizó en el laboratorio. Desde la raíz del proyecto:
+
+```bash
+sudo mkdir -p /var/www/html/mini-buscador-buap/public
+sudo cp -a public/. /var/www/html/mini-buscador-buap/public/
+sudo a2enmod proxy proxy_http
+```
+
+Revisa `deploy/apache-mini-buscador.conf`. Si el VirtualHost de ejemplo coincide con tu configuración, cópialo y habilítalo:
+
+```bash
+sudo cp deploy/apache-mini-buscador.conf /etc/apache2/sites-available/mini-buscador.conf
+sudo a2ensite mini-buscador.conf
+sudo apache2ctl configtest
+sudo apachectl -k graceful
+```
+
+El VirtualHost de ejemplo espera que Apache escuche en `*:8080`. Como tu Distrobox ya tenía Apache en ese puerto, conserva la directiva `Listen 8080` existente y evita duplicarla. Si ya tienes un VirtualHost activo en ese mismo puerto, puedes integrar en él las directivas `DocumentRoot`, `<Directory>`, `ProxyPass` y `ProxyPassReverse` del archivo de ejemplo en lugar de habilitar un segundo sitio. Si el sitio predeterminado captura las solicitudes, deshabilítalo solamente si no lo necesitas para otros proyectos.
+
+Verifica que Apache puede llegar al backend:
+
+```bash
+curl http://127.0.0.1:8080/api/health
+```
+
+Después abre desde el propio equipo `http://127.0.0.1:8080` y desde otro dispositivo conectado a la misma red `http://IP_DE_BAZZITE:8080`. Para que funcione desde la red, Apache debe escuchar en una interfaz accesible y el firewall del anfitrión debe permitir TCP/8080.
+
+**Importante:** el código y los recursos estáticos de este proyecto viven en la carpeta del proyecto; Apache sirve una copia de `public/` en `/var/www/html/mini-buscador-buap/public`. Cada vez que regeneres o modifiques el frontend, vuelve a copiar los archivos públicos. Flask debe seguir ejecutándose para que las búsquedas funcionen.
 
 ## Resultados de referencia del corpus de 500 documentos
 
@@ -183,6 +272,7 @@ Esta vista estática sirve para navegar por los artículos. La interfaz que env�
 | Términos únicos | 2,604 |
 | Iteraciones PageRank | 86 |
 | Suma de PageRank | 1.0 |
-| Pruebas unitarias | 59 correctas |
+| Pruebas de servicio, algoritmos e interfaz | 78 correctas |
+| Pruebas HTTP Flask | 5 (requieren instalar Flask) |
 
 Los resultados de los algoritmos pueden cambiar si se modifica el contenido, las palabras clave o los enlaces. `resumir_corpus.py` genera `indices/resumen_corpus.json` con el conteo de artículos, páginas, palabras y estadísticas de los módulos.

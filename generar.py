@@ -66,26 +66,108 @@ def ruta_articulo(catalogo, articulo_id):
     raise KeyError(articulo_id)
 
 def plantilla_inicio(catalogo, generados):
+    """Construye la portada interactiva sin perder el catálogo de facultades."""
     cards = []
     for f in catalogo["facultades"]:
         disponibles = sum(1 for a in generados if a["facultad_id"] == f["id"])
         if disponibles:
             href = f"facultades/{f['slug']}/index.html"
             estado = f'<a href="{href}">Explorar artículos →</a>'
-            badge = f'<span class="pill">{disponibles}/20 artículos generados</span>'
+            badge = f'<span class="pill">{disponibles}/20 artículos</span>'
         else:
             estado = '<span class="muted">Contenido pendiente de generación</span>'
             badge = '<span class="pill pending">En preparación</span>'
-        cards.append(f'''<section class="card"><span class="count">{escape(f['id'].upper())}</span><h2>{escape(f['nombre'])}</h2>{badge}<p>{estado}</p></section>''')
+        cards.append(
+            f'<section class="faculty-card"><span class="faculty-code">{escape(f["id"].upper())}</span>'
+            f'<h3>{escape(f["nombre"])}</h3>{badge}<p>{estado}</p></section>'
+        )
+
     total_publicados = len(generados)
     total_catalogados = sum(len(f["articulos"]) for f in catalogo["facultades"])
-    if total_publicados == total_catalogados:
-        aviso = (f'<strong>Corpus completo:</strong> {total_publicados} artículos HTML '
-                 f'distribuidos en {len(catalogo["facultades"])} facultades.')
-    else:
-        aviso = (f'<strong>Corpus en construcción:</strong> {total_publicados} de '
-                 f'{total_catalogados} artículos HTML disponibles.')
-    return f'''<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BUAP Search | Inicio</title><link rel="stylesheet" href="css/estilos.css"></head><body><header class="top"><div class="wrap"><div class="brand">BUAP Search</div><h1>Mini buscador académico</h1><p class="sub">Corpus demostrativo para la materia de Recuperación de Información.</p></div></header><main class="main wrap"><div class="notice">{aviso}</div><p class="count">Selecciona una facultad para consultar sus artículos.</p><div class="grid">{''.join(cards)}</div></main><footer class="footer"><div class="wrap">Proyecto académico demostrativo. El contenido no representa publicaciones oficiales de la BUAP.</div></footer></body></html>'''
+    return f'''<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Buscador académico demostrativo con documentos HTML de 25 facultades de la BUAP.">
+  <title>BUAP Search | Buscador académico</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/buscador.js" defer></script>
+</head>
+<body>
+  <header class="search-hero">
+    <div class="wrap hero-inner">
+      <div class="brand-row"><a class="brand" href="index.html">BUAP <span>Search</span></a><span class="hero-label">PROYECTO ACADÉMICO</span></div>
+      <p class="eyebrow">RECUPERACIÓN DE INFORMACIÓN</p>
+      <h1>Explora el conocimiento<br><span>de las facultades BUAP</span></h1>
+      <p class="hero-copy">Busca entre artículos demostrativos de 25 facultades y compara distintas formas de ordenar la información.</p>
+      <section class="search-panel" aria-label="Formulario de búsqueda">
+        <form id="search-form">
+          <label class="sr-only" for="query">¿Qué información estás buscando?</label>
+          <div class="search-input-row">
+            <span class="search-symbol" aria-hidden="true">⌕</span>
+            <input id="query" name="q" type="search" maxlength="200" placeholder="Ej. inteligencia artificial, derecho laboral, nutrición animal…" autocomplete="off" required>
+            <button id="search-button" type="submit">Buscar <span aria-hidden="true">→</span></button>
+          </div>
+          <div class="search-options">
+            <label>Coincidencia
+              <select id="mode" name="modo"><option value="OR">OR · cualquiera de los términos</option><option value="AND">AND · todos los términos</option></select>
+            </label>
+            <label>Ordenar resultados
+              <select id="ranking" name="ranking">
+                <option value="tfidf">Relevancia textual · TF-IDF</option>
+                <option value="pagerank">Importancia de enlaces · PageRank</option>
+                <option value="hibrido">Combinado · Híbrido</option>
+                <option value="ninguno">Sin ranking · ID de documento</option>
+              </select>
+            </label>
+            <label>Facultad
+              <select id="faculty" name="facultad"><option value="all">Todas las facultades</option></select>
+            </label>
+          </div>
+          <div class="weight-row" id="weight-row" hidden>
+            <label for="weight">Peso de TF-IDF en el ranking híbrido</label>
+            <input id="weight" type="range" min="0" max="1" value="0.7" step="0.05">
+            <output id="weight-value" for="weight">70 % TF-IDF · 30 % PageRank</output>
+          </div>
+        </form>
+        <div class="quick-searches"><span>Prueba:</span>
+          <button type="button" class="quick-query" data-query="inteligencia artificial">inteligencia artificial</button>
+          <button type="button" class="quick-query" data-query="derechos humanos">derechos humanos</button>
+          <button type="button" class="quick-query" data-query="salud bucal">salud bucal</button>
+        </div>
+      </section>
+      <div class="hero-status" id="api-status" role="status">Conectando con el motor de búsqueda…</div>
+    </div>
+  </header>
+
+  <main class="wrap page-main">
+    <section class="stats-strip" aria-label="Estadísticas del corpus">
+      <div><strong id="stat-documents">{total_publicados}</strong><span>artículos HTML</span></div>
+      <div><strong id="stat-faculties">{len(catalogo["facultades"])}</strong><span>facultades</span></div>
+      <div><strong id="stat-terms">—</strong><span>términos indexados</span></div>
+      <div><strong id="stat-links">—</strong><span>enlaces en el grafo</span></div>
+    </section>
+
+    <section class="results-section" id="results-section" aria-live="polite" aria-busy="false">
+      <div class="section-heading"><div><p class="eyebrow dark-eyebrow">RECUPERACIÓN DE DOCUMENTOS</p><h2>Resultados de búsqueda</h2></div><span class="result-counter" id="result-count">Aún no has realizado una búsqueda</span></div>
+      <div id="results-message" class="empty-state"><div class="empty-icon" aria-hidden="true">⌕</div><h3>¿Qué te gustaría investigar?</h3><p>Escribe una consulta para encontrar artículos de las facultades de la BUAP.</p></div>
+      <div id="results-list" class="results-list"></div>
+      <nav id="pagination" class="pagination" aria-label="Paginación de resultados" hidden>
+        <button id="previous-page" type="button" disabled>← Anterior</button>
+        <span id="page-indicator">Página 1 de 1</span>
+        <button id="next-page" type="button" disabled>Siguiente →</button>
+      </nav>
+    </section>
+
+    <section class="faculties-section" id="facultades">
+      <div class="section-heading"><div><p class="eyebrow dark-eyebrow">CORPUS ACADÉMICO</p><h2>Explora por facultad</h2></div><span class="result-counter">{total_publicados} de {total_catalogados} artículos publicados</span></div>
+      <div class="faculty-grid">{''.join(cards)}</div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="wrap"><strong>BUAP Search</strong><span>Proyecto académico demostrativo para la materia de Recuperación de Información.</span><p>Los artículos son contenido simulado y no representan publicaciones oficiales ni contenido institucional de la BUAP.</p></div></footer>
+</body>
+</html>'''
 
 def generar(catalogo, articulos):
     PUBLIC.mkdir(parents=True, exist_ok=True)
