@@ -285,3 +285,147 @@ Al procesar los 40 artículos de Administración y Arquitectura, el índice de e
 Estos valores corresponden a la versión actual del corpus y pueden cambiar si se modifica el contenido de los artículos o la lista de palabras vacías.
 
 **Importante:** el índice debe regenerarse después de editar o agregar artículos. Cuando se incorporen más facultades, ejecuta nuevamente `generar.py`, `grafo.py` e `indexador.py`, en ese orden.
+
+---
+
+# Entrega 4 — Implementación de consultas sencillas
+
+Esta entrega incorpora `buscador.py`, un programa de consola que recibe una consulta, procesa sus términos con las mismas reglas de `indexador.py` y recupera los documentos consultando directamente el índice invertido.
+
+En esta etapa se implementa **recuperación**, no ranking: los resultados se muestran en orden estable por identificador. La clasificación por relevancia TF-IDF y PageRank se incorpora en las siguientes etapas.
+
+## Preparar o actualizar el índice
+
+Si los HTML, el grafo y el índice ya están generados, no necesitas repetir este paso. Si modificaste los artículos, regenera todos los archivos en este orden:
+
+```bash
+python3 generar.py
+python3 grafo.py
+python3 indexador.py
+```
+
+## Consultas desde la terminal
+
+Desde la raíz del proyecto, realiza una consulta entre comillas:
+
+```bash
+python3 buscador.py "administración"
+```
+
+También puedes buscar varios términos:
+
+```bash
+python3 buscador.py "diseño arquitectónico"
+```
+
+El buscador presenta el identificador, título, facultad, ruta HTML, términos coincidentes y frecuencia de cada término en el documento.
+
+## Modos de búsqueda
+
+El programa incluye dos operadores:
+
+- **OR (predeterminado):** recupera documentos que contienen al menos uno de los términos de la consulta. Equivale a la unión de los conjuntos de postings.
+- **AND:** recupera únicamente documentos que contienen todos los términos procesados. Equivale a la intersección de los conjuntos de postings.
+
+Ejemplos:
+
+```bash
+# Al menos uno de los términos
+python3 buscador.py "construcción sostenible" --modo OR
+
+# Todos los términos deben aparecer en el mismo documento
+python3 buscador.py "diseño arquitectónico" --modo AND
+```
+
+Si un término no existe en el vocabulario, OR todavía puede devolver documentos que contengan los otros términos. En modo AND, si falta cualquiera de los términos, la consulta no devuelve documentos.
+
+## Modo interactivo
+
+También puedes iniciar el buscador sin argumentos:
+
+```bash
+python3 buscador.py
+```
+
+Escribe consultas y cambia el operador durante la sesión:
+
+```text
+[OR] Buscar> administración
+[OR] Buscar> :modo AND
+[AND] Buscar> diseño arquitectónico
+[AND] Buscar> :modo OR
+[OR] Buscar> :salir
+```
+
+Comandos disponibles:
+
+- `:modo AND`: exige que todos los términos estén presentes.
+- `:modo OR`: acepta documentos que contengan al menos uno de los términos.
+- `:salir`: termina el programa.
+
+## Salida JSON y opciones
+
+Para imprimir la respuesta estructurada como JSON:
+
+```bash
+python3 buscador.py "diseño arquitectónico" --modo AND --json
+```
+
+Esta salida será útil cuando conectemos el motor con Flask y la interfaz web.
+
+Otras opciones:
+
+```bash
+# Mostrar hasta 5 resultados
+python3 buscador.py "construcción" --limite 5
+
+# Mostrar todos los resultados
+python3 buscador.py "construcción" --limite 0
+
+# Usar otro archivo de índice
+python3 buscador.py "administración" --indice indices/indice_invertido.json
+```
+
+## Procesamiento de las consultas
+
+La consulta utiliza la misma función de tokenización y normalización que los documentos:
+
+1. Convierte las palabras a minúsculas.
+2. Elimina las tildes de las vocales y conserva la `ñ`.
+3. Separa el texto en tokens.
+4. Elimina las palabras vacías si el índice se construyó con stopwords.
+5. Elimina términos repetidos en una misma consulta.
+6. Busca cada término en `indice_invertido` y recupera los identificadores de sus postings.
+7. Combina los conjuntos usando OR o AND.
+
+Por consistencia, el buscador detecta en la configuración del índice si se utilizaron stopwords. Así aplica el mismo preprocesamiento que se utilizó al indexar.
+
+## Pruebas automáticas
+
+El proyecto incluye pruebas unitarias con `unittest`, sin instalar paquetes adicionales:
+
+```bash
+python3 -m unittest discover -s pruebas -v
+```
+
+Las pruebas comprueban los modos OR y AND, normalización de acentos, términos desconocidos, consultas vacías, consultas formadas únicamente por stopwords, términos repetidos y operadores no válidos.
+
+## Ejemplo de resultado de referencia
+
+Con el corpus de prueba de 40 artículos:
+
+```bash
+python3 buscador.py "diseño arquitectónico" --modo AND
+```
+
+La consulta recupera el documento `arq-01`, titulado **Fundamentos del diseño arquitectónico**, de la Facultad de Arquitectura. El resultado coincide con ambos términos.
+
+Los resultados se muestran por identificador, no por frecuencia ni relevancia. Aunque se presentan las frecuencias de los términos para inspección, todavía no se calcula una puntuación. Esto permite diferenciar la recuperación básica del ranking textual que se implementará posteriormente.
+
+## Archivos añadidos en esta entrega
+
+```text
+buscador.py                 # Motor de consultas OR / AND
+pruebas/
+└── test_buscador.py        # Pruebas unitarias del motor de consultas
+```
