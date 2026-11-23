@@ -4,12 +4,13 @@
 Uso:
     python3 buscador.py "gestion financiera"
     python3 buscador.py "diseño arquitectónico" --modo AND
+    python3 buscador.py "construcción sostenible" --ranking pagerank
     python3 buscador.py "administracion" --modo OR --json
     python3 buscador.py                 # modo interactivo
 
 Los resultados se recuperan desde el índice invertido y, por defecto, se
-ordenan mediante TF-IDF y similitud del coseno. El argumento --ranking ninguno
-permite conservar el orden estable por identificador para comparar.
+ordenan mediante TF-IDF y similitud del coseno. También se puede seleccionar
+PageRank global o desactivar el ranking para conservar el orden por ID.
 """
 
 from __future__ import annotations
@@ -22,10 +23,16 @@ from typing import Any
 
 from indexador import cargar_stopwords, tokenizar
 from ranking import aplicar_ranking_tfidf, construir_modelo_tfidf, ErrorRanking
+from pagerank import (
+    ErrorPageRank,
+    aplicar_ranking_pagerank,
+    cargar_pagerank,
+)
 
 ROOT = Path(__file__).resolve().parent
 INDICE_DEFAULT = ROOT / "indices" / "indice_invertido.json"
 STOPWORDS_DEFAULT = ROOT / "data" / "stopwords_es.txt"
+PAGERANK_DEFAULT = ROOT / "indices" / "pagerank.json"
 
 
 class ErrorConsulta(ValueError):
@@ -91,8 +98,8 @@ def buscar(
     OR: devuelve documentos que contienen al menos uno de los términos.
     AND: devuelve documentos que contienen todos los términos procesados.
 
-    No calcula puntuaciones ni aplica ranking; el orden por ID solo hace que
-    la salida sea reproducible durante las pruebas.
+    La recuperación es independiente del ranking: la clasificación textual
+    TF-IDF o la clasificación estructural PageRank se aplican después.
     """
     modo = modo.upper()
     if modo not in {"OR", "AND"}:
@@ -197,6 +204,8 @@ def imprimir_resultados(respuesta: dict[str, Any], limite: int | None = None) ->
         print(f"   Facultad: {doc['facultad']}")
         if "score_tfidf" in doc:
             print(f"   Similitud TF-IDF: {doc['score_tfidf']:.6f} (posición {doc['posicion_tfidf']})")
+        if "score_pagerank" in doc:
+            print(f"   PageRank global:  {doc['score_pagerank']:.10f} (posición {doc['posicion_pagerank']})")
         print(f"   Ruta: public/{doc['ruta']}")
         print("   Términos coincidentes: " + ", ".join(doc["terminos_coincidentes"]))
         frecuencias = ", ".join(
@@ -214,15 +223,35 @@ def imprimir_resultados(respuesta: dict[str, Any], limite: int | None = None) ->
 
 
 def modo_interactivo(
-    indice: dict[str, Any], stopwords: set[str], modelo_tfidf: dict[str, Any] | None, ranking_activo: bool
+    indice: dict[str, Any],
+    stopwords: set[str],
+    ranking_inicial: str,
+    ruta_pagerank: Path,
 ) -> int:
     print("BUAP Search — Consola de consultas")
-    print("Escribe una consulta; usa :modo AND, :modo OR, :ranking tfidf, :ranking ninguno o :salir.\n")
+    print("Escribe una consulta; usa :modo AND, :modo OR, :ranking tfidf, :ranking pagerank, :ranking ninguno o :salir.\n")
     modo = "OR"
+    ranking_actual = ranking_inicial
+    modelo_tfidf = None
+    datos_pagerank = None
+
+    def preparar_ranking(tipo: str) -> None:
+        nonlocal modelo_tfidf, datos_pagerank
+        if tipo == "tfidf" and modelo_tfidf is None:
+            modelo_tfidf = construir_modelo_tfidf(indice)
+        elif tipo == "pagerank" and datos_pagerank is None:
+            datos_pagerank = cargar_pagerank(ruta_pagerank)
+
+    try:
+        preparar_ranking(ranking_actual)
+    except (ErrorRanking, ErrorPageRank) as exc:
+        print(f"No se pudo activar el ranking inicial: {exc}")
+        print("Se continuará sin ranking.")
+        ranking_actual = "ninguno"
 
     while True:
         try:
-            consulta = input(f"[{modo}] Buscar> ").strip()
+            consulta = input(f"[{modo} | {ranking_actual.upper()}] Buscar> ").strip()
         except (EOFError, KeyboardInterrupt):
             print("\nSaliendo del buscador.")
             return 0
@@ -234,14 +263,16 @@ def modo_interactivo(
             return 0
         if consulta.lower().startswith(":ranking"):
             partes = consulta.split()
-            if len(partes) == 2 and partes[1].lower() in {"tfidf", "ninguno"}:
-                ranking_activo = partes[1].lower() == "tfidf"
-                if ranking_activo and modelo_tfidf is None:
-                    modelo_tfidf = construir_modelo_tfidf(indice)
-                estado = "TF-IDF activado" if ranking_activo else "Ranking desactivado"
-                print(estado + ".")
+            if len(partes) == 2 and partes[1].lower() in {"tfidf", "pagerank", "ninguno"}:
+                nuevo_ranking = partes[1].lower()
+                try:
+                    preparar_ranking(nuevo_ranking)
+                    ranking_actual = nuevo_ranking
+                    print(f"Ranking cambiado a {ranking_actual.upper()}.")
+                except (ErrorRanking, ErrorPageRank) as exc:
+                    print(f"No se pudo activar el ranking: {exc}")
             else:
-                print("Uso: :ranking tfidf   o   :ranking ninguno")
+                print("Uso: :ranking tfidf   :ranking pagerank   o   :ranking ninguno")
             continue
         if consulta.lower().startswith(":modo"):
             partes = consulta.split()
@@ -254,9 +285,11 @@ def modo_interactivo(
 
         try:
             respuesta = buscar(consulta, indice, stopwords, modo)
-            if ranking_activo:
+            if ranking_actual == "tfidf":
                 respuesta = aplicar_ranking_tfidf(respuesta, indice, modelo_tfidf)
-        except (ErrorConsulta, ErrorRanking) as exc:
+            elif ranking_actual == "pagerank":
+                respuesta = aplicar_ranking_pagerank(respuesta, datos_pagerank)
+        except (ErrorConsulta, ErrorRanking, ErrorPageRank) as exc:
             print(f"Consulta no válida: {exc}")
             continue
         imprimir_resultados(respuesta)
@@ -264,7 +297,7 @@ def modo_interactivo(
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Busca documentos del corpus BUAP y los ordena con TF-IDF."
+        description="Busca documentos del corpus BUAP y permite ordenarlos mediante TF-IDF o PageRank."
     )
     parser.add_argument(
         "consulta", nargs="?", help="Texto que se desea buscar. Sin consulta inicia el modo interactivo."
@@ -274,8 +307,12 @@ def main() -> int:
         help="OR: al menos un término; AND: todos los términos (predeterminado: OR)."
     )
     parser.add_argument(
-        "--ranking", choices=["tfidf", "ninguno"], default="tfidf",
-        help="Ordena por TF-IDF (predeterminado) o conserva el orden por ID.",
+        "--ranking", choices=["tfidf", "pagerank", "ninguno"], default="tfidf",
+        help="Ordena por TF-IDF (predeterminado), PageRank global o ID sin ranking."
+    )
+    parser.add_argument(
+        "--pagerank", type=Path, default=PAGERANK_DEFAULT,
+        help="Archivo JSON generado por pagerank.py."
     )
     parser.add_argument(
         "--indice", type=Path, default=INDICE_DEFAULT,
@@ -301,18 +338,20 @@ def main() -> int:
     indice = cargar_indice(args.indice)
     stopwords = cargar_stopwords_para_indice(indice, args.stopwords)
 
-    modelo_tfidf = construir_modelo_tfidf(indice) if args.ranking == "tfidf" else None
-
     if args.consulta is None:
         if args.salida_json:
             parser.error("--json requiere proporcionar una consulta.")
-        return modo_interactivo(indice, stopwords, modelo_tfidf, args.ranking == "tfidf")
+        return modo_interactivo(indice, stopwords, args.ranking, args.pagerank)
 
     try:
         respuesta = buscar(args.consulta, indice, stopwords, args.modo)
         if args.ranking == "tfidf":
+            modelo_tfidf = construir_modelo_tfidf(indice)
             respuesta = aplicar_ranking_tfidf(respuesta, indice, modelo_tfidf)
-    except (ErrorConsulta, ErrorRanking) as exc:
+        elif args.ranking == "pagerank":
+            datos_pagerank = cargar_pagerank(args.pagerank)
+            respuesta = aplicar_ranking_pagerank(respuesta, datos_pagerank)
+    except (ErrorConsulta, ErrorRanking, ErrorPageRank) as exc:
         print(f"Error: {exc}", file=sys.stderr)
         return 2
 

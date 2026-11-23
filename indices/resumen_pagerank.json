@@ -1,0 +1,80 @@
+{
+  "algoritmo": "PageRank",
+  "amortiguamiento": 0.85,
+  "iteraciones_maximas": 100,
+  "tolerancia": 1e-10,
+  "criterio_convergencia": "suma de diferencias absolutas (norma L1)",
+  "total_nodos": 40,
+  "total_aristas": 99,
+  "suma_pagerank": 1.0,
+  "pagerank_minimo": 0.006076376126746666,
+  "pagerank_maximo": 0.07730719806820344,
+  "promedio_pagerank": 0.025,
+  "nodos_colgantes": 0,
+  "convergio": true,
+  "iteraciones_realizadas": 80,
+  "diferencia_final": 8.899106451742966e-11,
+  "ids_nodos_colgantes": [],
+  "top_10": [
+    {
+      "posicion": 1,
+      "id": "arq-18",
+      "titulo": "Administración de proyectos de construcción",
+      "pagerank": 0.07730719806820344
+    },
+    {
+      "posicion": 2,
+      "id": "adm-11",
+      "titulo": "Gestión de proyectos",
+      "pagerank": 0.06822033825311676
+    },
+    {
+      "posicion": 3,
+      "id": "arq-16",
+      "titulo": "Paisaje urbano",
+      "pagerank": 0.050516290892539555
+    },
+    {
+      "posicion": 4,
+      "id": "arq-17",
+      "titulo": "Costos y presupuestos de obra",
+      "pagerank": 0.05010150134442694
+    },
+    {
+      "posicion": 5,
+      "id": "arq-12",
+      "titulo": "Planeación urbana",
+      "pagerank": 0.041437929263667676
+    },
+    {
+      "posicion": 6,
+      "id": "adm-13",
+      "titulo": "Mercadotecnia estratégica",
+      "pagerank": 0.040731260946650936
+    },
+    {
+      "posicion": 7,
+      "id": "adm-07",
+      "titulo": "Gestión del talento humano",
+      "pagerank": 0.039574164515103004
+    },
+    {
+      "posicion": 8,
+      "id": "arq-19",
+      "titulo": "Modelado de información de edificios (BIM)",
+      "pagerank": 0.0364696361643959
+    },
+    {
+      "posicion": 9,
+      "id": "adm-15",
+      "titulo": "Comportamiento del consumidor",
+      "pagerank": 0.03412026896140643
+    },
+    {
+      "posicion": 10,
+      "id": "adm-12",
+      "titulo": "Emprendimiento y modelos de negocio",
+      "pagerank": 0.03353969023166157
+    }
+  ]
+}

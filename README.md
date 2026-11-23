@@ -521,6 +521,172 @@ Con los 40 artículos de Administración y Arquitectura, la consulta `construcci
 
 El corpus puede ampliarse a las 25 facultades y 500 artículos sin cambiar las fórmulas. Después de añadir los nuevos HTML, hay que volver a ejecutar `generar.py`, `grafo.py` e `indexador.py`; el ranking se recalcula automáticamente al iniciar `buscador.py`.
 
-## Limitación de esta etapa
+## Relación con PageRank
 
-TF-IDF mide similitud textual, no importancia de enlaces. Un documento puede ser muy parecido a la consulta y tener pocas conexiones en el grafo. El cálculo de importancia basada en enlaces se implementará en la etapa de PageRank y posteriormente se podrán comparar ambos rankings.
+TF-IDF mide similitud textual, no importancia de enlaces. Un documento puede ser muy parecido a la consulta y tener pocas conexiones en el grafo. La etapa de PageRank se incorpora en la Entrega 6 y permite comparar ambos criterios.
+
+---
+
+# Entrega 6 — Cálculo de PageRank
+
+Esta entrega incorpora `pagerank.py`, que calcula la importancia global de los artículos a partir de los enlaces dirigidos extraídos de los HTML. El cálculo utiliza `indices/grafo.json`, generado por `grafo.py`, y no depende de una consulta en particular.
+
+## Ejecutar PageRank
+
+Desde la raíz del proyecto, después de haber construido el grafo:
+
+```bash
+python3 pagerank.py
+```
+
+El programa utiliza estos parámetros predeterminados:
+
+| Parámetro | Valor | Descripción |
+|---|---:|---|
+| Amortiguamiento (`d`) | 0.85 | Probabilidad de continuar siguiendo enlaces. |
+| Iteraciones máximas | 100 | Límite de actualizaciones del vector PageRank. |
+| Tolerancia | 1e-10 | Umbral de convergencia usando la suma de diferencias absolutas. |
+| Inicialización | 1/N | Todos los artículos comienzan con la misma puntuación. |
+
+Puedes cambiar los parámetros al ejecutar el programa:
+
+```bash
+python3 pagerank.py --amortiguamiento 0.85 --iteraciones 200 --tolerancia 1e-12
+```
+
+Para mostrar los diez primeros artículos:
+
+```bash
+python3 pagerank.py --limite 10
+```
+
+Para mostrar todos:
+
+```bash
+python3 pagerank.py --limite 0
+```
+
+## Fórmula implementada
+
+En cada iteración se calcula:
+
+\[
+PR_{k+1}(v)=\frac{1-d}{N}+d\left(\sum_{u\in M(v)}\frac{PR_k(u)}{L(u)}+\frac{D_k}{N}\right)
+\]
+
+Donde:
+
+- `PR(v)` es la importancia del nodo destino `v`.
+- `N` es el número total de artículos.
+- `d` es el factor de amortiguamiento.
+- `M(v)` es el conjunto de documentos que enlazan a `v`.
+- `L(u)` es el número de enlaces salientes del nodo `u`.
+- `D_k` es la suma de PageRank de los nodos colgantes en la iteración `k`.
+
+Un nodo colgante es un artículo sin enlaces salientes. Para evitar que su puntuación desaparezca del sistema, el programa distribuye uniformemente su masa entre todos los nodos. Esta implementación también funciona con grafos desconectados, con nodos colgantes y con un grafo vacío.
+
+El algoritmo termina cuando la suma de las diferencias absolutas entre las puntuaciones de dos iteraciones consecutivas es menor que la tolerancia, o cuando alcanza el máximo de iteraciones.
+
+## Archivos generados
+
+```text
+indices/
+├── pagerank.json
+└── resumen_pagerank.json
+```
+
+- `pagerank.json`: contiene los parámetros usados, estadísticas, puntuación de cada artículo y ranking ordenado de mayor a menor.
+- `resumen_pagerank.json`: contiene indicadores de convergencia, suma de puntuaciones, nodos colgantes y los diez artículos principales.
+
+La suma de todas las puntuaciones PageRank debe ser aproximadamente 1. La magnitud individual de cada puntuación representa una fracción de la importancia total del grafo; no es un porcentaje de relevancia textual.
+
+## Integración con las consultas
+
+El buscador ahora permite tres formas de presentar los documentos recuperados:
+
+```bash
+# Orden textual (predeterminado)
+python3 buscador.py "construcción sostenible" --ranking tfidf
+
+# Orden según importancia global de enlaces
+python3 buscador.py "construcción sostenible" --ranking pagerank
+
+# Sin ranking, por identificador
+python3 buscador.py "construcción sostenible" --ranking ninguno
+```
+
+Antes de usar `--ranking pagerank`, ejecuta `python3 pagerank.py` para generar `indices/pagerank.json`.
+
+En los tres casos, OR/AND sigue determinando qué documentos se recuperan. La diferencia es cómo se ordena ese conjunto:
+
+- **TF-IDF:** ordena según la similitud textual con la consulta.
+- **PageRank:** ordena según la importancia global del documento en el grafo, independientemente de las palabras buscadas.
+- **Ninguno:** mantiene el orden estable por ID.
+
+En el modo interactivo puedes cambiar el método durante la sesión:
+
+```text
+:modo AND
+:modo OR
+:ranking tfidf
+:ranking pagerank
+:ranking ninguno
+:salir
+```
+
+La salida PageRank muestra el valor global del artículo y su posición entre los documentos que coincidieron con la consulta. El ranking completo, independiente de las consultas, se obtiene ejecutando `python3 pagerank.py`.
+
+## Resultado de referencia con los 40 artículos
+
+Con el grafo de Administración y Arquitectura de esta entrega, el programa produjo:
+
+| Indicador | Resultado |
+|---|---:|
+| Nodos | 40 |
+| Aristas | 99 |
+| Factor de amortiguamiento | 0.85 |
+| Iteraciones realizadas | 80 |
+| Convergencia | Sí |
+| Diferencia final | 8.8991e-11 |
+| Suma de puntuaciones | 1.000000000000 |
+| Nodos colgantes | 0 |
+
+Los primeros artículos del ranking global son:
+
+| Posición | ID | Artículo | PageRank |
+|---:|---|---|---:|
+| 1 | arq-18 | Administración de proyectos de construcción | 0.0773071981 |
+| 2 | adm-11 | Gestión de proyectos | 0.0682203383 |
+| 3 | arq-16 | Paisaje urbano | 0.0505162909 |
+| 4 | arq-17 | Costos y presupuestos de obra | 0.0501015013 |
+| 5 | arq-12 | Planeación urbana | 0.0414379293 |
+
+Estos valores corresponden al grafo actual de 40 documentos. Cambiarán al incorporar las otras 23 facultades y sus enlaces.
+
+## Pruebas automáticas
+
+La suite completa se ejecuta con:
+
+```bash
+python3 -m unittest discover -s pruebas -v
+```
+
+Las pruebas específicas de PageRank comprueban ciclos, cadenas, nodos colgantes, grafo vacío, convergencia, validación de parámetros, destinos inválidos, exportación JSON y ordenamiento de resultados recuperados.
+
+En esta entrega, la suite conjunta contiene 35 pruebas: 9 de consultas, 10 de TF-IDF y 16 de PageRank e integración.
+
+## Archivos incorporados
+
+- `pagerank.py`: cálculo iterativo, validación, exportación de puntuaciones y clasificación global.
+- `pruebas/test_pagerank.py`: pruebas unitarias del algoritmo y su integración con el buscador.
+- `indices/pagerank.json`: puntuaciones y ranking calculados con el grafo actual.
+- `indices/resumen_pagerank.json`: estadísticas y convergencia.
+
+**Importante:** cuando se agreguen o modifiquen enlaces o artículos, reconstruye el grafo y vuelve a calcular PageRank:
+
+```bash
+python3 generar.py
+python3 grafo.py
+python3 indexador.py
+python3 pagerank.py
+```
